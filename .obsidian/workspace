@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Mobile Applications/Android/Fundmentals.md",
+            "file": "README.md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mobile Applications/Android/Fundmentals.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +97,7 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "README.md",
     "Mobile Applications/Android/Fundmentals.md",
     "Mobile Applications/Android/Methodology.md",
     "Mobile Applications/Android/Resources.md",
@@ -105,7 +106,6 @@
     "Mobile Applications/Free Tutorials.md",
     "Mobile Applications/Cheatsheets.md",
     "Mobile Applications/Untitled.md",
-    "Untitled.md",
-    "Active Directory/Credential Abuse/Methodology.md"
+    "Untitled.md"
   ]
 }
