@@ -1,0 +1,92 @@
+{
+  "main": {
+    "id": "c95c6156d5c6597a",
+    "type": "split",
+    "children": [
+      {
+        "id": "82280def0dc5e514",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Mobile Applications/Android/Resources.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "382b38cd8e01a689",
+    "type": "split",
+    "children": [
+      {
+        "id": "f4f7bfa62f18ac35",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1fe99213467ed1d6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "fd198309ce134c4d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b0489bd87555000a",
+    "type": "split",
+    "children": [
+      {
+        "id": "11d8b2c4a62182e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d0b825d2851f1d80",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Mobile Applications/Android/Resources.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Mobile Applications/Android/Resources.md",
+    "Mobile Applications/Android/Methodology.md"
+  ]
+}
