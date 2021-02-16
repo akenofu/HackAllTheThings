@@ -1,0 +1,2 @@
+### Tools
+[carlospolop/privilege-escalation-awesome-scripts-suite: PEASS - Privilege Escalation Awesome Scripts SUITE (with colors) (github.com)](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite)

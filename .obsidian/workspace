@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "82280def0dc5e514",
+        "id": "24498160c3a9445d",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
             "file": "README.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -47,6 +47,14 @@
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
+            }
+          },
+          {
+            "id": "9b6f769838053b33",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
             }
           }
         ]
@@ -87,7 +95,14 @@
   },
   "lastOpenFiles": [
     "README.md",
-    "Mobile Applications/Android/Resources.md",
-    "Mobile Applications/Android/Methodology.md"
+    "Web Applications/Resources.md",
+    "Web Applications/Untitled.md",
+    "Privilege Escalation/Untitled.md",
+    "Active Directory/Priv Esc/Untitled.md",
+    "Active Directory/Untitled.md",
+    "Network/Resources.md",
+    "Evasion/Windows/Resources.md",
+    "Network/Tools.md",
+    "Evasion/Windows/Untitled.md"
   ]
 }
