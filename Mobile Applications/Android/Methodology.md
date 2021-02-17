@@ -1,12 +1,10 @@
-### Play around the application
-<li>determine important functionalities to test</li>
-<li>generate ideas</li>
+- Play around the application
+- Be deliberate with your goals 
+- Identify Application specific interesting functionalities to test
+- Use [[Static Analysis]] to reverse engineer those functionalities
+- Check [[Attack Surface]] cheatsheet for extra ideas and standard vulnerabilities
+- Compile list of functionalities to test according to periority
+- Start Testing and documenting your findings
 
-<br>
 
-### Examine Manifest.xml
-#### Permissions
-<li> Storage ? </li>
 
-	
-#### Determine Entry Point

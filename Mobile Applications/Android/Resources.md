@@ -20,3 +20,5 @@
 #### CTFs
 [xtiankisutsa/awesome-mobile-CTF: This is a curated list of mobile based CTFs, write-ups and vulnerable apps. Most of them are android based due to the popularity of the platform. (github.com)](https://github.com/xtiankisutsa/awesome-mobile-CTF)
 
+#### Android Rooting
+[NOTE: Install to Inactive Slot is disabled in newer builds of Magisk Manager due to changes that Google introduced to the OTA process: https://twitter.com/topjohnwu/status/1303574238796808192 | Magisk](https://topjohnwu.github.io/Magisk/ota.html)
