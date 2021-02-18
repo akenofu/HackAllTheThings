@@ -10,3 +10,9 @@ List all currently installed apps
 
 Check App Data Directories
 `objection -g com.spotify.music explore`
+
+Objection application enviroment (inside objection shell)
+`env`
+
+List internal data directory
+`ls`

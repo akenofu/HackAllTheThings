@@ -22,3 +22,10 @@ or for third party packages and list their pathes
 `pm path com.spotify.music`
 4. Copy package from device (doesn't run inside adb)
 `adb pull "/data/app/com.spotify.music-J-tIOd-3de7W7Pj-HZ1nFQ==/base.apk" spotify.apk`
+
+#### Logs
+
+Save Logcat output to file
+`adb logcat \> logcat.log`
+Grab logs for specific package from file (App needs to be running)
+`adb logcat | grep "$(adb shell ps | grep com.spotify.music | awk '{print $2}')"`

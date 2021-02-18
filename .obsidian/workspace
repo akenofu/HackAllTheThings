@@ -10,8 +10,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Mobile Applications/Android/Frida & Objection cheatsheet.md",
-            "mode": "source"
+            "file": "Mobile Applications/Android/Fundmentals.md",
+            "mode": "preview"
           }
         }
       }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "burp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mobile Applications/Android/Frida & Objection cheatsheet.md",
+                "file": "Mobile Applications/Android/Fundmentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,15 +94,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Mobile Applications/Android/Fundmentals.md",
+    "Mobile Applications/Android/Reverse Engineering/Dynamic Analysis.md",
+    "Mobile Applications/Android/Miscellaneous.md",
+    "Mobile Applications/Android/My Testing Enviroment.md",
     "Mobile Applications/Android/Frida & Objection cheatsheet.md",
     "Mobile Applications/Android/adb Cheatsheet.md",
-    "Mobile Applications/Android/Frida cheatsheet.md",
-    "Mobile Applications/Android/Miscellaneous.md",
     "Mobile Applications/Android/Resources.md",
-    "Mobile Applications/Android/Methodology.md",
-    "Mobile Applications/Android/Reverse Engineering/Dynamic Analysis.md",
-    "Web Applications/Resources.md",
-    "Mobile Applications/Android/Fundmentals.md",
-    "Mobile Applications/Android/Attack Surface.md"
+    "Mobile Applications/Android/Rooting.md",
+    "Untitled.md",
+    "Mobile Applications/Android/Methodology.md"
   ]
 }
