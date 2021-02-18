@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "ce0d5e9f2eeabcb2",
+        "id": "14e8a0ebbe3b6e2b",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Mobile Applications/Android/Resources.md",
+            "file": "Mobile Applications/Android/Frida & Objection cheatsheet.md",
             "mode": "source"
           }
         }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mobile Applications/Android/Resources.md",
+                "file": "Mobile Applications/Android/Frida & Objection cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,15 +94,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Mobile Applications/Android/Frida & Objection cheatsheet.md",
+    "Mobile Applications/Android/adb Cheatsheet.md",
+    "Mobile Applications/Android/Frida cheatsheet.md",
+    "Mobile Applications/Android/Miscellaneous.md",
     "Mobile Applications/Android/Resources.md",
     "Mobile Applications/Android/Methodology.md",
-    "Mobile Applications/Android/Fundmentals.md",
     "Mobile Applications/Android/Reverse Engineering/Dynamic Analysis.md",
-    "Mobile Applications/Android/Reverse Engineering/Static Analysis.md",
-    "Privilege Escalation/Resources.md",
-    "Mobile Applications/Android/Untitled.md",
-    "Mobile Applications/Android/Attack Surface.md",
-    "Mobile Applications/Android/Reverse Engineering.md",
-    "Mobile Applications/Android/Reversing.md"
+    "Web Applications/Resources.md",
+    "Mobile Applications/Android/Fundmentals.md",
+    "Mobile Applications/Android/Attack Surface.md"
   ]
 }

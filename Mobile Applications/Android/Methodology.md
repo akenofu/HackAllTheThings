@@ -1,3 +1,5 @@
+- Download the packaged application from store
+- Extract package from device [[adb Cheatsheet#Extract package from rooted non-rooted device]]
 - Play around the application
 - Be deliberate with your goals 
 - Identify Application specific interesting functionalities to test

@@ -9,4 +9,9 @@
 <br>
 
 ### Reverse Enginnering
-[maddiestone - YouTube](https://www.youtube.com/channel/UCTbTMfVyCfs9p8SPsi3xEZQ)
+[maddiestone - YouTube](https://www.youtube.com/channel/UCTbTMfVyCfs9p8SPsi3xEZQ) 
+
+<br>
+
+### How Rooting Works under the hood
+[rooting - How Magisk works? - Android Enthusiasts Stack Exchange](https://android.stackexchange.com/questions/213167/how-magisk-works)

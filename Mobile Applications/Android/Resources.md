@@ -5,6 +5,18 @@
 
 <br>
 
+### Dynamic Analysis
+
+[sensepost/objection: 📱 objection - runtime mobile exploration (github.com)](https://github.com/sensepost/objection)
+[frida/frida: Clone this repo to build Frida (github.com)](https://github.com/frida/frida)
+
+<br>
+
+### Packet Sniffers
+[emanuele-f/PCAPdroid: Capture the Android devices traffic and export it in PCAP format. No root privileges required. (github.com)](https://github.com/emanuele-f/PCAPdroid)
+
+<br>
+
 ### Cheatsheets
 [Android Applications Pentesting - HackTricks](https://book.hacktricks.xyz/mobile-apps-pentesting/android-app-pentesting)
 
@@ -20,5 +32,3 @@
 #### CTFs
 [xtiankisutsa/awesome-mobile-CTF: This is a curated list of mobile based CTFs, write-ups and vulnerable apps. Most of them are android based due to the popularity of the platform. (github.com)](https://github.com/xtiankisutsa/awesome-mobile-CTF)
 
-#### Android Rooting
-[NOTE: Install to Inactive Slot is disabled in newer builds of Magisk Manager due to changes that Google introduced to the OTA process: https://twitter.com/topjohnwu/status/1303574238796808192 | Magisk](https://topjohnwu.github.io/Magisk/ota.html)
