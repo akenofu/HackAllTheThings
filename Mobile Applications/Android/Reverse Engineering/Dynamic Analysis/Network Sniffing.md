@@ -7,8 +7,8 @@
 `cd /system/xbin`
 `chmod 755 tcpdump`
 
+#### Sniff Network Traffic
+`tcpdump -i wlan0 -s0 -w  /sdcard/tcpdump.out`
+`adb pull /sdcard/tcpdump.out .`
 
-####  Setup Burp
-Configure Burp on computer
-[Configuring an Android Device to Work With Burp - PortSwigger](https://portswigger.net/support/configuring-an-android-device-to-work-with-burp)
 

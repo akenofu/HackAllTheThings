@@ -29,3 +29,11 @@ Save Logcat output to file
 `adb logcat \> logcat.log`
 Grab logs for specific package from file (App needs to be running)
 `adb logcat | grep "$(adb shell ps | grep com.spotify.music | awk '{print $2}')"`
+Grab logs for specific package from file with regex
+`adb logcat -e <expr> | grep "$(adb shell ps | grep com.spotify.music | awk '{print $2}')"`
+
+### Local Backups
+- Generate Local Backup for package
+	`adb backup -apk -nosystem com.mwr.example.sieve`
+- Convert backup to tar
+	`dd if=backup.ab bs=1 skip=24 | python -c "import zlib,sys;sys.stdout.write(zlib.decompress(sys.stdin.read()))" > backup.tar`
