@@ -2,12 +2,12 @@
  	`res/values/strings.xml`
 	Example
 	```xml
-	<resources\>
-	<string name\="app\_name"\>SuperApp</string\>
-	<string name\="hello\_world"\>Hello world!</string\>
-	<string name\="action\_settings"\>Settings</string\>
-	<string name\="secret\_key"\>My\_Secret\_Key</string\>
-	</resources\>
+	<resources>
+	<string name="app_name">SuperApp</string\>
+	<string name="hello_world">Hello world!</string\>
+	<string name="action_settings">Settings</string\>
+	<string name="secret_key">My_Secret_Key</string\>
+	</resources>
 	```
 
 - build configs

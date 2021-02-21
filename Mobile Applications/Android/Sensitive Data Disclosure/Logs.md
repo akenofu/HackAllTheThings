@@ -15,4 +15,6 @@
 	Example
 	`Log.v("Private key tag", "Private key [byte format\]: " + key);`
 	`Log.v("Private key tag", new StringBuilder("Private key [byte format]: ").append(key.toString()).toString());`
-- Check if developers used `System.out.println` or `printStackTrace` for logging by checking logcat. Check [[adb Cheatsheet#Logs]] for more details
+	
+	### Check logs in console
+	- Check if developers used `System.out.println` or `printStackTrace` for logging by checking logcat. Check [[adb Cheatsheet#Logs]] for more details

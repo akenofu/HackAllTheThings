@@ -65,3 +65,7 @@
 [Platform Overview - Mobile Security Testing Guide (gitbook.io)](https://mobile-security.gitbook.io/mobile-security-testing-guide/android-testing-guide/0x05a-platform-overview)
 
 [rooting - How Magisk works? - Android Enthusiasts Stack Exchange](https://android.stackexchange.com/questions/213167/how-magisk-works)
+
+[How Secure is your Android Keystore Authentication ? (f-secure.com)](https://labs.f-secure.com/blog/how-secure-is-your-android-keystore-authentication)
+
+[Host name verification failed for Host | by Sathya Bandara | Medium](https://medium.com/@technospace/host-name-verification-failed-for-host-5233ab2c9e6d#:~:text=Host%20name%20verification%20helps%20to,only%20the%20server%20can%20decrypt.)

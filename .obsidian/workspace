@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "94234e58562eed39",
+        "id": "3412611a47e442b4",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Active Directory/Machine Persistence/JEA.md",
+            "file": "Mobile Applications/Android/Security Controls/Network Controls/Bypasses.md",
             "mode": "source"
           }
         }
@@ -77,7 +77,22 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Active Directory/Machine Persistence/JEA.md"
+                "file": "Mobile Applications/Android/Security Controls/Network Controls/Bypasses.md"
+              }
+            }
+          },
+          {
+            "id": "344ad6c122ec4d2a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Mobile Applications/Android/Security Controls/Network Controls/Bypasses.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
@@ -89,15 +104,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Active Directory/Machine Persistence/JEA.md",
-    "Active Directory/Credential Abuse/Methodology.md",
-    "Active Directory/Credential Abuse/Pass the hash.md",
-    "Active Directory/Credential Abuse/Pass the ticket.md",
-    "Active Directory/Credential Abuse/Over pass the hash.md",
-    "Source Code Review/Ruby on rails.md",
-    "Network/SSH.md",
-    "Network/Resources.md",
-    "Network/SMB-Samba ( 445 ).md",
-    "Mobile Applications/Android/Resources.md"
+    "Mobile Applications/Android/Security Controls/Network Controls/Bypasses.md",
+    "Mobile Applications/Android/Reverse Engineering/Dynamic Analysis/Frida & Objection cheatsheet.md",
+    "Mobile Applications/Android/Network APIs.md",
+    "Mobile Applications/Android/Local Authentication.md",
+    "Mobile Applications/Android/Crypto APIs.md",
+    "Mobile Applications/Android/Resources.md",
+    "Mobile Applications/Android/Security Controls/Network Controls/Controls.md",
+    "Mobile Applications/Android/Security Controls/Traffic Controls/Bypasses.md",
+    "Mobile Applications/Android/Untitled.md",
+    "Mobile Applications/Android/Reverse Engineering/Dynamic Analysis/adb Cheatsheet.md"
   ]
 }

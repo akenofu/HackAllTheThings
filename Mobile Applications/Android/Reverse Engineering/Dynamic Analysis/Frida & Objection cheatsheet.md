@@ -5,14 +5,13 @@ Use -R flag on commands
 `frida-ps -R`
 
 ### Frida with mobile plugged via USB
-List all currently installed apps 
-`frida-ps -Uai`
-
-Check App Data Directories
-`objection -g com.spotify.music explore`
-
-Objection application enviroment (inside objection shell)
-`env`
-
-List internal data directory
-`ls`
+- List all currently installed apps 
+	`frida-ps -Uai`
+- Get objection shell
+	`objection -g com.spotify.music explore`
+- Objection application enviroment (inside objection shell)
+	`env`
+- List internal data directory
+	`ls`
+- Objection disable non-custom SSL pinning (inside objection shell)
+	`android sslpinning disable`

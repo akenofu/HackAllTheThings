@@ -16,3 +16,27 @@ Reset IP tables and flush rules
 
 #### Proxy Detection
 - Use IP tables instead of system proxy
+
+***
+
+# SSL Pinning
+ ## Disable non-custom SSL pinning with [[Frida & Objection cheatsheet#]]
+ ## Custom SSL Pinning
+ ### Statically
+#### Replace the hash or domain
+ - Search for certificate hash
+	`grep -ri "sha256\\|sha1" ./smali`
+- Replace hash with the hash of your proxy's CA
+or
+- modifying the domain name to a non-existing domain (original domain isn't pinned now)
+#### Replace the certificate
+- Find the certificate file
+	`find ./assets -type f \( -iname \*.cer -o -iname \*.crt \)`.
+- Replace these files with your proxy's certificates (make sure they are in the correct format)
+#### Add certificate  trust store files
+- Find truststore files
+	`find ./ -type f \\( -iname \\\*.jks -o -iname \\\*.bks \\)`
+- Add proxy's certificates to the trustore(make sure they are in the correct format)
+
+### Dynamically
+#### Identify method to hook

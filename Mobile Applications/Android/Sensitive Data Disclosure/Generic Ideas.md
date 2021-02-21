@@ -11,11 +11,12 @@
 - Are the keys stored publicly ?
 - Does the application/algorithm zero out passwords stored in memory
 
-#### Does application store logs 
-- Are sensitive data stored in logs
+***
 
-#### Are sensitive data stored in backups
-
-#### Are sensitive data stored in Process Memory
+#### Is sensitive data stored in Process Memory
+- Are secerets zero'd out after being used
+	- does the compilter optimize the code and remove the zero'ing operation ?
+- Are immutable data-types used to store secerets ? (They store data on heap)
+- Are complex data-types used to store secerets ? 
 
 ***
