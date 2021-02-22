@@ -6,5 +6,8 @@ look for keywords `checkClientTrusted`, `checkServerTrusted`, and `getAcceptedIs
 - Is the app debugable ? does that affect the previous points
 - is `HostnameVerifier` properly configured ? is it accepting any hostname ?
 
+***
 
-
+#### Testing Security Providers
+- Use Xposed to hook into the `java.security` package, then hook into `java.security.Security` with the method `getProviders` (with no arguments). The return value will be an array of `Provider`
+-   Determine whether the first provider is `GmsCore_OpenSSL`.

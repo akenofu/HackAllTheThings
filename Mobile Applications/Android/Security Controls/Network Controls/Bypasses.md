@@ -39,4 +39,9 @@ or
 - Add proxy's certificates to the trustore(make sure they are in the correct format)
 
 ### Dynamically
-#### Identify method to hook
+- Identify method to hook
+- Hook each method with Frida and print the arguments. 
+- Modify the arguments to circumvent the implemented pinning.
+
+
+
