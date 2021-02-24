@@ -10,8 +10,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Mobile Applications/Android/Network APIs.md",
-            "mode": "source"
+            "file": "Mobile Applications/Android/Platform APIs.md",
+            "mode": "preview"
           }
         }
       }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ssh",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mobile Applications/Android/Network APIs.md"
+                "file": "Mobile Applications/Android/Platform APIs.md"
               }
             }
           },
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mobile Applications/Android/Network APIs.md",
+                "file": "Mobile Applications/Android/Platform APIs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,15 +104,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Mobile Applications/Android/Platform APIs.md",
     "Mobile Applications/Android/Network APIs.md",
-    "Mobile Applications/Android/Local Authentication.md",
-    "Mobile Applications/Android/Security Controls/Network Controls/Controls.md",
-    "Mobile Applications/Android/Security Controls/Network Controls/Bypasses.md",
-    "Mobile Applications/Android/Reverse Engineering/Dynamic Analysis/Frida & Objection cheatsheet.md",
-    "Mobile Applications/Android/Crypto APIs.md",
+    "README.md",
+    "Source Code Review/Ruby on rails.md",
+    "Privilege Escalation/Resources.md",
+    "Web Applications/Resources.md",
     "Mobile Applications/Android/Resources.md",
-    "Mobile Applications/Android/Security Controls/Traffic Controls/Bypasses.md",
-    "Mobile Applications/Android/Untitled.md",
-    "Mobile Applications/Android/Reverse Engineering/Dynamic Analysis/adb Cheatsheet.md"
+    "Mobile Applications/Android/Reverse Engineering/Dynamic Analysis/adb Cheatsheet.md",
+    "Mobile Applications/Android/Reverse Engineering/Dynamic Analysis/drozer cheatsheet.md",
+    "Mobile Applications/Android/Security Controls/Network Controls/Bypasses.md"
   ]
 }

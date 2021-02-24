@@ -37,3 +37,8 @@ Grab logs for specific package from file with regex
 	`adb backup -apk -nosystem com.mwr.example.sieve`
 - Convert backup to tar
 	`dd if=backup.ab bs=1 skip=24 | python -c "import zlib,sys;sys.stdout.write(zlib.decompress(sys.stdin.read()))" > backup.tar`
+	
+	
+#### Content Provider
+- Query cotent provider (Inside adb shell)
+	`content query --uri content://sg.vp.owasp_mobile.provider.College/students`

@@ -27,3 +27,9 @@
 	`run app.provider.read content://com.mwr.example.sieve.FileBackupProvider/etc/hosts`
 - Automatic Path Traversal Discovery
 	`run scanner.provider.traversal -a com.mwr.example.sieve`
+	
+	***
+	
+### Permissions 
+- Examine Permissions and custom permissions
+	`run app.package.info -a com.spotify.music`
