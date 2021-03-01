@@ -42,3 +42,9 @@ Grab logs for specific package from file with regex
 #### Content Provider
 - Query cotent provider (Inside adb shell)
 	`content query --uri content://sg.vp.owasp_mobile.provider.College/students`
+	
+	#### Deeplinks
+	- Send intent within devie
+		```
+		adb shell am start -W -a android.intent.action.VIEW -d "emailapp://composeEmail/to=your.boss@company.com&message=SEND%20MONEY%20TO%20HERE!&sendImmediately=true" com.emailapp.android
+		```

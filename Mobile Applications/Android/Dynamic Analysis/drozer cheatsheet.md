@@ -33,3 +33,38 @@
 ### Permissions 
 - Examine Permissions and custom permissions
 	`run app.package.info -a com.spotify.music`
+
+#### Deep links
+- pull invocable URIs(deep links/app links) from the AndroidManifest.xml file
+	```
+	run scanner.activity.browsable -a com.google.android.apps.messaging
+	Package: com.google.android.apps.messaging
+	  Invocable URIs:
+		sms://
+		mms://
+	  Classes:
+		com.google.android.apps.messaging.ui.conversation.LaunchConversationActivity
+	```
+	
+- Call deeplinks
+	`run app.activity.start  --action android.intent.action.VIEW --data-uri "sms://0123456789"`
+
+### Exported IPC components
+-  Enumerate exported
+	`run app.package.attacksurface com.mwr.example.sieve`
+- List exported content providers
+	`run app.provider.finduri com.mwr.example.sieve`
+- List exported Activities
+	`run app.activity.info -a com.mwr.example.sieve`
+- Launch Activity directly
+	`run app.activity.start --component com.mwr.example.sieve com.mwr.example.sieve.PWList`
+- List exported services
+	`run app.service.info -a com.mwr.example.sieve`
+- Interact with service
+	`run app.service.send com.mwr.example.sieve com.mwr.example.sieve.AuthService --msg 6345 7452 1 --extra string com.mwr.example.sieve.PASSWORD "abcdabcdabcdabcd" --bundle-as-obj`
+- List broadcast recivers
+	`run app.broadcast.info -a com.android.insecurebankv2`
+- Send message to broadcast reciever
+	`run app.broadcast.send --action theBroadcast --extra string phonenumber 07123456789 --extra string newpass 12345`
+- Sniff intents
+	`run app.broadcast.sniff --action theBroadcast`
