@@ -104,6 +104,7 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Mobile Applications/Android/Build Settings.md",
     "Mobile Applications/Android/Untitled.md",
     "Mobile Applications/Android/Platform APIs.md",
     "Bug Bounty/Application/Grammerly/Data Storage.md",
@@ -112,7 +113,6 @@
     "Bug Bounty/Application/Grammerly/Untitled.md",
     "Mobile Applications/Android/Dynamic Analysis/Proxy Traffic.md",
     "Bug Bounty/Untitled.md",
-    "Mobile Applications/Android/Dynamic Analysis/drozer cheatsheet.md",
-    "Bug Bounty/Android/Look Into.md"
+    "Mobile Applications/Android/Dynamic Analysis/drozer cheatsheet.md"
   ]
 }
