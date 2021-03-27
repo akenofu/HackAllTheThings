@@ -68,3 +68,7 @@
 	`run app.broadcast.send --action theBroadcast --extra string phonenumber 07123456789 --extra string newpass 12345`
 - Sniff intents
 	`run app.broadcast.sniff --action theBroadcast`
+	
+
+### Scan for all debuggable applications on a device
+`run app.package.debuggable`

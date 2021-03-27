@@ -6,7 +6,7 @@ Cheatsheets, References and notes on various red teaming/pentesting topics.
 <br>
 
  ## Sections completed
- Currently, the **Mobile Applications/Android** section is the most comprehensive and detailed. The other sections are under construction.
+ Currently, the **Mobile Applications/Android** and the **Active Directory**  sections are the most comprehensive and detailed. The other sections are under construction.
   
 <br>
 

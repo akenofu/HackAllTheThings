@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "3412611a47e442b4",
+        "id": "aaf652d1a930a440",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Mobile Applications/Android/Build Settings.md",
-            "mode": "source"
+            "file": "README.md",
+            "mode": "preview"
           }
         }
       }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ssh",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mobile Applications/Android/Build Settings.md"
+                "file": "README.md"
               }
             }
           },
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mobile Applications/Android/Build Settings.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,15 +104,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Mobile Applications/Android/Build Settings.md",
-    "Mobile Applications/Android/Untitled.md",
-    "Mobile Applications/Android/Platform APIs.md",
-    "Bug Bounty/Application/Grammerly/Data Storage.md",
-    "Bug Bounty/Application/Grammerly/TODO.md",
-    "Bug Bounty/Application/Grammerly/Libraries.md",
-    "Bug Bounty/Application/Grammerly/Untitled.md",
-    "Mobile Applications/Android/Dynamic Analysis/Proxy Traffic.md",
-    "Bug Bounty/Untitled.md",
-    "Mobile Applications/Android/Dynamic Analysis/drozer cheatsheet.md"
+    "README.md",
+    "Source Code Review/Ruby on rails.md",
+    "Privilege Escalation/Resources.md",
+    "Evasion/Windows/Resources.md",
+    "Active Directory/Recon.md",
+    "Active Directory/Credential Abuse/Pass the ticket.md",
+    "Active Directory/Credential Abuse/Pass the hash.md",
+    "Active Directory/Credential Abuse/Over pass the hash.md",
+    "Active Directory/Machine Persistence/JEA.md",
+    "Active Directory/Machine Persistence/Backdoor DLL/ADFS.md"
   ]
 }

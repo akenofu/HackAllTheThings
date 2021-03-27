@@ -48,3 +48,15 @@ Grab logs for specific package from file with regex
 		```
 		adb shell am start -W -a android.intent.action.VIEW -d "emailapp://composeEmail/to=your.boss@company.com&message=SEND%20MONEY%20TO%20HERE!&sendImmediately=true" com.emailapp.android
 		```
+		
+#### Application Debuggable
+- Execute command in context of app
+`run-as com.vulnerable.app id`
+- Start debug session with jdb
+- Identify PID of last launched process
+	`adb jdwp`
+- Create Communication channel
+	`adb forward tcp:55555 jdwp:16346`
+- Start a debug session. for more info check [JDB Tutorial - Tutorialspoint](https://www.tutorialspoint.com/jdb/index.htm)
+	`jdb -connect com.sun.jdi.SocketAttach:hostname=localhost,port=55555`
+	
