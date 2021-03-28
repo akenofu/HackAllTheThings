@@ -17,12 +17,16 @@
 
 ***
 
-##	Password Spraying
+## Password Spraying
 ### Find Endpoint
 - [ADFS / Azure AD](file:///C:/Users/karim/Downloads/Troopers%2019%20-%20I%20am%20AD%20FS%20and%20So%20Can%20You.pdf%20_%20Medium.html)
 - Exchange Servers
 - Kerberos
 	- AS REP Preauth User/Password BruteForce
+### Crack  Hashes
+- ASREPRoast
+- Kerberoasting
+
 ***
 
 ## Replay Attacks
