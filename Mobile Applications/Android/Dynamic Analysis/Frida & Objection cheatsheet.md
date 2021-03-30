@@ -15,3 +15,7 @@ Use -R flag on commands
 	`ls`
 - Objection disable non-custom SSL pinning (inside objection shell)
 	`android sslpinning disable`
+- Patch apk for unrooted devices using objection
+	```bash
+	objection patchapk --source UnCrackable-Level1.apk
+	```

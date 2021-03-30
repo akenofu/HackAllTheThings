@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "Mobile Applications/Android/Dynamic Analysis/jdb cheatsheet.md",
             "mode": "preview"
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "jdb",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Mobile Applications/Android/Dynamic Analysis/jdb cheatsheet.md"
               }
             }
           },
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Mobile Applications/Android/Dynamic Analysis/jdb cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,15 +104,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "README.md",
-    "Source Code Review/Ruby on rails.md",
-    "Privilege Escalation/Resources.md",
-    "Evasion/Windows/Resources.md",
+    "Mobile Applications/Android/Dynamic Analysis/jdb cheatsheet.md",
+    "Mobile Applications/Android/Dynamic Analysis/adb Cheatsheet.md",
+    "Mobile Applications/Android/Untitled.md",
+    "Mobile Applications/Android/Reverse Engineering.md",
+    "Mobile Applications/Android/Dynamic Analysis/Frida & Objection cheatsheet.md",
+    "Mobile Applications/Android/Resources.md",
     "Active Directory/Recon.md",
-    "Active Directory/Credential Abuse/Pass the ticket.md",
-    "Active Directory/Credential Abuse/Pass the hash.md",
-    "Active Directory/Credential Abuse/Over pass the hash.md",
-    "Active Directory/Machine Persistence/JEA.md",
-    "Active Directory/Machine Persistence/Backdoor DLL/ADFS.md"
+    "Active Directory/Network Recon.md",
+    "Active Directory/Initial      Access.md",
+    "Active Directory/Domain      Priv Esc.md"
   ]
 }

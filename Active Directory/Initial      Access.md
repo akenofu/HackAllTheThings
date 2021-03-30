@@ -17,6 +17,11 @@
 
 ***
 
+## Username Enumeration
+- Bruteforce Outlook Rest API timing attack (Response time increased for existing usernames)
+
+***
+
 ## Password Spraying
 ### Find Endpoint
 - [ADFS / Azure AD](file:///C:/Users/karim/Downloads/Troopers%2019%20-%20I%20am%20AD%20FS%20and%20So%20Can%20You.pdf%20_%20Medium.html)
