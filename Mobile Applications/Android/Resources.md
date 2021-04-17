@@ -3,7 +3,7 @@
 
 [NationalSecurityAgency/ghidra: Ghidra is a software reverse engineering (SRE) framework (github.com)](https://github.com/NationalSecurityAgency/ghidra)
 
-<br>
+***
 
 ### Dynamic Analysis
 
@@ -13,12 +13,12 @@
 
 [FSecureLABS/drozer: The Leading Security Assessment Framework for Android. (github.com)](https://github.com/FSecureLABS/drozer)
 
-<br>
+***
 
 ### Packet Sniffers
 [emanuele-f/PCAPdroid: Capture the Android devices traffic and export it in PCAP format. No root privileges required. (github.com)](https://github.com/emanuele-f/PCAPdroid)
 
-<br>
+***
 
 
 ### Misc Tools
@@ -26,12 +26,12 @@
 
 [Realm: Realm is a mobile database: a replacement for SQLite & ORMs. SDKs for Swift, Objective-C, Java, Kotlin, C#, and JavaScript. (github.com)](https://github.com/realm/) 
 
-<br>
+***
 
 ### Cheatsheets
 [Android Applications Pentesting - HackTricks](https://book.hacktricks.xyz/mobile-apps-pentesting/android-app-pentesting)
 
-<br>
+***
 
 ### Free tutorials
 [Android App Reverse Engineering 101 | Learn to reverse engineer Android applications! (ragingrock.com)](https://ragingrock.com/AndroidAppRE/app_fundamentals.html)
@@ -40,18 +40,17 @@
 
 [Introduction - Mobile Security Testing Guide (gitbook.io)](https://mobile-security.gitbook.io/mobile-security-testing-guide/)
 
-<br>
+***
 
 ### CTFs
 [xtiankisutsa/awesome-mobile-CTF: This is a curated list of mobile based CTFs, write-ups and vulnerable apps. Most of them are android based due to the popularity of the platform. (github.com)](https://github.com/xtiankisutsa/awesome-mobile-CTF)
 
-<br>
+***
 
 ### Youtube
 [maddiestone - YouTube](https://www.youtube.com/channel/UCTbTMfVyCfs9p8SPsi3xEZQ) 
 
-<br>
-
+***
 
 ### Blog posts
 [Man-in-the-Disk: A New Attack Surface for Android Apps - Check Point Software](https://blog.checkpoint.com/2018/08/12/man-in-the-disk-a-new-attack-surface-for-android-apps/)
@@ -70,7 +69,17 @@
 
 [Host name verification failed for Host | by Sathya Bandara | Medium](https://medium.com/@technospace/host-name-verification-failed-for-host-5233ab2c9e6d#:~:text=Host%20name%20verification%20helps%20to,only%20the%20server%20can%20decrypt.)
 
+[Exploiting Exported activities in Android apps | mzfr's Blog](https://blog.mzfr.me/posts/2020-11-07-exported-activities/)
+
+***
+
 ### Bug Bounty Reports
 [B3nac/Android-Reports-and-Resources: A big list of Android Hackerone disclosed reports and other resources. (github.com)](https://github.com/B3nac/Android-Reports-and-Resources)
 
 [Common Android app vulnerabilities (LevelUp).pdf - Google Drive](https://drive.google.com/file/d/0BwMN49Gzo3x6T1N5WGQ4TTNlMHBOb1ZRQTVEWnVBZjFUaE5N/view)
+
+[#161710 Possible to steal any protected files on Android (hackerone.com)](https://hackerone.com/reports/161710)
+
+***
+
+

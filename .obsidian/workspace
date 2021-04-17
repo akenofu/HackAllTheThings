@@ -6,12 +6,11 @@
       {
         "id": "aaf652d1a930a440",
         "type": "leaf",
-        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Mobile Applications/Android/Dynamic Analysis/jdb cheatsheet.md",
-            "mode": "preview"
+            "file": "Mobile Applications/Android/Dynamic Analysis/Frida & Objection cheatsheet.md",
+            "mode": "source"
           }
         }
       }
@@ -40,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "jdb",
+                "query": "exported Activit",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mobile Applications/Android/Dynamic Analysis/jdb cheatsheet.md"
+                "file": "Mobile Applications/Android/Dynamic Analysis/Frida & Objection cheatsheet.md"
               }
             }
           },
@@ -87,10 +86,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mobile Applications/Android/Dynamic Analysis/jdb cheatsheet.md",
+                "file": "Mobile Applications/Android/Dynamic Analysis/Frida & Objection cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -103,16 +104,17 @@
     "width": 300,
     "collapsed": true
   },
+  "active": "aaf652d1a930a440",
   "lastOpenFiles": [
-    "Mobile Applications/Android/Dynamic Analysis/jdb cheatsheet.md",
-    "Mobile Applications/Android/Dynamic Analysis/adb Cheatsheet.md",
-    "Mobile Applications/Android/Untitled.md",
-    "Mobile Applications/Android/Reverse Engineering.md",
     "Mobile Applications/Android/Dynamic Analysis/Frida & Objection cheatsheet.md",
-    "Mobile Applications/Android/Resources.md",
-    "Active Directory/Recon.md",
-    "Active Directory/Network Recon.md",
-    "Active Directory/Initial      Access.md",
-    "Active Directory/Domain      Priv Esc.md"
+    "Mobile Applications/Android/Reverse Engineering.md",
+    "Mobile Applications/Android/Dynamic Analysis/r2frida cheatsheet.md",
+    "Mobile Applications/Android/Dynamic Analysis/jdb cheatsheet.md",
+    "Mobile Applications/Android/Dynamic Analysis/Untitled.md",
+    "Mobile Applications/Android/Miscellaneous/Misc.md",
+    "Privilege Escalation/Linux/Priv Esc.md",
+    "Privilege Escalation/Linux/Misc.md",
+    "Privilege Escalation/Linux/Linux Misc.md",
+    "Privilege Escalation/Linux/Linux.md"
   ]
 }

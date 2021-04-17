@@ -76,6 +76,9 @@
 	- `android:exported="true"`
 	- Components declaring `<intent-filter>`
 	- Are they protected with correct permissions `android:permission` ir `android:protectionLevel`
+- Exploit Exported Components
+	- XSS in the android webview?
+	- Try to abuse app functionality
 
 #### broadcast recievers
 - Search for keywords indicating usage of 

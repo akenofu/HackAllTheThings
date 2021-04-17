@@ -11,7 +11,7 @@
 	
 - Start jdb in suspended state
 	```bash
-	{ echo "suspend"; cat; } | jdb -attach localhost:7777
+	jdb -attach localhost:7777
 	```
 
 ***
@@ -24,3 +24,5 @@
 - `stop in method`: set a method breakpoint
 - `clear method`: remove a method breakpoint
 - `set lvalue = expr`:  assign new value to field/variable/array element
+- `suspend`: suspends process
+- `resume`: resumes process
