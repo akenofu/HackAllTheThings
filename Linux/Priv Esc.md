@@ -16,7 +16,7 @@
 	ls -la --time-style=full
 	```
 - Lots of packages don't recored the milisecond or last part of time stamp. If u interact with it that part isn't zereod out. 
-- Check for [[Privilege Escalation/Linux/Misc#Linux Directories]] modified by user whom are supposed to be managed by package manager
+- Check for [[Linux/Misc#Linux Directories]] modified by user whom are supposed to be managed by package manager
 #### Automated
 ```bash
 #!/bin/bash
