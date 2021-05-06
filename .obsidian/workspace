@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "aaf652d1a930a440",
+        "id": "8fcec40ec0662084",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Mobile Applications/Android/Dynamic Analysis/Frida & Objection cheatsheet.md",
+            "file": "Certifications/OSEP/Resources.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mobile Applications/Android/Dynamic Analysis/Frida & Objection cheatsheet.md"
+                "file": "Certifications/OSEP/Resources.md"
               }
             }
           },
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mobile Applications/Android/Dynamic Analysis/Frida & Objection cheatsheet.md",
+                "file": "Certifications/OSEP/Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,17 +104,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "aaf652d1a930a440",
+  "active": "8fcec40ec0662084",
   "lastOpenFiles": [
-    "Mobile Applications/Android/Dynamic Analysis/Frida & Objection cheatsheet.md",
-    "Mobile Applications/Android/Reverse Engineering.md",
-    "Mobile Applications/Android/Dynamic Analysis/r2frida cheatsheet.md",
-    "Mobile Applications/Android/Dynamic Analysis/jdb cheatsheet.md",
-    "Mobile Applications/Android/Dynamic Analysis/Untitled.md",
-    "Mobile Applications/Android/Miscellaneous/Misc.md",
-    "Privilege Escalation/Linux/Priv Esc.md",
-    "Privilege Escalation/Linux/Misc.md",
-    "Privilege Escalation/Linux/Linux Misc.md",
-    "Privilege Escalation/Linux/Linux.md"
+    "Certifications/OSEP/Resources.md",
+    "Reporting/Misc.md",
+    "Freelance/Status Mail.md",
+    "Freelance/Cleaned Findings.md",
+    "Freelance/QNB Webapp/DataGear/APIs.md",
+    "Pasted image 20210505155030.png",
+    "Freelance/QNB Webapp/DataGear/Apache Tomcat.md",
+    "Freelance/QNB Webapp/PulseSecure/Urls.md",
+    "Freelance/QNB Webapp/PulseSecure/TODO & Ideas.md",
+    "Freelance/QNB Webapp/DataGear/CSRF POC.md"
   ]
 }

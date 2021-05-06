@@ -5,6 +5,9 @@
 
 ## Misconfigurations
 - Custom Systemd timers
+### Setuid binaries
+- Look for setuid binaries in places not managed by package manager
+- Look for non-default setuid binaries
 
 ***
 
@@ -16,7 +19,7 @@
 	ls -la --time-style=full
 	```
 - Lots of packages don't recored the milisecond or last part of time stamp. If u interact with it that part isn't zereod out. 
-- Check for [[Privilege Escalation/Linux/Misc#Linux Directories]] modified by user whom are supposed to be managed by package manager
+- Check for [[Linux/Misc#Linux Directories]] modified by user whom are supposed to be managed by package manager
 #### Automated
 ```bash
 #!/bin/bash
@@ -24,3 +27,11 @@ paths=$(echo $PATH | sed 's/:/ /g')
 for i in $paths; do ls -la --time-style=full $i | grep -v '\-\>\|00000' 2>/dev/null ; done
 ```
 ***
+## Docker
+- Check `ls -la  /` to see if there is any `docker.env` file
+- Check out the running app config files
+- Use [[Tools#Docker]]
+***
+
+## Config Files
+- Apache config `/etc/apach2/sites-enabled/000-default.conf`

@@ -1,0 +1,2 @@
+## Mitigations
+X-FRAME-OPTIONS: SAMEORIGIN
