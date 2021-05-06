@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Certifications/OSEP/Resources.md",
+            "file": "README.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Certifications/OSEP/Resources.md"
+                "file": "README.md"
               }
             }
           },
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Certifications/OSEP/Resources.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,15 +106,15 @@
   },
   "active": "8fcec40ec0662084",
   "lastOpenFiles": [
+    "README.md",
+    "Web Applications/Mitigations & Protections/Click Jacking.md",
+    "Web Applications/Mitigations & Protections/CSRF.md",
+    "Web Applications/Mitigations & Protections/MIME Sniffing.md",
+    "Web Applications/Mitigations & Protections/SSL Strip attack.md",
+    "Web Applications/Mitigations & Protections/XSS.md",
+    "Active Directory/Windows Protection Schemes.md",
     "Certifications/OSEP/Resources.md",
     "Reporting/Misc.md",
-    "Freelance/Status Mail.md",
-    "Freelance/Cleaned Findings.md",
-    "Freelance/QNB Webapp/DataGear/APIs.md",
-    "Pasted image 20210505155030.png",
-    "Freelance/QNB Webapp/DataGear/Apache Tomcat.md",
-    "Freelance/QNB Webapp/PulseSecure/Urls.md",
-    "Freelance/QNB Webapp/PulseSecure/TODO & Ideas.md",
-    "Freelance/QNB Webapp/DataGear/CSRF POC.md"
+    "Freelance/Status Mail.md"
   ]
 }
