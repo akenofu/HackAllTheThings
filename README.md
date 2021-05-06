@@ -18,5 +18,8 @@ Cheatsheets, References and notes on various red teaming/pentesting topics.
 <br>
 
 ## Credits
+<<<<<<< HEAD
 - [HackTricks - HackTricks](https://book.hacktricks.xyz/)
 - [Windows & Active Directory Exploitation Cheat Sheet and Command Reference](https://casvancooten.com/posts/2020/11/windows-active-directory-exploitation-cheat-sheet-and-command-reference/)
+=======
+>>>>>>> c07669195075a9a447d2aa451b35de85ca3923bd
