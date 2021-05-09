@@ -5,7 +5,8 @@
 
 ## Misconfigurations
 - Custom Systemd timers
-### Setuid binaries
+
+## Setuid binaries
 - Look for setuid binaries in places not managed by package manager
 - Look for non-default setuid binaries
 
@@ -26,6 +27,7 @@
 paths=$(echo $PATH | sed 's/:/ /g')
 for i in $paths; do ls -la --time-style=full $i | grep -v '\-\>\|00000' 2>/dev/null ; done
 ```
+### Check out Config files in their [[Linux/Misc#Config Files Default Locations| Default Locations]]
 ***
 ## Docker
 - Check `ls -la  /` to see if there is any `docker.env` file
@@ -33,5 +35,3 @@ for i in $paths; do ls -la --time-style=full $i | grep -v '\-\>\|00000' 2>/dev/n
 - Use [[Tools#Docker]]
 ***
 
-## Config Files
-- Apache config `/etc/apach2/sites-enabled/000-default.conf`

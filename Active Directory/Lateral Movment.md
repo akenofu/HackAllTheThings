@@ -43,7 +43,13 @@ Get-DomainComputer -TrustedToAuth | select name,msds-allowedtodelegateto
 - Connect legitimately to other services
 - [Golden Token ADFS attack](https://www.qomplx.com/golden-ticket-attack-on-adfs/)
 ***
+## Impersonate a user with runas
+```cmd
+runas /user:lars /netonly cmd
+```
 
+> `/netonly` Indicates that the user information specified is for remote access only. 
+***
 ## Browser Pivoting
 ***
 

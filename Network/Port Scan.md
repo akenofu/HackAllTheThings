@@ -1,2 +1,8 @@
 ## Namp
-- ipv6 `nmap -6 apt`
+```bash
+# ipv6 port scan
+nmap -6 10.10.10.215
+
+# Host Discovery
+nmap -sP 10.10.10.215
+```

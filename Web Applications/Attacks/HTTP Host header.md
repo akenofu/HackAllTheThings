@@ -51,6 +51,7 @@ Although `X-Forwarded-Host` is the de facto standard for this behavior, you may 
 -   `X-Host`
 -   `X-Forwarded-Server`
 -   `X-HTTP-Host-Override`
+-   `X-Forwarded-Host`
 -   `Forwarded`
 
 > In Burp Suite, you can use the [Param Miner](https://portswigger.net/bappstore/17d2949a985c4b7ca092728dba871943) extension's "Guess headers" function to automatically probe for supported headers using its extensive built-in wordlist.
@@ -58,3 +59,12 @@ Although `X-Forwarded-Host` is the de facto standard for this behavior, you may 
 
 ## Exploitation Scenarios
 ### Password reset poisoning
+- Test forget password functionality
+- Observe that you have received an email containing a link to reset your password. Notice that the URL contains the query parameter `temp-forgot-password-token`. 
+- try to coerce webserver into sending the link to your server ,try:
+	- change the Host header to an arbitrary value and still successfully trigger a password reset.
+	- add the `X-Forwarded-Host` header or similar headers to req
+- Confirm your server recieved the reset token for the user if he clicks the link
+- Go to your email client and copy the genuine password reset URL from your first email. Visit this URL in your browser
+
+### 
