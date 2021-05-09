@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux/Priv Esc/Tools.md",
+            "file": "Linux/Misc.md",
             "mode": "preview"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Priv Esc/Tools.md"
+                "file": "Linux/Misc.md"
               }
             }
           },
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Priv Esc/Tools.md",
+                "file": "Linux/Misc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,15 +106,15 @@
   },
   "active": "8fcec40ec0662084",
   "lastOpenFiles": [
-    "Linux/Priv Esc/Tools.md",
-    "Linux/Priv Esc/Checklist.md",
     "Linux/Misc.md",
+    "Active Directory/Evasion.md",
+    "Linux/Priv Esc/Checklist.md",
+    "README.md",
+    "Linux/Priv Esc/Tools.md",
     "Miscellaneous/Simple Servers.md",
     "Miscellaneous/Wordlist manipulation.md",
     "Certifications/OSEP/Resources.md",
-    "README.md",
     "Miscellaneous/Crypto.md",
-    "Network/Port Scan.md",
-    "Network/Resources.md"
+    "Network/Port Scan.md"
   ]
 }

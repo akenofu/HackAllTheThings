@@ -46,3 +46,15 @@ iptables -L
 # Check Log file for the connections
 grep -i iptables /etc/log/messages 
 ```
+
+***
+
+## Useful terminal tricks
+### Pipe to clipboard
+```bash
+# Install package via npm
+npm install -g clipboard-cli
+
+# pipe output to clipboard
+echo foo | clipboard 
+```
