@@ -11,7 +11,7 @@ smbclient -N //10.10.10.219/kanban
 smbmap -u '' -p '' -H 10.10.10.172
 ```
 
-### Test for anonymous login
+### Test for anonymous/guest login
 ```bash
 # Using Smbmap
 smbmap -u anonymous -p anonymous -H 10.10.10.172

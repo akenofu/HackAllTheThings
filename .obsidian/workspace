@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux/Misc.md",
-            "mode": "preview"
+            "file": "Web Applications/Attacks/AWS LocalStack.md",
+            "mode": "source"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Misc.md"
+                "file": "Web Applications/Attacks/AWS LocalStack.md"
               }
             }
           },
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Misc.md",
+                "file": "Web Applications/Attacks/AWS LocalStack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,15 +106,15 @@
   },
   "active": "8fcec40ec0662084",
   "lastOpenFiles": [
-    "Linux/Misc.md",
-    "Active Directory/Evasion.md",
-    "Linux/Priv Esc/Checklist.md",
-    "README.md",
-    "Linux/Priv Esc/Tools.md",
-    "Miscellaneous/Simple Servers.md",
-    "Miscellaneous/Wordlist manipulation.md",
-    "Certifications/OSEP/Resources.md",
-    "Miscellaneous/Crypto.md",
-    "Network/Port Scan.md"
+    "Web Applications/Attacks/AWS LocalStack.md",
+    "Web Applications/Attacks/CORS.md",
+    "Web Applications/Attacks/CSRF.md",
+    "Web Applications/Attacks/HTTP Host header.md",
+    "Web Applications/Attacks/SSL Certificate.md",
+    "Web Applications/Attacks/Dangling markup injection.md",
+    "Web Applications/Attacks/Web cache poisoning.md",
+    "Web Applications/Resources.md",
+    "Web Applications/Mitigations & Protections/Screenshots/Pasted image 20210430045738.png",
+    "Web Applications/Misc/JS XSS Payloads.md"
   ]
 }
