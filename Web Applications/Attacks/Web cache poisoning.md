@@ -117,3 +117,48 @@ param=bad-stuff-here
 ```
 
 As long as the `X-HTTP-Method-Override` header is unkeyed, you could submit a pseudo-POST request while preserving a GET cache key derived from the request line. 
+
+## Exploiting dynamic content in resource imports
+
+Imported resource files are typically static but some reflect input from the query string. This is mostly considered harmless because browsers rarely execute these files when viewed directly, and an attacker has no control over the URLs used to load a page's subresources. However, by combining this with web cache poisoning, you can occasionally inject content into the resource file.
+
+For example, consider a page that reflects the current query string in an import statement:
+
+```
+GET /style.css?excluded_param=123);@import… HTTP/1.1
+
+HTTP/1.1 200 OK
+…
+@import url(/site/home/index.part1.8a6715a2.css?excluded_param=123);@import…
+```
+
+You could exploit this behavior to inject malicious CSS that exfiltrates sensitive information from any pages that import /style.css.
+
+If the page importing the CSS file doesn't specify a doctype, you can maybe even exploit static CSS files. Given the right configuration, browsers will simply scour the document looking for CSS and then execute it. This means that you can occasionally poison static CSS files by triggering a server error that reflects the excluded query parameter:
+
+```
+GET /style.css?excluded_param=alert(1)%0A{}*{color:red;} HTTP/1.1
+
+HTTP/1.1 200 OK
+Content-Type: text/html
+…
+```
+This request was blocked due to…alert(1){}*{color:red;}
+
+## Normalized cache keys
+Any normalization applied to the cache key can also introduce exploitable behavior. In fact, it can occasionally enable some exploits that would otherwise be almost impossible.
+
+For example, when you find reflected XSS in a parameter, it is often unexploitable in practice. This is because modern browsers typically URL-encode the necessary characters when sending the request, and the server doesn't decode them. The response that the intended victim receives will merely contain a harmless URL-encoded string.
+
+Some caching implementations normalize keyed input when adding it to the cache key. In this case, both of the following requests would have the same key:
+
+```
+GET /example?param="><test>
+GET /example?param=%22%3e%3ctest%3e
+```
+
+This behavior can allow you to exploit these otherwise "unexploitable" XSS vulnerabilities. If you send a malicious request using Burp Repeater, you can poison the cache with an unencoded XSS payload. When the victim visits the malicious URL, the payload will still be URL-encoded by their browser; however, once the URL is normalized by the cache, it will have the same cache key as the response containing your unencoded payload.
+
+As a result, the cache will serve the poisoned response and the payload will be executed client-side. You just need to make sure that the cache is poisoned when the victim visits the URL.
+
+## Cache key injection

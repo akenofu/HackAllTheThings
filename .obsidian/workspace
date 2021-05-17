@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Active Directory/Machine      Persistence.md",
+            "file": "Cheatsheets/adb Cheatsheet.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Active Directory/Machine      Persistence.md"
+                "file": "Cheatsheets/adb Cheatsheet.md"
               }
             }
           },
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Active Directory/Machine      Persistence.md",
+                "file": "Cheatsheets/adb Cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,15 +106,15 @@
   },
   "active": "8fcec40ec0662084",
   "lastOpenFiles": [
-    "Active Directory/Machine      Persistence.md",
-    "Active Directory/Post Exploitation.md",
-    "Active Directory/Lateral Movment.md",
-    "Active Directory/Machine Priv Esc.md",
-    "Active Directory/Windows Protection Schemes.md",
-    "Evasion/Windows/Resources.md",
-    "Certifications/OSEP/Resources.md",
-    "Linux/Misc.md",
-    "Web Applications/Scanner Checklist.md",
-    "Web Applications/Tooling Cheatsheet/Untitled.md"
+    "Cheatsheets/adb Cheatsheet.md",
+    "Mobile Applications/Android/Platform APIs.md",
+    "Mobile Applications/Android/Crypto APIs.md",
+    "Mobile Applications/Android/Static Analysis/Tips.md",
+    "Mobile Applications/Android/Dynamic Analysis/Proxy Traffic.md",
+    "Mobile Applications/Android/Network APIs.md",
+    "Mobile Applications/Android/Dynamic Analysis/Network Sniffing.md",
+    "Evasion/Windows/Abusing Signed Executables.md",
+    "Web Applications/Rest API/Resources.md",
+    "Web Applications/Tooling Checklist.md"
   ]
 }
