@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cheatsheets/adb Cheatsheet.md",
-            "mode": "source"
+            "file": "Web Applications/Tooling Checklist.md",
+            "mode": "preview"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cheatsheets/adb Cheatsheet.md"
+                "file": "Web Applications/Tooling Checklist.md"
               }
             }
           },
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheatsheets/adb Cheatsheet.md",
+                "file": "Web Applications/Tooling Checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,15 +106,15 @@
   },
   "active": "8fcec40ec0662084",
   "lastOpenFiles": [
-    "Cheatsheets/adb Cheatsheet.md",
-    "Mobile Applications/Android/Platform APIs.md",
-    "Mobile Applications/Android/Crypto APIs.md",
-    "Mobile Applications/Android/Static Analysis/Tips.md",
-    "Mobile Applications/Android/Dynamic Analysis/Proxy Traffic.md",
-    "Mobile Applications/Android/Network APIs.md",
-    "Mobile Applications/Android/Dynamic Analysis/Network Sniffing.md",
-    "Evasion/Windows/Abusing Signed Executables.md",
-    "Web Applications/Rest API/Resources.md",
-    "Web Applications/Tooling Checklist.md"
+    "Web Applications/Tooling Checklist.md",
+    "Web Applications/Mind Maps/Web_pentestbook.six2dez.png",
+    "Web Applications/Resources.md",
+    "Web Applications/Attacks/Untitled.md",
+    "README.md",
+    "Linux/Priv Esc/Tools.md",
+    "Linux/Priv Esc/Checklist.md",
+    "Web Applications/Attacks/AWS LocalStack.md",
+    "Web Applications/Attacks/CORS.md",
+    "Web Applications/Attacks/CSRF.md"
   ]
 }
