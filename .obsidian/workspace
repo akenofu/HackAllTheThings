@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "About the author.md",
+            "file": "Miscellaneous/Scripting.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "About the author.md"
+                "file": "Miscellaneous/Scripting.md"
               }
             }
           },
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "About the author.md",
+                "file": "Miscellaneous/Scripting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +106,8 @@
   },
   "active": "8fcec40ec0662084",
   "lastOpenFiles": [
+    "Miscellaneous/Scripting.md",
+    "Cheatsheets/docker.md",
     "About the author.md",
     "Network/SMTP (25).md",
     "Network/Port Scan.md",
@@ -113,8 +115,6 @@
     "Linux/Misc.md",
     "Linux/Post Exploitation/Machine Persistence.md",
     "Linux/Priv Esc/Tools.md",
-    "Linux/Priv Esc/Checklist.md",
-    "Miscellaneous/Wordlist manipulation.md",
-    "Miscellaneous/Crypto.md"
+    "Linux/Priv Esc/Checklist.md"
   ]
 }
