@@ -96,5 +96,12 @@ db 00000000000c033e
 # display with the format of Unicode
 du 0000029f864d84f0
 
+# display with the format of Unicode from register directly
+du @rcx
 
+# display with double word format[4 bytes] starting this address
+dd 000000b5`6092ea88+28
+
+# display with double word format[4 bytes] starting this address with range 1
+dd 000000b5`6092ea88+28 L1
 ```

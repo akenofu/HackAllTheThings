@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Web Applications/Tooling Checklist.md",
-            "mode": "preview"
+            "file": "About the author.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "exported Activit",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Applications/Tooling Checklist.md"
+                "file": "About the author.md"
               }
             }
           },
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Applications/Tooling Checklist.md",
+                "file": "About the author.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,15 +106,15 @@
   },
   "active": "8fcec40ec0662084",
   "lastOpenFiles": [
-    "Web Applications/Tooling Checklist.md",
-    "Web Applications/Mind Maps/Web_pentestbook.six2dez.png",
-    "Web Applications/Resources.md",
-    "Web Applications/Attacks/Untitled.md",
-    "README.md",
+    "About the author.md",
+    "Network/SMTP (25).md",
+    "Network/Port Scan.md",
+    "Network/MSRPC (135).md",
+    "Linux/Misc.md",
+    "Linux/Post Exploitation/Machine Persistence.md",
     "Linux/Priv Esc/Tools.md",
     "Linux/Priv Esc/Checklist.md",
-    "Web Applications/Attacks/AWS LocalStack.md",
-    "Web Applications/Attacks/CORS.md",
-    "Web Applications/Attacks/CSRF.md"
+    "Miscellaneous/Wordlist manipulation.md",
+    "Miscellaneous/Crypto.md"
   ]
 }

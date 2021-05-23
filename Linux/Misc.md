@@ -58,3 +58,6 @@ npm install -g clipboard-cli
 # pipe output to clipboard
 echo foo | clipboard 
 ```
+
+***
+
