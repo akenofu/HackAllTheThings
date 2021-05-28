@@ -162,3 +162,40 @@ This behavior can allow you to exploit these otherwise "unexploitable" XSS vulne
 As a result, the cache will serve the poisoned response and the payload will be executed client-side. You just need to make sure that the cache is poisoned when the victim visits the URL.
 
 ## Cache key injection
+Keyed components are often bundled together in a string to create the cache key. If the cache doesn't implement proper escaping of the delimiters between the components, you can potentially exploit this behavior to craft two different requests that have the same cache key.
+
+The following example uses double-underscores to delimit different components in the cache key and does not escape them. You can exploit this by first poisoning the cache with a request containing your payload in the corresponding keyed header:
+
+```
+GET /path?param=123 HTTP/1.1
+Origin: '-alert(1)-'__
+
+HTTP/1.1 200 OK
+X-Cache-Key: /path?param=123__Origin='-alert(1)-'__
+
+<script>…'-alert(1)-'…</script>
+```
+
+If you then induce a victim user to visit the following URL, they would be served the poisoned response:
+
+```
+GET /path?param=123__Origin='-alert(1)-'__ HTTP/1.1
+
+HTTP/1.1 200 OK
+X-Cache-Key: /path?param=123__Origin='-alert(1)-'__
+X-Cache: hit
+
+<script>…'-alert(1)-'…</script>
+```
+
+## Poisoning internal caches
+ Integrated caches are purpose-built for the specific application. Some of them instead of caching entire responses, some of these caches break the response down into reusable fragments and cache them each separately. For example, a snippet for importing a widely used resource might be stored as a standalone cache entry. Users might then receive a response comprising a mixture of content from the server, as well as several individual fragments from the cache.
+
+As these cached fragments are intended to be reusable across multiple distinct responses, the concept of a cache key doesn't really apply. Every response that contains a given fragment will reuse the same cached fragment, even if the rest of the response is completely different. In a scenario like this, poisoning the cache can have wide-reaching effects, especially if you poison a fragment that is used on every page. As there is no cache key, you would have poisoned every page, for every user, with a single request.
+
+## How to identify internal caches
+For example, **if the response reflects a mixture of both input from the last request you sent and input from a previous request, this is a key indicator that the cache is storing fragments rather than entire responses**. The same applies if your input is reflected in responses on multiple distinct pages, in particular on pages in which you never tried to inject your input.
+
+Other times, the cache's behavior may simply be so unusual that the most logical conclusion is that it must be a unique and specialized internal cache.
+
+When a website implements multiple layers of caching, it can make it difficult to comprehend what is happening behind the scenes and understand how the website's caching system behaves.

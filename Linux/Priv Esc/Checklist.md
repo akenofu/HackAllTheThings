@@ -32,7 +32,7 @@ for i in $paths; do ls -la --time-style=full $i | grep -v '\-\>\|00000' 2>/dev/n
 ## Docker
 - Check `ls -la  /` to see if there is any `docker.env` file
 - Check out the running app config files
-- Use [[Tools#Docker]]
+- Use [[Linux/Priv Esc/Tools#Docker]]
 ***
 ## Brute force suing to accounts
 [hemp3l/sucrack: brute-forcing su for fun and possibly profit (github.com)](https://github.com/hemp3l/sucrack)

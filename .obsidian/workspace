@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "8fcec40ec0662084",
+        "id": "5e6c6e57259c0c14",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Miscellaneous/Scripting.md",
+            "file": "README.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Miscellaneous/Scripting.md"
+                "file": "README.md"
               }
             }
           },
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Miscellaneous/Scripting.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,17 +104,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8fcec40ec0662084",
+  "active": "5e6c6e57259c0c14",
   "lastOpenFiles": [
-    "Miscellaneous/Scripting.md",
-    "Cheatsheets/docker.md",
-    "About the author.md",
-    "Network/SMTP (25).md",
-    "Network/Port Scan.md",
-    "Network/MSRPC (135).md",
-    "Linux/Misc.md",
-    "Linux/Post Exploitation/Machine Persistence.md",
-    "Linux/Priv Esc/Tools.md",
-    "Linux/Priv Esc/Checklist.md"
+    "README.md",
+    "Web Applications/Attacks/Web cache poisoning.md",
+    "Web Applications/Attacks/Untitled.md",
+    "Web Applications/Attacks/CSV Injection.md",
+    "Web Applications/Attacks/HTTP Host header.md",
+    "Web Applications/Attacks/CORS.md",
+    "Web Applications/Attacks/CSRF.md",
+    "Web Applications/Attacks/SSL Certificate.md",
+    "Web Applications/Attacks/Dangling markup injection.md",
+    "Web Applications/Attacks/SSRF.md"
   ]
 }
