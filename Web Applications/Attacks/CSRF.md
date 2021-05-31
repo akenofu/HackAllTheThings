@@ -115,6 +115,8 @@ document.forms[0].submit();
 </script>
 ```
 
+#### CSRF where 
+
 ***
 
 ## Mitigations
