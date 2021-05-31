@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Active Directory/Cross-Domain      Abuse.md",
+            "file": "README.md",
             "mode": "preview"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Active Directory/Cross-Domain      Abuse.md"
+                "file": "README.md"
               }
             }
           },
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Active Directory/Cross-Domain      Abuse.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,15 +106,15 @@
   },
   "active": "5e6c6e57259c0c14",
   "lastOpenFiles": [
-    "Active Directory/Cross-Domain      Abuse.md",
-    "Active Directory/Domain      Persistence.md",
-    "Active Directory/Domain      Priv Esc.md",
-    "Active Directory/Domain Enumeration.md",
-    "Active Directory/Evasion.md",
-    "Active Directory/Initial      Access.md",
-    "Active Directory/Machine Persistence.md",
-    "Active Directory/Machine Priv Esc.md",
-    "Active Directory/MSSQL.md",
-    "Evasion/Windows/Untitled.md"
+    "README.md",
+    "Linux/Misc.md",
+    "Evasion/Windows/DNS Staging.md",
+    "Evasion/Windows/Abusing Signed Executables.md",
+    "Evasion/Windows/Resources.md",
+    "Active Directory/Windows Protection Schemes.md",
+    "Active Directory/Resources.md",
+    "Active Directory/Powershell one-liners.md",
+    "Active Directory/Post Exploitation.md",
+    "Active Directory/Network Recon.md"
   ]
 }
