@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
-            "mode": "source"
+            "file": "Active Directory/Cross-Domain      Abuse.md",
+            "mode": "preview"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Active Directory/Cross-Domain      Abuse.md"
               }
             }
           },
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Active Directory/Cross-Domain      Abuse.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,15 +106,15 @@
   },
   "active": "5e6c6e57259c0c14",
   "lastOpenFiles": [
-    "README.md",
-    "Web Applications/Attacks/Web cache poisoning.md",
-    "Web Applications/Attacks/Untitled.md",
-    "Web Applications/Attacks/CSV Injection.md",
-    "Web Applications/Attacks/HTTP Host header.md",
-    "Web Applications/Attacks/CORS.md",
-    "Web Applications/Attacks/CSRF.md",
-    "Web Applications/Attacks/SSL Certificate.md",
-    "Web Applications/Attacks/Dangling markup injection.md",
-    "Web Applications/Attacks/SSRF.md"
+    "Active Directory/Cross-Domain      Abuse.md",
+    "Active Directory/Domain      Persistence.md",
+    "Active Directory/Domain      Priv Esc.md",
+    "Active Directory/Domain Enumeration.md",
+    "Active Directory/Evasion.md",
+    "Active Directory/Initial      Access.md",
+    "Active Directory/Machine Persistence.md",
+    "Active Directory/Machine Priv Esc.md",
+    "Active Directory/MSSQL.md",
+    "Evasion/Windows/Untitled.md"
   ]
 }
