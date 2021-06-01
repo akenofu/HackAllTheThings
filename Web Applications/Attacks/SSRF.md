@@ -1,3 +1,4 @@
+# SSRF
 ## Impact
 - Sensitive information disclosure
 - Stealing authentication information (e.g., Windows NTLM hashes)

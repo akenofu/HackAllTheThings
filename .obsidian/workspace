@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Web Applications/Attacks/XSS.md",
+            "file": "Web Applications/Attacks/ClickJacking.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Applications/Attacks/XSS.md"
+                "file": "Web Applications/Attacks/ClickJacking.md"
               }
             }
           },
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Applications/Attacks/XSS.md",
+                "file": "Web Applications/Attacks/ClickJacking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,15 +106,15 @@
   },
   "active": "5e6c6e57259c0c14",
   "lastOpenFiles": [
+    "Web Applications/Attacks/ClickJacking.md",
+    "Web Applications/Attacks/Websockets & WebWorkers.md",
     "Web Applications/Attacks/XSS.md",
+    "Web Applications/Attacks/SSTI.md",
+    "Web Applications/Attacks/CSV Injection.md",
     "Web Applications/Attacks/SSRF.md",
-    "Web Applications/Attacks/LFI.md",
-    "Web Applications/Attacks/HTTP Host header.md",
-    "Web Applications/Attacks/CSRF.md",
-    "Web Applications/Tooling Checklist.md",
-    "Web Applications/Resources.md",
-    "Web Applications/Source Code Review/Tools.md",
-    "Web Applications/Misc/JS XSS Payloads.md",
-    "Web Applications/Attacks/CORS.md"
+    "Web Applications/Attacks/Web cache poisoning.md",
+    "Web Applications/Attacks/Dangling markup injection.md",
+    "Web Applications/Attacks/SSL Certificate.md",
+    "Web Applications/Attacks/HTTP Host header.md"
   ]
 }

@@ -5,7 +5,7 @@
 ***
 ## Config Files Default Locations
 - Apache config `/etc/apach2/sites-enabled/000-default.conf`
-
+- gitlab rails `/opt/gitlab/embedded/service/gitlab-rails/config/secrets.yml`
 
 ***
 

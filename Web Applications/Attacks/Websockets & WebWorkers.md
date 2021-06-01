@@ -1,4 +1,4 @@
-# WebWorkers
+# WebSockets & WebWorkers 
 ## WebWorkers + CORS – DDoS Attack
 With CORS, if in the response to the first request is either missing the Access-Control-Allow-Origin header or the value is inappropriate, then the browser will refuse to send more requests to the same URL.
 

@@ -1,3 +1,4 @@
+# CSV Injection
 ## Scenario
 Imagine a time or ticket tracking app. Users enter their time (or tickets) but cannot view those of other users. A site administrator then comes along and exports entries to a csv file, opening it up in a spreadsheet application. Pretty standard stuff.
 

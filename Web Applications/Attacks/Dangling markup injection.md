@@ -1,3 +1,4 @@
+# Dangling markup injection
 ## Explanation
  Suppose an application embeds attacker-controllable data into its responses in an unsafe way:
 
