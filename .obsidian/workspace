@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "Web Applications/Attacks/CSRF.md",
             "mode": "preview"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Web Applications/Attacks/CSRF.md"
               }
             }
           },
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Web Applications/Attacks/CSRF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,15 +106,15 @@
   },
   "active": "5e6c6e57259c0c14",
   "lastOpenFiles": [
-    "README.md",
-    "Linux/Misc.md",
-    "Evasion/Windows/DNS Staging.md",
-    "Evasion/Windows/Abusing Signed Executables.md",
-    "Evasion/Windows/Resources.md",
-    "Active Directory/Windows Protection Schemes.md",
-    "Active Directory/Resources.md",
-    "Active Directory/Powershell one-liners.md",
-    "Active Directory/Post Exploitation.md",
-    "Active Directory/Network Recon.md"
+    "Web Applications/Attacks/CSRF.md",
+    "Web Applications/Attacks/XSS.md",
+    "Web Applications/Attacks/CORS.md",
+    "Web Applications/Attacks/SSRF.md",
+    "Web Applications/Attacks/CSV Injection.md",
+    "Web Applications/Attacks/Websockets & WebWorkers.md",
+    "Web Applications/Attacks/SSTI.md",
+    "Pasted image 20210601024542.png",
+    "Pasted image 20210601024533.png",
+    "Web Applications/Scripts/Automated HTTP Verb Tampering Testing.md"
   ]
 }

