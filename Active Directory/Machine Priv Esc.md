@@ -1,8 +1,5 @@
-## Privilege Escalation
-
-For more things to look for (both Windows and Linux), refer to my [OSCP cheat sheet and command reference](https://cas.vancooten.com/posts/2020/05/oscp-cheat-sheet-and-command-reference/).
-
-### PowerUp
+# Machine Privilege Escalation
+## PowerUp
 
 ```powershell
 # Check for vulnerable programs and configs
@@ -17,7 +14,7 @@ net stop AbyssWebServer
 net start AbyssWebServer
 ```
 
-### Juicy files
+## Juicy files
 
 There are lots of files that may contain interesting information. Tools like [WinPEAS](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/winPEAS) or collections like [PowerSploit](https://github.com/PowerShellMafia/PowerSploit) may help in identifying juicy files (for privesc or post-exploitation).
 
@@ -58,7 +55,15 @@ C:\ProgramData\Microsoft\Wlansvc\Profiles\*.xml
 Get-ItemProperty -Path HKLM:\Software\TightVNC\Server -Name "Password" | select -ExpandProperty Password
 ```
 
-***
 
-### Tools
+## Exploiting Privelleges
+> Run `whoami /all`  to check if you have any dangerous privs.
+### SE Impersonate
+#### Exploit Over HTTP/Named Pipes - Generic Potato
+Tool: [micahvandeusen/GenericPotato: Impersonating authentication over HTTP and/or named pipes. (github.com)](https://github.com/micahvandeusen/GenericPotato)
+
+Blogpost: [The Power of SeImpersonation | Micah Van Deusen's Blog](https://micahvandeusen.com/the-power-of-seimpersonation/)
+
+
+## Tools
 [carlospolop/privilege-escalation-awesome-scripts-suite: PEASS - Privilege Escalation Awesome Scripts SUITE (with colors) (github.com)](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite)

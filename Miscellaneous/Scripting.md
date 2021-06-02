@@ -1,4 +1,6 @@
-### Proxy all python traffic
+# Scripting
+## Python
+### Proxy all HTTP(S) traffic
 Set the `http_proxy` enviroment variable from bash/powershell or append the following lines to beginning of the python script
 
 ```python
@@ -13,3 +15,11 @@ os.environ['HTTPS_PROXY'] = proxy
 
 #your code goes here.............
 ```
+
+### Enter Debbuger After script execution
+```python
+# some code here
+
+import pdb; pdb. set_trace()
+```
+

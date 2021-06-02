@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Web Applications/Attacks/ClickJacking.md",
-            "mode": "source"
+            "file": "Web Applications/Attacks/Server Side Include.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "J2EE",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Applications/Attacks/ClickJacking.md"
+                "file": "Web Applications/Attacks/Server Side Include.md"
               }
             }
           },
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Applications/Attacks/ClickJacking.md",
+                "file": "Web Applications/Attacks/Server Side Include.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,15 +106,15 @@
   },
   "active": "5e6c6e57259c0c14",
   "lastOpenFiles": [
-    "Web Applications/Attacks/ClickJacking.md",
-    "Web Applications/Attacks/Websockets & WebWorkers.md",
-    "Web Applications/Attacks/XSS.md",
+    "Web Applications/Attacks/Server Side Include.md",
+    "Web Applications/Attacks/Metholody.md",
+    "SSI.md",
+    "Web Applications/Attacks/XSLT Engines.md",
+    "Web Applications/Attacks/Expression Language Injection.md",
     "Web Applications/Attacks/SSTI.md",
-    "Web Applications/Attacks/CSV Injection.md",
+    "Web Applications/Attacks/Untitled.md",
     "Web Applications/Attacks/SSRF.md",
-    "Web Applications/Attacks/Web cache poisoning.md",
-    "Web Applications/Attacks/Dangling markup injection.md",
-    "Web Applications/Attacks/SSL Certificate.md",
-    "Web Applications/Attacks/HTTP Host header.md"
+    "Web Applications/Attacks/XSS.md",
+    "Active Directory/Machine Priv Esc.md"
   ]
 }

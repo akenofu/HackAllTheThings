@@ -15,3 +15,8 @@
 	ssh -R 80:localhost:80 tinyserver
 	``` 
 
+
+## Non-interactive log on
+```bash
+sshpass -p P@ssw0rd ssh -o PubkeyAuthentication=no sonny@10.10.10.152
+```
