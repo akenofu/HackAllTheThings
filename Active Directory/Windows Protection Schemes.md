@@ -61,6 +61,25 @@ Some high-level bypass techniques:
 
 -   Use [LOLBAS](https://lolbas-project.github.io/) if only (Microsoft-)signed binaries are allowed.
 -   If binaries from `C:\Windows` are allowed, try dropping your binaries to `C:\Windows\Temp` or `C:\Windows\Tasks`. If there are no writable subdirectories but writable files exist in this directory tree, write your file to an alternate data stream (e.g. a JScript script) and execute it from there.
+
+	**World writable locations**
+	```powershell
+	C:\Windows\Tasks
+	C:\Windows\Temp
+	C:\windows\tracing
+	C:\Windows\Registration\CRMLog
+	C:\Windows\System32\FxsTmp
+	C:\Windows\System32\com\dmp
+	C:\Windows\System32\Microsoft\Crypto\RSA\MachineKeys
+	C:\Windows\System32\spool\PRINTERS
+	C:\Windows\System32\spool\SERVERS
+	C:\Windows\System32\spool\drivers\color
+	C:\Windows\System32\Tasks\Microsoft\Windows\SyncCenter
+	C:\Windows\SysWOW64\FxsTmp
+	C:\Windows\SysWOW64\com\dmp
+	C:\Windows\SysWOW64\Tasks\Microsoft\Windows\SyncCenter
+	C:\Windows\SysWOW64\Tasks\Microsoft\Windows\PLA\System
+	```
 -   Wrap your binaries in a DLL file and execute them with `rundll32` to bypass executable rules. If binaries like Python are allowed, use that. If that doesn’t work, try other techniques such as wrapping JScript in a HTA file or running XSL files with `wmic`.
 - Download signed executables with known DLL-Side-Loading/PATH Hijacking vulns. Copy them and the forged DLLs to get code execution. [DLL Side-loading Appverif.exe – Fat Rodzianko](https://fatrodzianko.com/2020/02/15/dll-side-loading-appverif-exe/)
 
