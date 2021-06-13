@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Web Applications/Attacks/AWS LocalStack.md",
-            "mode": "preview"
+            "file": "Web Applications/Attacks/SSTI.md",
+            "mode": "source"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Applications/Attacks/AWS LocalStack.md"
+                "file": "Web Applications/Attacks/SSTI.md"
               }
             }
           },
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Applications/Attacks/AWS LocalStack.md",
+                "file": "Web Applications/Attacks/SSTI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,12 +106,12 @@
   },
   "active": "5e6c6e57259c0c14",
   "lastOpenFiles": [
+    "Web Applications/Attacks/SSTI.md",
     "Web Applications/Attacks/AWS LocalStack.md",
     "Web Applications/Attacks/HTTP Host header.md",
     "Cheatsheets/Hashcat.md",
     "Active Directory/Windows Protection Schemes.md",
     "Mobile Applications/Android/Anti-Reversing Defenses.md",
-    "Web Applications/Attacks/SSTI.md",
     "Miscellaneous/SQL Databases.md",
     "Miscellaneous/Simple Servers.md",
     "Miscellaneous/Crypto.md",
