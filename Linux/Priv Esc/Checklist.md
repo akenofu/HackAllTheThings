@@ -10,6 +10,15 @@
 - Look for setuid binaries in places not managed by package manager
 - Look for non-default setuid binaries
 
+## Find files owned by user/group
+```bash
+# Find files owned by user
+find /var -user vivek
+
+# Find files owned by group
+find /home -group ftpusers
+```
+
 ***
 
 ## Misc

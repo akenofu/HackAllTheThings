@@ -5,6 +5,10 @@ nmap -6 10.10.10.215
 
 # Host Discovery
 nmap -sP 10.10.10.215
+
+# Nmap Via Proxy Chains, Special flags
+# Maybe enable quiet mode 
+sudo nmap proxychains -sT -Pn -n  -v 10.10.10.13
 ```
 
 ## Manual Firewall Enumeration

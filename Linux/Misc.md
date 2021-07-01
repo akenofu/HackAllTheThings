@@ -61,3 +61,15 @@ echo foo | clipboard
 
 ***
 
+
+## Capabilities
+```bash
+# Allow python to bind to privileged ports
+sudo setcap  cap_net_bind_service+eip  $(which python3.9)
+
+# Check Capabilities
+getcap $(which python3)
+
+# or
+stat $(which python3)
+```

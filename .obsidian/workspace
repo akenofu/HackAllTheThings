@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Web Applications/Attacks/SSTI.md",
+            "file": "Linux/Machine Persistence/Permissions and Capabilities.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Applications/Attacks/SSTI.md"
+                "file": "Linux/Machine Persistence/Permissions and Capabilities.md"
               }
             }
           },
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Applications/Attacks/SSTI.md",
+                "file": "Linux/Machine Persistence/Permissions and Capabilities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,15 +106,15 @@
   },
   "active": "5e6c6e57259c0c14",
   "lastOpenFiles": [
+    "Linux/Machine Persistence/Backdoors.md",
+    "Linux/Machine Persistence/Patching libc.md",
+    "Linux/Machine Persistence/Untitled.md",
+    "Web Applications/Attacks/CMS/Wordpress.md",
+    "Web Applications/Attacks/Misc.md",
+    "Web Applications/Attacks/Expression Language Injection.md",
+    "Web Applications/Attacks/SSRF.md",
     "Web Applications/Attacks/SSTI.md",
-    "Web Applications/Attacks/AWS LocalStack.md",
-    "Web Applications/Attacks/HTTP Host header.md",
-    "Cheatsheets/Hashcat.md",
-    "Active Directory/Windows Protection Schemes.md",
-    "Mobile Applications/Android/Anti-Reversing Defenses.md",
-    "Miscellaneous/SQL Databases.md",
-    "Miscellaneous/Simple Servers.md",
-    "Miscellaneous/Crypto.md",
-    "Miscellaneous/Wordlist manipulation.md"
+    "Linux/Kerberos.md",
+    "Linux/Domain Persistence.md"
   ]
 }

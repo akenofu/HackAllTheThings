@@ -7,6 +7,17 @@ You can follow a similar approach when looking for template / expression languag
 - Try  fuzzing Templating special charchters and see if any exception is raised 
 	```
 	${{<%[%'"}}%\
+	${}
+	{{}}
+	<%= %>
+	${7/0}
+	{{7/0}}
+	<%= 7/0 %>
+	${foobar}
+	{{foobar}}
+	<%= foobar %>
+	${7/0}
+	{{7/0}}
 	```
 
 - Try to check if it contains a direct XSS vulnerability. Try injecting arbitrary HTML.
@@ -97,3 +108,4 @@ ${T(java.lang.System).getenv()}
 
 ### Developer-supplied objects
 Websites will contain both built-in objects provided by the template and custom, site-specific objects that have been supplied by the web developer. Pay particular attention to these non-standard objects because they are especially likely to contain sensitive information or exploitable methods. As these objects can vary between different templates within the same website, be aware that you might need to study an object's behavior in the context of each distinct template before you find a way to exploit it.
+

