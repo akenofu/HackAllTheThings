@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux/Machine Persistence/Permissions and Capabilities.md",
+            "file": "Network/DNS (53).md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Machine Persistence/Permissions and Capabilities.md"
+                "file": "Network/DNS (53).md"
               }
             }
           },
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Machine Persistence/Permissions and Capabilities.md",
+                "file": "Network/DNS (53).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +106,8 @@
   },
   "active": "5e6c6e57259c0c14",
   "lastOpenFiles": [
+    "Network/DNS (53).md",
+    "Network/SMTP (25).md",
     "Linux/Machine Persistence/Backdoors.md",
     "Linux/Machine Persistence/Patching libc.md",
     "Linux/Machine Persistence/Untitled.md",
@@ -113,8 +115,6 @@
     "Web Applications/Attacks/Misc.md",
     "Web Applications/Attacks/Expression Language Injection.md",
     "Web Applications/Attacks/SSRF.md",
-    "Web Applications/Attacks/SSTI.md",
-    "Linux/Kerberos.md",
-    "Linux/Domain Persistence.md"
+    "Web Applications/Attacks/SSTI.md"
   ]
 }

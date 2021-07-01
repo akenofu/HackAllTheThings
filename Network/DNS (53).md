@@ -1,3 +1,5 @@
+# DNS
+
 ### Trying leaking hostnames by reverse DNS lookup
 
 ```bash
