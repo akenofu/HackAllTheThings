@@ -114,6 +114,20 @@ The TGT for the machine account of the DC should come in in the first session. W
 - [Has SeImpersonatePrivilege or SeAssignPrimaryTokenPrivilege ?](https://itm4n.github.io/printspoofer-abusing-impersonate-privileges/)
 	- PrintSpoofer
 - Microsoft Exchange Proxylogon 
+- PrintNightmare (CVE-2021-1675)
+	Check Vulnerability exists using powershell
+	```powershell
+	# Using Active Directory Module
+	Get-ADComputer -Filter * | %{$_.dnshostname; Get-Service -ComputerName $_.dnshostname spooler} | fl
+
+	# Using WMI
+	Get-WmiObject -Namespace root\directory\ldap -Class ds_computer | %{$_.ds_cn; Get-Service -ComputerName $_.ds_cn spooler} | fl
+	```
+	Exploitation
+	- [Pure PowerShell implementation of CVE-2021-1675 Print Spooler Local Privilege Escalation (PrintNightmare) (github.com)](https://github.com/calebstewart/CVE-2021-1675)
+	- [cube0x0/CVE-2021-1675: C# and Impacket implementation of CVE-2021-1675/PrintNightmare (github.com)](https://github.com/cube0x0/CVE-2021-1675)
+	- [afwu/PrintNightmare (github.com)](https://github.com/afwu/PrintNightmare)
+
 
 ***
 

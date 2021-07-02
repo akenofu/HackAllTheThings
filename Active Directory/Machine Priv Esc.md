@@ -64,20 +64,6 @@ Tool: [micahvandeusen/GenericPotato: Impersonating authentication over HTTP and/
 
 Blogpost: [The Power of SeImpersonation | Micah Van Deusen's Blog](https://micahvandeusen.com/the-power-of-seimpersonation/)
 
-## Exploits
-### PrintNightmare (CVE-2021-1675)
-#### Check Vulnerability exists using powershell
-```powershell
-# Using Active Directory Module
-Get-ADComputer -Filter * | %{$_.dnshostname; Get-Service -ComputerName $_.dnshostname spooler} | fl
-
-# Using WMI
-Get-WmiObject -Namespace root\directory\ldap -Class ds_computer | %{$_.ds_cn; Get-Service -ComputerName $_.ds_cn spooler} | fl
-```
-- [Pure PowerShell implementation of CVE-2021-1675 Print Spooler Local Privilege Escalation (PrintNightmare) (github.com)](https://github.com/calebstewart/CVE-2021-1675)
-- [cube0x0/CVE-2021-1675: C# and Impacket implementation of CVE-2021-1675/PrintNightmare (github.com)](https://github.com/cube0x0/CVE-2021-1675)
-- [afwu/PrintNightmare (github.com)](https://github.com/afwu/PrintNightmare)
-
 
 ## Tools
 [carlospolop/privilege-escalation-awesome-scripts-suite: PEASS - Privilege Escalation Awesome Scripts SUITE (with colors) (github.com)](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite)

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Active Directory/Machine Priv Esc.md",
+            "file": "Active Directory/Domain      Priv Esc.md",
             "mode": "preview"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Active Directory/Machine Priv Esc.md"
+                "file": "Active Directory/Domain      Priv Esc.md"
               }
             }
           },
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Active Directory/Machine Priv Esc.md",
+                "file": "Active Directory/Domain      Priv Esc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +106,7 @@
   },
   "active": "5e6c6e57259c0c14",
   "lastOpenFiles": [
+    "Active Directory/Domain      Priv Esc.md",
     "Active Directory/Machine Priv Esc.md",
     "Active Directory/Machine Persistence.md",
     "Web Applications/Attacks/Serialization.md",
@@ -114,7 +115,6 @@
     "Web Applications/Attacks/GraphQL.md",
     "Web Applications/Attacks/Misc.md",
     "Web Applications/Attacks/Expression Language Injection.md",
-    "Web Applications/Attacks/XSLT Engines.md",
-    "Web Applications/Attacks/Websockets & WebWorkers.md"
+    "Web Applications/Attacks/XSLT Engines.md"
   ]
 }
