@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Active Directory/Domain      Priv Esc.md",
+            "file": "Network/Segmentation Testing.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "writab",
+                "query": "scp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -50,6 +50,14 @@
           },
           {
             "id": "9b6f769838053b33",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "81aba2caf07951d7",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -74,10 +82,8 @@
             "id": "75230e0555b3eed3",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "Active Directory/Domain      Priv Esc.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -86,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Active Directory/Domain      Priv Esc.md",
+                "file": "Network/Segmentation Testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,6 +100,16 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f71901fd78dfce6c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Network/Segmentation Testing.md"
               }
             }
           }
@@ -106,15 +122,15 @@
   },
   "active": "5e6c6e57259c0c14",
   "lastOpenFiles": [
-    "Active Directory/Domain      Priv Esc.md",
-    "Active Directory/Machine Priv Esc.md",
-    "Active Directory/Machine Persistence.md",
-    "Web Applications/Attacks/Serialization.md",
-    "Web Applications/Attacks/Methodoloy.md",
-    "Web Applications/Attacks/Server Side Include.md",
-    "Web Applications/Attacks/GraphQL.md",
-    "Web Applications/Attacks/Misc.md",
-    "Web Applications/Attacks/Expression Language Injection.md",
-    "Web Applications/Attacks/XSLT Engines.md"
+    "Network/Segmentation Testing.md",
+    "Network/Pivot.md",
+    "Network/Port Scan.md",
+    "Network/Untitled.md",
+    "Linux/Misc.md",
+    "Linux/Kerberos.md",
+    "Network/SSH (22).md",
+    "Miscellaneous/SQL Databases.md",
+    "Miscellaneous/GraphQL.md",
+    "Cheatsheets/fuff.md"
   ]
 }

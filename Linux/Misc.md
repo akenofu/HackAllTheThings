@@ -57,6 +57,9 @@ npm install -g clipboard-cli
 
 # pipe output to clipboard
 echo foo | clipboard 
+
+# Pipe clipboard to file using xclip
+xclip -selection clipboard -o > clipboard.txt
 ```
 
 ***

@@ -2,6 +2,9 @@
 - Copy files over SSH
 	```bash
 	scp -i C:\temp\op6 C:\AndroidTools\tmp\AlwaysTrustUserCerts.zip root@192.168.1.17:/sdcard
+	
+	# Copy Local File to Remote System
+	scp file.txt remote_username@10.10.0.2:/remote/directory
 	```
 	
 	
