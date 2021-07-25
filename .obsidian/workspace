@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Network/Segmentation Testing.md",
-            "mode": "preview"
+            "file": "Web Applications/Attacks/gRPC.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "scp",
+                "query": "clip",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network/Segmentation Testing.md",
+                "file": "Web Applications/Attacks/gRPC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network/Segmentation Testing.md"
+                "file": "Web Applications/Attacks/gRPC.md"
               }
             }
           }
@@ -122,15 +122,15 @@
   },
   "active": "5e6c6e57259c0c14",
   "lastOpenFiles": [
+    "Web Applications/Attacks/gRPC.md",
     "Network/Segmentation Testing.md",
-    "Network/Pivot.md",
-    "Network/Port Scan.md",
-    "Network/Untitled.md",
-    "Linux/Misc.md",
-    "Linux/Kerberos.md",
     "Network/SSH (22).md",
-    "Miscellaneous/SQL Databases.md",
-    "Miscellaneous/GraphQL.md",
-    "Cheatsheets/fuff.md"
+    "Linux/Misc.md",
+    "Web Applications/Attacks/Untitled.md",
+    "Network/MSRPC (135).md",
+    "README.md",
+    "Pasted image 20210714150123.png",
+    "Pasted image 20210714150824.png",
+    "Pasted image 20210714152052.png"
   ]
 }
