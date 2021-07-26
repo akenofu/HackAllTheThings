@@ -1,3 +1,4 @@
+# Port Scan
 ## Namp
 ```bash
 # ipv6 port scan
@@ -10,6 +11,8 @@ nmap -sP 10.10.10.215
 # Maybe enable quiet mode 
 sudo nmap proxychains -sT -Pn -n  -v 10.10.10.13
 
+# Quick and sneaky
+nmap -p- -v -oN 10.1.6.5-all-tcp.out -Pn -sT -T5 10.1.6.5
 ```
 
 ## Manual Firewall Enumeration
