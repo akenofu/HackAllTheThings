@@ -11,6 +11,9 @@ nmap -sP 10.10.10.215
 # Maybe enable quiet mode 
 sudo nmap proxychains -sT -Pn -n  -v 10.10.10.13
 
+# UDP Top 1000 port scan
+nmap -v -oN bastion-top-1000-udp.out -Pn -sU -T5 10.10.10.13
+
 # Quick and sneaky
 nmap -p- -v -oN 10.1.6.5-all-tcp.out -Pn -sT -T5 10.1.6.5
 ```
@@ -21,3 +24,5 @@ nmap -p- -v -oN 10.1.6.5-all-tcp.out -Pn -sT -T5 10.1.6.5
 - Check if firewall is `REJECT`ing the packet or the port is just not listening
 - Connect again to a non listening port 
 - Compare the response in both cases to identify if the firewall is dropping the request or if the port is not listening.
+
+## For segmentation testing checkout [[Segmentation Testing#Segmentation penetration testing]]

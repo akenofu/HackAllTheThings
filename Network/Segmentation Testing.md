@@ -24,14 +24,23 @@ There are various terms which might confuse us and need to be understood before 
 Generally, each host in a PCI in-scope segment and all 65535 ports (for TCP and UDP) should be scanned from PCI out-of-scope. It is always considered best practice to initiate the scan in batches, as it is efficient, and we get results more frequently. We should perform the scan from PCI in-scope to PCI out-of-scope and vice versa.
 
 ```bash
-# All ports TCP
-nmap -sV -p – -T4 -v -v -oN tcpbatch1intoout.out -oN tcpbatch1intoout.out -Pn 10.130.1.1-50
+# Grab IP from cmd
+ip=`ip a s | grep eth0 | grep inet  | grep -oP '[0-9]+[.][0-9]+[.][0-9]+[.][0-9]+/[0-9]' | cut -d "/" -f 1` ; echo $ip
+```
 
-# Quick all port tcp scan
-nmap -p – -T5 -v -v -oN tcpbatch1.txt -oN tcpbatch1.out -Pn 10.130.1.1-50
+```bash
+# My go-to all ports tcp scan
+sudo ./nmap -p- -n -v -oN control_10.1.1.2-to-pci_10.1.4.0.nmap -Pn -T4 10.1.4.0/25 --min-rate 10000
+
+# Nmap All ports
+sudo ./nmap -p- -n -v -oN control_10.1.1.2-to-pci_10.1.4.0.nmap -Pn -T4 10.1.4.0/24
 
 # All ports UDP
-nmap -sU -sV -T4 -v -n -Pn –top-ports 10000 -oN udpbatch1intoout.txt -oN udpbatch1intoout.out 10.10.10.1-50
+sudo nmap -sU -sV -T4 -v -n -Pn –top-ports 10000 -oN udpbatch1intoout.txt -oN udpbatch1intoout.out 10.10.10.1-50
+```
+
+```bash
+sudo ./masscan 10.1.4.0/25 --rate 100000 -p 0-65535 --banners -oL $ip-to-pci_10.1.4.0.massscan
 ```
 
 ### Open|Filtered Ports

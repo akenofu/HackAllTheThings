@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Network/Pivot & Tunnel.md",
-            "mode": "source"
+            "file": "Network/Segmentation Testing.md",
+            "mode": "preview"
           }
         }
       }
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network/Pivot & Tunnel.md",
+                "file": "Network/Segmentation Testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network/Pivot & Tunnel.md"
+                "file": "Network/Segmentation Testing.md"
               }
             }
           }
@@ -122,15 +122,15 @@
   },
   "active": "5e6c6e57259c0c14",
   "lastOpenFiles": [
-    "Network/Pivot & Tunnel.md",
-    "Network/Port Scan.md",
-    "Network/DNS (53).md",
-    "Network/MSRPC (135).md",
-    "Network/SMB-Samba (445).md",
-    "Network/SMTP (25).md",
-    "Network/SSH (22).md",
     "Network/Segmentation Testing.md",
-    "Network/gRPC.md",
-    "Network/Resources.md"
+    "Network/Port Scan.md",
+    "Network/SSH (22).md",
+    "Network/Sniffing & MITM.md",
+    "Network/Sniffing.md",
+    "Cheatsheets/jdb cheatsheet.md",
+    "Cheatsheets/Bettercap.md",
+    "Cheatsheets/Untitled.md",
+    "Cheatsheets/r2frida cheatsheet.md",
+    "Network/Untitled.md"
   ]
 }

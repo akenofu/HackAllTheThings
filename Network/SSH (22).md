@@ -1,4 +1,19 @@
 # SSH
+## Identify Authentication methods
+```bash
+ssh -o PreferredAuthentications=none 102.128.100.51 -p 9001
+ssh -o PreferredAuthentications=password 102.128.21.13 -vvv
+```
+
+## Username enumeration
+Metasploit `use scanner/ssh/ssh_enumusers`
+
+## Brute Force
+Metasploit `use scanner/ssh/ssh_login`
+
+## SSH Malicious Strings
+Metasploit `use auxiliary/fuzzers/ssh/ssh_version_2`
+
 ## File Transfer
 - Copy files over SSH
 	```bash
