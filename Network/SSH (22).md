@@ -5,6 +5,21 @@ ssh -o PreferredAuthentications=none 102.128.100.51 -p 9001
 ssh -o PreferredAuthentications=password 102.128.21.13 -vvv
 ```
 
+## Identify Server Version and banner
+```bash
+# Find Debug1 Version
+ssh -v 10.10.10.14
+```
+
+## Identify Supported Crypto Cyphers
+```bash
+# Ciphers
+ssh 10.10.14.2 -Q cipher
+
+# Kex Algorithms
+ssh 10.10.14.2 -Q kex
+```
+
 ## Username enumeration
 Metasploit `use scanner/ssh/ssh_enumusers`
 
