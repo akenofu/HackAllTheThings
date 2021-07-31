@@ -124,13 +124,13 @@
   "lastOpenFiles": [
     "Network/Segmentation Testing.md",
     "Network/SSH (22).md",
-    "Network/Sniffing & MITM.md",
-    "Network/Port Scan.md",
-    "Network/Sniffing.md",
-    "Cheatsheets/jdb cheatsheet.md",
-    "Cheatsheets/Bettercap.md",
-    "Cheatsheets/Untitled.md",
-    "Cheatsheets/r2frida cheatsheet.md",
-    "Network/Untitled.md"
+    "Web Applications/Attacks/Serialization.md",
+    "Web Applications/Tooling Checklist.md",
+    "Web Applications/Resources.md",
+    "Web Applications/Attacks/Web Servers/Nginx.md",
+    "Web Applications/Attacks/Servers/Untitled.md",
+    "Web Applications/Source Code Review/grep.md",
+    "Web Applications/Source Code Review/Untitled.md",
+    "Web Applications/Source Code Review/Node.md"
   ]
 }

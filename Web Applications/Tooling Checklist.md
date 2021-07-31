@@ -13,6 +13,7 @@
 ## Dir Brute Force
 - [ ] [ffuf/ffuf: Fast web fuzzer written in Go (github.com)](https://github.com/ffuf/ffuf)
 - [ ] gobuster
+- [ ] [epi052/feroxbuster: A fast, simple, recursive content discovery tool written in Rust. (github.com)](https://github.com/epi052/feroxbuster)
 	
 
 ## Spidering
