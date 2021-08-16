@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Network/Segmentation Testing.md",
+            "file": "Network/SSH (22).md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "clip",
+                "query": "key",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network/Segmentation Testing.md",
+                "file": "Network/SSH (22).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network/Segmentation Testing.md"
+                "file": "Network/SSH (22).md"
               }
             }
           }
@@ -122,15 +122,15 @@
   },
   "active": "5e6c6e57259c0c14",
   "lastOpenFiles": [
-    "Network/Segmentation Testing.md",
     "Network/SSH (22).md",
-    "Web Applications/Attacks/Serialization.md",
-    "Web Applications/Tooling Checklist.md",
+    "Network/Segmentation Testing.md",
+    "Web Applications/Source Code Review/Tips.md",
     "Web Applications/Resources.md",
-    "Web Applications/Attacks/Web Servers/Nginx.md",
-    "Web Applications/Attacks/Servers/Untitled.md",
-    "Web Applications/Source Code Review/grep.md",
-    "Web Applications/Source Code Review/Untitled.md",
-    "Web Applications/Source Code Review/Node.md"
+    "Web Applications/Tooling Checklist.md",
+    "Web Applications/Source Code Review/js.md",
+    "Web Applications/Source Code Review/grep Cheatsheet.md",
+    "Web Applications/Source Code Review/Node.md",
+    "Web Applications/Source Code Review/CLI Compilers Cheatsheet.md",
+    "Web Applications/Source Code Review/Untitled.md"
   ]
 }
