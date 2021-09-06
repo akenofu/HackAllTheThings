@@ -18,6 +18,11 @@ nmap -v -oN bastion-top-1000-udp.out -Pn -sU -T5 10.10.10.13
 nmap -p- -v -oN 10.1.6.5-all-tcp.out -Pn -sT -T5 10.1.6.5
 ```
 
+## Manual Ping sweep
+```bash
+for i in $(seq 1 254) ;do (ping -c 1 172.27.8.${i} | grep "bytes from" &) ;done
+```
+
 ## Manual Firewall Enumeration
 - Run wireshark to view traffic
 - use `ncat` to connect to port

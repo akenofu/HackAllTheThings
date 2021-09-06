@@ -93,3 +93,4 @@ Host ubuntu
 
 ## Scanners
 [ssh-audit](https://github.com/jtesta/ssh-audit#ssh-audit)
+[rbsec/sslscan: sslscan tests SSL/TLS enabled services to discover supported cipher suites (github.com)](https://github.com/rbsec/sslscan)

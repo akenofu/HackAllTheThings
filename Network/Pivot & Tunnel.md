@@ -3,7 +3,7 @@
 To use sshuttle with JumpHost make sure the `~/.ssh/config` is configured correctly. Checkout [[SSH (22)#Config File Sample for jumphost]]
 ```bash
 # sshuttle
-sudo sshuttle --dns -v -r ubuntu 10.1.4.0/24 
+sudo sshuttle -v -r ubuntu 10.1.4.0/24 
 ```
 ## Tools
 

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Network/SSH (22).md",
+            "file": "Miscellaneous/Simple Servers.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "key",
+                "query": "ngrok",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network/SSH (22).md",
+                "file": "Miscellaneous/Simple Servers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network/SSH (22).md"
+                "file": "Miscellaneous/Simple Servers.md"
               }
             }
           }
@@ -122,15 +122,15 @@
   },
   "active": "5e6c6e57259c0c14",
   "lastOpenFiles": [
-    "Network/SSH (22).md",
-    "Network/Segmentation Testing.md",
-    "Web Applications/Source Code Review/Tips.md",
+    "Miscellaneous/Simple Servers.md",
+    "Web Applications/Source Code Review/Debug.md",
+    "Web Applications/Source Code Review/Untitled.md",
     "Web Applications/Resources.md",
-    "Web Applications/Tooling Checklist.md",
+    "Thick Client/C++ Win32.md",
     "Web Applications/Source Code Review/js.md",
-    "Web Applications/Source Code Review/grep Cheatsheet.md",
-    "Web Applications/Source Code Review/Node.md",
-    "Web Applications/Source Code Review/CLI Compilers Cheatsheet.md",
-    "Web Applications/Source Code Review/Untitled.md"
+    "Web Applications/Attacks/Dangling markup injection.md",
+    "Web Applications/Attacks/SSL Certificate.md",
+    "Web Applications/Attacks/HTTP Host header.md",
+    "Web Applications/Attacks/CSRF.md"
   ]
 }
