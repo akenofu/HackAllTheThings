@@ -43,3 +43,16 @@ sudo systemctl restart apache2
 ```bash
 curl http://localhost/dump.php
 ```
+
+## PostgreSQL Enable Database Logging
+Look for `postgresql.conf` file to edit
+```vim
+log_statement = 'all' # none, ddl, mod, all
+```
+ 
+ Restart the Application to apply the new settings. We can do this by launching `services.msc` from the Runcommand window and finding the Applications  service
+ 
+ Find failed queries in the log file 
+ ```batch
+ C:\Program Files (x86)\ManageEngine\AppManager12\working\pgsql\data\amdb\pgsql_log\
+ ```

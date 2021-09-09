@@ -20,3 +20,8 @@ jar cmvf META-INF/MANIFEST.MF test.jar test.class
 # Run file for sanity check
 java -jar test.jar
 ```
+
+### Run VBSscripts on the fly
+```batch
+cscript myscript.vbs
+```
