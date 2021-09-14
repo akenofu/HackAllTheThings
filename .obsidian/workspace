@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Miscellaneous/SQL Databases.md",
-            "mode": "source"
+            "file": "Thick Client/C++ Win32.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "awae",
+                "query": "jshell",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Miscellaneous/SQL Databases.md",
+                "file": "Thick Client/C++ Win32.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Miscellaneous/SQL Databases.md"
+                "file": "Thick Client/C++ Win32.md"
               }
             }
           }
@@ -122,15 +122,15 @@
   },
   "active": "ef2e67e5d08cdbdc",
   "lastOpenFiles": [
-    "Miscellaneous/SQL Databases.md",
-    "Miscellaneous/Scripting.md",
-    "Miscellaneous/Simple Servers.md",
-    "Web Applications/Source Code Review/Node.md",
-    "Web Applications/Resources.md",
-    "Web Applications/Source Code Review/CLI Compilers & Interpreters Cheatsheet.md",
+    "Thick Client/C++ Win32.md",
+    "Pasted image 20210914115012.png",
     "Web Applications/Source Code Review/Logging.md",
-    "Miscellaneous/GraphQL.md",
-    "Miscellaneous/Git.md",
-    "Miscellaneous/Crypto.md"
+    "Web Applications/Source Code Review/Node.md",
+    "Web Applications/Source Code Review/Tools.md",
+    "Web Applications/Source Code Review/Java.md",
+    "Web Applications/Source Code Review/Debug.md",
+    "Web Applications/Source Code Review/CLI Compilers & Interpreters Cheatsheet.md",
+    "Web Applications/Tooling Checklist.md",
+    "Web Applications/Resources.md"
   ]
 }
