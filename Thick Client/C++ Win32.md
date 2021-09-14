@@ -30,6 +30,7 @@ Get-PESecurity -directory "C:\Program Files (x86)\Cisco Systems\Cisco Example Ap
 2.  Loaded DLLs
 3.  Handles to open files
 4.  Command Line arguments/Working directory
+
 [Process Explorer - Windows Sysinternals | Microsoft Docs](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer)
 
 
