@@ -40,6 +40,7 @@ Get-PESecurity -directory "C:\Program Files (x86)\Cisco Systems\Cisco Example Ap
 
 #### Monitor Windows Events
 > Utilize filters to hone down on intersting events such as read/write events to files that are used during/after authentication/authorization.
+
 [Process Monitor - Windows Sysinternals | Microsoft Docs](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon)
 
 ## Memory
