@@ -75,8 +75,8 @@ Fuzz the application  for memory corruption vulnerabilities.
 Is clear text traffic transferred?
 Can you manipulate traffic?
 
-### Tools
-#### Traffic Interception Tools
+### Traffic Interception Tools
+#### WinShark
 > WinShark Makes filtering traffic by process ID possible. Use the `etw.header.ProcessId == 1234` filter. Also, make sure to always run wireshark as admininstrator after installing WinShark
 
 [Wireshark · Go Deep.](https://www.wireshark.org/)
@@ -93,6 +93,9 @@ logman start Winshark-PacketCapture -p "Microsoft-Windows-NDIS-PacketCapture" -r
 ```
 
 3. Then launch Wireshark with administrator privileges and select the Winshark-PacketCapture interface:
+
+#### Echo Mirage
+> Echo Mirage enables interception and modification of traffic
 
 [Echo Mirage: Walkthrough - Infosec Resources (infosecinstitute.com)](https://resources.infosecinstitute.com/topic/echo-mirage-walkthrough/)
 
