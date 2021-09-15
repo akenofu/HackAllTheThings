@@ -92,7 +92,7 @@ netsh.exe trace start capture=yes report=no correlation=no
 logman start Winshark-PacketCapture -p "Microsoft-Windows-NDIS-PacketCapture" -rt -ets
 ```
 
-3. Then launch Wireshark with administrator privileges and select the Winshark-PacketCapture interface:
+3. Then launch Wireshark with administrator privileges and select the `Winshark-PacketCapture` interface.
 
 #### Echo Mirage
 > Echo Mirage enables interception and modification of traffic
