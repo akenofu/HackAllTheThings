@@ -77,7 +77,23 @@ Can you manipulate traffic?
 
 ### Tools
 #### Traffic Interception Tools
+> WinShark Makes filtering traffic by process ID possible. Use the `etw.header.ProcessId == 1234` filter. Also, make sure to always run wireshark as admininstrator after installing WinShark
+
 [Wireshark · Go Deep.](https://www.wireshark.org/)
+[airbus-cert/Winshark: A wireshark plugin to instrument ETW (github.com)](https://github.com/airbus-cert/Winshark)
+
+1. To capture network traffic using Winshark, you have to simply activate network tracing through netsh:
+```batch
+netsh.exe trace start capture=yes report=no correlation=no
+```
+
+2. And then create an ETW session associated with the Microsoft-Windows-NDIS-PacketCapture provider:
+```batch
+logman start Winshark-PacketCapture -p "Microsoft-Windows-NDIS-PacketCapture" -rt -ets
+```
+
+3. Then launch Wireshark with administrator privileges and select the Winshark-PacketCapture interface:
+
 [Echo Mirage: Walkthrough - Infosec Resources (infosecinstitute.com)](https://resources.infosecinstitute.com/topic/echo-mirage-walkthrough/)
 
 #### HTTP Proxy
