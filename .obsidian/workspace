@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Thick Client/C++ Win32.md",
-            "mode": "source"
+            "file": "Network/Segmentation Testing.md",
+            "mode": "preview"
           }
         }
       }
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thick Client/C++ Win32.md",
+                "file": "Network/Segmentation Testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thick Client/C++ Win32.md"
+                "file": "Network/Segmentation Testing.md"
               }
             }
           }
@@ -122,15 +122,15 @@
   },
   "active": "ef2e67e5d08cdbdc",
   "lastOpenFiles": [
-    "Thick Client/C++ Win32.md",
-    "Miscellaneous/Untitled.md",
-    "Miscellaneous/Scripting.md",
-    "Pasted image 20210914115012.png",
+    "Network/Segmentation Testing.md",
     "Web Applications/Source Code Review/Logging.md",
+    "Miscellaneous/SQL Databases.md",
+    "Thick Client/C++ Win32.md",
     "Web Applications/Source Code Review/Node.md",
-    "Web Applications/Source Code Review/Tools.md",
-    "Web Applications/Source Code Review/Java.md",
-    "Web Applications/Source Code Review/Debug.md",
-    "Web Applications/Source Code Review/CLI Compilers & Interpreters Cheatsheet.md"
+    "Linux/Machine Persistence/PHP Persistence.md",
+    "Linux/Machine Persistence/Untitled.md",
+    "Web Applications/Attacks/LDAP Injection.md",
+    "Web Applications/Attacks/Untitled.md",
+    "Pasted image 20210914115012.png"
   ]
 }
