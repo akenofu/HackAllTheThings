@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Network/Segmentation Testing.md",
-            "mode": "preview"
+            "file": "Miscellaneous/Simple Servers.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "jshell",
+                "query": "Simple ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network/Segmentation Testing.md",
+                "file": "Miscellaneous/Simple Servers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network/Segmentation Testing.md"
+                "file": "Miscellaneous/Simple Servers.md"
               }
             }
           }
@@ -122,15 +122,15 @@
   },
   "active": "ef2e67e5d08cdbdc",
   "lastOpenFiles": [
-    "Network/Segmentation Testing.md",
-    "Web Applications/Source Code Review/Logging.md",
-    "Miscellaneous/SQL Databases.md",
-    "Thick Client/C++ Win32.md",
-    "Web Applications/Source Code Review/Node.md",
-    "Linux/Machine Persistence/PHP Persistence.md",
-    "Linux/Machine Persistence/Untitled.md",
-    "Web Applications/Attacks/LDAP Injection.md",
-    "Web Applications/Attacks/Untitled.md",
-    "Pasted image 20210914115012.png"
+    "Miscellaneous/Simple Servers.md",
+    "Network/Untitled.md",
+    "Linux/Priv Esc/TTY Tricks.md",
+    "Cheatsheets/AWS CLI.md",
+    "Linux/Priv Esc/Checklist.md",
+    "Linux/Misc.md",
+    "Scripting/Python Code Snippets/Untitled.md",
+    "Miscellaneous/Scripting.md",
+    "Cheatsheets/adb Cheatsheet.md",
+    "Web Applications/Attacks/SSTI.md"
   ]
 }

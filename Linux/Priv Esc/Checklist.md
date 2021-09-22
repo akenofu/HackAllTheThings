@@ -45,3 +45,9 @@ for i in $paths; do ls -la --time-style=full $i | grep -v '\-\>\|00000' 2>/dev/n
 ***
 ## Brute force suing to accounts
 [hemp3l/sucrack: brute-forcing su for fun and possibly profit (github.com)](https://github.com/hemp3l/sucrack)
+
+## Creds in files
+### AWS
+```bash
+~/.aws/credentials
+```

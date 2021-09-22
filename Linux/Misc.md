@@ -6,6 +6,7 @@
 ## Config Files Default Locations
 - Apache config `/etc/apach2/sites-enabled/000-default.conf`
 - gitlab rails `/opt/gitlab/embedded/service/gitlab-rails/config/secrets.yml`
+- AWS `~/. aws/config`
 
 ***
 
@@ -81,4 +82,18 @@ getcap $(which python3)
 
 # or
 stat $(which python3)
+```
+
+***
+
+## Debian Packages
+```bash
+ar x mypackage.deb
+```
+
+***
+
+## Grab IP From file system
+```bash
+cat /proc/net/fib_trie
 ```

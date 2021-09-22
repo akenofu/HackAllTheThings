@@ -92,6 +92,12 @@ Explore the enviorment with
 {% debug %}
 ```
 
+#### GO'S TEMPLATE ENGINE 
+```go
+// return the data structure passed into the template
+{{ . }}
+{{ self }}
+```
 ### Read about the security implications in documentation
 In addition to providing the fundamentals of how to create and use templates, the documentation may also provide some sort of "Security" section. The name of this section will vary, but it will usually outline all the potentially dangerous things that people should avoid doing with the template. This can be an invaluable resource, even acting as a kind of cheat sheet for which behaviors you should look for during auditing, as well as how to exploit them.
 

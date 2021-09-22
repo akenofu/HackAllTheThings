@@ -35,5 +35,5 @@ ngrok http 8000
 
 ### PHP Server
 ```bash
-php -S
+php -S 0.0.0.0:80
 ```
