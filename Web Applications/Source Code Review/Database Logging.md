@@ -1,10 +1,4 @@
-- If possible, always enable database query logging
-- Use debug print statements in interpreted code
-- Attempt to live-debug the target compiled application (dnSpymakes this relatively easy for .NET applications. The same can be achieved in the Eclipse IDE for Java applications although with a bit more effort)
-- After checking unauthenticated areas, focus on areas of the application that are likely to receive less attention (i.e., authenticated portions of the application)
-- Investigate how sanitization of user input is performed. Is it done using a trusted, open-source library, or is a custom solution in place?
-
-
+# Database Logging
 ## MySQL Logging
 - Enable Loggin and Replication in `/etc/mysql/my.cnf`
 ```vim
@@ -34,15 +28,6 @@ sudo systemctl restart apache2
 ```
 
 
-## Dump PHP Variables
-- Create new file `dump.php`
-```php
-<?php var_dump(get_magic_quotes_gpc());?>
-```
-- Curl the output of that file
-```bash
-curl http://localhost/dump.php
-```
 
 ## PostgreSQL Enable Database Logging
 Look for `postgresql.conf` file to edit
@@ -50,9 +35,46 @@ Look for `postgresql.conf` file to edit
 log_statement = 'all' # none, ddl, mod, all
 ```
  
+ ### Windows
+ 
  Restart the Application to apply the new settings. We can do this by launching `services.msc` from the Runcommand window and finding the Applications  service
  
  Find failed queries in the log file 
  ```batch
  C:\Program Files (x86)\ManageEngine\AppManager12\working\pgsql\data\amdb\pgsql_log\
  ```
+ 
+ ### Linux
+ Restart postgresql
+```bash
+sudo systemctl restart  postgresql
+```
+
+Check the logs
+```bash
+sudo tail -f /var/log/postgresql/postgresql-10-main.log
+```
+
+
+## MariaDB Query Debugging
+1. Edit `mysql.log` to enable loggin
+```bash
+sudo nano /etc/mysql/my.cnf
+```
+
+```vim
+[mysqld]
+...
+general_log_file	= /var/log/mysql/mysql.log
+general_log		= 1
+```
+
+2. Restart mysql 
+```bash
+sudo systemctl restart mysql
+```
+
+3. Tail the log file
+```bash
+sudo tail -f /var/log/mysql/mysql.log
+```

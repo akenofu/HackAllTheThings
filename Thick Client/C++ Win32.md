@@ -76,6 +76,11 @@ Is clear text traffic transferred?
 Can you manipulate traffic?
 
 ### Traffic Interception Tools
+#### WireShark 
+> This can be also used for WinShark
+
+[Decrypt SSL with Wireshark - HTTPS Decryption: Step-by-Step Guide (comparitech.com)](https://www.comparitech.com/net-admin/decrypt-ssl-with-wireshark/)
+
 #### WinShark
 > WinShark Makes filtering traffic by process ID possible. Use the `etw.header.ProcessId == 1234` filter. Also, make sure to always run wireshark as admininstrator after installing WinShark
 

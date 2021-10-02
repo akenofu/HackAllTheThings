@@ -1,3 +1,11 @@
+## Decompilers
+### [jd-cli ](https://github.com/intoolswetrust/jd-cli)
+```bash
+./jd-cli --outputDirStructured application application.jar
+```
+
+### [jd-gui](https://github.com/java-decompiler/jd-gui)
+
 ## Identify Java Process to target
 - Using processexplorer, check the working directory of the java application
 

