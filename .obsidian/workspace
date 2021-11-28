@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Web Applications/Attacks/SSTI.md",
-            "mode": "source"
+            "file": "Web Applications/Source Code Review/VS Code Preferences.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,21 +39,13 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "SImple",
+                "query": "cloc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
-            }
-          },
-          {
-            "id": "9b6f769838053b33",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           },
           {
@@ -79,20 +71,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "75230e0555b3eed3",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "344ad6c122ec4d2a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Applications/Attacks/SSTI.md",
+                "file": "Web Applications/Source Code Review/VS Code Preferences.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Applications/Attacks/SSTI.md"
+                "file": "Web Applications/Source Code Review/VS Code Preferences.md"
               }
             }
           }
@@ -122,15 +106,15 @@
   },
   "active": "904f6e4724b99083",
   "lastOpenFiles": [
-    "Web Applications/Attacks/SSTI.md",
-    "Web Applications/Attacks/XSS.md",
+    "Web Applications/Source Code Review/VS Code Preferences.md",
+    "Miscellaneous/Scoping Source Code.md",
+    "Miscellaneous/Untitled.md",
+    "Web Applications/Tooling Checklist.md",
+    "Web Applications/Resources.md",
+    "Web Applications/Source Code Review/Resources.md",
+    "Web Applications/Source Code Review/Methodology.md",
     "Web Applications/Source Code Review/Misc.md",
     "Web Applications/Source Code Review/Database Logging.md",
-    "Web Applications/Source Code Review/Methodology.md",
-    "Web Applications/Source Code Review/Untitled.md",
-    "Web Applications/Source Code Review/Bash Scripting.md",
-    "Miscellaneous/Databases/MySQL.md",
-    "Miscellaneous/Databases/SqlLite.md",
-    "Miscellaneous/Databases/SQL Databases.md"
+    "Web Applications/Source Code Review/Bash Scripting.md"
   ]
 }
