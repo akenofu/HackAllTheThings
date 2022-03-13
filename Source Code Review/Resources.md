@@ -1,5 +1,5 @@
 ## Courses
-[ Offensive Security - OSWE](https://www.offensive-security.com/awae-oswe/)
+[Offensive Security - OSWE](https://www.offensive-security.com/awae-oswe/)
 
 ## Vulnerable Practice Machines
 [Chat.JS - Vulnerable NodeJS Web-App to practice NoSQLi and Deserialization exploitation](https://github.com/bmdyy/chat.js#chatjs-vulnerable-nodejs-web-app)

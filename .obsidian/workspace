@@ -9,8 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Web Applications/Source Code Review/VS Code Preferences.md",
-            "mode": "preview"
+            "file": "Source Code Review/Database Logging.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -39,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cloc",
+                "query": "/pgsq",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Applications/Source Code Review/VS Code Preferences.md",
+                "file": "Source Code Review/Database Logging.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Applications/Source Code Review/VS Code Preferences.md"
+                "file": "Source Code Review/Database Logging.md"
               }
             }
           }
@@ -106,15 +107,15 @@
   },
   "active": "904f6e4724b99083",
   "lastOpenFiles": [
-    "Web Applications/Source Code Review/VS Code Preferences.md",
-    "Miscellaneous/Scoping Source Code.md",
-    "Miscellaneous/Untitled.md",
-    "Web Applications/Tooling Checklist.md",
-    "Web Applications/Resources.md",
-    "Web Applications/Source Code Review/Resources.md",
-    "Web Applications/Source Code Review/Methodology.md",
-    "Web Applications/Source Code Review/Misc.md",
-    "Web Applications/Source Code Review/Database Logging.md",
-    "Web Applications/Source Code Review/Bash Scripting.md"
+    "Source Code Review/Database Logging.md",
+    "Source Code Review/Resources.md",
+    "Source Code Review/VS Code Preferences.md",
+    "Source Code Review/Methodology.md",
+    "Source Code Review/Misc.md",
+    "Source Code Review/Bash Scripting.md",
+    "Source Code Review/Python/Python Debugging.md",
+    "Source Code Review/PHP/PHP Debugging.md",
+    "Source Code Review/PHP/PHP.md",
+    "Source Code Review/Node/Node.md"
   ]
 }
