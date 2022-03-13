@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Source Code Review/Database Logging.md",
-            "mode": "source",
+            "file": "Certifications/OSWE.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Source Code Review/Database Logging.md",
+                "file": "Certifications/OSWE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Source Code Review/Database Logging.md"
+                "file": "Certifications/OSWE.md"
               }
             }
           }
@@ -107,6 +107,7 @@
   },
   "active": "904f6e4724b99083",
   "lastOpenFiles": [
+    "Certifications/OSWE.md",
     "Source Code Review/Database Logging.md",
     "Source Code Review/Resources.md",
     "Source Code Review/VS Code Preferences.md",
@@ -115,7 +116,6 @@
     "Source Code Review/Bash Scripting.md",
     "Source Code Review/Python/Python Debugging.md",
     "Source Code Review/PHP/PHP Debugging.md",
-    "Source Code Review/PHP/PHP.md",
-    "Source Code Review/Node/Node.md"
+    "Source Code Review/PHP/PHP.md"
   ]
 }
