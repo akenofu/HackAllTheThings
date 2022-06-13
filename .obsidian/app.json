@@ -11,7 +11,9 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "attachmentFolderPath": "",
+  "attachmentFolderPath": "Screenshots",
   "legacyEditor": false,
-  "livePreview": true
+  "livePreview": true,
+  "useMarkdownLinks": true,
+  "newLinkFormat": "absolute"
 }

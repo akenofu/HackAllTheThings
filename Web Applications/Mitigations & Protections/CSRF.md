@@ -22,4 +22,4 @@ Cookies are not sent on normal cross-site subrequests (for example to load imag
 #### Default If not specified
 The `SameSite=Lax` is the default cookie value if `SameSite` has not been explicitly specified in recent browser versions
 
-![[Pasted image 20210430045738.png]]
+![Pasted image 20210430045738.png](Screenshots/Pasted%20image%2020210430045738.png)
