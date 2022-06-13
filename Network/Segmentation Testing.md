@@ -15,10 +15,10 @@ There are various terms which might confuse us and need to be understood before 
 
 **Non-CDE out-of-scope**: VLANs which fall under non-CDE out-of-scope are the VLANs which do not store, hold, process and transmit cardholder data and or have any kind of dependencies from CDE in-scope. They should not be allowed to communicate with CDE in-scope in any case.
 
-![Pasted image 20210714150824.png](Screenshots/Pasted%20image%2020210714150824.png)
+![Pasted image 20210714150824.png](/Screenshots/Pasted%20image%2020210714150824.png)
 
 ### Example
-![Pasted image 20210714152052.png](Screenshots/Pasted%20image%2020210714152052.png)
+![Pasted image 20210714152052.png](/Screenshots/Pasted%20image%2020210714152052.png)
 
 ## Segmentation penetration testing
 Generally, each host in a PCI in-scope segment and all 65535 ports (for TCP and UDP) should be scanned from PCI out-of-scope. It is always considered best practice to initiate the scan in batches, as it is efficient, and we get results more frequently. We should perform the scan from PCI in-scope to PCI out-of-scope and vice versa.
@@ -44,7 +44,7 @@ sudo ./masscan 10.1.4.0/25 --rate 100000 -p 0-65535 --banners -oL $ip-to-pci_10.
 ```
 
 ### Open|Filtered Ports
-![Pasted image 20210714150123.png](Screenshots/Pasted%20image%2020210714150123.png)
+![Pasted image 20210714150123.png](/Screenshots/Pasted%20image%2020210714150123.png)
 
 If you encounter an `open|filtered` port. Use netcat to connect to the port
 `nc 10.130.31.24 3130`

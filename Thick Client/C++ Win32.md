@@ -48,7 +48,7 @@ Get-PESecurity -directory "C:\Program Files (x86)\Cisco Systems\Cisco Example Ap
 ### Dump Memory and search for data
 Using Windows Task Manager, right click the process and click create dump file.
 
-![Pasted image 20210914115012.png](Screenshots/Pasted%20image%2020210914115012.png)
+![Pasted image 20210914115012.png](/Screenshots/Pasted%20image%2020210914115012.png)
 
 ### Modify Data in Memory
 #### Tools

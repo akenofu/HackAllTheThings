@@ -24,7 +24,7 @@ Some applications only allow input that matches, begins with, or contains, a whi
 
 The URL specification contains a number of features that are liable to be overlooked when implementing ad hoc parsing and validation of URLs:
 
-![Pasted image 20210601024542.png](Screenshots/Pasted%20image%2020210601024542.png)
+![Pasted image 20210601024542.png](/Screenshots/Pasted%20image%2020210601024542.png)
 
 You can embed credentials in a URL before the hostname, using the @ character. For example: `https://expected-host@evil-host`.
 - Use the # character to indicate a URL fragment. For example: `https://evil-host#expected-host`.

