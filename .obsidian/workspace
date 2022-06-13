@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Certifications/OSWE.md",
-            "mode": "preview",
+            "file": "IOT/Pentesting IOT Methodology.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "/pgsq",
+                "query": "gdb",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Certifications/OSWE.md",
+                "file": "IOT/Pentesting IOT Methodology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Certifications/OSWE.md"
+                "file": "IOT/Pentesting IOT Methodology.md"
               }
             }
           }
@@ -107,15 +107,15 @@
   },
   "active": "904f6e4724b99083",
   "lastOpenFiles": [
-    "Certifications/OSWE.md",
-    "Source Code Review/Database Logging.md",
-    "Source Code Review/Resources.md",
-    "Source Code Review/VS Code Preferences.md",
-    "Source Code Review/Methodology.md",
-    "Source Code Review/Misc.md",
-    "Source Code Review/Bash Scripting.md",
-    "Source Code Review/Python/Python Debugging.md",
-    "Source Code Review/PHP/PHP Debugging.md",
-    "Source Code Review/PHP/PHP.md"
+    "IOT/Pentesting IOT Methodology.md",
+    "Pasted.md",
+    "IOT/Binary Exploitation.md",
+    "Linux/Machine Persistence/Permissions and Capabilities.md",
+    "Linux/Machine Persistence/PHP Persistence.md",
+    "Linux/Machine Persistence/Patching libc.md",
+    "Linux/Post Exploitation/Machine Persistence.md",
+    "Linux/Priv Esc/Tools.md",
+    "Linux/Priv Esc/Race Conditions.md",
+    "Miscellaneous/PWN.md"
   ]
 }
