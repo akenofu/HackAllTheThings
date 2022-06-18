@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Web Applications/Mitigations & Protections/CSRF.md",
-            "mode": "source",
+            "file": "IOT/Pentesting IOT Methodology.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "s",
+                "query": "\"Scoping Source Code\"Scoping Source Code",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,8 +57,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Applications/Mitigations & Protections/CSRF.md",
+                "file": "IOT/Pentesting IOT Methodology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Applications/Mitigations & Protections/CSRF.md"
+                "file": "IOT/Pentesting IOT Methodology.md"
               }
             }
           }
@@ -108,15 +107,15 @@
   },
   "active": "904f6e4724b99083",
   "lastOpenFiles": [
-    "Web Applications/Mitigations & Protections/CSRF.md",
-    "Web Applications/Attacks/SSTI.md",
-    "Web Applications/Attacks/SSRF.md",
-    "Thick Client/C++ Win32.md",
-    "Network/Segmentation Testing.md",
-    "Miscellaneous/Databases/PSQL.md",
-    "Active Directory/Machine Persistence.md",
     "IOT/Pentesting IOT Methodology.md",
-    "Pasted.md",
-    "IOT/Binary Exploitation.md"
+    "README.md",
+    "Miscellaneous/Scoping Source Code.md",
+    "Source Code Review/Bash Scripting.md",
+    "Source Code Review/Database Logging.md",
+    "Source Code Review/Resources.md",
+    "Source Code Review/Methodology.md",
+    "Source Code Review/Misc.md",
+    "Web Applications/Mitigations & Protections/CSRF.md",
+    "Web Applications/Attacks/SSTI.md"
   ]
 }
