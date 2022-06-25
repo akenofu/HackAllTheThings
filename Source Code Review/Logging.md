@@ -23,18 +23,6 @@ SET global log_output = 'file';
 SET global general_log = on;
 ```
 
-## Enable the PHP `display_errors` directive
-- Modify `/etc/php5/apache2/php.ini`
-- Append the following lines to the file
-```vim
-display_errors = On
-```
-- Restart `apache2`
-```bash
-sudo systemctl restart apache2
-```
-
-
 
 ## PostgreSQL Enable Database Logging
 Look for `postgresql.conf` file to edit
@@ -85,3 +73,19 @@ sudo systemctl restart mysql
 ```bash
 sudo tail -f /var/log/mysql/mysql.log
 ```
+
+
+---
+
+# PHP apache2 Logging
+## Enable the PHP `display_errors` directive
+- Modify `/etc/php5/apache2/php.ini`
+- Append the following lines to the file
+```vim
+display_errors = On
+```
+- Restart `apache2`
+```bash
+sudo systemctl restart apache2
+```
+

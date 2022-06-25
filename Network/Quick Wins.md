@@ -30,18 +30,18 @@ spool off
 ### Weak Encryptian Ciphers
 ```bash
 # Identify machines with SSH open
-sudo nmap -sT -p 22 -iL /home/akenofu/ebe/EBE_IPS -oG ssh-hosts.nmap -v -Pn -T5 --min-rate 10000 --openmv 
+sudo nmap -sT -p 22 -iL /home/akenofu/pentest/pentest_IPS -oG ssh-hosts.nmap -v -Pn -T5 --min-rate 10000 --openmv 
 
 
 # Modify file to correct format
-cat ~/ebe/ssh-hosts.nmap  | grep open |cut -d " " -f 2 > ssh-hosts.txt
+cat ~/pentest/ssh-hosts.nmap  | grep open |cut -d " " -f 2 > ssh-hosts.txt
 # note: sometimes the first entry in the file is messed up. manually verify before further continuing
 
 # Using ssh audit
-./ssh-audit.py -b -T /home/akenofu/ebe/ssh-hosts.txt | tee /home/akenofu/ebe/port-22.ssh-audit
+./ssh-audit.py -b -T /home/akenofu/pentest/ssh-hosts.txt | tee /home/akenofu/pentest/port-22.ssh-audit
 
 # using ssh audit json format output
-/opt/ssh-audit/ssh-audit.py -b -T  /home/akenofu/ebe/ssh-hosts.txt -jj | tee  /home/akenofu/ebe/port-22.ssh-audit_json
+/opt/ssh-audit/ssh-audit.py -b -T  /home/akenofu/pentest/ssh-hosts.txt -jj | tee  /home/akenofu/pentest/port-22.ssh-audit_json
 
 
 # VScode regex to remove

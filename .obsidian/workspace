@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "904f6e4724b99083",
+        "id": "3bba32072b00c805",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "IOT/Pentesting IOT Methodology.md",
-            "mode": "preview",
+            "file": "IOT/Firmware.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Scoping Source Code\"Scoping Source Code",
+                "query": "inotify",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IOT/Pentesting IOT Methodology.md",
+                "file": "IOT/Firmware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IOT/Pentesting IOT Methodology.md"
+                "file": "IOT/Firmware.md"
               }
             }
           }
@@ -105,17 +105,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "904f6e4724b99083",
+  "active": "3bba32072b00c805",
   "lastOpenFiles": [
-    "IOT/Pentesting IOT Methodology.md",
-    "README.md",
-    "Miscellaneous/Scoping Source Code.md",
-    "Source Code Review/Bash Scripting.md",
-    "Source Code Review/Database Logging.md",
-    "Source Code Review/Resources.md",
-    "Source Code Review/Methodology.md",
-    "Source Code Review/Misc.md",
-    "Web Applications/Mitigations & Protections/CSRF.md",
-    "Web Applications/Attacks/SSTI.md"
+    "IOT/Firmware.md",
+    "Cheatsheets/AWS CLI.md",
+    "Certifications/OSEP.md",
+    "Certifications/OSWE.md",
+    "Databases/HSQLDB.md",
+    "Miscellaneous/Binaries.md",
+    "Miscellaneous/Crypto.md",
+    "Miscellaneous/Git.md",
+    "Miscellaneous/PWN.md",
+    "Miscellaneous/Social Engineering.md"
   ]
 }

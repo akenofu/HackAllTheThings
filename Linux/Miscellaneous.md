@@ -100,10 +100,17 @@ cat /proc/net/fib_trie
 
 ---
 
-Decompress & Extract
+## Decompress & Extract
+
 ```bash
 unzip arc.zip -d arc
 
 tar xvf arc.tar 
 
 gzip -d arc.gz
+```
+
+
+---
+
+

@@ -1,7 +1,5 @@
-Use Inotify to hook to system file creation events and exploit race conditions
-[How to Use inotify API in C Language – Linux Hint](https://linuxhint.com/inotify_api_c_language/)
+# Hooking events using Inotify in C
 
-Sample Code to hook to file events
 ```C
 #include<stdio.h>
 #include<sys/inotify.h>
@@ -99,3 +97,6 @@ int main(int argc, char **argv){
     }
 }
 ```
+
+## References
+[How to Use inotify API in C Language – Linux Hint](https://linuxhint.com/inotify_api_c_language/)
