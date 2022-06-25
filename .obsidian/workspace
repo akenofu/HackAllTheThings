@@ -7,11 +7,9 @@
         "id": "3bba32072b00c805",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "IOT/Firmware.md",
-            "mode": "source",
-            "source": false
+            "file": "Screenshots/Pasted image 20210714150824.png"
           }
         }
       }
@@ -77,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IOT/Firmware.md",
+                "file": "Screenshots/Pasted image 20210714150824.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IOT/Firmware.md"
+                "file": "Screenshots/Pasted image 20210714150824.png"
               }
             }
           }
@@ -107,15 +105,15 @@
   },
   "active": "3bba32072b00c805",
   "lastOpenFiles": [
-    "IOT/Firmware.md",
-    "Cheatsheets/AWS CLI.md",
-    "Certifications/OSEP.md",
-    "Certifications/OSWE.md",
-    "Databases/HSQLDB.md",
-    "Miscellaneous/Binaries.md",
-    "Miscellaneous/Crypto.md",
-    "Miscellaneous/Git.md",
-    "Miscellaneous/PWN.md",
-    "Miscellaneous/Social Engineering.md"
+    "Screenshots/Pasted image 20210714150824.png",
+    "Cheatsheets/Frida & Objection cheatsheet.md",
+    "Cheatsheets/Bettercap.md",
+    "Cheatsheets/WinDBG.md",
+    "Cheatsheets/WebApplication Tooling.md",
+    "Cheatsheets/r2frida cheatsheet.md",
+    "Cheatsheets/adb Cheatsheet.md",
+    "Cheatsheets/Hashcat.md",
+    "Android/Network APIs.md",
+    "Android/Network Controls.md"
   ]
 }

@@ -1,3 +1,0 @@
-- Check the Imports in the classess to get an idea of what the class does
-- Grep for key words using command line tools [[Local Storage|Search for Sensitive Data using Static Analysis]]
-- Check for outdated libraries
