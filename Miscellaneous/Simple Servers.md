@@ -13,7 +13,7 @@ ptftpd -p 69 -v eth0 /tmp
 sudo python3 -m smtpd -n -c DebuggingServer 0.0.0.0:25
 
 # SMB
-impacket-smbserver -username akenofu -password guest -smb2support share $(pwd)
+impacket-smbserver -username akenofu -password guest -smb2support share $(pwd) -port 1900
 ```
 
 > Authenticate to Impacket SMB server from windows machine with creds

