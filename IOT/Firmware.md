@@ -212,7 +212,7 @@ sudo -
 2. Use FIRMADYNE’s extractor.py script to extract the firmware from the compressed file.
 
 ```bash
-python3 ./sources/extractor/extractor.py -b Netgear -sql 127.0.0.1 -np -nk "D6000_V1.0.0.41_1.0.1_FW.zip" images
+sudo python3 ./sources/extractor/extractor.py -b iotgoat -sql 127.0.0.1 -np -nk "IoTGoat-raspberry-pi2.img" images
 ```
 
 > The -b parameter specifies the name used to store the results of the extraction. The -nk parameter keeps any  Linux kernel included in the firmware from being extracted, which will  speed up the process. The -np parameter specifies that no parallel operation will be performed.
