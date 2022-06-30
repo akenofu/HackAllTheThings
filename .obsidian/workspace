@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Active Directory/Remote Enumeration.md",
+            "file": "Miscellaneous/Hashcat.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "hashcat",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Active Directory/Remote Enumeration.md",
+                "file": "Miscellaneous/Hashcat.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Active Directory/Remote Enumeration.md"
+                "file": "Miscellaneous/Hashcat.md"
               }
             }
           }
@@ -107,15 +107,15 @@
   },
   "active": "3bba32072b00c805",
   "lastOpenFiles": [
-    "Active Directory/Remote Enumeration.md",
-    "Cheatsheets/Hashcat.md",
-    "Active Directory/Cracking NTDS.dit.md",
-    "Thick Client/C++ Win32.md",
-    "C2 Frameworks.md",
-    "Physical Attacks.md",
-    "Evasion/AMSI.md",
-    "IOT/Firmware.md",
-    "Active Directory/Powershell one-liners.md",
-    "Active Directory/Cross-Domain      Abuse.md"
+    "Miscellaneous/Hashcat.md",
+    "Miscellaneous/Wordlists.md",
+    "Miscellaneous/Social Engineering.md",
+    "Miscellaneous/PWN.md",
+    "Miscellaneous/Git.md",
+    "Miscellaneous/Binaries.md",
+    "Miscellaneous/Scripting.md",
+    "Miscellaneous/Reporting.md",
+    "Miscellaneous/Simple Servers.md",
+    "Miscellaneous/Crypto.md"
   ]
 }
