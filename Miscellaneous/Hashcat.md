@@ -1,5 +1,7 @@
 ## Password Mutation
 ## Flags
+
+**Hashcat**
 ```bash
 -m 1000 # Hash type, 1000 = NTLM
 -w 4    #  Workload, set as 4 for insane performance and rip ur gpu
@@ -11,6 +13,14 @@
 --debug-file=stats.debug # output for the rule statistics
 ```
 
+
+**Prince Processor**
+```bash
+ --elem-cnt-max 4 # Maximum number of elements per chain
+--elem-cnt-min 2 # 
+--keyspace # Calculate number of combinations 
+-o prince.txt# output to file
+```
 
 ## Examples
 I am using hashcat on my host Windows machine. So the file paths and binary name might be different for you.
@@ -44,6 +54,12 @@ hashcat --session hashcat --restore
 
 # Piping prince hashtcat's preprocessor to hashcat
 .\pp64.exe  .\description.txt  | ..\hashcat-6.2.5\hashcat.exe "0E67AC21335FB74DC5536F685CE97494" -m 1000 -r ..\hashcat-6.2.5\rules\prince_optimized.rule
+
+# If you are gonna output pp64 to a file then use that as a wordlist
+# I recommend generating this wordlist on linux so you have to skip
+# the convertion process on a large wordlist file at the end from utf-16 to utf-8
+# I recommend using 2 for --elem-cnt-max flag if u don't want ur wordlist to be > 10 gigs
+./pp64.bin data_cleaned.txt --elem-cnt-max 4 -o prince.txt
 ```
 
 
@@ -79,6 +95,9 @@ prince_optimized.rule, prince_generated.rule
 The princeprocessor is a password candidate generator and can be thought of as an advanced combinator attack. Rather than taking as input two different wordlists and then outputting all the possible two word combinations though, princeprocessor only has one input wordlist and builds "chains" of combined words. These chains can have 1 to N words from the input wordlist concatenated together.
 
 [PrinceProcessor - GitHub](https://github.com/hashcat/princeprocessor)
+
+## Troubleshooting
+[Hashcat doesn’t detect AMD CPUs (SOLVED)](https://miloserdov.org/?p=6507)
 
 ## Resources
 [Hashcat-Cheatsheet - Github](https://github.com/frizb/Hashcat-Cheatsheet)
