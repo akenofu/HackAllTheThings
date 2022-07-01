@@ -1,4 +1,4 @@
-### Password Mutation
+## Password Mutation
 ## Flags
 ```bash
 -m 1000 # Hash type, 1000 = NTLM
@@ -39,14 +39,11 @@ hashcat --session hashcat --restore
 
 
 # using hashcat's prince preprocessor
-# note that my input was the users.json from blood hound parsed.
-# so the name attribute is in all upper cast letters.
-# thus I convert it to all lower case first and let the rule file
-# toggle case as needed
-cat users.txt | .\pp64.exe > users_wordlist.txt
+.\pp64.exe users_wordlist.txt -o out.txt
 
-# Changes all charchters to lowercase
-(cat .\users.txt | .\pp64.exe).tolower() > users_wordlist.txt
+
+# Piping prince hashtcat's preprocessor to hashcat
+.\pp64.exe  .\description.txt  | ..\hashcat-6.2.5\hashcat.exe "0E67AC21335FB74DC5536F685CE97494" -m 1000 -r ..\hashcat-6.2.5\rules\prince_optimized.rule
 ```
 
 
@@ -76,3 +73,13 @@ Use [hastcat's prince preprocessor](https://github.com/hashcat/princeprocessor) 
 
 N.b. when using prince. Use the two supplied prince rules as well
 prince_optimized.rule, prince_generated.rule
+
+
+## PRINCE algorithm
+The princeprocessor is a password candidate generator and can be thought of as an advanced combinator attack. Rather than taking as input two different wordlists and then outputting all the possible two word combinations though, princeprocessor only has one input wordlist and builds "chains" of combined words. These chains can have 1 to N words from the input wordlist concatenated together.
+
+[PrinceProcessor - GitHub](https://github.com/hashcat/princeprocessor)
+
+## Resources
+[Hashcat-Cheatsheet - Github](https://github.com/frizb/Hashcat-Cheatsheet)
+[Hash Cracking: Beyond the Basics - Youtube.com](https://www.youtube.com/watch?v=m5Ix94hbzaU&t=818s)

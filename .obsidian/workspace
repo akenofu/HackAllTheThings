@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hashcat",
+                "query": "open",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
