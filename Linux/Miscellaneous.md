@@ -114,3 +114,16 @@ gzip -d arc.gz
 ---
 
 
+## Add Kali To Apt source list
+### Add Kali APT packages to another distro
+[How to add Kali Linux repositories to another Linux distribution](https://miloserdov.org/?p=3609)
+
+Note: use the latest Kali source for improved speed.
+https://www.kali.org/docs/general-use/kali-linux-sources-list-repositories/
+
+### Install Kali tools
+```bash
+sudo apt install kali-linux-large -y
+
+sudo apt-get autoremove
+```

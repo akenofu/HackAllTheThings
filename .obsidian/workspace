@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "Miscellaneous/Hashcat.md",
-            "mode": "preview",
+            "mode": "source",
             "source": false
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "open",
+                "query": "keyspace",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,14 +108,14 @@
   "active": "3bba32072b00c805",
   "lastOpenFiles": [
     "Miscellaneous/Hashcat.md",
+    "Android/Enviroment.md",
+    "Code Snippets/C Linux Bind Shell.md",
+    "Active Directory/PowerView_Dev Cheatsheet.md",
+    "Active Directory/Remote Enumeration.md",
+    "Linux/Miscellaneous.md",
     "Miscellaneous/Wordlists.md",
     "Miscellaneous/Social Engineering.md",
     "Miscellaneous/PWN.md",
-    "Miscellaneous/Git.md",
-    "Miscellaneous/Binaries.md",
-    "Miscellaneous/Scripting.md",
-    "Miscellaneous/Reporting.md",
-    "Miscellaneous/Simple Servers.md",
-    "Miscellaneous/Crypto.md"
+    "Miscellaneous/Git.md"
   ]
 }
