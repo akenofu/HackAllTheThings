@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux/Miscellaneous.md",
+            "file": "Linux/Convert Debain to Kali.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Miscellaneous.md",
+                "file": "Linux/Convert Debain to Kali.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Miscellaneous.md"
+                "file": "Linux/Convert Debain to Kali.md"
               }
             }
           }
@@ -107,15 +107,15 @@
   },
   "active": "3bba32072b00c805",
   "lastOpenFiles": [
+    "Linux/Miscellaneous.md",
+    "C2 Frameworks.md",
     "Linux/Shells.md",
     "Miscellaneous/Hashcat.md",
     "Android/Enviroment.md",
     "Code Snippets/C Linux Bind Shell.md",
     "Active Directory/PowerView_Dev Cheatsheet.md",
     "Active Directory/Remote Enumeration.md",
-    "Linux/Miscellaneous.md",
     "Miscellaneous/Wordlists.md",
-    "Miscellaneous/Social Engineering.md",
-    "Miscellaneous/PWN.md"
+    "Miscellaneous/Social Engineering.md"
   ]
 }
