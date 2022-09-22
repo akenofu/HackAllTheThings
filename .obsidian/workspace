@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux/Convert Debain to Kali.md",
+            "file": "Web Applications/Attacks/OAuth.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Convert Debain to Kali.md",
+                "file": "Web Applications/Attacks/OAuth.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Convert Debain to Kali.md"
+                "file": "Web Applications/Attacks/OAuth.md"
               }
             }
           }
@@ -107,15 +107,15 @@
   },
   "active": "3bba32072b00c805",
   "lastOpenFiles": [
+    "Web Applications/Attacks/LDAP Injection.md",
+    "Web Applications/Attacks/Misc.md",
+    "Web Applications/Attacks/OAuth.md",
+    "Web Applications/My Tooling.md",
+    "Linux/Convert Debain to Kali.md",
     "Linux/Miscellaneous.md",
-    "C2 Frameworks.md",
-    "Linux/Shells.md",
-    "Miscellaneous/Hashcat.md",
-    "Android/Enviroment.md",
-    "Code Snippets/C Linux Bind Shell.md",
-    "Active Directory/PowerView_Dev Cheatsheet.md",
-    "Active Directory/Remote Enumeration.md",
-    "Miscellaneous/Wordlists.md",
-    "Miscellaneous/Social Engineering.md"
+    "Linux/Kerberos.md",
+    "Linux/Domain Persistence.md",
+    "Linux/Checklist.md",
+    "Linux/Shells.md"
   ]
 }
