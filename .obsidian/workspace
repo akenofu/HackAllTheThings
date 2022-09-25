@@ -9,7 +9,11 @@
         "state": {
           "type": "markdown",
           "state": {
+<<<<<<< HEAD
             "file": "Desktop Application Security/Checklist.md",
+=======
+            "file": "Web Applications/Attacks/OAuth.md",
+>>>>>>> 6a32a3a64771fab412f956e7a331186fd976845b
             "mode": "source",
             "source": false
           }
@@ -77,7 +81,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Desktop Application Security/Checklist.md",
+=======
+                "file": "Web Applications/Attacks/OAuth.md",
+>>>>>>> 6a32a3a64771fab412f956e7a331186fd976845b
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +102,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "Desktop Application Security/Checklist.md"
+=======
+                "file": "Web Applications/Attacks/OAuth.md"
+>>>>>>> 6a32a3a64771fab412f956e7a331186fd976845b
               }
             }
           }
@@ -107,6 +119,7 @@
   },
   "active": "1fe99213467ed1d6",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "Desktop Application Security/Tooling.md",
     "Desktop Application Security/Checklist.md",
     "Desktop Application Security/Methodology.md",
@@ -117,5 +130,17 @@
     "Shells.md",
     "C2 Frameworks.md",
     "Physical Attacks.md"
+=======
+    "Web Applications/Attacks/LDAP Injection.md",
+    "Web Applications/Attacks/Misc.md",
+    "Web Applications/Attacks/OAuth.md",
+    "Web Applications/My Tooling.md",
+    "Linux/Convert Debain to Kali.md",
+    "Linux/Miscellaneous.md",
+    "Linux/Kerberos.md",
+    "Linux/Domain Persistence.md",
+    "Linux/Checklist.md",
+    "Linux/Shells.md"
+>>>>>>> 6a32a3a64771fab412f956e7a331186fd976845b
   ]
 }
