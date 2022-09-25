@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux/Convert Debain to Kali.md",
+            "file": "Desktop Application Security/Checklist.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "keyspace",
+                "query": "shells",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Convert Debain to Kali.md",
+                "file": "Desktop Application Security/Checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Convert Debain to Kali.md"
+                "file": "Desktop Application Security/Checklist.md"
               }
             }
           }
@@ -105,17 +105,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3bba32072b00c805",
+  "active": "1fe99213467ed1d6",
   "lastOpenFiles": [
-    "Linux/Miscellaneous.md",
+    "Desktop Application Security/Tooling.md",
+    "Desktop Application Security/Checklist.md",
+    "Desktop Application Security/Methodology.md",
+    "Desktop Application Security/Tools.md",
+    "Desktop Application Security/C++ Win32.md",
+    "Desktop App Security/Methodology.md",
+    "Security Consultancy.md",
+    "Shells.md",
     "C2 Frameworks.md",
-    "Linux/Shells.md",
-    "Miscellaneous/Hashcat.md",
-    "Android/Enviroment.md",
-    "Code Snippets/C Linux Bind Shell.md",
-    "Active Directory/PowerView_Dev Cheatsheet.md",
-    "Active Directory/Remote Enumeration.md",
-    "Miscellaneous/Wordlists.md",
-    "Miscellaneous/Social Engineering.md"
+    "Physical Attacks.md"
   ]
 }

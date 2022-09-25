@@ -1,4 +1,4 @@
-# Empire
+# Empire 4.0
 ## Installation
 1. Install python3.9 as recommended by bc-security
 
