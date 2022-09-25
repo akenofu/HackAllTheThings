@@ -1,1 +1,0 @@
-[Assetnote Wordlists](https://wordlists.assetnote.io/)

@@ -1,1 +1,0 @@
-[Browser In The Browser (BITB) Templates](https://github.com/mrd0x/BITB)

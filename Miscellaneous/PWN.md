@@ -1,2 +1,0 @@
-- [google/oss-fuzz: OSS-Fuzz - continuous fuzzing for open source software. (github.com)](https://github.com/google/oss-fuzz)
-- 

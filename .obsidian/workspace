@@ -9,12 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-<<<<<<< HEAD
-            "file": "Desktop Application Security/Checklist.md",
-=======
-            "file": "Web Applications/Attacks/OAuth.md",
->>>>>>> 6a32a3a64771fab412f956e7a331186fd976845b
-            "mode": "source",
+            "file": "README.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -81,11 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "Desktop Application Security/Checklist.md",
-=======
-                "file": "Web Applications/Attacks/OAuth.md",
->>>>>>> 6a32a3a64771fab412f956e7a331186fd976845b
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,11 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
-                "file": "Desktop Application Security/Checklist.md"
-=======
-                "file": "Web Applications/Attacks/OAuth.md"
->>>>>>> 6a32a3a64771fab412f956e7a331186fd976845b
+                "file": "README.md"
               }
             }
           }
@@ -117,30 +105,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1fe99213467ed1d6",
+  "active": "3bba32072b00c805",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "Desktop Application Security/Tooling.md",
-    "Desktop Application Security/Checklist.md",
-    "Desktop Application Security/Methodology.md",
-    "Desktop Application Security/Tools.md",
-    "Desktop Application Security/C++ Win32.md",
-    "Desktop App Security/Methodology.md",
-    "Security Consultancy.md",
-    "Shells.md",
-    "C2 Frameworks.md",
-    "Physical Attacks.md"
-=======
-    "Web Applications/Attacks/LDAP Injection.md",
-    "Web Applications/Attacks/Misc.md",
+    "Web Applications/Attacks/XSS.md",
+    "Web Applications/Attacks/XSLT Engines.md",
+    "Web Applications/Attacks/Websockets & WebWorkers.md",
+    "Web Applications/Attacks/Web cache poisoning.md",
+    "Web Applications/Attacks/Server Side Include.md",
+    "Web Applications/Attacks/SSTI.md",
+    "Web Applications/Attacks/Serialization.md",
+    "Web Applications/Attacks/SSL Certificate.md",
     "Web Applications/Attacks/OAuth.md",
-    "Web Applications/My Tooling.md",
-    "Linux/Convert Debain to Kali.md",
-    "Linux/Miscellaneous.md",
-    "Linux/Kerberos.md",
-    "Linux/Domain Persistence.md",
-    "Linux/Checklist.md",
-    "Linux/Shells.md"
->>>>>>> 6a32a3a64771fab412f956e7a331186fd976845b
+    "Web Applications/Attacks/Misc.md"
   ]
 }

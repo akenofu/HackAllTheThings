@@ -1,7 +1,9 @@
 # Hack All The Things
 ***
 ## About
-Cheatsheets, References and notes on various red teaming/pentesting topics.
+Cheatsheets, References and notes on various red teaming/pentesting topics. 
+
+> For a more up to date and comprenhensive notes switch to the dev branch. However, note that the dev branch has notes in the works so they are very likely to be non-comprenhensive and unreadable at times.
  
 <br>
 

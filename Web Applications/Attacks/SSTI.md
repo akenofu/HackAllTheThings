@@ -1,4 +1,4 @@
- # SSTI
+# SSTI
  ## Detection
 You can follow a similar approach when looking for template / expression language injections to the one you use when testing an application for stored XSS vulnerabilities - injecting a payload and looking for occurrences of it within the application
 
