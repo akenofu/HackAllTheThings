@@ -1,0 +1,21 @@
+site_name: HackAllTheThings
+dev_addr: "127.0.0.1:3000"
+repo_url: 'https://notes.akenofu.me'
+edit_uri: 'https://github.com/akenofu/HackAllTheThings/tree/master/docs/'
+site_description: 'The HackTricks we have at home. Except some notes are really extensive and include non-conventional ways of doing things'
+site_author: 'Karim IGN:akenofu'
+watch: ['docs', 'mkdocs.yml', 'custom_theme']
+plugins:
+    - search:
+        indexing: 'full'
+theme:
+    name: readthedocs
+    highlightjs: true
+    github_url: https://github.com/akenofu/HackAllTheThings
+    navigation_depth: 4
+    titles_only: true
+    sticky_navigation: true
+    custom_dir: custom_theme
+    collapse_navigation: true
+
+ 

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block libs %}
+    {{ super() }}
+    <script src="/js/particles.js"></script>
+    <script src="/js/app.js" defer></script>    
+    <link rel="stylesheet" href="/css/styles.css" />
+{% endblock %}
+
+{% block content %}
+<div id="particles-js" class="particles-js"></div>
+{{ super() }}
+{% endblock %}
+
+

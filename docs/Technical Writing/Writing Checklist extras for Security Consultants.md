@@ -1,0 +1,2 @@
+- Replace "the attacker" with "threat actor"
+- Don't refer to yourself in first person; Use company's name.

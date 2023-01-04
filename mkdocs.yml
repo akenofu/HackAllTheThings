@@ -1,0 +1,48 @@
+site_name: HackAllTheThings
+dev_addr: "127.0.0.1:3000"
+repo_url: 'https://github.com/akenofu/HackAllTheThings'
+edit_uri: 'https://github.com/akenofu/HackAllTheThings/tree/master/docs/'
+site_description: 'The HackTricks we have at home. Except some notes are really extensive and include non-conventional ways of doing things'
+site_author: 'Karim, @akenofu'
+watch: ['docs', 'mkdocs.yml', 'custom_theme']
+plugins:
+    - search:
+        indexing: 'full'
+
+markdown_extensions:
+    - pymdownx.highlight:
+        anchor_linenums: true
+    - pymdownx.inlinehilite
+    - pymdownx.keys
+    - pymdownx.superfences 
+    - tables
+    - toc
+    - pymdownx.tasklist:
+        custom_checkbox: true
+        clickable_checkbox: true
+        
+
+theme:
+    name: material
+    highlightjs: true
+    github_url: https://github.com/akenofu/HackAllTheThings
+    navigation_depth: 4
+    titles_only: true
+    sticky_navigation: true
+    collapse_navigation: true
+    custom_dir: custom_theme
+    theme:
+    palette:
+       # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+            # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+
+ 

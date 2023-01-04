@@ -1,0 +1,3 @@
+- In some cases applications make thousands of API calls; it becomes very diffcult to eleminate the junk from the noteworthy stuff. Guessing what the functionality of the application does and how it does it is a a good first step when looking to bypass a feature e.g. a login or a license check . 
+- Try guessing the API calls that would be called e.g. some applications check for registry keys to make sure the user has a valid license. In those cases, a good idea might be to filter API calls which deal with the registry. A list of useful  registry related API calls can be compiled by going to microsoft's website. Compile a list of the ones you suspect might be used and add them to their ProcMon filters.
+![](/Screenshots/Pasted%20image%2020220927163823.png)

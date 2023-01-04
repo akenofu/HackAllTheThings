@@ -1,0 +1,26 @@
+- Information Disclosure 
+	- code repositories
+	- search results,
+	- public API directories.
+- Broken Object Level Authorization: Access to other users' data
+- Broken User Authentication
+	- Low Entropy tokens
+- Broken Function Level Authorization: Performing actions in the context of other users
+- Excessive Data Exposure
+- Lack of Resources and Rate Limiting (For monetized APIs e.g. twitter)
+- Mass assignment
+- Injections
+- Security Misconfigurations
+	- Enumerating valid endpoints and requests using `X-Response-Time` headers
+	- Lack of input sanitization: file upload, XSS, etc...
+	- Default accounts and credentials
+- Improper Assets Management:
+	- Exposed retired APIs
+	- Exposed In-Development APIs
+	- Check for API documentation that has not been updated along with the API’s endpoints
+	- Distinguish between older and newer versions, such as /v1/, /v2/, /v3/, and so on
+	- APIs still in developement often use paths such as /alpha/, /beta/, /test/, /uat/, and /demo/.
+- Business Logic Vulnerabilities
+	- Search API documentation for signs of business logic vulnerabilities. 
+	 Statements like the following: “Only use feature X to perform function Y.” “Do not do X with endpoint Y.” “Only admins should perform request X.” 
+	 These statements may indicate that the API provider is trusting that you won’t do any of the discouraged actions, as instructed. When you attack their API, make sure to disobey such requests to test for the presence of security controls.

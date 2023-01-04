@@ -1,0 +1,19 @@
+{
+  "alwaysUpdateLinks": true,
+  "fileSortOrder": "byCreatedTimeReverse",
+  "strictLineBreaks": false,
+  "promptDelete": false,
+  "showUnsupportedFiles": true,
+  "foldIndent": true,
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "attachmentFolderPath": "Screenshots",
+  "legacyEditor": false,
+  "livePreview": true,
+  "useMarkdownLinks": true,
+  "newLinkFormat": "absolute"
+}

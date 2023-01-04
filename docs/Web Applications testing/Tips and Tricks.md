@@ -1,0 +1,2 @@
+- If you are testing an application that returns messages in a language other than english, try using the `Accept-Language: en-US` header. 
+	https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language

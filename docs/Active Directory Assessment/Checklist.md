@@ -1,0 +1,2 @@
+- Use jq and bloodhound data, to identify enabled users that never logged in; Those users never reset the default password
+- Use jq and bloodhound data to identify old OSes
