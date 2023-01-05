@@ -24,6 +24,8 @@ markdown_extensions:
         
 
 theme:
+    logo: custom_theme/assets/logo.png
+    favicon: custom_theme/assets/logo.png
     name: material
     highlightjs: true
     github_url: https://github.com/akenofu/HackAllTheThings
