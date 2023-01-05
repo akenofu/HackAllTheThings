@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ece00d75a7631e30",
+            "id": "b607f00bdb4caeae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Miscellaneous/Git.md",
+                "file": "Cloud/Azure Hardening Checklist.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Miscellaneous/Git.md",
+                "file": "Cloud/Azure Hardening Checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Miscellaneous/Git.md"
+                "file": "Cloud/Azure Hardening Checklist.md"
               }
             }
           },
@@ -147,17 +147,17 @@
       "publish:Publish changes": false
     }
   },
-  "active": "ece00d75a7631e30",
+  "active": "b607f00bdb4caeae",
   "lastOpenFiles": [
-    "Cloud Assessment/AWS.md",
-    "Cloud Assessment/Azure AD.md",
+    "Cloud/Cloud.md",
+    "Cloud/Azure AD Assessment.md",
+    "Cloud/Azure Hardening Checklist.md",
+    "Cloud/AWS  Assessment.md",
+    "Cloud/Kubernetes Assessment.md",
+    "Cloud/Terraform Assessment.md",
     "Miscellaneous/Git.md",
-    "Cloud Assessment/Kubernetes.md",
-    "Cloud Assessment/Terraform.md",
     "Active Directory Assessment/mimikatz.md",
     "Miscellaneous/Hashcat.md",
-    "Miscellaneous/Shells.md",
-    "Cloud Assessment/Cloud.md",
-    "Technical Writing/Technical Writing for Engineers.md"
+    "Miscellaneous/Shells.md"
   ]
 }

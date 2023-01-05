@@ -201,3 +201,8 @@ Set-AzureADUserPassword -Password $Password -Verbose
 
 ## Labs
 [CloudBreach.io - Breaching Azure](https://cloudbreach.io/labs/)
+
+## Videos
+[Azure Security best practices | Azure Tips and Tricks - YouTube](https://www.youtube.com/watch?v=mntOLLNejUo)
+[Assume Breach: An Inside Look at Cloud Service Provider Security - YouTube](https://www.youtube.com/watch?v=lwjPGtGGe84&t=1500s) from 25:00 -> 27:00
+
