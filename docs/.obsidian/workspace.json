@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cloud/Azure Hardening Checklist.md",
+                "file": "Development Resources.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cloud/Azure Hardening Checklist.md",
+                "file": "Development Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cloud/Azure Hardening Checklist.md"
+                "file": "Development Resources.md"
               }
             }
           },
@@ -149,10 +149,10 @@
   },
   "active": "b607f00bdb4caeae",
   "lastOpenFiles": [
+    "Cloud/Azure Hardening Checklist.md",
     "Cloud/Terraform Assessment.md",
     "Cloud/Kubernetes Assessment.md",
     "Cloud/Cloud.md",
-    "Cloud/Azure Hardening Checklist.md",
     "Cloud/Azure AD Assessment.md",
     "Cloud/AWS  Assessment.md",
     "Miscellaneous/Git.md",
