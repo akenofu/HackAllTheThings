@@ -32,7 +32,7 @@
 	- [ ] Use [Azure Bastion - Fully Managed RDP/SSH](https://azure.microsoft.com/en-gb/products/azure-bastion#:~:text=Azure%20Bastion%20is%20a%20fully,exposure%20through%20public%20IP%20addresses.)
 	- [ ] Remove the public IP address of machines that should not be exposed to the internet
 	- [ ] Use Just-in-time VM access from azure [^1]
-![](/Screenshots/Pasted%20image%2020230105010230.png)
+	![](/Screenshots/Pasted%20image%2020230105010230.png)
 
 - [ ] Protect your secerets, consider using [Azure Key Vault](https://azure.microsoft.com/en-us/products/key-vault/) [^2]
 	- [ ] Store secerets in the Azure Key Vault
