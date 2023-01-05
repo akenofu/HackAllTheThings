@@ -33,8 +33,8 @@ theme:
     collapse_navigation: true
     custom_dir: custom_theme
     theme:
-    logo: assets/logo.png
-    favicon: assets/logo.png
+    logo: Screenshots/logo.png
+    favicon: Screenshots/logo.png
     palette:
        # Palette toggle for dark mode
     - scheme: slate
