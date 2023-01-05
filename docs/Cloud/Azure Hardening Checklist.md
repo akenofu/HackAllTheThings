@@ -21,7 +21,6 @@
 - [ ] Review access controls to your Azure Apps to ensure no overly permissive access is permitted (refer to your business needs)
 - [ ] Use Microsoft [CredScan](https://secdevtools.azurewebsites.net/helpcredscan.html) to identify leaked credentials and secerets
 - [ ] Encrypt Data at rest and in-flight [^2]
-
 ![](/Screenshots/Pasted%20image%2020230105000757.png)
 
 - [ ] Restrict access to your databases, One or more of the following will suffice [^2]:
