@@ -1,4 +1,4 @@
-# Azure AD
+# Azure AD Assessment
 ## Manual Recon
 ### Enumerate the tenant id
 ```http

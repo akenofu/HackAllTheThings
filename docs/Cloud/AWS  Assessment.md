@@ -1,4 +1,4 @@
-# AWS
+# AWS Assessment
 ## CLI
 ```bash
 # Configure region and access key
