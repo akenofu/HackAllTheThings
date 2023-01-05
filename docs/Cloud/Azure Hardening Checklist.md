@@ -1,5 +1,5 @@
 # Azure Hardening Checklist
-## Azure AD Hardening [^2]
+## Azure AD Hardening [^1]
 - [ ] 
 ## Azure Hardening
 - [ ] **Checkout Azure Security Center periodically for recommended security improvements, specially adapted to your enviroment** [^2]
