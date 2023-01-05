@@ -32,7 +32,13 @@
 	- [ ] Remove the public IP address of machines that should not be exposed to the internet
 	- [ ] Use Just-in-time VM access from azure [^1]
 		![](/Screenshots/Pasted%20image%2020230105010230.png)
-
+- [ ] Audit and Remove excessive Privileges Held by Service Principals [^4]
+	- Global Administrator
+	- Privileged Role Administrator
+	- Privileged Authentication Administrator
+- [ ] Additionally, audit for any Service Principals that have been granted any of the following MS Graph app roles [^4]:
+	- RoleManagement.ReadWrite.Directory
+	- AppRoleAssignment.ReadWrite.All
 - [ ] Protect your secerets, consider using [Azure Key Vault](https://azure.microsoft.com/en-us/products/key-vault/) [^2]
 	- [ ] Store secerets in the Azure Key Vault
 	- [ ] Use Managed Service Identities to connect to key vaults
@@ -44,3 +50,4 @@
 [^1]: [Cloud Misconfiguration & Risks - Azure](https://misconfig.io/cloud-misconfiguration-risks-azure/)
 [^2]: [Azure Security best practices | Azure Tips and Tricks - YouTube](https://www.youtube.com/watch?v=mntOLLNejUo)
 [^3]: [Top 10 Best Practices for Azure Security - YouTube](https://www.youtube.com/watch?v=g0hgtxBDZVE)
+[^4]: [Managed Identity Attack Paths, Part 1: Automation Accounts | by Andy Robbins | Posts By SpecterOps Team Members](https://posts.specterops.io/managed-identity-attack-paths-part-1-automation-accounts-82667d17187a)

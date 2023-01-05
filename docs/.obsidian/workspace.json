@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development Resources.md",
+                "file": "Cloud/Azure AD Assessment.md",
                 "mode": "preview",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "resource",
+                "query": "nginx",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Development Resources.md",
+                "file": "Cloud/Azure AD Assessment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Development Resources.md"
+                "file": "Cloud/Azure AD Assessment.md"
               }
             }
           },
@@ -150,14 +150,14 @@
   "active": "b607f00bdb4caeae",
   "lastOpenFiles": [
     "Cloud/Azure Hardening Checklist.md",
-    "Cloud/Terraform Assessment.md",
-    "Cloud/Kubernetes Assessment.md",
-    "Cloud/Cloud.md",
     "Cloud/Azure AD Assessment.md",
-    "Cloud/AWS  Assessment.md",
-    "Miscellaneous/Git.md",
-    "Active Directory Assessment/mimikatz.md",
-    "Miscellaneous/Hashcat.md",
-    "Miscellaneous/Shells.md"
+    "Server Administration/Nginx - Work in Progress.md",
+    "OSINT.md",
+    "Web Applications testing/Attacks/Web Servers/Nginx.md",
+    "Desktop Application Testing/C++ Win32 Applications.md",
+    "Cheatsheets/r2frida cheatsheet.md",
+    "Cheatsheets/WebApplication Tooling.md",
+    "Cheatsheets/Bettercap.md",
+    "Development Resources.md"
   ]
 }

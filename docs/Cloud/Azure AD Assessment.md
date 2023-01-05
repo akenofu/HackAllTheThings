@@ -125,6 +125,12 @@ az account get-access-token --resource https://vault.azure.net
 az role definition list --custom-role-only
 ```
 
+## Azure Hound
+```powershell
+.\azurehound-windows-amd64\azurehound.exe list -u "HelpDeskAdmin@example.onmicrosoft.com" -p 'P@ssw0rd' -t 'example.onmicrosoft.com' -o azure_hound.json
+```
+> As of now, azure blood hound is not very stable; Enable debug mode in Blood hound to view the raw queries, for better debugging.
+
 ## Enumerate SharePoint
 ```powershell
 # Enumerate Root folder
