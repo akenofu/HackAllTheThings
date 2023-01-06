@@ -1,12 +1,12 @@
 # Azure
 ## Authentication & Authorization
 I recommend reading the following resources in order:
-1. [Azure RBAC documentation | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/)
-2. [What is Azure attribute-based access control (Azure ABAC)? | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/conditions-overview)
-3. [Classic subscription administrator roles, Azure roles, and Azure AD roles | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles)
-4. [Understand Azure role definitions - Azure RBAC | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-definitions)
-5. [Understand Azure role assignments - Azure RBAC | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments)
-6. [Understand scope for Azure RBAC | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/scope-overview)
+	1. [Azure RBAC documentation | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/)
+	2. [What is Azure attribute-based access control (Azure ABAC)? | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/conditions-overview)
+	3. [Classic subscription administrator roles, Azure roles, and Azure AD roles | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles)
+	4. [Understand Azure role definitions - Azure RBAC | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-definitions)
+	5. [Understand Azure role assignments - Azure RBAC | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments)
+	6. [Understand scope for Azure RBAC | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/scope-overview)
 ### Best Practices
 From [Best practices for Azure RBAC | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/best-practices)
 1. Only grant the access users need
