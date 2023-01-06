@@ -1,22 +1,22 @@
 # Azure
 ## Authentication & Authorization
-I recommend reading the following resources in order:
-	1. [Azure RBAC documentation | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/)
-	2. [What is Azure attribute-based access control (Azure ABAC)? | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/conditions-overview)
-	3. [Classic subscription administrator roles, Azure roles, and Azure AD roles | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles)
-	4. [Understand Azure role definitions - Azure RBAC | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-definitions)
-	5. [Understand Azure role assignments - Azure RBAC | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments)
-	6. [Understand scope for Azure RBAC | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/scope-overview)
+I recommend reading the following resources in order:  
+1. [Azure RBAC documentation | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/)
+2. [What is Azure attribute-based access control (Azure ABAC)? | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/conditions-overview)
+3. [Classic subscription administrator roles, Azure roles, and Azure AD roles | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles)
+4. [Understand Azure role definitions - Azure RBAC | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-definitions)
+5. [Understand Azure role assignments - Azure RBAC | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments)
+6. [Understand scope for Azure RBAC | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/scope-overview)
 ### Best Practices
-From [Best practices for Azure RBAC | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/best-practices)
-1. Only grant the access users need
-2. Limit the number of subscription owners
+From [Best practices for Azure RBAC | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/best-practices)  
+1. Only grant the access users need  
+2. Limit the number of subscription owners  
 3. Use Azure AD Privileged Identity Management
 4. Assign roles to groups, not users
 5. Assign roles using the unique role ID instead of the role name
 6. Avoid using a wildcard when creating custom roles
 ### Notes
-####  How Azure RBAC determines if a user has access to a resource[^1]
+####  How Azure RBAC determines if a user has access to a resource[^1]  
 1.  A user (or service principal) acquires a token for Azure Resource Manager.
     The token includes the user's group memberships (including transitive group memberships).
 2.  The user makes a REST API call to Azure Resource Manager with the token attached.
@@ -60,7 +60,7 @@ For example, you can add a condition that requires an object to have a specific 
 
 
 ---
-## Interesting Reads
+## Interesting Reads  
 [Azure China developer guide | Microsoft Learn](https://learn.microsoft.com/en-us/azure/china/resources-developer-guide)
 [Considerations for naming Azure resources - Azure Government | Microsoft Learn](https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-concept-naming-resources)
 [Azure Government Security - Azure Government | Microsoft Learn](https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-plan-security)
