@@ -7,6 +7,8 @@ I recommend reading the following resources in order:
 4. [Understand Azure role definitions - Azure RBAC | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-definitions)
 5. [Understand Azure role assignments - Azure RBAC | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments)
 6. [Understand scope for Azure RBAC | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/scope-overview)
+7. [Managed identities for Azure resources - Microsoft Entra | Microsoft Learn](https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview)
+8. [Apps & service principals in Azure AD - Microsoft Entra | Microsoft Learn](https://learn.microsoft.com/en-us/azure/active-directory/develop/app-objects-and-service-principals)
 ### Best Practices
 From [Best practices for Azure RBAC | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/best-practices)  
 1. Only grant the access users need  
@@ -58,6 +60,26 @@ Some roles support role assignment conditions based on attributes in the context
 
 For example, you can add a condition that requires an object to have a specific tag for the user to read the object.
 
+#### Managed identity types [^4]
+There are two types of managed identities:
+-   **System-assigned**. Some Azure resources, such as virtual machines allow you to enable a managed identity directly on the resource. When you enable a system-assigned managed identity:  
+    -   A service principal of a special type is created in Azure AD for the identity. The service principal is tied to the lifecycle of that Azure resource. When the Azure resource is deleted, Azure automatically deletes the service principal for you.
+    -   By design, only that Azure resource can use this identity to request tokens from Azure AD.
+    -   You authorize the managed identity to have access to one or more services.
+-   **User-assigned**. You may also create a managed identity as a standalone Azure resource. You can [create a user-assigned managed identity](https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/how-to-manage-ua-identity-portal) and assign it to one or more Azure Resources. When you enable a user-assigned managed identity:
+    -   A service principal of a special type is created in Azure AD for the identity. The service principal is managed separately from the resources that use it.
+    -   User-assigned identities can be used by multiple resources.
+    -   You authorize the managed identity to have access to one or more services.
+
+#### Service principal object
+To access resources that are secured by an Azure AD tenant, the entity that requires access must be represented by a security principal. This requirement is true for both users (user principal) and applications (service principal). The security principal defines the access policy and permissions for the user/application in the Azure AD tenant. This enables core features such as authentication of the user/application during sign-in, and authorization during resource access.
+
+
+#### Application objects and service principals [^5]
+If you register an application in the portal, an application object and a service principal object are automatically created in your home tenant. If you register/create an application using the Microsoft Graph APIs, creating the service principal object is a separate step.
+
+
+
 
 ---
 ## Interesting Reads  
@@ -68,3 +90,5 @@ For example, you can add a condition that requires an object to have a specific 
 [^1]: [Azure RBAC documentation | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/)
 [^2]: [Understand Azure role definitions - Azure RBAC | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-definitions)
 [^3]: [Understand Azure role assignments - Azure RBAC | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments)
+[^4]: [Managed identities for Azure resources - Microsoft Entra | Microsoft Learn](https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview)
+[^5]: [Apps & service principals in Azure AD - Microsoft Entra | Microsoft Learn](https://learn.microsoft.com/en-us/azure/active-directory/develop/app-objects-and-service-principals)
