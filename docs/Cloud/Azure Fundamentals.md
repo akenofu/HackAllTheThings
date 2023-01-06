@@ -16,7 +16,7 @@ From [Best practices for Azure RBAC | Microsoft Learn](https://learn.microsoft.c
 5. Assign roles using the unique role ID instead of the role name
 6. Avoid using a wildcard when creating custom roles
 ### Notes
-####  How Azure RBAC determines if a user has access to a resource[^1]  
+####  How Azure RBAC determines if a user has access to a resource [^1]  
 1.  A user (or service principal) acquires a token for Azure Resource Manager.
     The token includes the user's group memberships (including transitive group memberships).
 2.  The user makes a REST API call to Azure Resource Manager with the token attached.
