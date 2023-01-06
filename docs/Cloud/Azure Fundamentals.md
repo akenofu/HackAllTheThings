@@ -1,6 +1,6 @@
 # Azure
 ## Authentication & Authorization  
-I recommend reading the following resources in order:  
+I recommend reading the following resources in order:
 1. [Azure RBAC documentation | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/)
 2. [What is Azure attribute-based access control (Azure ABAC)? | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/conditions-overview)
 3. [Classic subscription administrator roles, Azure roles, and Azure AD roles | Microsoft Learn](https://learn.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles)
