@@ -4,41 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ce0762a2b0e82e63",
+        "id": "d33fc8e29672f9ae",
         "type": "tabs",
         "children": [
           {
-            "id": "b607f00bdb4caeae",
+            "id": "f575063f8425a029",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IOS Application Testing/My Setup.md",
+                "file": "Cloud/Azure Fundamentals.md",
                 "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "746c8aa65f486ad0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Android Application Testing/Flutter.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4ef9b2e87393f77d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Miscellaneous/Convert Debain to Kali.md",
-                "mode": "source",
                 "source": false
               }
             }
@@ -109,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IOS Application Testing/My Setup.md",
+                "file": "Cloud/Azure Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IOS Application Testing/My Setup.md"
+                "file": "Cloud/Azure Fundamentals.md"
               }
             }
           },
@@ -171,17 +147,17 @@
       "publish:Publish changes": false
     }
   },
-  "active": "b607f00bdb4caeae",
+  "active": "f575063f8425a029",
   "lastOpenFiles": [
-    "Android Application Testing/Frida.md",
+    "Cloud/Azure Hardening Checklist.md",
+    "Cloud/Azure Fundamentals.md",
+    "Cloud/Kubernetes Assessment.md",
+    "Cloud/Terraform Assessment.md",
+    "Cloud/Platform Agnostic Testing.md",
+    "Cloud/Azure AD Assessment.md",
+    "Cloud/Cloud Fundamentals.md",
     "Android Application Testing/Flutter.md",
     "IOS Application Testing/My Setup.md",
-    "Cloud/Azure AD Assessment.md",
-    "Cloud/Azure Hardening Checklist.md",
-    "Server Administration/Nginx - Work in Progress.md",
-    "OSINT.md",
-    "Web Applications testing/Attacks/Web Servers/Nginx.md",
-    "Desktop Application Testing/C++ Win32 Applications.md",
-    "Cheatsheets/r2frida cheatsheet.md"
+    "Android Application Testing/Frida.md"
   ]
 }
