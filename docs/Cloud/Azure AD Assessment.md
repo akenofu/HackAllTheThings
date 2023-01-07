@@ -115,7 +115,7 @@ az ad user list
 az resource list
 
 # Check our roles
-az role assignment list --al
+az role assignment list --all
 
 # Generate access token for management and vault services
 az account get-access-token --resource https://management.azure.com
@@ -197,6 +197,9 @@ Set-AzureADUserPassword -Password $Password -Verbose
 
 ## Fundamentals
 [Pentester Academy - Attacking and Defending Azure AD Cloud: Beginner's Edition](https://bootcamps.pentesteracademy.com/course/ad-azure-jul-22)
+## Cheatsheets
+[PayloadsAllTheThings/Cloud - Azure Pentest.md at master · swisskyrepo/PayloadsAllTheThings · GitHub](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Cloud%20-%20Azure%20Pentest.md)
+
 ## Blog Posts
 [Managed Identity Attack Paths, Part 1: Automation Accounts | by Andy Robbins | Posts By SpecterOps Team Members](https://posts.specterops.io/managed-identity-attack-paths-part-1-automation-accounts-82667d17187a)
 [Managed Identity Attack Paths, Part 2: Logic Apps | by Andy Robbins | Posts By SpecterOps Team Members](https://posts.specterops.io/managed-identity-attack-paths-part-2-logic-apps-52b29354fc54)

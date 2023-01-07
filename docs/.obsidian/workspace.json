@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IOS Application Testing/My Setup.md",
+                "file": "Cloud/Azure AD Assessment.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hypervisorlaunchtype",
+                "query": "storage",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IOS Application Testing/My Setup.md",
+                "file": "Cloud/Azure AD Assessment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IOS Application Testing/My Setup.md"
+                "file": "Cloud/Azure AD Assessment.md"
               }
             }
           },
@@ -147,17 +147,17 @@
       "publish:Publish changes": false
     }
   },
-  "active": "f575063f8425a029",
+  "active": "1fe99213467ed1d6",
   "lastOpenFiles": [
+    "Active Directory Assessment/mimikatz.md",
+    "Cloud/Azure AD Assessment.md",
+    "Miscellaneous/Shells.md",
     "Cloud/Azure Fundamentals.md",
+    "IOS Application Testing/My Setup.md",
     "Cloud/Azure Hardening Checklist.md",
     "Cloud/Kubernetes Assessment.md",
     "Cloud/Terraform Assessment.md",
     "Cloud/Platform Agnostic Testing.md",
-    "Cloud/Azure AD Assessment.md",
-    "Cloud/Cloud Fundamentals.md",
-    "Android Application Testing/Flutter.md",
-    "IOS Application Testing/My Setup.md",
-    "Android Application Testing/Frida.md"
+    "Cloud/Cloud Fundamentals.md"
   ]
 }
