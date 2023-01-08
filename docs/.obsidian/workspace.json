@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cloud/Azure AD Assessment.md",
+                "file": "Certifications/OSEP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c3ba67e4046cbe27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Certifications/OASP.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cloud/Azure AD Assessment.md",
+                "file": "Certifications/OASP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cloud/Azure AD Assessment.md"
+                "file": "Certifications/OASP.md"
               }
             }
           },
@@ -147,17 +160,17 @@
       "publish:Publish changes": false
     }
   },
-  "active": "1fe99213467ed1d6",
+  "active": "c3ba67e4046cbe27",
   "lastOpenFiles": [
-    "Active Directory Assessment/mimikatz.md",
+    "Certifications/OSEP.md",
+    "Certifications/OSWE.md",
     "Cloud/Azure AD Assessment.md",
-    "Miscellaneous/Shells.md",
     "Cloud/Azure Fundamentals.md",
-    "IOS Application Testing/My Setup.md",
     "Cloud/Azure Hardening Checklist.md",
-    "Cloud/Kubernetes Assessment.md",
-    "Cloud/Terraform Assessment.md",
     "Cloud/Platform Agnostic Testing.md",
-    "Cloud/Cloud Fundamentals.md"
+    "Cloud/Terraform Assessment.md",
+    "Cloud/AWS  Assessment.md",
+    "Active Directory Assessment/mimikatz.md",
+    "Miscellaneous/Shells.md"
   ]
 }

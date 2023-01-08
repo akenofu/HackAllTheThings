@@ -190,7 +190,7 @@ Set-AzureADUserPassword -Password $Password -Verbose
 ## Dump MSOL Password
 [Updated method of dumping the MSOL service account (which allows a DCSync) used by Azure AD Connect Sync · GitHub](https://gist.github.com/xpn/f12b145dba16c2eebdd1c6829267b90c)
 
-## Dump Storage account
+## Dump Storage account Data
 > Files wont show using az cli tool or powershell az module because it has because that the role assigned to storageviewer user is “Reader and Data Access
 
 [Azure Storage Explorer – cloud storage management | Microsoft Azure](https://azure.microsoft.com/en-us/products/storage/storage-explorer/)
@@ -207,6 +207,7 @@ Set-AzureADUserPassword -Password $Password -Verbose
 [Introducing a new phishing technique for compromising Office 365 accounts | Device Code Phising - AADInternals](https://aadinternals.com/post/phishing/#:~:text=The%20basic%20idea%20to%20utilise%20device%20code%20authentication%20for%20phishing%20is%20following.&text=After%20receiving%20verification_uri%20and%20user_code,and%20completes%20the%20sign%20in.)
 [Cloud Misconfiguration & Risks - Azure](https://misconfig.io/cloud-misconfiguration-risks-azure/)
 [Introduction To 365-Stealer - Understanding and Executing the Illicit Consent Grant Attack (alteredsecurity.com)](https://www.alteredsecurity.com/post/Introduction-To-365-Stealer)
+[Exploiting Azure AD PTA vulnerabilities: Creating backdoor and harvesting credentials (aadinternals.com)](https://aadinternals.com/post/pta/)
 
 ## Labs
 [CloudBreach.io - Breaching Azure](https://cloudbreach.io/labs/)
