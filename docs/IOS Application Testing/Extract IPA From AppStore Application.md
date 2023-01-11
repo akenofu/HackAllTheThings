@@ -3,7 +3,7 @@
 ```bash
 ssh 192.168.114.153
 
-cd /var/containers/bundle/application
+cd /var/containers/Bundle/application
 
 # Identify Bundle Id
 ls * | grep -b 2 <application_name>

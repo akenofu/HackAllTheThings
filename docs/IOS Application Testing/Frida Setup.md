@@ -11,13 +11,16 @@ On your IPhone
 ssh 192.168.114.53
 
 # -D is daemon mode
-./frida/usr/sbin/frida-server -l 0.0.0.0:3039 -D 
+frida-server -l 0.0.0.0:3039 -D 
 ```
 
 On your testing host
+The following CLI commands use SSH over the network. This is very slow on IPhones. I recommend using iproxy for connection.
 ```bash
-frida-ps -a -R 192.168.114.153:3039
+/home/akenofu/.local/bin/frida-ps -ia -H 192.168.114.153:3039
 
 objection -N -h 192.168.114.153 -p 3039 -d --gadget <application_name> explore 
+
+/home/akenofu/.local/bin/objection -N -h 192.168.114.153 -p 3039 -g com.highaltitudehacks.DVIAswiftv2 explore
 ```
 

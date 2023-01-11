@@ -14,7 +14,16 @@
 sudo vmware-user-suid-wrapper
 ```
 
-# Miscellaneous
+## Grayed out USB Options VMWare
+Inside your VM's `.vmx` file remove the following line:
+```bash
+usb.restrictions.defaultAllow = "TRUE"
+```
+## Disable Side Channels Mitigation VMWare
+Inside your VM's `.vmx` file remove the following line:
+```bash
+ulm.disableMitigations = "TRUE"
+```
+
+
 [matejetz/windows-git-auto-puller: Pulls specified git repositories on Windows (github.com)](https://github.com/matejetz/windows-git-auto-puller)
-
-
