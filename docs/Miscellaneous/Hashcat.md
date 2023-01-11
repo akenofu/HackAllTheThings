@@ -84,7 +84,7 @@ Use [hastcat's prince preprocessor](https://github.com/hashcat/princeprocessor) 
 
 ## Rule files
 **My favorite rules:**
-- OneRuleToRuleThemAll (includes insiderPro, Best64, )
+- [OneRuleToRuleThemStill](https://github.com/stealthsploit/OneRuleToRuleThemStill)
 - LeetSpeak
 
 N.b. when using prince. Use the two supplied prince rules as well
