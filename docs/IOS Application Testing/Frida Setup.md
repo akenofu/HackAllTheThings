@@ -1,4 +1,4 @@
-# Frida Set up
+# Frida Setup
 ## Install
 1. Download `frida_16.0.8_iphoneos-arm.deb`
 2. Transfer package to mobile with scp

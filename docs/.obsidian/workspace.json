@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "IOS Application Testing/Frida Setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "IOS Application Testing/Frida Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "IOS Application Testing/Frida Setup.md"
               }
             }
           },
@@ -149,15 +149,15 @@
   },
   "active": "4767c637692cda01",
   "lastOpenFiles": [
+    "IOS Application Testing/My Setup.md",
+    "README.md",
     "Technologies Explained/Tailscale.md",
     "Android Application Testing/My Testing Enviroment.md",
     "IOS Application Testing/Connect to Shell Over USB.md",
     "IOS Application Testing/Frida Setup.md",
     "IOS Application Testing/Extract IPA From AppStore Application.md",
-    "IOS Application Testing/My Setup.md",
     "IOS Application Testing/Basics.md",
     "IOS Application Testing/Burp Suite Setup.md",
-    "Miscellaneous/My Host Setup.md",
-    "Android Application Testing/archived/Objection.md"
+    "Miscellaneous/My Host Setup.md"
   ]
 }
