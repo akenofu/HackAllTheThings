@@ -13,7 +13,7 @@ You are absolutely correct. However, some topics are not touched upon on [HackTr
 - All notes under the Misc. Category
 - My Testing Setup: Android, WSL and more
 
-Dare I say these are Karim flavored techniques UwU
+Dare I say these are Karim flavored techniques
 
 ## Online book  
 The mark down book of this repo has search functionality, collapsing nav bars and some other good stuff 😋
