@@ -15,7 +15,7 @@ sudo vmware-user-suid-wrapper
 ```
 
 ## Grayed out USB Options VMWare
-Inside your VM's `.vmx` file remove the following line:
+Inside your VM's `.vmx` ,make sure the `usb.restrictions` value is set to true:
 ```bash
 usb.restrictions.defaultAllow = "TRUE"
 ```
@@ -24,6 +24,4 @@ Inside your VM's `.vmx` file remove the following line:
 ```bash
 ulm.disableMitigations = "TRUE"
 ```
-
-
 [matejetz/windows-git-auto-puller: Pulls specified git repositories on Windows (github.com)](https://github.com/matejetz/windows-git-auto-puller)

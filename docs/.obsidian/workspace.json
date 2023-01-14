@@ -4,22 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "4d69f2bfeacf02e1",
+        "id": "290b15213b478e2d",
         "type": "tabs",
         "children": [
           {
-            "id": "4767c637692cda01",
+            "id": "1910faa97fcf23fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IOS Application Testing/Frida Setup.md",
+                "file": "IOS Application Testing/Burp Suite Setup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "708a72de528a85c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Android Application Testing/Xamarin.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "59755d8adc9b597b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Android Application Testing/Decompiling and Compiling Smali.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b7bbf5e9c12fd9af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Android Application Testing/Decompiling and Compiling Smali.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -48,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vmwar",
+                "query": "usb.restrictions",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IOS Application Testing/Frida Setup.md",
+                "file": "Android Application Testing/Decompiling and Compiling Smali.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IOS Application Testing/Frida Setup.md"
+                "file": "Android Application Testing/Decompiling and Compiling Smali.md"
               }
             }
           },
@@ -147,17 +184,17 @@
       "publish:Publish changes": false
     }
   },
-  "active": "4767c637692cda01",
+  "active": "59755d8adc9b597b",
   "lastOpenFiles": [
-    "IOS Application Testing/My Setup.md",
-    "README.md",
-    "Technologies Explained/Tailscale.md",
-    "Android Application Testing/My Testing Enviroment.md",
-    "IOS Application Testing/Connect to Shell Over USB.md",
-    "IOS Application Testing/Frida Setup.md",
-    "IOS Application Testing/Extract IPA From AppStore Application.md",
-    "IOS Application Testing/Basics.md",
+    "Miscellaneous/My Host Setup.md",
+    "Android Application Testing/Decompiling and Compiling Smali.md",
+    "Android Application Testing/Security Controls.md",
+    "Android Application Testing/Xamarin.md",
     "IOS Application Testing/Burp Suite Setup.md",
-    "Miscellaneous/My Host Setup.md"
+    "Android Application Testing/Frida.md",
+    "Android Application Testing/Flutter.md",
+    "Android Application Testing/My Testing Enviroment.md",
+    "Android Application Testing/Learning Resources.md",
+    "Android Application Testing/Basics.md"
   ]
 }

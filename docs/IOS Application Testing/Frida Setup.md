@@ -10,7 +10,7 @@ On your IPhone
 ```bash
 ssh 192.168.114.53
 
-# -D is daemon mode
+# -D is daemon mode, -l to specify a specific host
 frida-server -l 0.0.0.0:3039 -D 
 ```
 

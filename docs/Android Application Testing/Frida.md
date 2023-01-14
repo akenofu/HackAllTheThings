@@ -129,7 +129,7 @@ if (Java.available) {
 
                 for(var i = 0 ; i < 10000; i++){
 
-                    if(pinFunc.check07Pin(i.toString()) == true){
+                    if(pinFunc.check07Pin(i.toString().padStart(4)) == true){
 
                         correctPin = i;
 
@@ -214,7 +214,9 @@ else {
 
 }
 ```
-
+# Tools built on top of frida
+- Objection
+- Medusa
 # Resources
 [Frida - Python bindings and intercommunication for Android Testing](https://book.hacktricks.xyz/mobile-pentesting/android-app-pentesting/frida-tutorial/frida-tutorial-2#python-1)
 [Frida Tutorial - HackTricks](https://book.hacktricks.xyz/mobile-pentesting/android-app-pentesting/frida-tutorial)
