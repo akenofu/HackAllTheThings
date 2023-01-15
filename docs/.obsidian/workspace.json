@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "usb.restrictions",
+                "query": "TBDDesktop Application Testing/Desktop",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -147,7 +148,7 @@
       "publish:Publish changes": false
     }
   },
-  "active": "0b3af9b621796235",
+  "active": "fd198309ce134c4d",
   "lastOpenFiles": [
     "Android Application Testing/Decompiling and Compiling Smali.md",
     "Cloud/AWS  Assessment.md",

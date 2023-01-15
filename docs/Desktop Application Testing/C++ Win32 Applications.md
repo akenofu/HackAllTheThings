@@ -48,8 +48,7 @@ dir '.\Windows\DummyApplication' -Recurse | Get-Acl | fl | findstr 'Users'|  sel
 
 ---
 
-## Dynamic Analysis
-There is a method to madness. Check out the  [Tips and tricks](Desktop%20Application%20Testing/Tips%20and%20tricks.md) notes in this section.
+
 ### Analysis
 - Dump Memory and search for data
 Using Windows Task Manager, right click the process and click create dump file.
