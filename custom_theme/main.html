@@ -9,6 +9,17 @@
 
 {% block content %}
 <div id="particles-js" class="particles-js"></div>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NTQ5DLN92X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NTQ5DLN92X');
+</script>
+
 {{ super() }}
 {% endblock %}
 

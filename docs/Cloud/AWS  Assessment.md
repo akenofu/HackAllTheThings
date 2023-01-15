@@ -11,3 +11,6 @@ aws configure
 ## Fundamentals
 [AWS re:Inforce 2019: The Fundamentals of AWS Cloud Security (FND209-R)](https://www.youtube.com/watch?v=-ObImxw1PmI&t=1474s)
 
+## Write ups
+[Hacking AWS - Flaws.Cloud Walkthrough - Offensive Research (philkeeble.com)](https://philkeeble.com/cloud/Flaws.Cloud-Walkthrough/)
+

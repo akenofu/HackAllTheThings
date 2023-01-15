@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "290b15213b478e2d",
+        "id": "58507c3293581d26",
         "type": "tabs",
         "children": [
           {
-            "id": "1910faa97fcf23fd",
+            "id": "0b3af9b621796235",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IOS Application Testing/Burp Suite Setup.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "708a72de528a85c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Android Application Testing/Xamarin.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "59755d8adc9b597b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Android Application Testing/Decompiling and Compiling Smali.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b7bbf5e9c12fd9af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Android Application Testing/Decompiling and Compiling Smali.md",
+                "file": "IOS Application Testing/Frida.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android Application Testing/Decompiling and Compiling Smali.md",
+                "file": "IOS Application Testing/Frida.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android Application Testing/Decompiling and Compiling Smali.md"
+                "file": "IOS Application Testing/Frida.md"
               }
             }
           },
@@ -184,17 +147,17 @@
       "publish:Publish changes": false
     }
   },
-  "active": "59755d8adc9b597b",
+  "active": "0b3af9b621796235",
   "lastOpenFiles": [
-    "Miscellaneous/My Host Setup.md",
     "Android Application Testing/Decompiling and Compiling Smali.md",
-    "Android Application Testing/Security Controls.md",
+    "Cloud/AWS  Assessment.md",
     "Android Application Testing/Xamarin.md",
+    "Miscellaneous/My Host Setup.md",
+    "Android Application Testing/Security Controls.md",
     "IOS Application Testing/Burp Suite Setup.md",
     "Android Application Testing/Frida.md",
     "Android Application Testing/Flutter.md",
     "Android Application Testing/My Testing Enviroment.md",
-    "Android Application Testing/Learning Resources.md",
-    "Android Application Testing/Basics.md"
+    "Android Application Testing/Learning Resources.md"
   ]
 }
