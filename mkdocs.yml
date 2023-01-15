@@ -26,6 +26,7 @@ markdown_extensions:
 
 theme:
     name: material
+    site_url: 'https://notes.akenofu.me'
     highlightjs: true
     github_url: https://github.com/akenofu/HackAllTheThings
     navigation_depth: 4
