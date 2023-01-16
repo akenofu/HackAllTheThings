@@ -171,9 +171,6 @@ else {
 ## Change Text on A Button (UI Manipulation)
 ```js
 'use strict'
-
-  
-
 if (Java.available) {
 
     Java.perform(function () {

@@ -13,10 +13,8 @@ ios hooking search classes jailbreak
 ios hooking watch class JailbreakDetection
 
 # Dump ret value of isJailbroken method invocation from JailbreakDetection class
-ios hooking watch method "+[JailbreakDetection isJailbroken]" --dump-return
+ios hooking watch method "+[JailbreakDetection isJailbroken]" --dump-return --dump-args
 
 # Hook isJailbroken and replace ret value
 ios hooking set return_value '+[JailbreakDetection isJailbroken]' 0x0
-
-
 ```
