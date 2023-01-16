@@ -4,22 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "f53506785e0a498f",
+        "id": "290b15213b478e2d",
         "type": "tabs",
         "children": [
           {
-            "id": "3dc12ff5011b912e",
+            "id": "1910faa97fcf23fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IOS Application Testing/My Setup.md",
+                "file": "Android Application Testing/Learning Resources.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2a30c7c2e6d1c39c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IOS Application Testing/Frida.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "57e1132caa76278e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IOS Application Testing/Objection.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d5f341ef663689b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IOS Application Testing/Frida.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -48,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "smb",
+                "query": "/applications",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IOS Application Testing/My Setup.md",
+                "file": "IOS Application Testing/Frida.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IOS Application Testing/My Setup.md"
+                "file": "IOS Application Testing/Frida.md"
               }
             }
           },
@@ -147,17 +184,17 @@
       "publish:Publish changes": false
     }
   },
-  "active": "3dc12ff5011b912e",
+  "active": "d5f341ef663689b7",
   "lastOpenFiles": [
+    "IOS Application Testing/Reversing IOS Apps with Ghidra.md",
     "IOS Application Testing/Objection.md",
     "IOS Application Testing/My Setup.md",
-    "IOS Application Testing/Basics.md",
-    "IOS Application Testing/Apache Cordova.md",
-    "IOS Application Testing/Burp Suite Setup.md",
-    "IOS Application Testing/Connect to Shell Over USB.md",
-    "IOS Application Testing/Extract IPA From AppStore Application.md",
+    "IOS Application Testing/Frida.md",
+    "Android Application Testing/Learning Resources.md",
+    "Android Application Testing/My Testing Enviroment.md",
     "IOS Application Testing/Learning Resources.md",
-    "IOS Application Testing/Reversing IOS Apps with Ghidra.md",
-    "Android Application Testing/Apache Cordova.md"
+    "Desktop Application Testing/Frida - Windows.md",
+    "IOS Application Testing/Frida Setup.md",
+    "IOS Application Testing/Basics.md"
   ]
 }

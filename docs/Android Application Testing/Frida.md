@@ -216,7 +216,7 @@ else {
 ```
 # Tools built on top of frida
 - Objection
-- Medusa
+- [GitHub - Ch0pin/medusa: Binary instrumentation framework based on FRIDA](https://github.com/Ch0pin/medusa)
 # Resources
 [Frida - Python bindings and intercommunication for Android Testing](https://book.hacktricks.xyz/mobile-pentesting/android-app-pentesting/frida-tutorial/frida-tutorial-2#python-1)
 [Frida Tutorial - HackTricks](https://book.hacktricks.xyz/mobile-pentesting/android-app-pentesting/frida-tutorial)

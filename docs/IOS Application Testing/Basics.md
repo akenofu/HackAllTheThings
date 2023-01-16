@@ -11,7 +11,7 @@ scp root@localhost:/tmp/hi.txt .
 ideviceinstaller -l
 
 # Sign IOS application
-cd /var/containers/Bundle/application
+cd /var/containers/Bundle/Application
 # Identify Bundle Id for the app, in my case the app name is dvia
 ls | grep diva -i -B 2
 cd F6CB934B-C989-4FB3-BD08-58F339BEF448
@@ -32,3 +32,6 @@ Use [Sideloadly - iOS & Apple Silicon Sideloading](https://sideloadly.io/)
 3. On the next screen, a window should appear listing your phone’s Capacity, Phone Number, and Serial Number.
 4. By clicking on **Serial Number** once, the prompt should change to display your **UDID**.
 	![](/Screenshots/Pasted%20image%2020230113102610.png)
+
+## Signed ipsws
+[Download iOS Firmware for iPhone, iPad, iPod Touch, Apple Watch, Apple TV and HomePod / IPSW Downloads](https://ipsw.me/)
