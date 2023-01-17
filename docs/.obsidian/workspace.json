@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f53506785e0a498f",
+        "id": "b1dfd1c2c9bfe1b0",
         "type": "tabs",
         "children": [
           {
-            "id": "3dc12ff5011b912e",
+            "id": "7a8792e34f6ee695",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS Application Testing/LLDB.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7acf0ddca3606321",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "iOS Application Testing/Learning Resources.md",
+                "file": "iOS Application Testing/Objection.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS Application Testing/LLDB.md",
+                "file": "iOS Application Testing/Objection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iOS Application Testing/LLDB.md"
+                "file": "iOS Application Testing/Objection.md"
               }
             }
           },
@@ -159,17 +147,17 @@
       "publish:Publish changes": false
     }
   },
-  "active": "3dc12ff5011b912e",
+  "active": "1fe99213467ed1d6",
   "lastOpenFiles": [
-    "iOS Application Testing/Apache Cordova.md",
-    "iOS Application Testing/Basics.md",
+    "iOS Application Testing/Frida.md",
     "iOS Application Testing/LLDB.md",
-    "iOS Application Testing/Reversing iOS Apps with Ghidra.md",
-    "Android Application Testing/Frida.md",
+    "iOS Application Testing/Learning Resources.md",
     "Android Application Testing/Learning Resources.md",
-    "Android Application Testing/My Testing Enviroment.md",
-    "Android Application Testing/Security Controls.md",
-    "Android Application Testing/Xamarin.md",
-    "iOS Application Testing/My Setup.md"
+    "Android Application Testing/Untitled.md",
+    "Android Application Testing/Apache Cordova.md",
+    "Android Application Testing/Decompiling and Compiling Smali.md",
+    "Android Application Testing/Flutter.md",
+    "Android Application Testing/Frida.md",
+    "Android Application Testing/Security Controls.md"
   ]
 }

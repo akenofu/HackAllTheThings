@@ -64,5 +64,6 @@ register read
 # Write to register
 register write x0 0x1
 
-
+# Break at function call
+b ptrace
 ```

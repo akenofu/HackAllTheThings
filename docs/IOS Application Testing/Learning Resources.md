@@ -1,6 +1,7 @@
 # Learning Resource
 ## iOS
 [Understanding the iOS File System | by Lucideus | Medium](https://medium.com/@lucideus/understanding-the-ios-file-system-eee3dc87e455)
+[iOS security series: Anti-debugging techniques | Swift dev articles (iamin.dev)](https://www.iamin.dev/ios%20security/iOS-security-ptrace-deny-attach/)
 ## Programming
 [Lesson 1: Introduction to Objective-C Programming | by Will Harrison | Introduction to iPhone Application Development | Medium](https://medium.com/ios-objective-creation/lesson-1-introduction-to-objective-c-programming-22f5fe71172)
 [Lesson 2: Creating Custom Classes in Objective-C | by Will Harrison | Introduction to iPhone Application Development | Medium](https://medium.com/ios-objective-creation/17f760ce9732)

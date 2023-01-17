@@ -20,11 +20,15 @@ Java.perform(function () {
 [Debugging Cordova Applications (appknox.com)](https://www.appknox.com/security/debugging-cordova-applications)
 
 ## Checklist
-- [ ] Check JavaScript includes for resources fetched from remote URLs? [^1]
+- [ ] Check JavaScript includes and iframe for resources fetched from remote URLs[^1]
 	- [ ] HSTS configured?
 	- [ ] CSP Policy
 - [ ] Is data encrypted at rest? [^2]
-
+- [ ] Use InAppBrowser to render links outside of the website [^3]
+- [ ] is Certificate pinning implemented?
+- [ ] Check for SSL Issues [^3]
+- [ ] Avoid Using `eval` 
+- [ ] Check Plugins Installed
 
 ## Resources
 [Security problems of Apache Cordova - steal the entire contents of the phone's memory card with one XSS - research.securitum.com](https://research.securitum.com/security-problems-of-apache-cordova-steal-the-entire-contents-of-the-phone_s-memory-card-with-one-xss/)
@@ -32,3 +36,4 @@ Java.perform(function () {
 
 [^1]:  [Security problems of Apache Cordova - steal the entire contents of the phone's memory card with one XSS - research.securitum.com](https://research.securitum.com/security-problems-of-apache-cordova-steal-the-entire-contents-of-the-phone_s-memory-card-with-one-xss/)
 [^2]: [cordova-docs/cordova-security-data.md at master · MicrosoftDocs/cordova-docs · GitHub](https://github.com/MicrosoftDocs/cordova-docs/blob/master/articles/cordova-security/cordova-security-data.md)
+[^3]: [Security Guide - Apache Cordova](https://cordova.apache.org/docs/en/11.x/guide/appdev/security/)
