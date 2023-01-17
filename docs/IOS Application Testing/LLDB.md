@@ -1,49 +1,49 @@
 # LLDB
 ## Setup
 1. On your host, Install lldb
-```bash
-sudo apt-get install lldb
-```
+	```bash
+	sudo apt-get install lldb
+	```
 2. Download your binaries on your phone from [GitHub - wstclzy2010/iOS-debugserver: including iOS10/iOS12/iOS13/iOS14 debugserver](https://github.com/wstclzy2010/iOS-debugserver). The binaries from the previous repo are signed with the correct entitlements.
-```bash
-git clone https://github.com/wstclzy2010/iOS-debugserver
-```
+	```bash
+	git clone https://github.com/wstclzy2010/iOS-debugserver
+	```
 3. Copy debugserver to /usr/bin
-> The debugserver binary needs to be in the /usr/bin directory; otherwise, it will crash on launch.
-
-```bash
-cp iOS-debugserver/iOS14-debugserver_arm64 /usr/bin/debugserver
-```
+	> The debugserver binary needs to be in the /usr/bin directory; otherwise, it will crash on launch.
+	
+	```bash
+	cp iOS-debugserver/iOS14-debugserver_arm64 /usr/bin/debugserver
+	```
 
 ## Start
 > ℹ️ Remote Debugging over wifi is very slow, utilize iproxy to debug over USB connection.
 1. On your host, configure iproxy
-```bash
-sudo iproxy 1234 1234
-```
+	```bash
+	sudo iproxy 1234 1234
+	```
 2. Inside your iPhone SSH session
-```bash
-# ✅ Recommended Way 
-# launch server with no process attached
-process connect connect://127.0.0.1:1234
-
-# or Wait for process to spawn
-debugserver 0.0.0.0:1234 --waitfor=DVIA-v2
-
-# or attach to running process
-debugserver 0.0.0.0:1234 -a DVIA-v2
-```
+	```bash
+	# ✅ Recommended Way 
+	# launch server with no process attached
+	process connect connect://127.0.0.1:1234
+	
+	# or Wait for process to spawn
+	debugserver 0.0.0.0:1234 --waitfor=DVIA-v2
+	
+	# or attach to running process
+	debugserver 0.0.0.0:1234 -a DVIA-v2
+	```
 3. From your host, inside lldb
-```bash
-lldb
-
-platform select remote-ios
-
-process connect connect://127.0.0.1:1234
-
-# if launched with no process attached
-process attach --pid 5039
-```
+	```bash
+	lldb
+	
+	platform select remote-ios
+	
+	process connect connect://127.0.0.1:1234
+	
+	# if launched with no process attached
+	process attach --pid 5039
+	```
 
 ## Cheatsheet
 ```bash
