@@ -16,7 +16,7 @@
 	```
 
 ## Start
-🪧 Remote Debugging over wifi is very slow, utilize iproxy to debug over USB connection.
+✔️ Remote Debugging over wifi is very slow, utilize iproxy to debug over USB connection.
 
 1. On your host, configure iproxy
 	```bash
