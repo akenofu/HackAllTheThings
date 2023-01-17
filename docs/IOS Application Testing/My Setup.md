@@ -1,5 +1,5 @@
 # My Setup
-IPhone 8, IOS 15.6 refuirbished from amazon. Jailbreak done using a Debian host.
+iPhone 8, iOS 15.6 refuirbished from amazon. Jailbreak done using a Debian host.
 
 1. Use 3u tools to install itunes
 2. Enter DFU mode [How to Enter DFU Mode on iPhone - All Series Full Guide 2021](https://youtu.be/QXmrGvoSFkk?t=165) or [How to Get into DFU Mode on iPhone 8/8 Plus/X - EaseUS](https://mobi.easeus.com/ios-tips/how-to-get-into-dfu-mode-on-iphone-8-8-plus-x.html)

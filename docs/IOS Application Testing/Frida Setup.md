@@ -6,7 +6,7 @@
 
 
 ## Run
-On your IPhone
+On your iPhone
 ```bash
 ssh 192.168.114.53
 
@@ -15,7 +15,7 @@ frida-server -l 0.0.0.0:3039 -D
 ```
 
 On your testing host
-The following CLI commands use SSH over the network. This is very slow on IPhones. I recommend using iproxy for connection.
+The following CLI commands use SSH over the network. This is very slow on iPhones. I recommend using iproxy for connection.
 ```bash
 /home/akenofu/.local/bin/frida-ps -ia -H 192.168.114.153:3039
 

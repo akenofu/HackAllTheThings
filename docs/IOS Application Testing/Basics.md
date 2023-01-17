@@ -10,7 +10,7 @@ scp root@localhost:/tmp/hi.txt .
 # List installed applications
 ideviceinstaller -l
 
-# Sign IOS application
+# Sign iOS application
 cd /var/containers/Bundle/Application
 # Identify Bundle Id for the app, in my case the app name is dvia
 ls | grep diva -i -B 2

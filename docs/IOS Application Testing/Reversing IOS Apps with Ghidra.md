@@ -1,4 +1,4 @@
-# Reversing IOS Apps with Ghidra
+# Reversing iOS Apps with Ghidra
 1. unzip the IPA file
 ```bash
 unzip DVIA-v2.ipa
