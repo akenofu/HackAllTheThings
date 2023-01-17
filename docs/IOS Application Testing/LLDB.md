@@ -16,7 +16,7 @@
 	```
 
 ## Start
-> ℹ️ Remote Debugging over wifi is very slow, utilize iproxy to debug over USB connection.
+ℹ️ Remote Debugging over wifi is very slow, utilize iproxy to debug over USB connection.
 1. On your host, configure iproxy
 	```bash
 	sudo iproxy 1234 1234

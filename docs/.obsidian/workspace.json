@@ -161,15 +161,15 @@
   },
   "active": "3dc12ff5011b912e",
   "lastOpenFiles": [
+    "iOS Application Testing/Apache Cordova.md",
+    "iOS Application Testing/Basics.md",
+    "iOS Application Testing/LLDB.md",
     "iOS Application Testing/Reversing iOS Apps with Ghidra.md",
     "Android Application Testing/Frida.md",
     "Android Application Testing/Learning Resources.md",
     "Android Application Testing/My Testing Enviroment.md",
     "Android Application Testing/Security Controls.md",
     "Android Application Testing/Xamarin.md",
-    "iOS Application Testing/LLDB.md",
-    "iOS Application Testing/My Setup.md",
-    "iOS Application Testing/Learning Resources.md",
-    "iOS Application Testing/Objection.md"
+    "iOS Application Testing/My Setup.md"
   ]
 }
