@@ -9,12 +9,11 @@
 	git clone https://github.com/wstclzy2010/iOS-debugserver
 	```
 3. Copy debugserver to /usr/bin
-	> The debugserver binary needs to be in the /usr/bin directory; otherwise, it will crash on launch.
-	
 	```bash
 	cp iOS-debugserver/iOS14-debugserver_arm64 /usr/bin/debugserver
 	```
 
+	> The debugserver binary needs to be in the /usr/bin directory; otherwise, it will crash on launch.
 ## Start
 > ✔️ Remote Debugging over wifi is very slow, utilize iproxy to debug over USB connection.
 
