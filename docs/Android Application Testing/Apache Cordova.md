@@ -1,6 +1,6 @@
 # Apache Cordova
 ## Local Storage
-Cordova uses [google/leveldb](https://github.com/google/leveldb) for Local Storage of data. LevelDB could be found at `/data/data/<package_name>/app_webview/Default/Local\ Storage/leveldb/Storage/leveldb/` 
+Cordova uses [google/leveldb](https://github.com/google/leveldb) for Local Storage of data. On Android, LevelDB is located at `/data/data/<package_name>/app_webview/Default/Local\ Storage/leveldb/Storage/leveldb/` 
 ## Remote Debugging Cordova Apps in Chrome
 1. Hook `android.webkit.WebView` to enable debugging
 2.  Create a frida script to patch WebViews to be debuggable. 
@@ -20,6 +20,7 @@ Cordova uses [google/leveldb](https://github.com/google/leveldb) for Local Sto
 5. Inside chrome, navigate to `chrome://inspect`
 
 From: [Debugging Cordova Applications (appknox.com)](https://www.appknox.com/security/debugging-cordova-applications)
+
 ## Checklist
 - [ ] Check JavaScript includes and iframes for resources fetched from remotely[^1]
 	- [ ] HSTS configured?
