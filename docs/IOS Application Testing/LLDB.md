@@ -4,7 +4,7 @@
 	```bash
 	sudo apt-get install lldb
 	```
-2. Download your binaries on your phone from [GitHub - wstclzy2010/iOS-debugserver: including iOS10/iOS12/iOS13/iOS14 debugserver](https://github.com/wstclzy2010/iOS-debugserver). The binaries from the previous repo are signed with the correct entitlements.
+2. On your phone, download the binaries from [GitHub - wstclzy2010/iOS-debugserver: including iOS10/iOS12/iOS13/iOS14 debugserver](https://github.com/wstclzy2010/iOS-debugserver). The binaries from the previous repo are signed with the correct entitlements.
 	```bash
 	git clone https://github.com/wstclzy2010/iOS-debugserver
 	```
