@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS Application Testing/Objection.md",
-                "mode": "source",
+                "file": "Android Application Testing/Apache Cordova.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS Application Testing/Objection.md",
+                "file": "Android Application Testing/Apache Cordova.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iOS Application Testing/Objection.md"
+                "file": "Android Application Testing/Apache Cordova.md"
               }
             }
           },
@@ -147,8 +147,9 @@
       "publish:Publish changes": false
     }
   },
-  "active": "1fe99213467ed1d6",
+  "active": "7a8792e34f6ee695",
   "lastOpenFiles": [
+    "iOS Application Testing/Objection.md",
     "iOS Application Testing/Frida.md",
     "iOS Application Testing/LLDB.md",
     "iOS Application Testing/Learning Resources.md",
@@ -157,7 +158,6 @@
     "Android Application Testing/Apache Cordova.md",
     "Android Application Testing/Decompiling and Compiling Smali.md",
     "Android Application Testing/Flutter.md",
-    "Android Application Testing/Frida.md",
-    "Android Application Testing/Security Controls.md"
+    "Android Application Testing/Frida.md"
   ]
 }
