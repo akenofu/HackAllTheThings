@@ -1,6 +1,6 @@
 # LLDB
 ## Setup
-1. On your host, Install lldb
+1. On your host, Install lldb (Available from Parrot OS' sources)
 	```bash
 	sudo apt-get install lldb
 	```
