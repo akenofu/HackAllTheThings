@@ -22,7 +22,7 @@ Cordova uses [google/leveldb](https://github.com/google/leveldb) for Local Sto
 From: [Debugging Cordova Applications (appknox.com)](https://www.appknox.com/security/debugging-cordova-applications)
 
 ## Checklist
-- [ ] Check JavaScript includes and iframes for resources fetched from remotely[^1]
+- [ ] Check JavaScript includes and iframes for resources fetched remotely[^1]
 	- [ ] HSTS configured?
 	- [ ] CSP Policy?
 - [ ] Is data encrypted at rest? [^2]

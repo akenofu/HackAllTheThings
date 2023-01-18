@@ -16,7 +16,7 @@ You are absolutely correct. However, some topics are not touched upon on [HackTr
 Dare I say these are Karim flavored techniques
 
 ## Online book  
-The mark down book of this repo has search functionality, collapsing nav bars and some other good stuff 😋
+The mark down book of this repo has search functionality, collapsing nav bars and some other good stuff 🚶🚶.
 
 **Markdown book is hosted at [https://notes.akenofu.me](https://notes.akenofu.me)**
 
