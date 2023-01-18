@@ -14,7 +14,9 @@
 	```
 
 	> The debugserver binary needs to be in the /usr/bin directory; otherwise, it will crash on launch.
+
 ## Start
+
 > ✔️ Remote Debugging over wifi is very slow, utilize iproxy to debug over USB connection.
 
 1. On your host, configure iproxy
