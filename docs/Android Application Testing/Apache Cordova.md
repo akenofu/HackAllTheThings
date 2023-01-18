@@ -1,6 +1,6 @@
 # Apache Cordova
 ## Local Storage
-Cordova uses [google/leveldb](https://github.com/google/leveldb) for Local Storage data. LevelDB could be found at `/data/data/<package_name>/app_webview/Default/Local\ Storage/leveldb/Storage/leveldb/` 
+Cordova uses [google/leveldb](https://github.com/google/leveldb) for Local Storage of data. LevelDB could be found at `/data/data/<package_name>/app_webview/Default/Local\ Storage/leveldb/Storage/leveldb/` 
 ## Remote Debugging Cordova Apps in Chrome
 From: [Debugging Cordova Applications (appknox.com)](https://www.appknox.com/security/debugging-cordova-applications)
 1. Hook `android.webkit.WebView` to enable debugging
