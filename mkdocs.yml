@@ -22,7 +22,7 @@ markdown_extensions:
         custom_checkbox: true
         clickable_checkbox: true
     - footnotes
-    - pymdownx.emoji
+    # - pymdownx.emoji
         
 
 theme:
