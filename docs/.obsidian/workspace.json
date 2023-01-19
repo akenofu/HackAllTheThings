@@ -8,55 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7a8792e34f6ee695",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Privilege Escalation Checklist.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fcd77cf0b662b700",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Miscellaneous/Binaries.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "11ee6f603a0a2a54",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technical Writing/Writing extras for Security Consultants - Work in Progress.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c18c3d35b21081d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Security Consultancy/Scoping.md",
+                "file": "Technical Writing/Writing Checklist.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technical Writing/Writing extras for Security Consultants - Work in Progress.md",
+                "file": "Technical Writing/Writing Checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technical Writing/Writing extras for Security Consultants - Work in Progress.md"
+                "file": "Technical Writing/Writing Checklist.md"
               }
             }
           },
@@ -184,17 +147,17 @@
       "publish:Publish changes": false
     }
   },
-  "active": "1fe99213467ed1d6",
+  "active": "11ee6f603a0a2a54",
   "lastOpenFiles": [
-    "Technical Writing/Writing Checklist.md",
     "Technical Writing/Writing extras for Security Consultants - Work in Progress.md",
-    "Technical Writing/Technical Writing for Engineers.md",
+    "Technical Writing/Writing Error Messages Checklist.md",
     "Technical Writing/Technical Writing for Educators - Work in progress.md",
-    "Development Resources.md",
-    "Active Directory Assessment/Local Privilege Escalation - Work in progress.md",
-    "Security Consultancy/Pentest Prerequisites checklist/Web Application and API.md",
+    "Technical Writing/Technical Writing for Engineers.md",
+    "Technical Writing/Writing Checklist.md",
+    "About me.md",
     "Security Consultancy/Scoping.md",
     "Linux/Privilege Escalation Checklist.md",
-    "Miscellaneous/Binaries.md"
+    "Miscellaneous/Binaries.md",
+    "README.md"
   ]
 }

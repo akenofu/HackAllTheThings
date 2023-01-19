@@ -1,4 +1,0 @@
-# Writing extras for Security Consultants - Work in Progress
-- Replace "the attacker" with "threat actor"
-- Don't refer to yourself in first person; Use company's name.
-- The company is an entity. Use they to refer to the company

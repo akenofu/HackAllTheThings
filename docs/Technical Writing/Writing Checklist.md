@@ -45,3 +45,9 @@ Writing good documentation is an iterative process. I recommend cross-referecing
 -   Compare and contrast with something that readers are already familiar with.
 -   In tutorials, reinforce concepts with examples.
 -   In tutorials, note problems that readers may encounter.
+
+
+## Cyber Security related
+- Replace "the attacker" with "threat actor"
+- Don't refer to yourself in first person; Use company's name.
+- The company is an entity. Use they to refer to the company

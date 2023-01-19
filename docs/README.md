@@ -1,19 +1,7 @@
 # Hack All The Things
 ***
 ## Isn't this just a nerfed HackTricks?
-You are absolutely correct. However, some topics are not touched upon on [HackTricks](https://book.hacktricks.xyz/) as extensively as this repo. This repo is primarily techniques I use on the daily. Some notes are really lacking. but, some notes are really extensive and include non-conventional ways of doing things. 
-
-### Some notes I am proud of:
-- Tailscale Explained
-- Tunneling & Pivoting
-- Development & Server Management
-- Technical Writing
-- Desktop Application Security notes
-- Source Code Review notes
-- All notes under the Misc. Category
-- My Testing Setup: Android, WSL and more
-
-Dare I say these are Karim flavored techniques
+This is my attempt at sharing everything I know with the infosec community to the best of my ability, and it's a reference I use when searching for things I came across before. You see I am very forgetful. I hope it can help you. I don't think of myself just as a security person. I am a learner. You will find notes on writing, scoping, softskills, developlemnt and networking solutions. In addition, to the good old security notes.
 
 ## Online book  
 The mark down book of this repo has search functionality, collapsing nav bars and some other good stuff 🚶🚶.
