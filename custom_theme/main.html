@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 
 {% block extrahead %}
+  {{ super() }}
   {% set title = config.site_name %}
   {% if page and page.meta and page.meta.title %}
     {% set title = title ~ " - " ~ page.meta.title %}
@@ -23,6 +24,7 @@
   <meta property="og:image:height" content="270" />
   
 {% endblock %}
+
 
 {% block libs %}
     {{ super() }}
