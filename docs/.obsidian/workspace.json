@@ -13,13 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS Application Testing/LLDB.md",
-                "mode": "preview",
+                "file": "Linux/Privilege Escalation Checklist.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fcd77cf0b662b700",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Miscellaneous/Binaries.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "11ee6f603a0a2a54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Technical Writing/Writing Checklist extras for Security Consultants.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c18c3d35b21081d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Security Consultancy/Scoping.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -48,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "smb",
+                "query": "priv",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS Application Testing/LLDB.md",
+                "file": "Technical Writing/Writing Checklist extras for Security Consultants.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iOS Application Testing/LLDB.md"
+                "file": "Technical Writing/Writing Checklist extras for Security Consultants.md"
               }
             }
           },
@@ -147,17 +184,17 @@
       "publish:Publish changes": false
     }
   },
-  "active": "7a8792e34f6ee695",
+  "active": "11ee6f603a0a2a54",
   "lastOpenFiles": [
-    "iOS Application Testing/My Setup.md",
-    "iOS Application Testing/Reversing iOS Apps with Ghidra.md",
-    "iOS Application Testing/Extract IPA From AppStore Application.md",
-    "iOS Application Testing/Tweaks.md",
-    "iOS Application Testing/LLDB.md",
-    "Android Application Testing/Apache Cordova.md",
-    "README.md",
-    "iOS Application Testing/Objection.md",
-    "iOS Application Testing/Frida.md",
-    "iOS Application Testing/Learning Resources.md"
+    "Technical Writing/Technical Writing for Engineers.md",
+    "Technical Writing/Writing Checklist.md",
+    "Technical Writing/Technical Writing for Educators - Work in progress.md",
+    "Development Resources.md",
+    "Active Directory Assessment/Local Privilege Escalation - Work in progress.md",
+    "Security Consultancy/Pentest Prerequisites checklist/Web Application and API.md",
+    "Security Consultancy/Scoping.md",
+    "Linux/Privilege Escalation Checklist.md",
+    "Miscellaneous/Binaries.md",
+    "Security Consultancy/Pentest Prerequisites checklist/API.md"
   ]
 }
