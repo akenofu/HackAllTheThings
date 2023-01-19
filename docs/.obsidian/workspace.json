@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7910c3ad78350e1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Server Administration/SEO Optimization.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "About me.md",
+                "file": "Server Administration/SEO Optimization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "About me.md"
+                "file": "Server Administration/SEO Optimization.md"
               }
             }
           },
@@ -147,11 +160,11 @@
       "publish:Publish changes": false
     }
   },
-  "active": "11ee6f603a0a2a54",
+  "active": "7910c3ad78350e1c",
   "lastOpenFiles": [
+    "About me.md",
     "Development Resources.md",
     "README.md",
-    "About me.md",
     "OSINT.md",
     "Technical Writing/Writing Checklist.md",
     "Technical Writing/Writing extras for Security Consultants - Work in Progress.md",
