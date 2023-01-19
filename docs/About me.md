@@ -1,7 +1,7 @@
 # About me
-Short version; Security Consultant, Researcher and Educator
+**Short version; Security Consultant, Researcher and Educator**
 
-Long version; https://akenofu.me/
+Long version; [https://akenofu.me/](https://akenofu.me/)
 
 # Check out my socials
 - [https://www.linkedin.com/in/akenofu/](https://www.linkedin.com/in/akenofu/)
