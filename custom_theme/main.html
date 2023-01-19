@@ -1,5 +1,9 @@
 {% extends "base.html" %}
-
+{%- block site_meta %}
+{{ super() }}
+<link rel="canonical" href="https://notes.akenofu.me/">
+<link rel="shortcut icon" href="/assets/favicon.ico">
+{%- endblock %}
 
 {% block extrahead %}
   {% set title = config.site_name %}
