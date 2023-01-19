@@ -3,7 +3,7 @@ dev_addr: "127.0.0.1:3000"
 site_url: 'https://notes.akenofu.me'
 repo_url: 'https://github.com/akenofu/HackAllTheThings'
 edit_uri: 'https://github.com/akenofu/HackAllTheThings/tree/master/docs/'
-site_description: 'This repo is my personal repertoire of technology and security-related notes since day one in the field. It is also my attempt to give back to the infosec community. It has all the references, checklists, cheat sheets, and notes I use daily. I forgot to say I am very forgetful 🙋‍♂️. So, I am probably the person who uses this the most 👀'
+site_description: 'This repo is my personal repertoire of technology and security-related notes since day one in the field. It is also my attempt to give back to the infosec community. It has all the references, checklists, cheat sheets, and notes I use daily. I forgot to say, I am very forgetful 🙋‍♂️. So, I am probably the person who uses this the most 👀'
 site_author: 'Karim Mohamed @akenofu'
 watch: ['docs', 'mkdocs.yml', 'custom_theme']
 plugins:
@@ -21,9 +21,7 @@ markdown_extensions:
     - pymdownx.tasklist:
         custom_checkbox: true
         clickable_checkbox: true
-    - footnotes
-    # - pymdownx.emoji
-        
+    - footnotes        
 
 theme:
     name: material
