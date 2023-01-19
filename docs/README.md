@@ -1,7 +1,9 @@
 # Hack All The Things
 ***
 ## Isn't this just a nerfed HackTricks?
-This is my attempt at sharing everything I know with the infosec community to the best of my ability, and it's a reference I use when searching for things I came across before. You see I am very forgetful. I hope it can help you. I don't think of myself just as a security person. I am a learner. You will find notes on writing, scoping, softskills, developlemnt and networking solutions. In addition, to the good old security notes.
+This is my attempt at sharing everything I know with the infosec community to the best of my ability, and the reference I use when searching for things or recommending people things I came across before. You see I am very forgetful. I hope it can help you as it does help me. 
+
+I don't think of myself just as a security person. I am a learner. You will find notes on writing, scoping, softskills, developlemnt and networking solutions. In addition, to the good old security notes.
 
 ## Online book  
 The mark down book of this repo has search functionality, collapsing nav bars and some other good stuff 🚶🚶.

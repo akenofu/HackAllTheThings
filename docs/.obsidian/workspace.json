@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technical Writing/Writing Checklist.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technical Writing/Writing Checklist.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technical Writing/Writing Checklist.md"
+                "file": "README.md"
               }
             }
           },
@@ -149,15 +149,15 @@
   },
   "active": "11ee6f603a0a2a54",
   "lastOpenFiles": [
+    "OSINT.md",
+    "Technical Writing/Writing Checklist.md",
     "Technical Writing/Writing extras for Security Consultants - Work in Progress.md",
     "Technical Writing/Writing Error Messages Checklist.md",
     "Technical Writing/Technical Writing for Educators - Work in progress.md",
     "Technical Writing/Technical Writing for Engineers.md",
-    "Technical Writing/Writing Checklist.md",
     "About me.md",
     "Security Consultancy/Scoping.md",
     "Linux/Privilege Escalation Checklist.md",
-    "Miscellaneous/Binaries.md",
-    "README.md"
+    "Miscellaneous/Binaries.md"
   ]
 }
