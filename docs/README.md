@@ -1,12 +1,12 @@
 # Hack All The Things
 ***
 ## Isn't this just a nerfed HackTricks?
-This is my attempt at sharing everything I know with the infosec community to the best of my ability, and the reference I use when searching for things or recommending people things I came across before. You see I am very forgetful. I hope it can help you as it does help me. 
+This repo is my personal repertoire of technology and security-related notes since day one in the field. It is also my attempt to give back to the infosec community. It has all the references, checklists, cheat sheets, and notes I use daily. I forgot to say, I am very forgetful 🙋‍♂️. So, I am probably the person who uses this the most 👀. I hope this repo can help you as much as it does help me. 
 
-I don't think of myself just as a security person. I am a learner. You will find notes on writing, scoping, softskills, developlemnt and networking solutions. In addition, to the good old security notes.
+I don't think of myself just as a security person 🦝. I am a learner. You will find notes on technical writing, scoping, soft skills, software engineering, development, system design, and server administration. In addition, to the good old security notes.
 
 ## Online book  
-The mark down book of this repo has search functionality, collapsing nav bars and some other good stuff 🚶🚶.
+The markdown book of this repo has search functionality, collapsing nav bars, and some other good stuff.
 
 **Markdown book is hosted at [https://notes.akenofu.me](https://notes.akenofu.me)**
 
