@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "About me.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7910c3ad78350e1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Server Administration/SEO Optimization.md",
-                "mode": "preview",
+                "file": "README.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Server Administration/SEO Optimization.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Server Administration/SEO Optimization.md"
+                "file": "README.md"
               }
             }
           },
@@ -160,9 +147,10 @@
       "publish:Publish changes": false
     }
   },
-  "active": "7910c3ad78350e1c",
+  "active": "11ee6f603a0a2a54",
   "lastOpenFiles": [
     "About me.md",
+    "Server Administration/SEO Optimization.md",
     "Development Resources.md",
     "README.md",
     "OSINT.md",
@@ -170,7 +158,6 @@
     "Technical Writing/Writing extras for Security Consultants - Work in Progress.md",
     "Technical Writing/Writing Error Messages Checklist.md",
     "Technical Writing/Technical Writing for Educators - Work in progress.md",
-    "Technical Writing/Technical Writing for Engineers.md",
-    "Security Consultancy/Scoping.md"
+    "Technical Writing/Technical Writing for Engineers.md"
   ]
 }
