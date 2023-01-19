@@ -11,4 +11,4 @@
 # Actively working on
 - All things technology & consultancy at [https://notes.akenofu.me/](https://notes.akenofu.me/)
 - Thoughts, ideas and write-ups on security at [https://blog.akenofu.me/](https://blog.akenofu.me/)
-- Tech and Security related videos at https://www.youtube.com/@akenofu8712
+- Tech and Security related videos at [https://www.youtube.com/@akenofu8712](https://www.youtube.com/@akenofu8712)
