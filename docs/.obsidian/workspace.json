@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technical Writing/Writing Checklist extras for Security Consultants.md",
+                "file": "Technical Writing/Writing extras for Security Consultants - Work in Progress.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technical Writing/Writing Checklist extras for Security Consultants.md",
+                "file": "Technical Writing/Writing extras for Security Consultants - Work in Progress.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technical Writing/Writing Checklist extras for Security Consultants.md"
+                "file": "Technical Writing/Writing extras for Security Consultants - Work in Progress.md"
               }
             }
           },
@@ -184,17 +184,17 @@
       "publish:Publish changes": false
     }
   },
-  "active": "11ee6f603a0a2a54",
+  "active": "1fe99213467ed1d6",
   "lastOpenFiles": [
-    "Technical Writing/Technical Writing for Engineers.md",
     "Technical Writing/Writing Checklist.md",
+    "Technical Writing/Writing extras for Security Consultants - Work in Progress.md",
+    "Technical Writing/Technical Writing for Engineers.md",
     "Technical Writing/Technical Writing for Educators - Work in progress.md",
     "Development Resources.md",
     "Active Directory Assessment/Local Privilege Escalation - Work in progress.md",
     "Security Consultancy/Pentest Prerequisites checklist/Web Application and API.md",
     "Security Consultancy/Scoping.md",
     "Linux/Privilege Escalation Checklist.md",
-    "Miscellaneous/Binaries.md",
-    "Security Consultancy/Pentest Prerequisites checklist/API.md"
+    "Miscellaneous/Binaries.md"
   ]
 }
