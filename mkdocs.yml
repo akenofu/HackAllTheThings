@@ -3,8 +3,8 @@ dev_addr: "127.0.0.1:3000"
 site_url: 'https://notes.akenofu.me'
 repo_url: 'https://github.com/akenofu/HackAllTheThings'
 edit_uri: 'https://github.com/akenofu/HackAllTheThings/tree/master/docs/'
-site_description: 'The HackTricks we have at home. Except some notes are really extensive and include non-conventional ways of doing things'
-site_author: 'Karim, @akenofu'
+site_description: ''
+site_author: 'Karim Mohamed @akenofu'
 watch: ['docs', 'mkdocs.yml', 'custom_theme']
 plugins:
     - search:

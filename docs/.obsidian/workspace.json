@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "README.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -149,15 +149,15 @@
   },
   "active": "11ee6f603a0a2a54",
   "lastOpenFiles": [
+    "About me.md",
+    "README.md",
     "OSINT.md",
     "Technical Writing/Writing Checklist.md",
     "Technical Writing/Writing extras for Security Consultants - Work in Progress.md",
     "Technical Writing/Writing Error Messages Checklist.md",
     "Technical Writing/Technical Writing for Educators - Work in progress.md",
     "Technical Writing/Technical Writing for Engineers.md",
-    "About me.md",
     "Security Consultancy/Scoping.md",
-    "Linux/Privilege Escalation Checklist.md",
-    "Miscellaneous/Binaries.md"
+    "Linux/Privilege Escalation Checklist.md"
   ]
 }

@@ -1,5 +1,6 @@
 # About me
-Just another Security Consultant. One day I'll do a proper about me just not today.
+Short version; Security Consultant, Researcher and Educator
+Long version; https://akenofu.me/
 
 # Check out my socials
 - [https://www.linkedin.com/in/akenofu/](https://www.linkedin.com/in/akenofu/)
