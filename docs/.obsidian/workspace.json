@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android Application Testing/Apache Cordova.md",
+                "file": "Security Consultancy/Pentest Prerequisites checklist/Web Application and API.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android Application Testing/Apache Cordova.md",
+                "file": "Security Consultancy/Pentest Prerequisites checklist/Web Application and API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android Application Testing/Apache Cordova.md"
+                "file": "Security Consultancy/Pentest Prerequisites checklist/Web Application and API.md"
               }
             }
           },
@@ -149,6 +149,7 @@
   },
   "active": "52d9e38509496627",
   "lastOpenFiles": [
+    "Android Application Testing/Apache Cordova.md",
     "Security Consultancy/Obtaining Authorization.md",
     "Security Consultancy/Pentest Prerequisites checklist/Web Application and API.md",
     "About me.md",
@@ -157,7 +158,6 @@
     "Development Resources.md",
     "OSINT.md",
     "Technical Writing/Writing Checklist.md",
-    "Technical Writing/Writing extras for Security Consultants - Work in Progress.md",
-    "Technical Writing/Writing Error Messages Checklist.md"
+    "Technical Writing/Writing extras for Security Consultants - Work in Progress.md"
   ]
 }

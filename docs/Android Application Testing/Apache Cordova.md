@@ -1,6 +1,6 @@
 # Apache Cordova
 ## Config
-After unpacking the apk, the apache Cordova config file could be found at `./res/xml/config.xml` .
+After unpacking the apk, the apache Cordova config file is located in `./res/xml/config.xml` .
 ## Local Storage
 Cordova uses [google/leveldb](https://github.com/google/leveldb) for Local Storage of data. On Android, LevelDB is located at `/data/data/<package_name>/app_webview/Default/Local\ Storage/leveldb/Storage/leveldb/` 
 ## Remote Debugging Cordova Apps in Chrome
