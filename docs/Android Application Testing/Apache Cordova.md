@@ -1,4 +1,6 @@
 # Apache Cordova
+## Config
+After unpacking the apk, the apache Cordova config file could be found at `./res/xml/config.xml` .
 ## Local Storage
 Cordova uses [google/leveldb](https://github.com/google/leveldb) for Local Storage of data. On Android, LevelDB is located at `/data/data/<package_name>/app_webview/Default/Local\ Storage/leveldb/Storage/leveldb/` 
 ## Remote Debugging Cordova Apps in Chrome
@@ -25,6 +27,11 @@ From: [Debugging Cordova Applications (appknox.com)](https://www.appknox.com/sec
 - [ ] Check JavaScript includes and iframes for resources fetched remotely[^1]
 	- [ ] HSTS configured?
 	- [ ] CSP Policy?
+- [ ] Are allows lists enabled? [^4]
+	- [ ] Overly permissive origin allow list?
+	- [ ] Network Request Allow List?
+	- [ ] Navigation Allow List?
+	- [ ] Intent Allow List?
 - [ ] Is data encrypted at rest? [^2]
 - [ ] Is InAppBrowser used to render links outside of the website [^3]
 - [ ] is Certificate pinning implemented?
@@ -41,3 +48,4 @@ From: [Debugging Cordova Applications (appknox.com)](https://www.appknox.com/sec
 [^1]:  [Security problems of Apache Cordova - steal the entire contents of the phone's memory card with one XSS - research.securitum.com](https://research.securitum.com/security-problems-of-apache-cordova-steal-the-entire-contents-of-the-phone_s-memory-card-with-one-xss/)
 [^2]: [cordova-docs/cordova-security-data.md at master · MicrosoftDocs/cordova-docs · GitHub](https://github.com/MicrosoftDocs/cordova-docs/blob/master/articles/cordova-security/cordova-security-data.md)
 [^3]: [Security Guide - Apache Cordova](https://cordova.apache.org/docs/en/11.x/guide/appdev/security/)
+[^4]: [Allow List Guide - Apache Cordova](https://cordova.apache.org/docs/en/11.x/guide/appdev/allowlist/index.html)

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Security Consultancy/Obtaining Authorization.md",
+                "file": "Android Application Testing/Apache Cordova.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Security Consultancy/Obtaining Authorization.md",
+                "file": "Android Application Testing/Apache Cordova.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Security Consultancy/Obtaining Authorization.md"
+                "file": "Android Application Testing/Apache Cordova.md"
               }
             }
           },
@@ -149,6 +149,7 @@
   },
   "active": "52d9e38509496627",
   "lastOpenFiles": [
+    "Security Consultancy/Obtaining Authorization.md",
     "Security Consultancy/Pentest Prerequisites checklist/Web Application and API.md",
     "About me.md",
     "README.md",
@@ -157,7 +158,6 @@
     "OSINT.md",
     "Technical Writing/Writing Checklist.md",
     "Technical Writing/Writing extras for Security Consultants - Work in Progress.md",
-    "Technical Writing/Writing Error Messages Checklist.md",
-    "Technical Writing/Technical Writing for Educators - Work in progress.md"
+    "Technical Writing/Writing Error Messages Checklist.md"
   ]
 }
