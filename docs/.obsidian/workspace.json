@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ae527f0080806779",
+        "id": "5844f2d3a4ee9e6c",
         "type": "tabs",
         "children": [
           {
-            "id": "52d9e38509496627",
+            "id": "b1c99c281c749c24",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Security Consultancy/Pentest Prerequisites checklist/Web Application and API.md",
-                "mode": "source",
+                "file": "Exploit Development/Learning Resources.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Security Consultancy/Pentest Prerequisites checklist/Web Application and API.md",
+                "file": "Exploit Development/Learning Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Security Consultancy/Pentest Prerequisites checklist/Web Application and API.md"
+                "file": "Exploit Development/Learning Resources.md"
               }
             }
           },
@@ -147,17 +147,17 @@
       "publish:Publish changes": false
     }
   },
-  "active": "52d9e38509496627",
+  "active": "b1c99c281c749c24",
   "lastOpenFiles": [
+    "Exploit Development/WinDBG.md",
+    "Exploit Development/Learning Resources.md",
+    "Security Consultancy/Pentest Prerequisites checklist/Web Application and API.md",
     "Android Application Testing/Apache Cordova.md",
     "Security Consultancy/Obtaining Authorization.md",
-    "Security Consultancy/Pentest Prerequisites checklist/Web Application and API.md",
     "About me.md",
     "README.md",
     "Server Administration/SEO Optimization.md",
     "Development Resources.md",
-    "OSINT.md",
-    "Technical Writing/Writing Checklist.md",
-    "Technical Writing/Writing extras for Security Consultants - Work in Progress.md"
+    "OSINT.md"
   ]
 }
