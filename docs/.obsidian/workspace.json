@@ -42,9 +42,29 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bde728d178898e5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Secure Design.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b200b2a8944336c0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -110,7 +130,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Exploit Development/msfvenom.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,9 +145,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Exploit Development/msfvenom.md"
-              }
+              "state": {}
             }
           },
           {
@@ -172,17 +189,17 @@
       "publish:Publish changes": false
     }
   },
-  "active": "0c60a2151cffb58f",
+  "active": "1fe99213467ed1d6",
   "lastOpenFiles": [
+    "Secure Design.md",
+    "Exploit Development/msfvenom.md",
     "Exploit Development/Learning Resources.md",
     "Exploit Development/WinDBG.md",
-    "Exploit Development/msfvenom.md",
     "Security Consultancy/Pentest Prerequisites checklist/Web Application and API.md",
     "Android Application Testing/Apache Cordova.md",
     "Security Consultancy/Obtaining Authorization.md",
     "About me.md",
     "README.md",
-    "Server Administration/SEO Optimization.md",
-    "Development Resources.md"
+    "Server Administration/SEO Optimization.md"
   ]
 }
