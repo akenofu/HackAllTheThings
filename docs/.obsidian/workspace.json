@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Exploit Development/Learning Resources.md",
+                "file": "Exploit Development/msfvenom.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Exploit Development/Learning Resources.md"
+                "file": "Exploit Development/msfvenom.md"
               }
             }
           },
@@ -172,11 +172,11 @@
       "publish:Publish changes": false
     }
   },
-  "active": "25af8c4a7556d587",
+  "active": "0c60a2151cffb58f",
   "lastOpenFiles": [
+    "Exploit Development/Learning Resources.md",
     "Exploit Development/WinDBG.md",
     "Exploit Development/msfvenom.md",
-    "Exploit Development/Learning Resources.md",
     "Security Consultancy/Pentest Prerequisites checklist/Web Application and API.md",
     "Android Application Testing/Apache Cordova.md",
     "Security Consultancy/Obtaining Authorization.md",
