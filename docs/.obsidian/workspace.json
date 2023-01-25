@@ -20,13 +20,13 @@
             }
           },
           {
-            "id": "25af8c4a7556d587",
+            "id": "89cb443c25b7a635",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Exploit Development/Learning Resources.md",
-                "mode": "preview",
+                "file": "Web Applications testing/Salesforce Testing.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -42,33 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "bde728d178898e5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Secure Design.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b200b2a8944336c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web Applications testing/Salesforce Testing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "priv",
+                "query": "feroxbus",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Applications testing/Salesforce Testing.md",
+                "file": "Exploit Development/msfvenom.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Applications testing/Salesforce Testing.md"
+                "file": "Exploit Development/msfvenom.md"
               }
             }
           },
@@ -196,13 +172,13 @@
       "publish:Publish changes": false
     }
   },
-  "active": "b200b2a8944336c0",
+  "active": "0c60a2151cffb58f",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Secure Design.md",
-    "Exploit Development/msfvenom.md",
+    "Web Applications testing/Salesforce Testing.md",
+    "Cheatsheets/WebApplication Tooling.md",
     "Exploit Development/Learning Resources.md",
     "Exploit Development/WinDBG.md",
+    "Exploit Development/msfvenom.md",
     "Security Consultancy/Pentest Prerequisites checklist/Web Application and API.md",
     "Android Application Testing/Apache Cordova.md",
     "Security Consultancy/Obtaining Authorization.md",
