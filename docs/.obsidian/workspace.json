@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Security Consultancy/Prerequisites checklists/Cloud Config Reviews.md",
+                "file": "Secure Design.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Security Consultancy/Prerequisites checklists/Cloud Config Reviews.md",
+                "file": "Secure Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Security Consultancy/Prerequisites checklists/Cloud Config Reviews.md"
+                "file": "Secure Design.md"
               }
             }
           },
@@ -149,8 +149,8 @@
   },
   "active": "2373f4de7d45e66c",
   "lastOpenFiles": [
-    "Security Consultancy/Prerequisites checklists/Web Application and API Penetration testing.md",
     "Security Consultancy/Prerequisites checklists/Cloud Config Reviews.md",
+    "Security Consultancy/Prerequisites checklists/Web Application and API Penetration testing.md",
     "Web Applications testing/Burp Extensions.md",
     "Web Applications testing/Salesforce Testing.md",
     "Web Applications testing/Tips and Tricks.md",
