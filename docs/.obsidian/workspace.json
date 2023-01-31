@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Applications testing/Salesforce Testing.md",
-                "mode": "source",
+                "file": "Web Applications testing/Burp Extensions.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Applications testing/Salesforce Testing.md",
+                "file": "Web Applications testing/Burp Extensions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Applications testing/Salesforce Testing.md"
+                "file": "Web Applications testing/Burp Extensions.md"
               }
             }
           },
@@ -150,11 +149,11 @@
   },
   "active": "2373f4de7d45e66c",
   "lastOpenFiles": [
+    "Web Applications testing/Salesforce Testing.md",
     "Web Applications testing/Tips and Tricks.md",
     "Security Consultancy/Pentest Prerequisites checklist/Cloud.md",
     "Cloud/Azure AD Assessment.md",
-    "Web Applications testing/Salesforce Testing.md",
-    "Web Applications testing/My Tooling.md",
+    "Web Applications testing/Burp Extensions.md",
     "Source Code Review/Tooling.md",
     "Source Code Review/Resources.md",
     "Security Consultancy/Pentest Prerequisites checklist/Web Application and API.md",
