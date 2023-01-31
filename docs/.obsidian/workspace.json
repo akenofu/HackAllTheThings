@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5844f2d3a4ee9e6c",
+        "id": "7f433ffbe9d16e1b",
         "type": "tabs",
         "children": [
           {
-            "id": "c209abe1f8c9b18a",
+            "id": "8c55db1c987a7a12",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -147,17 +147,17 @@
       "publish:Publish changes": false
     }
   },
-  "active": "c209abe1f8c9b18a",
+  "active": "8c55db1c987a7a12",
   "lastOpenFiles": [
-    "Exploit Development/Learning Resources.md",
+    "About me.md",
+    "Security Consultancy/Pentest Prerequisites checklist/Web Application and API.md",
+    "Security Consultancy/Pentest Prerequisites checklist/Cloud.md",
     "Web Applications testing/Salesforce Testing.md",
+    "Exploit Development/Learning Resources.md",
     "Exploit Development/msfvenom.md",
     "Cheatsheets/WebApplication Tooling.md",
     "Exploit Development/WinDBG.md",
-    "Security Consultancy/Pentest Prerequisites checklist/Web Application and API.md",
     "Android Application Testing/Apache Cordova.md",
-    "Security Consultancy/Obtaining Authorization.md",
-    "About me.md",
-    "README.md"
+    "Security Consultancy/Obtaining Authorization.md"
   ]
 }

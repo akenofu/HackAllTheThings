@@ -1,7 +1,6 @@
 # About me
-**Short version; Security Consultant, Researcher and Educator**
-
-**Long version; [https://akenofu.me/](https://akenofu.me/)**
+Short version; Techie 🧑‍💻 — Security Engineer, Consultant, and Educator
+Long version; https://akenofu.me/
 
 # Check out my socials
 - [https://www.linkedin.com/in/akenofu/](https://www.linkedin.com/in/akenofu/)
