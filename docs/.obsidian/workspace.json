@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Applications testing/Salesforce Testing.md",
-                "mode": "preview",
+                "file": "About me.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Applications testing/Salesforce Testing.md",
+                "file": "About me.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Applications testing/Salesforce Testing.md"
+                "file": "About me.md"
               }
             }
           },
@@ -149,15 +149,15 @@
   },
   "active": "8c55db1c987a7a12",
   "lastOpenFiles": [
+    "Development Resources.md",
+    "Web Applications testing/Salesforce Testing.md",
     "About me.md",
     "Security Consultancy/Pentest Prerequisites checklist/Web Application and API.md",
     "Security Consultancy/Pentest Prerequisites checklist/Cloud.md",
-    "Web Applications testing/Salesforce Testing.md",
     "Exploit Development/Learning Resources.md",
     "Exploit Development/msfvenom.md",
     "Cheatsheets/WebApplication Tooling.md",
     "Exploit Development/WinDBG.md",
-    "Android Application Testing/Apache Cordova.md",
-    "Security Consultancy/Obtaining Authorization.md"
+    "Android Application Testing/Apache Cordova.md"
   ]
 }
