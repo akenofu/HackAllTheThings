@@ -1,4 +1,4 @@
-# Web Application and API
+# Web Application and API Penetration testing
 # Scope
 - [ ] URLs: in-scope and out-of-scope
 - [ ] Any pages/functionalities that the client does not want to be tested

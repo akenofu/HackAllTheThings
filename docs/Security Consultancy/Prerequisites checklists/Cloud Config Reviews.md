@@ -1,4 +1,4 @@
-# Cloud
+# Cloud Config Reviews
 ## Azure
 - [ ] An account with reader and security reader roles
 
