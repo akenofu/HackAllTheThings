@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Secure Design.md",
-                "mode": "source",
+                "file": "Web Applications testing/Salesforce Testing.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Secure Design.md",
+                "file": "Web Applications testing/Salesforce Testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Secure Design.md"
+                "file": "Web Applications testing/Salesforce Testing.md"
               }
             }
           },
@@ -149,15 +149,15 @@
   },
   "active": "2373f4de7d45e66c",
   "lastOpenFiles": [
+    "Technologies Explained/Tailscale.md",
+    "Web Applications testing/Burp Extensions.md",
+    "Web Applications testing/WAF & Directory Brute Forcing.md",
+    "Web Applications testing/Tips and Tricks.md",
+    "Web Applications testing/Salesforce Testing.md",
+    "Web Applications testing/Resources.md",
+    "Secure Design.md",
     "Security Consultancy/Prerequisites checklists/Cloud Config Reviews.md",
     "Security Consultancy/Prerequisites checklists/Web Application and API Penetration testing.md",
-    "Web Applications testing/Burp Extensions.md",
-    "Web Applications testing/Salesforce Testing.md",
-    "Web Applications testing/Tips and Tricks.md",
-    "Cloud/Azure AD Assessment.md",
-    "Source Code Review/Tooling.md",
-    "Source Code Review/Resources.md",
-    "Exploit Development/Learning Resources.md",
-    "Exploit Development/msfvenom.md"
+    "Cloud/Azure AD Assessment.md"
   ]
 }

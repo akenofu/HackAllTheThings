@@ -20,8 +20,8 @@
 	```http
 	https://<domain>.my.salesforce.com/_ui/common/apex/debug/ApexCSIPage
 	```
-```
-	- [ ] Abuse `search in files` functionality to leak source code, passwords, tokens, etc.
+	
+	 - [ ] Abuse `search in files` functionality to leak source code, passwords, tokens, etc.
 	- [ ] SOQL Queries to leak data that might not be accessible and protected by Apex classes sharing permissions.
 
 
