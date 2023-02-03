@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Applications testing/Salesforce Testing.md",
-                "mode": "preview",
+                "file": "Network Pen test/gRPC.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "curl",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Applications testing/Salesforce Testing.md",
+                "file": "Network Pen test/gRPC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Applications testing/Salesforce Testing.md"
+                "file": "Network Pen test/gRPC.md"
               }
             }
           },
@@ -149,15 +150,15 @@
   },
   "active": "2373f4de7d45e66c",
   "lastOpenFiles": [
-    "Technologies Explained/Tailscale.md",
-    "Web Applications testing/Burp Extensions.md",
-    "Web Applications testing/WAF & Directory Brute Forcing.md",
-    "Web Applications testing/Tips and Tricks.md",
-    "Web Applications testing/Salesforce Testing.md",
-    "Web Applications testing/Resources.md",
-    "Secure Design.md",
-    "Security Consultancy/Prerequisites checklists/Cloud Config Reviews.md",
+    "Miscellaneous/Git.md",
+    "Android Application Testing/archived/Static Analysis.md",
+    "Databases/MySQL.md",
+    "Databases/SqlLite.md",
     "Security Consultancy/Prerequisites checklists/Web Application and API Penetration testing.md",
-    "Cloud/Azure AD Assessment.md"
+    "Security Consultancy/Prerequisites checklists/Cloud Config Reviews.md",
+    "Secure Design.md",
+    "Development Resources.md",
+    "Security Consultancy/Scoping.md",
+    "Web Applications testing/Salesforce Testing.md"
   ]
 }

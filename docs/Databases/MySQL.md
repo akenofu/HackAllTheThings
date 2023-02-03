@@ -1,8 +1,11 @@
 ## MySQL
 ## Enumerate DB
 ```sql
-# Describe table
+-- Describe tables
 DESCRIBE accounts
+
+-- Select and Print output on online 
+select * from users \G
 ```
 
 ## Blind SQLi

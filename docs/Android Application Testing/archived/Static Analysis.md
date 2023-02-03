@@ -63,6 +63,8 @@ strings libnative-lib.so
 - List connections using netstat
 	```bash
 	netstat -ntpl	
+	# or
+	ss -lntp
 	```
 - List loaded native libraries
 	```bash

@@ -6,5 +6,8 @@ sqlite3 cereal.db
 
 # Dump DB
 .dump
+
+# Show Schema
+.schema
 ```
 
