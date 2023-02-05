@@ -15,12 +15,17 @@ https://api.github.com/repos/molenzwiebel/Deceive/releases/latest
 [arthaud/git-dumper: A tool to dump a git repository from a website (github.com)](https://github.com/arthaud/git-dumper)
 > Use grep to identify non-patched dependencies
 
+or
+```bash
+# Download repo exposed from webserver
+wget -r https://0acf008f04cdf285c14b7b1c0012006e.web-security-academy.net/.git/
+```
 
-## Misc
+## Diff-ing git commits
 ```bash
 # List commits
 git log
 
 # Show changes in commit
-git -p log <commit_id>
+git log -p <commit_id>
 ```

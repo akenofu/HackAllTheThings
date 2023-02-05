@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network Pen test/gRPC.md",
+                "file": "Miscellaneous/Git.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,8 +48,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "curl",
-                "matchingCase": false,
+                "query": "git log",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network Pen test/gRPC.md",
+                "file": "Miscellaneous/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network Pen test/gRPC.md"
+                "file": "Miscellaneous/Git.md"
               }
             }
           },
@@ -150,15 +149,15 @@
   },
   "active": "2373f4de7d45e66c",
   "lastOpenFiles": [
+    "Cloud/Azure AD Assessment.md",
+    "Cloud/Azure Hardening Checklist.md",
+    "Cloud/Azure Fundamentals.md",
+    "Evasion/AMSI.md",
+    "Cloud/Platform Agnostic Testing.md",
+    "Network Pen test/gRPC.md",
     "Miscellaneous/Git.md",
     "Android Application Testing/archived/Static Analysis.md",
     "Databases/MySQL.md",
-    "Databases/SqlLite.md",
-    "Security Consultancy/Prerequisites checklists/Web Application and API Penetration testing.md",
-    "Security Consultancy/Prerequisites checklists/Cloud Config Reviews.md",
-    "Secure Design.md",
-    "Development Resources.md",
-    "Security Consultancy/Scoping.md",
-    "Web Applications testing/Salesforce Testing.md"
+    "Databases/SqlLite.md"
   ]
 }
