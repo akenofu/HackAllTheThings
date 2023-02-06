@@ -7,7 +7,7 @@ git clone https://kogytytnmvmj33k6urfadfxj3cou6fwmain26v5jwxamttf3tlkqq@dev.azur
 ## Git meta data about repo from GitHub API
 ```http
 https://api.github.com/repos/molenzwiebel/Deceive/releases/latest
-```
+``` 
 
 ![](/Screenshots/Pasted%20image%2020230104034321.png)
 

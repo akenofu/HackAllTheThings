@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Miscellaneous/Git.md",
-                "mode": "source",
+                "file": "Web Applications testing/API/API Testing Checklist.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "032fffacc5a16c1a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Applications testing/Attacks/Logic Attacks.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git log",
+                "query": "business logic",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Miscellaneous/Git.md",
+                "file": "Web Applications testing/Attacks/Logic Attacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Miscellaneous/Git.md"
+                "file": "Web Applications testing/Attacks/Logic Attacks.md"
               }
             }
           },
@@ -147,17 +160,17 @@
       "publish:Publish changes": false
     }
   },
-  "active": "2373f4de7d45e66c",
+  "active": "032fffacc5a16c1a",
   "lastOpenFiles": [
+    "Web Applications testing/API/API Testing Checklist.md",
+    "Desktop Application Testing/C++ Win32 Applications.md",
+    "Desktop Application Testing/LD_PRELOAD Hooking.md",
+    "Desktop Application Testing/Win32 Internals.md",
+    "Miscellaneous/Git.md",
     "Cloud/Azure AD Assessment.md",
     "Cloud/Azure Hardening Checklist.md",
     "Cloud/Azure Fundamentals.md",
     "Evasion/AMSI.md",
-    "Cloud/Platform Agnostic Testing.md",
-    "Network Pen test/gRPC.md",
-    "Miscellaneous/Git.md",
-    "Android Application Testing/archived/Static Analysis.md",
-    "Databases/MySQL.md",
-    "Databases/SqlLite.md"
+    "Cloud/Platform Agnostic Testing.md"
   ]
 }

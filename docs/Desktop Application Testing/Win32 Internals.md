@@ -3,7 +3,6 @@ Useful to understand what kernel functions prefixes refer to:
 
 
 
-
 Other Resources
 [Windows Data Types - MSDN](https://learn.microsoft.com/en-us/windows/win32/winprog/windows-data-types?redirectedfrom=MSDN)
 
