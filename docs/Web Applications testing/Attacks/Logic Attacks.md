@@ -1,6 +1,6 @@
 # Logic Attacks
 Note down the assumptions the developers made when designing the application. Can a step be skipped? Did they account for edge cases?
-**State the assumptions you think the developers implemented when testing for logic attacks; This makes it easier to identify logic flaws** [^1]
+**State the assumptions you think the developers made, before testing for logic attacks; This makes it easier to identify logic flaws** [^1]
 ## 2FA
 - How is 2FA code linked to the user's session and previous credential login? 
 - Can you drop the 2FA request? [^10]
