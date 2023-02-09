@@ -13,8 +13,6 @@ gcloud projects get-iam-policy <compute_instance_name>
 # Describe Role in terms of granular permissions
 gcloud iam roles describe <role> --project <project> 
 
-# 
-
 # Scoutesuite
 python3 scout.py gcp --user-account | tee <client>.scoutsuite
 ```
