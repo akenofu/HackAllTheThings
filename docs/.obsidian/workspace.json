@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cloud/GCP Assessement.md",
+                "file": "Secure Design.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "business logic",
+                "query": "iproxy",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cloud/GCP Assessement.md",
+                "file": "Secure Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cloud/GCP Assessement.md"
+                "file": "Secure Design.md"
               }
             }
           },
@@ -149,15 +149,15 @@
   },
   "active": "032fffacc5a16c1a",
   "lastOpenFiles": [
+    "Source Code Review/Tooling.md",
+    "iOS Application Testing/Connect to Shell Over USB.md",
+    "Vulnerability Scanning.md",
+    "Cloud/GCP Assessement.md",
     "Web Applications testing/Attacks/Logic Attacks.md",
     "Web Applications testing/API/API Testing Checklist.md",
     "Desktop Application Testing/C++ Win32 Applications.md",
     "Desktop Application Testing/LD_PRELOAD Hooking.md",
     "Desktop Application Testing/Win32 Internals.md",
-    "Miscellaneous/Git.md",
-    "Cloud/Azure AD Assessment.md",
-    "Cloud/Azure Hardening Checklist.md",
-    "Cloud/Azure Fundamentals.md",
-    "Evasion/AMSI.md"
+    "Miscellaneous/Git.md"
   ]
 }
