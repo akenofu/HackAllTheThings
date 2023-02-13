@@ -123,6 +123,7 @@ DHCP snooping acts like a firewall between untrusted hosts and DHCP servers. You
 
 ## VLAN
 Resource on VLANs and subnetting:
+
 [(46) VLANs Explained | Cisco CCNA 200-301 - YouTube](https://www.youtube.com/watch?v=A9lMH0ye1HU)
 [Subnetting != Segmentation | LMG Security](https://www.lmgsecurity.com/pentest-subnetting-segmentation/)
 
