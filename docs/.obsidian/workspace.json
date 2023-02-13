@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Security Architecture and Engineering.md",
+                "file": "Network Security Architecture and Engineering.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Security Architecture and Engineering.md",
+                "file": "Network Security Architecture and Engineering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Security Architecture and Engineering.md"
+                "file": "Network Security Architecture and Engineering.md"
               }
             }
           },
@@ -163,7 +163,7 @@
   "active": "48667687a2537cfe",
   "lastOpenFiles": [
     "Network Pen test/IPv6.md",
-    "Security Architecture and Engineering.md",
+    "Network Security Architecture and Engineering.md",
     "Source Code Review/Tooling.md",
     "Source Code Review/Untitled.md",
     "Android Application Testing/Tools.md",
