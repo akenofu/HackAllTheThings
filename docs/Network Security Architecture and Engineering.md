@@ -684,6 +684,8 @@ To secure a Mac device from DMA attacks, you should set an EFI password. Setting
 - [(46) Zero-Trust Networks: The Future Is Here - SANS Blue Team Summit 2019 - YouTube](https://www.youtube.com/watch?v=EF_0dr8WkX8)
 - [(46) VLANs Explained | Cisco CCNA 200-301 - YouTube](https://www.youtube.com/watch?v=A9lMH0ye1HU)
 - [Subnetting != Segmentation | LMG Security](https://www.lmgsecurity.com/pentest-subnetting-segmentation/)
+- [(47) Network Architecture | SANS ICS Concepts - YouTube](https://www.youtube.com/watch?v=Ai2bxzJMuVI)
+- [(47) How to Use Security Architecture to Build a Defensible ICS Network - SANS ICS Security Summit 2021 - YouTube](https://www.youtube.com/watch?v=ls_U_rg2oCg)
 
 ****
 
