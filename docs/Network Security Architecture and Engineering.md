@@ -48,22 +48,27 @@ Many corporate wireless solutions offer 'station isolation': a client on a wirel
 ## WPA2 Enterprise
 PA2 Personal is intended for home or small business use 
 - The encryption key is a pre-shared key (PSK) 
-WPA2 Enterprise is intended for businesses 
+WPA2 Enterprise is intended for businesses
+
 - The encryption key is unique to each client after logging in 
 - Uses 802.1X authentication and RADIUS servers which allow: 
+
 	- Active Directory/LDAP authentication 
 	- Digital certification authentication 
 	- Dynamic VLAN placement 
 	- Centralized key management 
 	- Fine-grained access control 
 	- Server <-> Client validation
+
 Unique encryption keys mean less vulnerable to cracking or snooping Certificate validation helps prevent man-in-the-middle attacks
 
 ## Layer 2 Attacks: Switches
 - CAM Overflow 
+
 	- The Switch CAM (Content Addressable Memory) maintains a mapping of MAC/Port pairs.
 	- Tools such as macof (part of dsniff) can flood a network with randomly generated MAC addresses, potentially filling the CAM table 
 	- Once the CAM table is full: some switches will fall back to 'hub mode': sending all frames to all ports
+
 - MAC Spoofing
 
 ## Hardening Against Layer 2: Switch Attacks
@@ -87,17 +92,20 @@ In addition to the options shown above, sites should decide how to handle a viol
 
 ## Hardening Against Layer 2: ARP Attacks
 DHCP Snooping
+
 - Configure the switch to trust DHCP responses from specific ports 
 - Only allow DHCP responses from these ports 
 - Clients will not receive bogus DHCP responses from non-trusted ports 
 
 Dynamic ARP Inspection (DAI)
+
 - DHCP snooping creates a binding database of valid MAC/IP pairs it learns by tracking valid DHCP traffic 
 - Dynamic ARP Inspection checks this database before forwarding ARP responses
 
 ## Layer 2 Attacks: DHCP 
 **DHCP Starvation**
 An attacker may attempt to request all available DHCP addresses 
+
 - This is called a DHCP starvation attack, which often leads to a rogue DHCP server attack (discussed next) 
 - Most DHCP servers have a fairly small pool of addresses (often less than 255) 
 - Once all leases are claimed: the DHCP server will not be able to offer new leases until the old ones expire
@@ -128,26 +136,35 @@ Private VLANs (PVLANs) are used mainly by service providers. The main purpose 
 
 ## Private VLANs (PVLANs)
 Types of Private VLAN Ports 
-- Promiscuous  
+
+- Promiscuous 
+
 	- Able to send traffic to any device on the VLAN 
 	- Normally includes the default gateway 
+
 - Isolated 
+
 	- May only communicate with promiscuous ports 
 	- Cannot send traffic to other ports 
+
 - Community 
+
 	- May send traffic to promiscuous ports or other community ports 
 	- Cannot send traffic to isolated ports
 
 ## Layer 3 Attacks: NTP
 **TP Amplification Attacks**
+
 - UDP-based services can sometimes be used for spoofed Denial of Server (DoS) attacks 
 - NTP supports a 'monlist' command, which will return the client IP addresses that have synced most recently o Up to 600 addresses can be sent 
 - The attacker can then spend a spoofed NTP monlist command to a vulnerable server 
+
 	- In a recent test by Cloudflare1 , one spoofed 234-byte UDP packet resulted in 100 response packets, totaling 48,000 bytes 
 	- Resulting in an amplification factor of 206 times
 
 ## Bogon Filtering
 A packet routed over the public Internet (not including over VPNs or other tunnels) should never have a source address in a bogon range. These are commonly found as the source addresses of DDoS attacks.
+
 - Bogons are network blocks that are not routed on the internet, for example:
 
 	- 0.0.0.0/8
@@ -171,18 +188,23 @@ The external firewall may be used to filter traffic from Bogon network blocks. I
 A "darknet" originally referred to unused/non-routed IP addresses owned by an organization.
 
 Why monitor Darknets?
+
 - Simple: malware likes to scan
 - We recommend setting up a darknet route to those addresses and monitoring the resulting traffic 
+
 	- Watch for explosions in traffic (this can be your fastest IDS)
 
 All traffic sent to a darknet is bogus, by definition:
+
 - There are two types of darknet traffic sources: misconfigured and/or malicious traffic 
 - IP darknet monitoring can offer critical insights into misconfigured and/or malicious traffic on a network
 
 **IP Darknet Architechture**
+
 - Route all IP darknet traffic to a dedicated darknet router
 	Monitor this traffic via SNMP 
 - That router forwards traffic to a 'packet vacuum' sensor 
+
 	- This sensor sniffs and drops the traffic
 
 ## IPv6
@@ -190,21 +212,28 @@ IPv6 is usually deployed "dual-stack," meaning systems use both IPv4 and
 IPv6 addresses
 - RFC 6555 describes the process of deciding which address to use via the 
 Happy Eyeballs (HE) algorithm (aka fast fallback):
-	- “The proposed approach is simple – if the client system is dual-stack capable, then fire off connection attempts in both IPv4 and IPv6 in parallel, and use (and remember) whichever protocol completes the connection sequence first. The user benefits because there is no wait time and the decision favours speed – whichever protocol performs the connection fastest for that particular end site is the protocol that is used to carry the payload.”1
+
+	 “The proposed approach is simple – if the client system is dual-stack capable, then fire off connection attempts in both IPv4 and IPv6 in parallel, and use (and remember) whichever protocol completes the connection sequence first. The user benefits because there is no wait time and the decision favours speed – whichever protocol performs the connection fastest for that particular end site is the protocol that is used to carry the payload.”1
 
 • In practice: many dual-stack systems will try to resolve both the A (IPv4) 
 and AAAA (IPv6) DNS records of a name and then immediately attempt to use the IPv6 address if the AAAA record resolves.
 
 ## Types of IPv6 Addresses
 Pv6 systems may use three separate address types:
+
 - Link-local addresses
+
 	- Used on the local subnet only, network prefix begins with "fe80"
 	- All IPv6-enabled systems have this address
+
 - Unique Local Addresses (ULA)
+
 	- May be used on privately owned networks, network prefix begins with "fd00"
 	- They are not routed publicly
 	- Some organizations do not use these addresses
+
 - Global Unicast Addresses
+
 	- Routed publicly
 
 Systems may have multiple Unique Local and Global Unicast Addresses
@@ -213,6 +242,7 @@ Unique Local Addresses are often skipped by organizations that use IPv6: they si
 
 ## IPv6 Address Format
 RFC 4193 describes the Unique Local Address format: 
+
 - Prefix: FC00::/7 prefix to identify Local IPv6 unicast addresses. 
 - L: Set to 1 if the prefix is locally assigned. Set to 0 may be defined in the future. 
 - Global ID: 40-bit global identifier used to create a globally unique prefix. 
@@ -224,17 +254,20 @@ Global Unicast Address allocations are issued to organizations by Regional Inter
 Unique Local Addresses are used locally but are designed to be globally unique This avoids requiring renumbering subnets if two organizations connect Unique Local Address subnets via an extranet connection.
 
 Unique local address Global IDs are generated randomly o 40 bits of the address are set randomly 
+
 - There are 1.1 trillion possible subnets 
 - The odds of a collision between two organizations is quite small
 
 ## IPv6 Privacy Extension Addresses and Temporary Addresses
 IPv6 addresses created via SLAAC expose the MAC address, which 
 may result in privacy issues.
+
 - As a result: IPv6 privacy extension addresses are used by most current operating systems
 - The privacy extension address is not based on the MAC address (discussed next)
 - Most systems use privacy extension addresses for the unique local and global unicast addresses, and continue to embed the MAC address in the link-local address (used on the local subnet only)
 
 Most systems also create two addresses for each unique local and global unicast address
+
 - The temporary address is normally preferred for all communication
 
 This combination adds an additional layer of privacy: these addresses are not tied to the MAC (privacy extensions), *and* they change routinely (temporary addresses)
@@ -242,6 +275,7 @@ This combination adds an additional layer of privacy: these addresses are not ti
 ## ::1 Addresses
 - ::1 is the equivalent of the IPv4 address 127.0.0.1 
 - fc00::/7 is reserved for unique local addresses 
+
 	- Equivalent to IPv4 RFC1918 addresses (such as 192.168.0.0/16, 10.0.0.0/8, etc.) 
 	- Includes fc00::/8 and fd00::/8 o While reserved, usage of fc00::/7 is not yet defined 
 	- Sites use fd00::/7 to assign unique local addresses
@@ -250,14 +284,18 @@ This combination adds an additional layer of privacy: these addresses are not ti
 IPv6 does not support broadcast addresses and uses multicast 
 addresses to perform a similar function to IPv4's broadcast 
 addresses
+
 - Broadcast addresses are used for one -> all devices on network
 - Multicast addresses are used for one -> multiple devices on the network e.g. : routers, multicast DNS, NTP, etc.
 - IPv6 uses the ff00::/8 network prefix for multicast addresses
 
 Two important IPv6 multicast addresses (more listed in the notes):
+
 - ff02::1 - All local nodes 
 - ff02::2 - All local routers
+
 IPv6 Multicast addresses operate at different scopes:
+
 - ff01:: Interface-Local (loopback)
 - ff02:: Link-Local (same LAN)
 - ff05:: Site-Local (one location)
@@ -265,12 +303,16 @@ IPv6 Multicast addresses operate at different scopes:
 - ff0e:: Global scope
 
 The Multicast scope has consequences for IPv6 scanning:
+
 - The most commonly-used multicast addresses are ff02::1 (all local nodes) and 
+
 ff02::2 (all local routers), which are Link-Local in scope
+
 - This limits their scope (and usefulness) for scanning purposes
 
 ## Scanning IPv6
 While end-to-end scans of IPv6 networks are not effective, the following methods are helpful:
+
 - IPv6 ping to multicast addresses
 - Inspecting the IPv6 neighbor discovery protocol (NDP) table
 - Inspecting the IPv6 route tables
@@ -288,12 +330,14 @@ reconnaissance and scanning methods (such as DNS, Google searches, etc.).
 
 ## Preventing and Detecting IPv6 Tunneling
 Many forms of IPv6 via IPv4 tunnels carry IPv6 where TCP or UDP would normally be
+
 - The layer 3 header "Protocol" field would be 41 (IPv6) in this case
 - Configure Next-Gen Firewalls, IDSes and/or IPSes to block/alert protocol 41, Snort syntax: `ip_proto:41`
 
 ## Unauthorized IPv6 Router Advertisements
 In this scenario: a black hat compromises an internal client system via a 
 phishing attack via IPv4
+
 - The black hat then creates a 6to4 tunnel from the compromised client to the IPv6 
 internet
 - The compromised client then sends IPv6 router advertisements to the local subnet, 
@@ -306,10 +350,12 @@ Rogue Advertisement (RA) Guard mitigates this risk, see notes for details. RA Gu
 
 ### DMZ Design
 The risk of a compromised DMZ system pivoting into internal systems (or other DMZ systems) must be mitigated 
+
 - Untrusted->DMZ access should be tightly filtered, plus DMZ->trusted 
 -  DMZs with multiple servers should be broken up into individual trust zones (or separate DMZs)
 
 Private VLANs may also be used 
+
 - Promiscuous port: the firewall DMZ interface 
 - Isolated ports: DMZ servers that only need to send traffic via the firewall 
 - Community ports: when multiple DMZ systems need to communicate with each other (and via the firewall)
@@ -341,6 +387,7 @@ Private VLANs may also be used
 Organizations are often faced with legacy systems that lack vendor support.
 
 All access (including internal) to unsupported systems should be filtered. Options include:
+
 - Host-based firewall
 - VLAN ACLs
 - Router or Firewall filtering
@@ -357,6 +404,7 @@ Service protected by forcing connections through a proxy. Example: Web Applicati
 ![](/Screenshots/Pasted%20image%2020230212164259.png)
 
 Inspection of web traffic includes filtering based on:
+
 - Site category
 - URLs
 - File contents
@@ -376,20 +424,24 @@ Inspection of web traffic includes filtering based on:
 Encryption blinds a proxy by default: Interception of traffic would cause errors and break sites. 
 
 SSL Interception allows analysis of encrypted sites
+
 - Requires proxy to act as a trusted certificate authority
 - Proxy generates certificates per site accessed
 
 ## Proxy Deployment
 Proxies are deployed in one of two modes
+
 - Transparent - Traffic goes through proxy regardless of endpoint configuration
 - Explicit - Endpoints must be configured to use the proxy
 
 ## Proxy Placement
 Ideally, everything would go through an explicit proxy
+
 - What about devices that do not support proxies?
 - What about devices that enter and leave the network?
 
 Segmentation should be considered for "dumb" devices
+
 - And possibly use a transparent proxy to limit access. Systems supporting proxy need access to the proxy
 - Through direct access via internal or VPN access
 - Or via proxy in the cloud or internet facing DMZ system
@@ -403,6 +455,7 @@ Segmentation should be considered for "dumb" devices
 ##  Sender Policy Framework (SPF)
 
 DNS record validates email sent from an authorized source • Based on authorized IP addresses
+
 - Based on DNS domain information (A record, MX record) 
 - Can specify no email comes from a specific sub-domain
 
@@ -416,22 +469,26 @@ Uses digital signatures to validate email
 
 ## Domain-Based Message Authentication, Reporting, and Compliance (DMARC)
 DMARC verifies domain authentication via SPF or DKIM
+
 -  Can use SPF/DKIM to force alignment of visible From
 
 
 DMARC policy dictates actions and protection level
+
 - Policy – Monitor, Quarantine, Reject
 - Alignment – Strict, Relaxed
 
 
 ## Intentional Email Modification
 SMTP proxies and email systems can add to a message
+
 - Disclaimer messages
 - Custom headers or footer banners
 - "This message came from an external source"
 - "This message may be a phishing email acting as an executive"
 
 Requires setting up rules to do X when Y is true
+
 - If display name matches executive add phishing message
 - If external source add external source message
 
@@ -439,10 +496,12 @@ Requires setting up rules to do X when Y is true
 **Trust nothing — Verify everything**
 
 All traffic must be secured
+
 - Traffic must be authenticated
 - Traffic must be encrypted
 
 Least privilege must be enforced
+
 - Trust must be factored into least privilege
 - Trust is no longer binary (yes or no)
 
@@ -509,6 +568,7 @@ Enterprise (Windows Specific deployment):
 - IPSec is a network layer protocol
 - Works with application regardless of IPSec awareness 
 - Works independently of TCP or UDP
+
 | Layer | Protocol |
 | --- | --- |
 | Application | HTTP |
@@ -540,6 +600,7 @@ When NAC is deployed inline, it means the NAC solution acts as the gateway for e
 
 ## Captive Portal
 Ideally device passes initial authentication methods
+
 - Captive portal can handle failed devices or users
 - Design is flexible and dynamic
 - Terms and conditions only
@@ -551,9 +612,11 @@ Captive portal could be forced even with authentication
 
 ## Network Agent
 Zero trust uses the concept of a network agent for access 
+
 - A network agent is a user and device combined.
 
 The network agent is used to determine authorization:
+
 - User + corporate laptop = what access?
 - User + personal laptop = what access?
 - User + corporate phone = what access?
@@ -599,6 +662,7 @@ Abnormal conditions should be monitored and reacted to:
 - Or number of requests over time
 
 Deviation from norm may dictate additional checks
+
 - Multifactor authentication
 - Approval from manager or administrator
 
