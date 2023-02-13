@@ -111,8 +111,9 @@ DHCP snooping is a DHCP security feature that provides network security by filte
 DHCP snooping acts like a firewall between untrusted hosts and DHCP servers. You use DHCP snooping to differentiate between untrusted interfaces connected to the end user and trusted interfaces connected to the DHCP server or another switch
 
 ## VLAN
-A good resource on vlans:
+Resource on VLANs and subnetting:
 [(46) VLANs Explained | Cisco CCNA 200-301 - YouTube](https://www.youtube.com/watch?v=A9lMH0ye1HU)
+[Subnetting != Segmentation | LMG Security](https://www.lmgsecurity.com/pentest-subnetting-segmentation/)
 
 
 A [VLAN](http://www.ipwithease.com/what-is-vlan-virtual-lan/) is a group of switch ports administratively configured to share the same broadcast domain [^3].
