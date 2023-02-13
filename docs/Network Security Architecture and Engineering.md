@@ -679,11 +679,11 @@ To secure a Mac device from DMA attacks, you should set an EFI password. Setting
 
 
 # Resources
-[Defensible Security Architecture & Engineering: Implementing Zero Trust for the Hybrid Enterprise Course | SANS SEC530](https://www.sans.org/cyber-security-courses/defensible-security-architecture-and-engineering/)
-[(46) Building a Secure OT Network | SANS ICS Concepts - YouTube](https://www.youtube.com/watch?v=5Pip8jcKZh0)
-[(46) Zero-Trust Networks: The Future Is Here - SANS Blue Team Summit 2019 - YouTube](https://www.youtube.com/watch?v=EF_0dr8WkX8)
-[(46) VLANs Explained | Cisco CCNA 200-301 - YouTube](https://www.youtube.com/watch?v=A9lMH0ye1HU)
-[Subnetting != Segmentation | LMG Security](https://www.lmgsecurity.com/pentest-subnetting-segmentation/)
+- [Defensible Security Architecture & Engineering: Implementing Zero Trust for the Hybrid Enterprise Course | SANS SEC530](https://www.sans.org/cyber-security-courses/defensible-security-architecture-and-engineering/)
+- [(46) Building a Secure OT Network | SANS ICS Concepts - YouTube](https://www.youtube.com/watch?v=5Pip8jcKZh0)
+- [(46) Zero-Trust Networks: The Future Is Here - SANS Blue Team Summit 2019 - YouTube](https://www.youtube.com/watch?v=EF_0dr8WkX8)
+- [(46) VLANs Explained | Cisco CCNA 200-301 - YouTube](https://www.youtube.com/watch?v=A9lMH0ye1HU)
+- [Subnetting != Segmentation | LMG Security](https://www.lmgsecurity.com/pentest-subnetting-segmentation/)
 
 ****
 
