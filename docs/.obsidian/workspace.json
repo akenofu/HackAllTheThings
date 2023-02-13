@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network Security Architecture and Engineering.md",
+                "file": "IoT Testing/Firmware.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network Security Architecture and Engineering.md",
+                "file": "IoT Testing/Firmware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network Security Architecture and Engineering.md"
+                "file": "IoT Testing/Firmware.md"
               }
             }
           },
@@ -150,15 +149,15 @@
   },
   "active": "48667687a2537cfe",
   "lastOpenFiles": [
-    "Cloud/GCP Assessement.md",
+    "Vulnerability Scanning.md",
+    "Segmentation Testing.md",
+    "README.md",
+    "Development Resources.md",
+    "About me.md",
     "Network Security Architecture and Engineering.md",
+    "OSINT.md",
+    "Cloud/GCP Assessement.md",
     "Network Pen test/IPv6.md",
-    "Source Code Review/Tooling.md",
-    "Source Code Review/Untitled.md",
-    "Android Application Testing/Tools.md",
-    "Web Applications testing/Attacks/Logic Attacks.md",
-    "Web Applications testing/API/API Testing Checklist.md",
-    "Desktop Application Testing/C++ Win32 Applications.md",
-    "Desktop Application Testing/LD_PRELOAD Hooking.md"
+    "Source Code Review/Tooling.md"
   ]
 }
