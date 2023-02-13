@@ -1,7 +1,7 @@
 # Security Architecture and Engineering
 # Key Concepts
 ### Network Segregation and Segmentation
-While network segregation isolates crucial networks from external networks such as the internet, network segmentation splits a larger network in to smaller segments — also called subnets — usually through switches and routers. [^1]
+Network segmentation involves partitioning a network into smaller networks; while network segregation involves developing and enforcing a ruleset for controlling the communications between specific hosts and services. [^1]
 
 If you have a [flat network](https://insights.sei.cmu.edu/blog/network-segmentation-concepts-and-practices/) (an architecture where all systems connect without going through intermediary devices such as a bridge or router), it is relatively easy for a bad actor to gain access to the entire system through one access point. While flat networks provide fast and reliable connectivity, this lateral access between systems makes them especially vulnerable within today’s modern and complex interconnected organizations. [^2]
 
@@ -426,13 +426,152 @@ Requires setting up rules to do X when Y is true
 - If display name matches executive add phishing message
 - If external source add external source message
 
+## Zero Trust
+**Trust nothing — Verify everything**
+
+All traffic must be secured
+- Traffic must be authenticated
+- Traffic must be encrypted
+
+Least privilege must be enforced
+- Trust must be factored into least privilege
+- Trust is no longer binary (yes or no)
+
+All data flows must be known and controlled
+
+All assets must be scanned, hardened, and rotated
+
+## Variable Trust
+With a zero trust architecture, trust must be earned can change dynamically. For example, a user accessing a PCI database needs enough trust to gain access. It is possible to quantify the trust requirements such as by giving user points for logging in with a username and password and using a known device and location. Yet access is not simply yes and no.
+
+Access to a PCI, the database requires 40 points. Yet the user and device combination initially only add up to 30 points. Rather than denying the connection variable trust can prompt or require an additional piece to increase trust. In this example, the user is prompted for smart card authentication. Supplying a smart card gives another 20 points for a total of 50 points. 50 points are enough trust to access the PCI database, so access is granted. 
+
+Keep in mind part of variable trust is continuously re-evaluating trust, so once access is granted, it is not permanently given. Also, the concept allows the trust to accumulate or be lost over time due to a user or device's behavior.
+
+## Credential Rotation
+- Strong password policy
+- Password Auditing tools
+- LAPS (Windows Servers)
+- Group managed service accounts (Windows Servers)
+
+
+## Securing Traffic: mTLS
+Mutual TLS, or mTLS for short, is a method for [mutual authentication](https://www.cloudflare.com/learning/access-management/what-is-mutual-authentication/). mTLS ensures that the parties at each end of a network connection are who they claim to be by verifying that they both have the correct private [key](https://www.cloudflare.com/learning/ssl/what-is-a-cryptographic-key/). The information within their respective [TLS certificates](https://www.cloudflare.com/learning/ssl/what-is-an-ssl-certificate) provides additional verification. [^5]
+
+![](/Screenshots/Pasted%20image%2020230213100821.png)
+
+## Public Key Infrastructure (PKI)
+Automation is critical to support zero trust
+
+-  Private PKI allows automation of certificate deployment
+-  With support for client and server certificates
+
+Windows Server capable of significant PKI capabilities
+
+- Automatic certificate enrollment via GPO and AD
+- Certificate templates and restrictions
+- Secure private key archival
+- Hierarchical certificate authorities roles and services
+
+![](/Screenshots/Pasted%20image%2020230213101222.png)
+
+The initial certificate authority is a root CA. The root CA creates a self-signed certificate as it is the initial chain and beginning of a custom PKI. The CA can be used for issuing certificates but is highly recommended to be only used for issuing or renewing other certificate authorities. The other certificate authorities are used to issue certificates while keeping the root CA secure. How this is done is the root CA is typically offline meaning it is only used during issuance or renewal of a sub-level CA. This protects the private key that has ultimate trust.
+
+Issuing certificate authorities remain online. However, there can be multiple levels of CAs. A basic deployment may just involve the root CA and a single online certificate authority acting as an issuing CA. This down-level CA would be a subordinate CA. But organizations that segment their workforce or assets may need fine-grained trust control. These organizations may implement what is called an intermediate CA. An intermediate CA sits between a root CA and a subordinate CA and can allow granular control such as restricting what subordinate CAs there are and what types of certificates can be deployed.
+
+## Certificate Authority Types
+Stand-Alone:
+
+- Manual certificate creation
+- Common for Linux shops
+- Recommended for root or intermediate CAs
+- Should be run off-line Or out-of-band
+
+Enterprise (Windows Specific deployment):
+
+- Requires domain membership
+- Allows automatic enrollment
+- Can be used for smart cards
+- Requires AD access
+- Thus, never run off-line
+- Contains templates
+
+## IPSec
+- IPSec is a network layer protocol
+- Works with application regardless of IPSec awareness 
+- Works independently of TCP or UDP
+| Layer | Protocol |
+| --- | --- |
+| Application | HTTP |
+| Transport | TLS/SSL | 
+| Internet | IPSec |
+
+SSL/TLS operates at the transport layer. Where this comes into play is that an application must be configured to use and accept TLS as part of its supported transport mechanisms. The most common example is the application of HTTP. HTTP is often paired with TLS to form HTTPS. IPSec, on the other hand, is baked into the kernel and is processed by the Internet layer of communication. This allows IPSec to be used regardless of application awareness or without requiring the use of TCP or UDP. Because of this, IPSec is highly flexible and an amazing option for adding authentication and encryption support.
+
+- Mitigates man-in-the-middle
+- Authenticates all traffic
+
+## Network Access Control (NAC)
+Network Access Control is a solution that provides real-time authorization for network access. NAC functions by integrating with networking gear such as a switch or wireless access point and providing some mechanism for authenticating a device before it has network access. However, the level of network access given can be dynamically controlled by a NAC solution. 
+
+Just like zero trust requires, network access can be given, but the level of access can be adjusted based on user or device actions and behaviors. A NAC system controls this by dynamically placing users or systems on specific VLANs or dynamically applying network access control lists.
+
+NAC solutions “authenticate” devices various ways:
+
+- 802.1X Port Authentication (CSC 1.5 + 1.6) 
+- MAC Address OUI (Organizationally Unique Identifier)
+- DHCP Fingerprinting
+
+## Inline vs. Out-Of-Band NAC
+**Inline:**
+
+When NAC is deployed inline, it means the NAC solution acts as the gateway for each VLAN. This allows central management and eases network complexity. However, it also introduces a potential point of failure. Inline NAC is only recommended when organizations do not have managed switches with 802.1X support.
+
+![](/Screenshots/Pasted%20image%2020230213105043.png)
+
+## Captive Portal
+Ideally device passes initial authentication methods
+- Captive portal can handle failed devices or users
+- Design is flexible and dynamic
+- Terms and conditions only
+- Gives guest VLAN access
+- AD authentication
+- Provides limited production access
+
+Captive portal could be forced even with authentication
+
+## Network Agent
+Zero trust uses the concept of a network agent for access 
+- A network agent is a user and device combined.
+
+The network agent is used to determine authorization:
+- User + corporate laptop = what access?
+- User + personal laptop = what access?
+- User + corporate phone = what access?
+
+## Planes of Authorization
+Control plane is core of zero trust
+
+- Handles central authentication and global policy
+- Authorizes requests and authorizes access
+
+Data plane handles connections
+
+- Establishes connection mediums
+- Provides switching and routing
+- But only if control plane continues to authorize access
+
+Ideally is one device but for practical reasons is multiple
+
+
 
 # Resources
 [Defensible Security Architecture & Engineering: Implementing Zero Trust for the Hybrid Enterprise Course | SANS SEC530](https://www.sans.org/cyber-security-courses/defensible-security-architecture-and-engineering/)
 
 ****
 
-[^1]: [Network Segregation: What Is It and Why Is It Important? (parallels.com)](https://www.parallels.com/blogs/ras/network-segregation/#:~:text=The%20Difference%20between%20Network%20Segregation%20and%20Segmentation&text=While%20network%20segregation%20isolates%20crucial,usually%20through%20switches%20and%20routers.)
+[^1]: [Implementing Network Segmentation and Segregation | Cyber.gov.au](https://www.cyber.gov.au/acsc/view-all-content/publications/implementing-network-segmentation-and-segregation#:~:text=What%20is%20network%20segmentation%20and,between%20specific%20hosts%20and%20services.)
 [^2]: [7 Network Segmentation Best Practices to Level-up | StrongDM](https://www.strongdm.com/blog/network-segmentation)
 [^3]: [VLAN vs Private VLAN - IP With Ease](https://ipwithease.com/vlan-vs-private-vlan/)
 [^4]: [Help prevent spoofing and spam with DMARC - Google Workspace Admin Help](https://support.google.com/a/answer/2466580?hl=en)
+[^5]: [What is mTLS? | Mutual TLS | Cloudflare](https://www.cloudflare.com/en-gb/learning/access-management/what-is-mutual-tls/)
