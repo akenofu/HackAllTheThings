@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "032fffacc5a16c1a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cloud/GCP Assessement.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "48667687a2537cfe",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,14 +148,14 @@
       "publish:Publish changes": false
     }
   },
-  "active": "fd198309ce134c4d",
+  "active": "48667687a2537cfe",
   "lastOpenFiles": [
-    "Network Pen test/IPv6.md",
+    "Cloud/GCP Assessement.md",
     "Network Security Architecture and Engineering.md",
+    "Network Pen test/IPv6.md",
     "Source Code Review/Tooling.md",
     "Source Code Review/Untitled.md",
     "Android Application Testing/Tools.md",
-    "Cloud/GCP Assessement.md",
     "Web Applications testing/Attacks/Logic Attacks.md",
     "Web Applications testing/API/API Testing Checklist.md",
     "Desktop Application Testing/C++ Win32 Applications.md",

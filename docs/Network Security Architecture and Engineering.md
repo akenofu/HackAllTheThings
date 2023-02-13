@@ -130,6 +130,13 @@ Resource on VLANs and subnetting:
 
 A [VLAN](http://www.ipwithease.com/what-is-vlan-virtual-lan/) is a group of switch ports administratively configured to share the same broadcast domain [^3].
 
+## Zones vs. VLANs
+This is Zone Based Firewalling. There are no hard and fast rules as to how you relate your zones to your VLANs but you might for example have 4 VLANs: HR, Finance, Manufacturing and Marketing.
+
+You could then create a Zone for each VLAN, allowing complete firewall control between each of those VLANs (subnets).
+
+However, you might have two zones (which are on two separate /24s) that need to communicate to each other but have no use for firewalling (i.e. there doesn't need to be any security restrictions between these VLANs). In that instance you could have both those VLANs in a single zone which therefore won't be firewalled.
+
 ## Private VLANs
 Private VLANs (PVLANs) are used mainly by service providers. The main purpose of [Private VLAN](http://www.ipwithease.com/concept-of-private-vlan/) ([PVLAN](http://www.ipwithease.com/concept-of-private-vlan/)) is to provide the ability to isolate hosts at [Layer 2](https://networkinterview.com/osi-model-the-7-layers/) instead of Layer 3. By using PVLAN we are splitting that domain into some smaller broadcast domains. In other words we may summarize Private VLAN as **”** **VLANs in VLAN “** [^3]
 ![](/Screenshots/Pasted%20image%2020230212164002.png)
@@ -686,6 +693,7 @@ To secure a Mac device from DMA attacks, you should set an EFI password. Setting
 - [Subnetting != Segmentation | LMG Security](https://www.lmgsecurity.com/pentest-subnetting-segmentation/)
 - [(47) Network Architecture | SANS ICS Concepts - YouTube](https://www.youtube.com/watch?v=Ai2bxzJMuVI)
 - [(47) How to Use Security Architecture to Build a Defensible ICS Network - SANS ICS Security Summit 2021 - YouTube](https://www.youtube.com/watch?v=ls_U_rg2oCg)
+- [(47) Cloud Security Architecture, Automation, and Identity - YouTube](https://www.youtube.com/watch?v=PGBxUU61248)
 
 ****
 
