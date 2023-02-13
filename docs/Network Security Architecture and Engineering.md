@@ -1,4 +1,4 @@
-# Security Architecture and Engineering
+# Network Security Architecture and Engineering
 # Key Concepts
 ### Network Segregation and Segmentation
 Network segmentation involves partitioning a network into smaller networks; while network segregation involves developing and enforcing a ruleset for controlling the communications between specific hosts and services. [^1]
