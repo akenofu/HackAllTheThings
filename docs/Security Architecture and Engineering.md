@@ -563,6 +563,45 @@ Data plane handles connections
 
 Ideally is one device but for practical reasons is multiple
 
+## Micro Core and Perimeter (MCAP)
+The use of a segmentation gateway allows the enforcement of micro core and perimeter (MCAP) trust zones. MCAP is the ability to group users and devices of similar trust levels to enforce access controls. MCAP is not bound by VLAN segmentation. For example, it is possible to have users and devices on the same subnet be split into separate MCAP zones.
+
+Proper MCAP groups should be based on grouping based on similar application use and data access requirements. Grouping different levels of trust such as users accessing confidential data with users that access standard data is not recommended due to the chances of accidentally granting access to confidential data. Depending on the security device in use an MCAP may only be able to place logical access constraints to network connections traversing a layer three boundary. This means that host-based firewall filters are still necessary to secure layer two connections or implementing private VLANs.
+
+## Inventory Automation
+One of the main challenges with implementing a segmentation gateway is that most implementations focus on end user identification and control rather than device and user identification. In fact, many commercial solutions have limited or no capabilities to associate devices with rules. On an NGFW device identification is typically a service that when enabled will passively identify and inventory assets. 
+
+Passive discovery does not provide accurate means of authenticating a device. Therefore, it does not require the zero trust model of verifying everything. 
+
+Instead, an NGFW can be fed accurate inventory information. This slide demonstrates a simple python script that is setting up an address object in a FortiGate firewall. Address objects and groups can be created and manipulated with scripts and with API interfaces for most commercial vendor firewalls. While this task seems daunting, it is a fairly simple script. FQDN objects can also be used but should only be used if DNS is secure such as with Windows secure DNS implementation.
+
+## Real-Time Device Inventory 
+Automation is critical for cyber defense. The previous slide shows an example of using python to create address objects in a firewall. However, for firewall rules to work, they need to be as real-time and accurate as possible. If an organization is using NAC or VPN authentication to authorize access to the network, then scripts can be kicked off as an end result of passing authentication. For example, a VPN solution may support running a post task when a user connects to the network. This task could be to run the previous python script logic to update an address object. For this to work and be secure, the post-task would need to be supported on the server side of a NAC and VPN solution. 
+
+Alternatively, logs from NAC and VPN systems could be sent to a centralized logging system such as a SIEM. Since this happens almost instantly, the logs could be used to trigger a script to be run using the information found in the logs within the SIEM. For multiple solution support, a SIEM is likely the best bet to pull this off.
+
+## Dynamic Authorization
+Abnormal conditions should be monitored and reacted to:
+
+- Temporal - Access outside normal user window
+- Geographical - Access from different location
+- Behavioral - Access to resource user does not normally use
+- Frequency - Last access or volume of device/user use
+- Or number of requests over time
+
+Deviation from norm may dictate additional checks
+- Multifactor authentication
+- Approval from manager or administrator
+
+
+## Disable Direct Memory Access (DMA) Devices
+Operating systems sometimes make use of direct memory access (DMA) to provide high-speed interfaces. Thunderbolt connections are an example. By using DMA, a Thunderbolt device can achieve high-speed data transfer. DMA functions by providing input and output directly to memory. DMA even bypasses the CPU to increase the overall speed. The problem with this is that a hardware device effectively has access to memory.
+
+Attack tools allow abusing DMA. One such attack tool is inception2. Inception uses DMA to gain system or root access and works on Windows, Linux, and Mac. Worse yet, inception works against systems using full disk encryption. Remember, full disk encryption protects data at rest as well as the boot process. With full disk encryption an attacker can turn on the machine, but he or she gets stuck at the login screen. Inception uses DMA once the machine is active to take over the system thus gaining access regardless of if the system is using full disk encryption. 
+
+Windows has a group policy called "Prevent installation of drivers matching these device setup classes." Enabling this and adding the entry d48179be-ec20-11d1-b6b8-00c04fa372a7 helps prevent attacks using Firewire or 1394 interfaces. Another group policy called "Prevent installation of devices that match these device IDs" should be enabled and set to PCICC_0C0A. This prevents the installation of plug and play devices that use the Thunderbolt controller. 
+
+To secure a Mac device from DMA attacks, you should set an EFI password. Setting an EFI password disables raw DMA access. 
 
 
 # Resources
