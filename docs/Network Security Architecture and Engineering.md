@@ -9,11 +9,14 @@ If you have a [flat network](https://insights.sei.cmu.edu/blog/network-segmenta
 
 ### Defensible Networks
 Defensible Networks have the following characteristics:
+
 - **Monitored**: Deploy IDSes and IPSes
 - **Inventoried**: Know every host and application
+
 	- All systems and hosts on the network
 	- Where is sensitive data ,e.g., PII stored
 	- Where must the data be encrypted?
+
 - **Controlled**: Ingress and egress filtering
 - **Claimed**: Identify owners of all systems
 - **Minimized**: Reduce the attack surface
