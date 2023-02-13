@@ -146,6 +146,7 @@ Types of Private VLAN Ports
 ## Bogon Filtering
 A packet routed over the public Internet (not including over VPNs or other tunnels) should never have a source address in a bogon range. These are commonly found as the source addresses of DDoS attacks.
 - Bogons are network blocks that are not routed on the internet, for example:
+
 	- 0.0.0.0/8
 	- 10.0.0.0/8
 	- 100.64.0.0/10
