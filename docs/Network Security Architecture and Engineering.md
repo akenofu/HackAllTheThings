@@ -362,10 +362,10 @@ Private VLANs may also be used
 - Community ports: when multiple DMZ systems need to communicate with each other (and via the firewall)
 
 ## Network Segmentation Principles
-• Segmentation should facilitate prevention & detection
-• Systems and data with different classification levels (tiers) must reside in different zones
-• Control points are implemented at ”gates” where all ingress & egress traffic is inspected and access control policies enforced
-• Balance security with usability — Higher segmentation adds complexity and administrative burden. Insufficient segmentation can make the network indefensible
+- Segmentation should facilitate prevention & detection
+- Systems and data with different classification levels (tiers) must reside in different zones
+- Control points are implemented at ”gates” where all ingress & egress traffic is inspected and access control policies enforced
+- Balance security with usability — Higher segmentation adds complexity and administrative burden. Insufficient segmentation can make the network indefensible
 
 ## Example of Tiers – Based on Criticality and Business Impact
 - Tier 1:  Critical components to maintain operations, including domain controllers, exchange servers, and network infrastructure devices.

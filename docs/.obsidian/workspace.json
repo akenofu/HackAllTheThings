@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "0.0.0.0",
+                "query": "Network Segmentation Principles",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -161,7 +161,7 @@
       "publish:Publish changes": false
     }
   },
-  "active": "48667687a2537cfe",
+  "active": "fd198309ce134c4d",
   "lastOpenFiles": [
     "Network Pen test/IPv6.md",
     "Network Security Architecture and Engineering.md",
