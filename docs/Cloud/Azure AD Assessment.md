@@ -216,3 +216,6 @@ Set-AzureADUserPassword -Password $Password -Verbose
 [Azure Security best practices | Azure Tips and Tricks - YouTube](https://www.youtube.com/watch?v=mntOLLNejUo)
 [Assume Breach: An Inside Look at Cloud Service Provider Security - YouTube](https://www.youtube.com/watch?v=lwjPGtGGe84&t=1500s) from 25:00 -> 27:00
 
+## Hardening
+[What is Conditional Access in Azure Active Directory? - Microsoft Entra | Microsoft Learn](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/overview)
+[Just-in-time virtual machine access in Microsoft Defender for Cloud | Microsoft Learn](https://learn.microsoft.com/en-us/azure/defender-for-cloud/just-in-time-access-usage)

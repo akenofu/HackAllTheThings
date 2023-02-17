@@ -36,7 +36,7 @@
 	- Global Administrator
 	- Privileged Role Administrator
 	- Privileged Authentication Administrator
-- [ ] Additionally, audit for any Service Principals that have been granted any of the following MS Graph app roles [^4]:
+- [ ] Additionally, audit for any Service Principals that have been granted any of the following MS Graph app roles [^4] :
 	- RoleManagement.ReadWrite.Directory
 	- AppRoleAssignment.ReadWrite.All
 - [ ] Protect your secerets, consider using [Azure Key Vault](https://azure.microsoft.com/en-us/products/key-vault/) [^2]

@@ -23,3 +23,6 @@ python3 scout.py gcp --user-account | tee <client>.scoutsuite
 [Lateral Movement & Privilege Escalation in GCP; Compromise Organizations without Dropping an Implant - YouTube](https://www.youtube.com/watch?v=kyqeBGNSEIc)
 [RhinoSecurityLabs/GCP-IAM-Privilege-Escalation: A collection of GCP IAM privilege escalation methods documented by the Rhino Security Labs team. (github.com)](https://github.com/RhinoSecurityLabs/GCP-IAM-Privilege-Escalation)
 [GCP Pentesting - HackTricks Cloud](https://cloud.hacktricks.xyz/pentesting-cloud/gcp-pentesting)
+
+## Hardening Resources
+[GCP Best practices | GitLab](https://about.gitlab.com/handbook/security/planning/security-development-deployment-requirements/)
