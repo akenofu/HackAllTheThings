@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "13ba35ffe166c9b8",
+        "id": "fa2a5e440598b35c",
         "type": "tabs",
         "children": [
           {
-            "id": "2a3bb71f47b343bf",
+            "id": "da0d79ed9dc9d07c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cloud/Azure best practices for network security.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c2246806e2f67db0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Security Architecture.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -97,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cloud/Azure best practices for network security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,9 +96,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Cloud/Azure best practices for network security.md"
-              }
+              "state": {}
             }
           },
           {
@@ -159,17 +140,17 @@
       "publish:Publish changes": false
     }
   },
-  "active": "2a3bb71f47b343bf",
+  "active": "da0d79ed9dc9d07c",
   "lastOpenFiles": [
-    "Security Architecture.md",
+    "IoT Testing/Firmware.md",
     "Cloud/Azure best practices for network security.md",
+    "Security Architecture.md",
     "Cloud/Azure Hardening Checklist.md",
     "Security Architecture and Engineering.md",
     "Miscellaneous/Neo4j.md",
     "Android Application Testing/Learning Resources.md",
     "Cloud/GCP Assessement.md",
     "Network Pen test/IPv6.md",
-    "Source Code Review/Tooling.md",
-    "Source Code Review/Untitled.md"
+    "Source Code Review/Tooling.md"
   ]
 }
