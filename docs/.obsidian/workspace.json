@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Miscellaneous/Neo4j.md",
+                "file": "Cloud/Azure best practices for network security.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c2246806e2f67db0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Security Architecture.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Miscellaneous/Neo4j.md",
+                "file": "Cloud/Azure best practices for network security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Miscellaneous/Neo4j.md"
+                "file": "Cloud/Azure best practices for network security.md"
               }
             }
           },
@@ -149,15 +161,15 @@
   },
   "active": "2a3bb71f47b343bf",
   "lastOpenFiles": [
+    "Security Architecture.md",
+    "Cloud/Azure best practices for network security.md",
+    "Cloud/Azure Hardening Checklist.md",
     "Security Architecture and Engineering.md",
     "Miscellaneous/Neo4j.md",
     "Android Application Testing/Learning Resources.md",
     "Cloud/GCP Assessement.md",
     "Network Pen test/IPv6.md",
     "Source Code Review/Tooling.md",
-    "Source Code Review/Untitled.md",
-    "Android Application Testing/Tools.md",
-    "Web Applications testing/Attacks/Logic Attacks.md",
-    "Web Applications testing/API/API Testing Checklist.md"
+    "Source Code Review/Untitled.md"
   ]
 }

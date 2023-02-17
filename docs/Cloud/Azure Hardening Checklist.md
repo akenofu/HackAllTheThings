@@ -47,6 +47,7 @@
 	- [ ] Implement application gate way or front in front of your web application
 	- [ ] Enable a web application firewall
 
+
 [^1]: [Cloud Misconfiguration & Risks - Azure](https://misconfig.io/cloud-misconfiguration-risks-azure/)
 [^2]: [Azure Security best practices | Azure Tips and Tricks - YouTube](https://www.youtube.com/watch?v=mntOLLNejUo)
 [^3]: [Top 10 Best Practices for Azure Security - YouTube](https://www.youtube.com/watch?v=g0hgtxBDZVE)
