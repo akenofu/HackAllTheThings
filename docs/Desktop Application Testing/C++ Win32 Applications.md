@@ -158,7 +158,7 @@ Generate-WinSharkFilters('5473')
 
 **Usage**
 
-1. To capture network traffic using Winshark, you have to simply activate network tracing through netsh:
+1. To capture network traffic using Winshark , you have to simply activate network tracing through netsh:
 ```batch
 netsh.exe trace start capture=yes report=no correlation=no
 ```
@@ -168,9 +168,7 @@ netsh.exe trace start capture=yes report=no correlation=no
 logman start Winshark-PacketCapture -p "Microsoft-Windows-NDIS-PacketCapture" -rt -ets
 ```
 
-> Make sure WireShark is running as an administrator
-
-3. Then launch Wireshark with administrator privileges and select the `Winshark-PacketCapture` interface.
+3. Then launch Wireshark with **administrator privileges** and select the `Winshark-PacketCapture` interface.
 
 #### Fiddler
 
@@ -237,6 +235,7 @@ TBD
 
 ---
 ## Learning Resources
+
 - [Practical thick client application penetration testing using damn vulnerable thick client app: An introduction - Infosec Resources (infosecinstitute.com)](https://resources.infosecinstitute.com/topic/practical-thick-client-application-penetration-testing-using-damn-vulnerable-thick-client-app-part-1/)
 - [Introduction to Hacking Thick Clients: Part 1 - the GUI (netspi.com)](https://www.netspi.com/blog/technical/thick-application-penetration-testing/introduction-to-hacking-thick-clients-part-1-the-gui/)
 - [secvulture/dvta: Damn Vulnerable Thick Client App (github.com)](https://github.com/secvulture/dvta)
