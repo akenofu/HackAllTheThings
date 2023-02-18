@@ -105,7 +105,7 @@ Fuzz the application using WinAFL  for memory corruption vulnerabilities.
 
 #### Important Proxying Notes 
 **Windows Global System Proxy**
-Fidler isn't a sniffer-- it's a proxy. Unless you can get the offending application to use a proxy none of its traffic is going to run through Fiddler. Java applications don't use the operating system's SSL "stack", so interception utilities that shim into the Windows SSL stack aren't going to be helpful either. Presumably the remote servers aren't running an SSL stack that's easy to snoop inside (since you say they're running Tomcat, and also not likely using the OS SSL stack).
+Fidler isn't a sniffer - it's a proxy. Unless you can get the offending application to use a proxy none of its traffic is going to run through Fiddler. Java applications don't use the operating system's SSL "stack", so interception utilities that shim into the Windows SSL stack aren't going to be helpful either. Presumably the remote servers aren't running an SSL stack that's easy to snoop inside (since you say they're running Tomcat, and also not likely using the OS SSL stack).
 
 [windows - Log an Application's Network Activity with Process Monitor and/or Fiddler or something else - Server Fault](https://serverfault.com/questions/241879/log-an-applications-network-activity-with-process-monitor-and-or-fiddler-or-som)
 
