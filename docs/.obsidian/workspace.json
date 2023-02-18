@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Desktop Application Testing/C++ Win32 Applications.md",
+                "file": "Vulnerability Scanning.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Desktop Application Testing/C++ Win32 Applications.md",
+                "file": "Vulnerability Scanning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Desktop Application Testing/C++ Win32 Applications.md"
+                "file": "Vulnerability Scanning.md"
               }
             }
           },
@@ -149,6 +149,8 @@
   },
   "active": "da0d79ed9dc9d07c",
   "lastOpenFiles": [
+    "Segmentation Testing.md",
+    "Desktop Application Testing/C++ Win32 Applications.md",
     "Network Pen test/SMB-Samba (445).md",
     "Network Pen test/Port Scan.md",
     "Network Pen test/MSRPC (135).md",
@@ -156,8 +158,6 @@
     "Network Pen test/gRPC.md",
     "Network Pen test/DNS Rebind.md",
     "Network Pen test/DNS (53).md",
-    "Screenshots/bugbounty_pentestbook.six2dez.png",
-    "IoT Testing/Firmware.md",
-    "Cloud/Azure best practices for network security.md"
+    "Screenshots/bugbounty_pentestbook.six2dez.png"
   ]
 }
