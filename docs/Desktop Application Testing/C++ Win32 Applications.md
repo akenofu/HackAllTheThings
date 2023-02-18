@@ -26,6 +26,7 @@ Get-PESecurity -directory "C:\Program Files (x86)\Cisco Systems\Cisco Example Ap
 ```
 
 **Intersting Stuff to search for during static and dynamic analysis**
+
 - Currently logged in user's token, password, or username in memory. 
 - Any intersting endpoints and urls (check the regexes below for some inspiration)
 - Mentions of passwords, secerets, tokens etc...

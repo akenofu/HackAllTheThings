@@ -11,8 +11,12 @@
             "id": "da0d79ed9dc9d07c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Desktop Application Testing/C++ Win32 Applications.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Desktop Application Testing/C++ Win32 Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +101,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Desktop Application Testing/C++ Win32 Applications.md"
+              }
             }
           },
           {
@@ -142,15 +149,15 @@
   },
   "active": "da0d79ed9dc9d07c",
   "lastOpenFiles": [
-    "IoT Testing/Firmware.md",
-    "Cloud/Azure best practices for network security.md",
-    "Security Architecture.md",
-    "Cloud/Azure Hardening Checklist.md",
-    "Security Architecture and Engineering.md",
-    "Miscellaneous/Neo4j.md",
-    "Android Application Testing/Learning Resources.md",
-    "Cloud/GCP Assessement.md",
+    "Network Pen test/SMB-Samba (445).md",
+    "Network Pen test/Port Scan.md",
+    "Network Pen test/MSRPC (135).md",
     "Network Pen test/IPv6.md",
-    "Source Code Review/Tooling.md"
+    "Network Pen test/gRPC.md",
+    "Network Pen test/DNS Rebind.md",
+    "Network Pen test/DNS (53).md",
+    "Screenshots/bugbounty_pentestbook.six2dez.png",
+    "IoT Testing/Firmware.md",
+    "Cloud/Azure best practices for network security.md"
   ]
 }
