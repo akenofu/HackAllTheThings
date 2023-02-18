@@ -222,15 +222,15 @@ public static function IsInternalHost(oSession: Session) : Boolean
 TBD
 
 #### Windows HTTP Proxy
-[How to Set Up a Proxy in Windows 10 - dummies](https://www.dummies.com/computers/operating-systems/windows-10/how-to-set-up-a-proxy-in-windows-10/)
-[Burp Suite - Application Security Testing Software - PortSwigger](https://portswigger.net/burp)
+- [How to Set Up a Proxy in Windows 10 - dummies](https://www.dummies.com/computers/operating-systems/windows-10/how-to-set-up-a-proxy-in-windows-10/)
+- [Burp Suite - Application Security Testing Software - PortSwigger](https://portswigger.net/burp)
 
 ### Debuggers
-[IDA Pro – Hex Rays (hex-rays.com)](https://hex-rays.com/ida-pro/)
-[Debugging Using WinDbg Preview - Windows drivers | Microsoft Docs](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugging-using-windbg-preview#:~:text=WinDbg%20Preview%20is%20the%20latest,data%20model%20front%20and%20center.)
+- [IDA Pro – Hex Rays (hex-rays.com)](https://hex-rays.com/ida-pro/)
+- [Debugging Using WinDbg Preview - Windows drivers | Microsoft Docs](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugging-using-windbg-preview#:~:text=WinDbg%20Preview%20is%20the%20latest,data%20model%20front%20and%20center.)
 
 ### Decompilers
-[NationalSecurityAgency/ghidra: Ghidra is a software reverse engineering (SRE) framework (github.com)](https://github.com/NationalSecurityAgency/ghidra)
+- [NationalSecurityAgency/ghidra: Ghidra is a software reverse engineering (SRE) framework (github.com)](https://github.com/NationalSecurityAgency/ghidra)
 
 
 ---
