@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "fa2a5e440598b35c",
+        "id": "0b1934bcb41652dc",
         "type": "tabs",
         "children": [
           {
-            "id": "da0d79ed9dc9d07c",
+            "id": "63d5adf249ae758d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Desktop Application Testing/C++ Win32 Applications.md",
-                "mode": "preview",
+                "file": "Security Architecture.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Desktop Application Testing/C++ Win32 Applications.md",
+                "file": "Security Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Desktop Application Testing/C++ Win32 Applications.md"
+                "file": "Security Architecture.md"
               }
             }
           },
@@ -147,11 +147,11 @@
       "publish:Publish changes": false
     }
   },
-  "active": "da0d79ed9dc9d07c",
+  "active": "63d5adf249ae758d",
   "lastOpenFiles": [
+    "Desktop Application Testing/C++ Win32 Applications.md",
     "Vulnerability Scanning.md",
     "Segmentation Testing.md",
-    "Desktop Application Testing/C++ Win32 Applications.md",
     "Network Pen test/SMB-Samba (445).md",
     "Network Pen test/Port Scan.md",
     "Network Pen test/MSRPC (135).md",

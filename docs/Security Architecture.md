@@ -1,5 +1,5 @@
 # Security Architecture
-# Purpose
+## Purpose
 
 -   Meet [Security and Compliance requirements](https://about.gitlab.com/handbook/security/architecture/#security-architecture-requirements)
 -   Ensure best practices are used
@@ -8,7 +8,7 @@
 -   Bring Risk management early in our processes (design, implementation, management)
 -   Provide recommendations to minimize damage when a component is compromised
 ---
-# When to conduct a Security Architecture review?
+## When to conduct a Security Architecture review?
 
 The review process is integrated into the broader [Architecture workflow](https://about.gitlab.com/handbook/engineering/architecture/workflow/), but can be triggered for:
 
@@ -17,7 +17,7 @@ The review process is integrated into the broader [Architecture workflow](https
 -   New significant services
 -   Cross teams/stage technical changes
 ---
-# Security Architecture Principles (infrastructure and applications)
+## Security Architecture Principles (infrastructure and applications)
 
 From: 
 
@@ -117,7 +117,7 @@ This is a security principle that focuses on ensuring that the attack surface is
 
 
 ****
-# Infrastructure security architechure
+## Infrastructure security architechure
 
 ### Identity, Authentication, and Authorization
 Before following along, check out [GitLab Data Classification Standard | GitLab](https://about.gitlab.com/handbook/security/data-classification-standard.html) to understand how gitlab classifies data.
@@ -186,7 +186,7 @@ Examples of different data types:
 
 ---
 
-# Data Classification Standards:
+## Data Classification Standards:
 
 From: [GitLab Data Classification Standard | GitLab](https://about.gitlab.com/handbook/security/data-classification-standard.html)
 
@@ -204,7 +204,7 @@ There is currently no internal requirement to label data according to this stand
 
 ---
 
-# Key Technical Concepts
+## Key Technical Concepts
 ## Network Segregation and Segmentation
 Network segmentation involves partitioning a network into smaller networks; while network segregation involves developing and enforcing a ruleset for controlling the communications between specific hosts and services. [^1]
 
@@ -892,7 +892,7 @@ Windows has a group policy called "Prevent installation of drivers matching thes
 To secure a Mac device from DMA attacks, you should set an EFI password. Setting an EFI password disables raw DMA access. 
 
 
-# Resources
+## Resources
 - [Defensible Security Architecture & Engineering: Implementing Zero Trust for the Hybrid Enterprise Course | SANS SEC530](https://www.sans.org/cyber-security-courses/defensible-security-architecture-and-engineering/)
 - [(46) Building a Secure OT Network | SANS ICS Concepts - YouTube](https://www.youtube.com/watch?v=5Pip8jcKZh0)
 - [(46) Zero-Trust Networks: The Future Is Here - SANS Blue Team Summit 2019 - YouTube](https://www.youtube.com/watch?v=EF_0dr8WkX8)
