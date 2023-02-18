@@ -561,7 +561,7 @@ That local subnet is now directly exposed to the public IPv6 internet.
 
 Rogue Advertisement (RA) Guard mitigates this risk, see notes for details. RA Guard also mitigates DoS via IPv6 Route Advertisement flooding.
 
-#### DMZ Design
+### DMZ Design
 The risk of a compromised DMZ system pivoting into internal systems (or other DMZ systems) must be mitigated 
 
 - Untrusted->DMZ access should be tightly filtered, plus DMZ->trusted 
