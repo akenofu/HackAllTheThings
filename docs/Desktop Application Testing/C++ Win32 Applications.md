@@ -237,7 +237,7 @@ TBD
 
 ---
 ## Learning Resources
-[Practical thick client application penetration testing using damn vulnerable thick client app: An introduction - Infosec Resources (infosecinstitute.com)](https://resources.infosecinstitute.com/topic/practical-thick-client-application-penetration-testing-using-damn-vulnerable-thick-client-app-part-1/)
-[Introduction to Hacking Thick Clients: Part 1 - the GUI (netspi.com)](https://www.netspi.com/blog/technical/thick-application-penetration-testing/introduction-to-hacking-thick-clients-part-1-the-gui/)
-[secvulture/dvta: Damn Vulnerable Thick Client App (github.com)](https://github.com/secvulture/dvta)
-[Breaking Docker Named Pipes SYSTEMatically: Docker Desktop Privilege Escalation – Part 1 (cyberark.com)](https://www.cyberark.com/resources/threat-research-blog/breaking-docker-named-pipes-systematically-docker-desktop-privilege-escalation-part-1)
+- [Practical thick client application penetration testing using damn vulnerable thick client app: An introduction - Infosec Resources (infosecinstitute.com)](https://resources.infosecinstitute.com/topic/practical-thick-client-application-penetration-testing-using-damn-vulnerable-thick-client-app-part-1/)
+- [Introduction to Hacking Thick Clients: Part 1 - the GUI (netspi.com)](https://www.netspi.com/blog/technical/thick-application-penetration-testing/introduction-to-hacking-thick-clients-part-1-the-gui/)
+- [secvulture/dvta: Damn Vulnerable Thick Client App (github.com)](https://github.com/secvulture/dvta)
+- [Breaking Docker Named Pipes SYSTEMatically: Docker Desktop Privilege Escalation – Part 1 (cyberark.com)](https://www.cyberark.com/resources/threat-research-blog/breaking-docker-named-pipes-systematically-docker-desktop-privilege-escalation-part-1)
