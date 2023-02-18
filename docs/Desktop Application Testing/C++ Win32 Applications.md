@@ -51,32 +51,37 @@ dir '.\Windows\DummyApplication' -Recurse | Get-Acl | fl | findstr 'Users'|  sel
 
 
 ### Analysis
-- Dump Memory and search for data
-Using Windows Task Manager, right click the process and click create dump file.
 
-![](/Screenshots/Pasted%20image%2020210914115012.png)
-If the applications spawn multiple sub processes, use the below powershell script to create an array of those subprocess ids and dump their memory.
+- Dump Memory and search for data using Windows Task Manager, right click the process and click create dump file.
 
-```powershell
- function Dump-ProcessesMemoryByName($regex) {
- $ids = (Get-Process -Name $regex | ForEach-Object id)
- New-Item -Name "dump" -ItemType "directory" 
- foreach($id in $ids) {
-    .\procdump.exe $id -accepteula -ma "dump\$id"
+	![](/Screenshots/Pasted%20image%2020210914115012.png)
+	If the applications spawn multiple sub processes, use the below powershell script to create an array of those subprocess ids and dump their memory.
+
+	```powershell
+	 function Dump-ProcessesMemoryByName($regex) {
+	 $ids = (Get-Process -Name $regex | ForEach-Object id)
+	 New-Item -Name "dump" -ItemType "directory" 
+	 foreach($id in $ids) {
+	    .\procdump.exe $id -accepteula -ma "dump\$id"
+		 }
 	 }
- }
+	
+	Dump-ProcessesMemoryByName('*edge*')
+	```
 
-Dump-ProcessesMemoryByName('*edge*')
-```
--  Check Loaded DLLs using [Process Explorer - Windows Sysinternals | Microsoft Docs](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer)
+- Check Loaded DLLs using [Process Explorer - Windows Sysinternals | Microsoft Docs](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer)
 -   Identify Handles to open files
 -  Command Line arguments/Working directory
 - Monitor Win32 API calls & Windows Events using [API Monitor: Spy on API Calls and COM Interfaces (Freeware 32-bit and 64-bit Versions!) | rohitab.com](http://www.rohitab.com/apimonitor)
 -  Monitor Windows Events using [Process Monitor - Windows Sysinternals | Microsoft Docs](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon)
+
 > Utilize filters to hone down on intersting events such as read/write events to files that are used during/after authentication/authorization.
+
+
 - Check registry for clear-text registry writes using [regshot | SourceForge.net](https://sourceforge.net/projects/regshot/)
 	1. Use regshot to snapshot the registry before and after any operation that might have written to the registry.
 	2. Compare both snapshots for registry changes.
+
 
 ### In Disk/Memory Manipulation
 - Modify the binary using [HxD - Freeware Hex Editor and Disk Editor | mh-nexus](https://mh-nexus.de/en/hxd/)
