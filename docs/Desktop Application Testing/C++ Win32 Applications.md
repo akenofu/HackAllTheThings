@@ -89,9 +89,10 @@ dir '.\Windows\DummyApplication' -Recurse | Get-Acl | fl | findstr 'Users'|  sel
 
 ### Fuzzing
 Fuzz the application using WinAFL  for memory corruption vulnerabilities.
-[googleprojectzero/winafl: A fork of AFL for fuzzing Windows binaries (github.com)](https://github.com/googleprojectzero/winafl)
-[BB-1011 Fuzzing WinAFL - YouTube](https://www.youtube.com/watch?v=m7tJkeW6H58)
-[Fuzzing with WinAFL Writing Harness for a DLL and fuzzing it with WinAFL - YouTube](https://www.youtube.com/watch?v=XeN3M0sK9GA)
+- [googleprojectzero/winafl: A fork of AFL for fuzzing Windows binaries (github.com)](https://github.com/googleprojectzero/winafl)
+- [[Fuzzing With WinAFL] How to fuzz a simple C program with WinAFL - YouTube](https://www.youtube.com/watch?v=Va_Wtxf3DMc&t=760s)
+- [BB-1011 Fuzzing WinAFL - YouTube](https://www.youtube.com/watch?v=m7tJkeW6H58)
+- [Fuzzing with WinAFL Writing Harness for a DLL and fuzzing it with WinAFL - YouTube](https://www.youtube.com/watch?v=XeN3M0sK9GA)
 
 > Writing harness functions might be time-consuming. However, very rewarding once you learn how to do so quickly.
 

@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vulnerability Scanning.md",
-                "mode": "source",
+                "file": "Desktop Application Testing/C++ Win32 Applications.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vulnerability Scanning.md",
+                "file": "Desktop Application Testing/C++ Win32 Applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vulnerability Scanning.md"
+                "file": "Desktop Application Testing/C++ Win32 Applications.md"
               }
             }
           },
@@ -149,6 +149,7 @@
   },
   "active": "da0d79ed9dc9d07c",
   "lastOpenFiles": [
+    "Vulnerability Scanning.md",
     "Segmentation Testing.md",
     "Desktop Application Testing/C++ Win32 Applications.md",
     "Network Pen test/SMB-Samba (445).md",
@@ -157,7 +158,6 @@
     "Network Pen test/IPv6.md",
     "Network Pen test/gRPC.md",
     "Network Pen test/DNS Rebind.md",
-    "Network Pen test/DNS (53).md",
-    "Screenshots/bugbounty_pentestbook.six2dez.png"
+    "Network Pen test/DNS (53).md"
   ]
 }
