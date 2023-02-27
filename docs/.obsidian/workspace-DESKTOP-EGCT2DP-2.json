@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network Pen test/Automation.md",
+                "file": "Miscellaneous/neo4j.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "JARM",
+                "query": "big mach",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network Pen test/Automation.md",
+                "file": "Miscellaneous/neo4j.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network Pen test/Automation.md"
+                "file": "Miscellaneous/neo4j.md"
               }
             }
           },
@@ -149,15 +149,16 @@
   },
   "active": "63d5adf249ae758d",
   "lastOpenFiles": [
-    "Network Pen test/DNS (53).md",
-    "Network Pen test/DNS Rebind.md",
     "Network Pen test/Automation.md",
-    "Network Pen test/HTTP.md",
-    "Network Pen test/IPv6.md",
-    "Network Pen test/MSRPC (135).md",
-    "Network Pen test/Port Scan.md",
-    "Network Pen test/Resources.md",
     "Network Pen test/SMB-Samba (445).md",
-    "Network Pen test/SSH (22).md"
+    "Miscellaneous/neo4j.md",
+    "Network Pen test/HTTP.md",
+    "Miscellaneous/Physical Attacks.md",
+    "Code Snippets/C Inotify Hooking Library.md",
+    "Security Architecture.md",
+    "Desktop Application Testing/C++ Win32 Applications.md",
+    "Vulnerability Scanning.md",
+    "Segmentation Testing.md",
+    "Network Pen test/Port Scan.md"
   ]
 }

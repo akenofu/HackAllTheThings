@@ -8,10 +8,10 @@ DETACH DELETE n
 
 // LOAD CSV file and parse it
 LOAD CSV WITH HEADERS FROM 'file:///NSGs.csv' AS line
-MERGE (src: host { host:  line.Source_Name } )
+MERGE (src: host { host:  line.Source } )
 MERGE (dst: host { host:  line.Destination } )
 MERGE (dst) - [:HAS_PORT] -> (port: port { portNum: line.Destination_Port } )
-MERGE (src) - [ALLOW:ALLOW ] -> (port)  
+MERGE (src) - [ALLOW:ALLOW {ALLOW: "ALLOW"} ] -> (port)  
 
 // Alternatively
 LOAD CSV WITH HEADERS FROM 'file:///NSGs.csv' AS line

@@ -25,3 +25,6 @@ Inside your VM's `.vmx` file remove the following line:
 ulm.disableMitigations = "TRUE"
 ```
 [matejetz/windows-git-auto-puller: Pulls specified git repositories on Windows (github.com)](https://github.com/matejetz/windows-git-auto-puller)
+
+## Enable Multiple RDP Sessions
+[How to Allow Multiple RDP Sessions in Windows 10 and 11? | Windows OS Hub (woshub.com)](https://woshub.com/how-to-allow-multiple-rdp-sessions-in-windows-10/)

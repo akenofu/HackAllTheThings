@@ -20,3 +20,7 @@
 	- API Keys
 	- Pull Requests
 	- Issues
+- Fingerprint TLS using JARM 
+	- [JARM: A Solid Fingerprinting Tool for Detecting Malicious Servers (securitytrails.com)](https://securitytrails.com/blog/jarm-fingerprinting-tool)
+	- [D2 COMMSEC - JARM Randomizer Evading JARM Fingerprinting - Dagmawi Mulugeta.pdf (hitb.org)](https://conference.hitb.org/hitbsecconf2021ams/materials/D2%20COMMSEC%20-%20JARM%20Randomizer%20Evading%20JARM%20Fingerprinting%20-%20Dagmawi%20Mulugeta.pdf)
+- [six2dez/reconftw: reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities (github.com)](https://github.com/six2dez/reconftw)

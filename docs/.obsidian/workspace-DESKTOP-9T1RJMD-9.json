@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "JARM",
+                "query": "nmap",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
