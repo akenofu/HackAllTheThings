@@ -34,7 +34,7 @@ for i in $(cat ips-255.txt); do crackmapexec smb -u '' -p '' $i  --shares ;done 
 for i in $(cat ips.txt) do; crackmapexec ftp $i -u anonymous -p ''  done | tee ftp.cme
 ```
 
-### SNMP Community Strings
+## SNMP Community Strings
 ```bash
 # Identify hosts with snmp open
 sudo nmap -sU -p 161 -iL All_IPS.txt -oG snmp-hosts.nmap -v -Pn -T5 --min-rate 10000 --open
@@ -57,7 +57,7 @@ spool off
 ```
 
 
-### SSL/TLS Encryption Ciphers
+## SSL/TLS Encryption Ciphers
 ```bash
 # Identify machines with SSH open
 sudo nmap -sT -p 22 -iL /home/akenofu/pentest/pentest_IPS -oG ssh-hosts.nmap -v -Pn -T5 --min-rate 10000 --openmv 
