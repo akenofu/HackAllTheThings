@@ -10,6 +10,14 @@ nmap -sn 10.33.0.0/16 -oN 10.33.0.0-alive.nmap -v
 cat 10.33.0.0-alive.nmap  10.32.0.0-alive.nmap | grep -v 'host down' | grep -v 'Nmap done' | grep -v 'Host is up' | grep -Eo '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' | sort -u 
 ```
 
+## DNS
+```bash
+# resolve ips for all domains
+for i in $(cat domains.txt); do dig +short $i ; done  | sort -u
+
+# extract domains from web servers FQDNs
+cat fqdns.txt | cut -d '.' -f 1  --complement | sort -u
+```
 
 ## HTTP
 ```bash

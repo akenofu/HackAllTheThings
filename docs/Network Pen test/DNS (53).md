@@ -9,6 +9,9 @@ nslookup
 > 127.0.0.1
 > 10.10.10.153
 
+# Resolve IPs for a DNS name
+dig +short <name>
+
 # Using dnsrecon
 dnsrecon -r 10.10.10.0/24 -n 10.10.10.204 -d notexistdomain
 ```
