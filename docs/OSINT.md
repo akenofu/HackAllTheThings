@@ -50,6 +50,4 @@ sudo docker run -it --rm  -v "${PWD}/reconftw.cfg":'/reconftw/reconftw.cfg'  -v 
 python3 cloud_enum.py -k <key_word> -t 10 
 
 python3.11 theHarvester.py -d <DOMAIN> -b all
-
-
 ```
