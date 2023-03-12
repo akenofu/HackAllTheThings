@@ -11,3 +11,5 @@ apktool b com.vulnapp.apk
 - [Intercepting Xamarin Mobile App Traffic (triskelelabs.com)](https://www.triskelelabs.com/blog/intercepting-xamarin-mobile-app-traffic-2)
 - https://deepsec.net/docs/Slides/2021/Intercepting_Mobile_App_Network_Traffic_aka_%E2%80%9CThe_Squirrel_in_the_Middle%E2%80%9D_Sven_Schleier%20.pdf
 - [Invisible proxying - PortSwigger](https://portswigger.net/burp/documentation/desktop/tools/proxy/invisible)
+- [GitHub - helviojunior/xamarin_sslunpinning](https://github.com/helviojunior/xamarin_sslunpinning)
+- [GitHub - GoSecure/frida-xamarin-unpin: A Frida script to bypass Xamarin certificate pinning implementations](https://github.com/GoSecure/frida-xamarin-unpin)

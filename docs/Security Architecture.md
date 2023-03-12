@@ -913,6 +913,7 @@ To secure a Mac device from DMA attacks, you should set an EFI password. Setting
 - [Security Requirements for Infrastructure Development and Deployment | GitLab](https://about.gitlab.com/handbook/security/planning/security-development-deployment-requirements/)
 - [Application Security Review Process | GitLab](https://about.gitlab.com/handbook/security/security-engineering/application-security/appsec-reviews.html)
 - [GitLab Data Classification Standard | GitLab](https://about.gitlab.com/handbook/security/data-classification-standard.html)
+- - [Disrupting the kill chain - Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2016/11/28/disrupting-the-kill-chain/)
 ****
 
 [^1]: [Implementing Network Segmentation and Segregation | Cyber.gov.au](https://www.cyber.gov.au/acsc/view-all-content/publications/implementing-network-segmentation-and-segregation#:~:text=What%20is%20network%20segmentation%20and,between%20specific%20hosts%20and%20services.)
