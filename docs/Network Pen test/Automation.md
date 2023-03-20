@@ -65,11 +65,15 @@ spool off
 ```
 
 
-## SSL/TLS Encryption Ciphers
+## SSH
 ```bash
+# TBD
+# Automate detection of password based authentication 
+
 # Identify machines with SSH open
 sudo nmap -sT -p 22 -iL /home/akenofu/pentest/pentest_IPS -oG ssh-hosts.nmap -v -Pn -T5 --min-rate 10000 --openmv 
 
+nmap -p 1433 --script=ssl-enum-ciphers -iL ips.txt -oN mssql-ssl.txt
 
 # Modify file to correct format
 cat ~/pentest/ssh-hosts.nmap  | grep open |cut -d " " -f 2 > ssh-hosts.txt

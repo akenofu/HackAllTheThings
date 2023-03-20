@@ -38,3 +38,8 @@ A combination of the following could potenially help bypass a WAF when directory
 
 References:
 [Prevent brute force attacks with AWS WAF (amazon.com)](https://aws.amazon.com/premiumsupport/knowledge-center/waf-prevent-brute-force-attacks/)
+
+## Wordlists
+- [trickest/wordlists: Real-world infosec wordlists, updated regularly (github.com)](https://github.com/trickest/wordlists)
+- [trickest/mkpath: Make URL path combinations using a wordlist (github.com)](https://github.com/trickest/mkpath)
+- [trickest/mksub: Generate tens of thousands of subdomain combinations in a matter of seconds (github.com)](https://github.com/trickest/mksub)
