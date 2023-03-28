@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Applications testing/WAF & Directory Brute Forcing.md",
+                "file": "Threat Modeling.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "stride",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Applications testing/WAF & Directory Brute Forcing.md",
+                "file": "Threat Modeling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Applications testing/WAF & Directory Brute Forcing.md"
+                "file": "Threat Modeling.md"
               }
             }
           },
@@ -149,6 +150,11 @@
   },
   "active": "67fa375b2243182f",
   "lastOpenFiles": [
+    "Security Consultancy/Prerequisites checklists/Cloud Config Reviews.md",
+    "Cloud/Azure AD Assessment.md",
+    "Cloud/Azure best practices for network security.md",
+    "Cloud/GCP Assessement.md",
+    "Web Applications testing/WAF & Directory Brute Forcing.md",
     "Development Resources.md",
     "Data Protection.md",
     "Network Pen test/Automation.md",
@@ -179,10 +185,6 @@
     "Web Applications testing/CMS.md",
     "README.md",
     "Network Pen test/DNS (53).md",
-    "Web Applications testing/Recon.md",
-    "Web Applications testing/Salesforce Testing.md",
-    "Web Applications testing/WAF & Directory Brute Forcing.md",
-    "Web Applications testing/Resources.md",
-    "Web Applications testing/Tips and Tricks.md"
+    "Web Applications testing/Recon.md"
   ]
 }

@@ -1,4 +1,14 @@
 # Azure AD Assessment
+## Automated
+```bash
+pip install az-cli
+az login
+# from https://portal.azure.com/ make sure the default directory is the directory you are testing
+python3 scount.py --cli
+
+
+prowler azure --browser-auth
+```
 ## Manual Recon
 ### Enumerate the tenant id
 ```http
@@ -62,6 +72,10 @@ Connect-AzAccount -KeyVaultAccessToken $keyVault -AccessToken $mgmtToken -GraphA
 ```
 
 ## Enumerate Resources
+## Manual
+- Enumerate sharepoint by using the link `https://<tenant>.sharepoint.com/_forms/default.aspx`
+- Enumerate OneDrive by using the link: 
+`https://<tenant>-my.sharepoint.com`
 ### Powershell AZ Module
 ```powershell
 $password = ConvertTo-SecureString 'P@ssw0rd' -AsPlainText -Force 

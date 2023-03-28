@@ -1,4 +1,6 @@
 # GCP Assessement
+## Automated
+- [carlospolop/PurplePanda: Identify privilege escalation paths within and across different clouds (github.com)](https://github.com/carlospolop/PurplePanda)
 ## CLI
 ```bash
 # Get current logged in account
