@@ -1,5 +1,5 @@
 # About me
-Short version; Techie 🧑‍💻 — Security Engineer, Consultant, and Educator
+Short version; Techie 🧑‍💻 — Security Engineer, Architect, and Educator
 <br>
 Long version; https://akenofu.me/
 

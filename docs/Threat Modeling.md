@@ -6,6 +6,7 @@ Based on:
 - [Blog - Analysing vulnerabilities with threat modelling using diagrams.net](https://www.diagrams.net/blog/threat-modelling)
 - [TON_ThreatModeling_1612.pdf (toreon.com)](https://www.toreon.com/wp-content/uploads/2016/12/TON_ThreatModeling_1612.pdf)
 - [Microsoft Threat Modeling Tool - STRIDE - Usage and Examples - Cybersecurity Memo (51sec.org)](http://blog.51sec.org/2022/11/microsoft-threat-modeling-tool-stride_15.html) - Has good examples ✅
+- [Threat Modeling Process | OWASP Foundation](https://owasp.org/www-community/Threat_Modeling_Process)
 
 ## When to use threat modeling
 
