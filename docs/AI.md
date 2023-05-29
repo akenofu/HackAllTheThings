@@ -5,3 +5,4 @@
 
 ## Securing LLMs
 [Attacking LLM - Prompt Injection - YouTube](https://www.youtube.com/watch?v=Sv5OLj2nVAQ&list=WL&index=2&t=75s)
+[Defending LLM - Prompt Injection - YouTube](https://www.youtube.com/watch?v=VbNPZ1n6_vY)

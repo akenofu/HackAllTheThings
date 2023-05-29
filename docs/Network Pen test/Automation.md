@@ -26,7 +26,10 @@ cat fqdns.txt | cut -d '.' -f 1  --complement | sort -u
 httpx -l hosts.txt -silent -probe -o web-servers_alive.httpx 
 
 # One command to rule them all
-httpx -l ips.txt -tech-detect -server -favicon -title -jarm -silent -probe -ports http:80,8080,443 https://80,8080,443 -o ips-80_443_8080.httpx 
+httpx -l ips.txt -tech-detect -server -favicon -title -jarm -silent -fr -probe -ports http:80,8080,443 https://80,8080,443 -o ips-80_443_8080.httpx 
+
+# Tested using root, you may need to su to root
+nuclei -fr -headless -iserver <host> -itoken <token> -l alive.txt | tee nuclei.txt
 ```
 
 

@@ -23,6 +23,7 @@ From:
 
 - [Security Principles | GitLab](https://about.gitlab.com/handbook/security/architecture/#security-architecture-reviews)
 - [OWASP-Principles of Security Engineering.md at master · OWASP/DevGuide (github.com)](https://github.com/OWASP/DevGuide/blob/master/02-Design/01-Principles%20of%20Security%20Engineering.md)
+- [Secure Product Design - OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html#security-focus-areas)
 
 **Assign the least privilege possible**
 A security principle in which a person or process is given only the minimum level of access rights (privileges) that is necessary for that person or process to complete an assigned operation. This right must be given only for a minimum amount of time that is necessary to complete the operation.
