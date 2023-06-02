@@ -11,7 +11,7 @@
 - [DevSecOps: Making Security Central To Your DevOps Pipeline (spacelift.io)](https://spacelift.io/blog/what-is-devsecops)
 - [Unify the DevSecOps lifecycle with GitLab | GitLab](https://about.gitlab.com/stages-devops-lifecycle/#plan)
 - [DevSecOps Introduction for beginners: Security in the SDLC - GitGuardian Blog](https://blog.gitguardian.com/devsecops-introduction-accelerating-software-development/)
-
+[(45) AWS Summit ANZ 2021 - How to approach threat modelling - YouTube](https://www.youtube.com/watch?v=GuhIefIGeuA)
 
 ![](/Screenshots/Pasted%20image%2020230524114625.png)
 

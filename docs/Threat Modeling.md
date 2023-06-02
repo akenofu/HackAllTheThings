@@ -7,6 +7,13 @@ Based on:
 - [TON_ThreatModeling_1612.pdf (toreon.com)](https://www.toreon.com/wp-content/uploads/2016/12/TON_ThreatModeling_1612.pdf)
 - [Microsoft Threat Modeling Tool - STRIDE - Usage and Examples - Cybersecurity Memo (51sec.org)](http://blog.51sec.org/2022/11/microsoft-threat-modeling-tool-stride_15.html) - Has good examples ✅
 - [Threat Modeling Process | OWASP Foundation](https://owasp.org/www-community/Threat_Modeling_Process)
+- [(45) AWS Summit ANZ 2021 - How to approach threat modelling - YouTube](https://www.youtube.com/watch?v=GuhIefIGeuA)
+- [(46) Cloud Threat Modeling - from Architecture Design to Application Development - YouTube](https://www.youtube.com/watch?v=9IBgPOe8zrc)
+- [(46) Introduction to Threat Modelling with STRIDE - YouTube](https://www.youtube.com/watch?v=X5pXetz52zI)
+- [Threat modeling for builders (workshops.aws)](https://catalog.workshops.aws/threatmodel/en-US/introduction)
+- [Threat modeling for builders - Stride Per Element (workshops.aws)](https://catalog.workshops.aws/threatmodel/en-US/what-can-go-wrong/stride-per-element)
+- [Threat modeling for builders - Zones of Trust (workshops.aws)](https://catalog.workshops.aws/threatmodel/en-US/what-are-we-working-on/trust-boundaries#zones-of-trust)
+- [How to approach threat modeling | AWS Security Blog (amazon.com)](https://aws.amazon.com/blogs/security/how-to-approach-threat-modeling/)
 
 ## When to use threat modeling
 
@@ -183,7 +190,19 @@ Examples include:
 -   Connections to third-party services
 -   Parts of your system only available to administrators
 
-Areas with changing trust zones are the most targeted by attackers, and should be carefully designed.
+Areas with changing are the most targeted by attackers, and should be carefully designed.
+
+#### Zones of trust
+A system can be divided into zones of trust that are separated by boundaries. For example, a process that receives input from an external entity is likely in a different zone than a data store that keeps confidential data. Within a zone of trust, all elements are considered to be equally or similarly trusted. While each identified zone may be trusted differently, that does not imply more or less trust. Often, security controls (mitigations) are most usefully applied at trust boundaries to maintain the security properties of a system. The standard convention for drawing trust boundaries is a dashed line indicating where the separation exists.
+
+#### Sample trust boundaries
+**Externally-facing**
+- A web server between the external user's web browser and service business logic.
+- API endpoints between the external software development kit (SDK) or command line interface (CLI) client and serverless functions performing backend processing.
+
+**Internally-facing**
+- A single page application (SPA) HTML/JavaScript served from an Amazon Simple Storage Service (S3) bucket that then calls to a non-relational database.
+- A user-space process and kernel-space driver within a running Amazon Elastic Compute Cloud (EC2) instance.
 
 #### When to use the data-flow element
 Here are a few important points to remember about trust boundaries:
@@ -475,3 +494,31 @@ The Threat Modeling Tool offers:
 
 The default template is called "SDL TM Knowledge Base" and gives you a basic set of elements and threat-generation capabilities. All you need is a basic understanding of data-flow diagrams and STRIDE.
 
+## Stride Per Element
+Based on:
+[Threat modeling for builders (workshops.aws)](https://catalog.workshops.aws/threatmodel/en-US/what-can-go-wrong/stride-per-element)
+
+![](/Screenshots/Pasted%20image%2020230601164558.png)
+
+## Stride Per Interaction
+
+![](/Screenshots/Pasted%20image%2020230601165047.png)
+
+## Planes of operations
+Based on: [Threat modeling for builders (workshops.aws)](https://catalog.workshops.aws/threatmodel/en-US/what-can-go-wrong/reference-data-flow-diagram#planes-of-operations)
+
+Control/administrative planes are used to configure the environment. For example:
+
+- Creating EC2 instances,
+- Configuring identity and access management (IAM) policies, and
+- Adding or changing table metadata in DynamoDB.
+
+The data/request plane is responsible for delivering real-time service. For example:
+
+- Accessing and using EC2 instances,
+- Assuming an IAM role to perform actions in your AWS account, and
+- Performing DynamoDB table read/write operations.
+
+## Tools
+- [threat-composer (awslabs.github.io)](https://awslabs.github.io/threat-composer/?mode=ThreatsOnly)
+- [Microsoft Threat Modeling Tool overview - Azure | Microsoft Learn](https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool)

@@ -24,6 +24,7 @@ From:
 - [Security Principles | GitLab](https://about.gitlab.com/handbook/security/architecture/#security-architecture-reviews)
 - [OWASP-Principles of Security Engineering.md at master · OWASP/DevGuide (github.com)](https://github.com/OWASP/DevGuide/blob/master/02-Design/01-Principles%20of%20Security%20Engineering.md)
 - [Secure Product Design - OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html#security-focus-areas)
+- [(46) Improve Cloud Threat Detection and Response using the MITRE ATT&CK Framework - YouTube](https://www.youtube.com/watch?v=8Iducc0l5vI)
 
 **Assign the least privilege possible**
 A security principle in which a person or process is given only the minimum level of access rights (privileges) that is necessary for that person or process to complete an assigned operation. This right must be given only for a minimum amount of time that is necessary to complete the operation.
@@ -118,7 +119,7 @@ This is a security principle that focuses on ensuring that the attack surface is
 
 
 ****
-## Infrastructure security architechure
+## Infrastructure security architecture
 
 ### Identity, Authentication, and Authorization
 Before following along, check out [GitLab Data Classification Standard | GitLab](https://about.gitlab.com/handbook/security/data-classification-standard.html) to understand how gitlab classifies data.
@@ -154,7 +155,7 @@ Before following along, check out [GitLab Data Classification Standard | GitLab]
 
 1.  All network firewalls MUST be configured such that the default policy is DENY.
 2.  Network firewall rules SHOULD deny egress by default.
-3.  All external communication MUST be encrypted in transit using up to date protocals and ciphers.
+3.  All external communication MUST be encrypted in transit using up to date protocols and ciphers.
 4.  All internal communication SHOULD be encrypted in transit if possible.
 
 ### Data Handling and Isolation
@@ -162,14 +163,14 @@ Before following along, check out [GitLab Data Classification Standard | GitLab]
 1.  Data [retention policies](https://about.gitlab.com/handbook/security/records-retention-deletion.html) MUST be followed.
 2.  Data MUST be encrypted at rest.
     1.  Data MAY be encrypted using provider managed keys.
-3.  Data of different types MUST be logically seperated at rest.
+3.  Data of different types MUST be logically separated at rest.
 4.  Virtual networks (for example, VPC in GCP) MAY be used as a mechanism for data and workload isolation.
 
 Examples of different data types:
 
 -   User content, such as repository contents or attachments
 -   Production derived data, such as logs
--   DFIR (Digital Forensics and Incident Reponse) artifacts, such as system logs and disk images
+-   DFIR (Digital Forensics and Incident Response) artifacts, such as system logs and disk images
 
 ### Vulnerability and Patch Management
 

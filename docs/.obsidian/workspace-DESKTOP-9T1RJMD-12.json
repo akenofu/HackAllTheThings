@@ -157,17 +157,15 @@
   },
   "active": "c0ca405082098caa",
   "lastOpenFiles": [
-    "Security Architecture.md",
-    "Threat Modeling.md",
-    "Screenshots/Pasted image 20230601165047.png",
-    "Screenshots/Pasted image 20230601164558.png",
     "DevSecOps.md",
+    "Threat Modeling.md",
     "Linux/Miscellaneous.md",
     "Android Application Testing/archived/Misc.md",
     "Android Application Testing/Apache Cordova.md",
     "Android Application Testing/My Testing Enviroment.md",
     "Android Application Testing/Security Controls.md",
     "Android Application Testing/Decompiling and Compiling Smali.md",
+    "Security Architecture.md",
     "Data Protection.md",
     "Screenshots/Pasted image 20230524114625.png",
     "Vulnerability Scanning.md",
@@ -185,13 +183,16 @@
     "Risk Rating/CVSS 3.1.md",
     "Risk Rating",
     "Miscellaneous/Wordlists.md",
-    "Security Consultation/Prerequisites checklists/Cloud Config Reviews.md",
+    "Security Consultancy/Prerequisites checklists/Cloud Config Reviews.md",
+    "Cloud/Azure AD Assessment.md",
     "Screenshots/Pasted image 20230305152606.png",
     "Screenshots/Pasted image 20230305140357.png",
     "Screenshots/Pasted image 20230305140050.png",
     "Screenshots/Pasted image 20230305133849.png",
     "Screenshots/Pasted image 20230305133319.png",
     "Screenshots/Pasted image 20230305133318.png",
-    "Screenshots/Pasted image 20230305133317.png"
+    "Screenshots/Pasted image 20230305133317.png",
+    "Screenshots/Pasted image 20230305133044.png",
+    "Screenshots/Pasted image 20230305132836.png"
   ]
 }

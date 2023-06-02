@@ -116,3 +116,11 @@ gzip -d arc.gz
 # Pipe stderr to stdout
 curl http://doesnotexist.com 2>&1
 ```
+
+---
+
+## ZScaler
+```powershell
+# Turn off ZScaler network adapter
+Get-NetAdapterBinding -AllBindings -ComponentID ZS_ZAPPRD | Disable-NetAdapterBinding
+```
