@@ -209,6 +209,14 @@ Set-AzureADUserPassword -Password $Password -Verbose
 
 [Azure Storage Explorer – cloud storage management | Microsoft Azure](https://azure.microsoft.com/en-us/products/storage/storage-explorer/)
 
+## Syncing Azure AD and On-Prem AD
+### PTA
+Azure Active Directory (Azure AD) Pass-through Authentication allows your users to sign in to both on-premises and cloud-based applications using the same passwords. This feature provides your users a better experience - one less password to remember, and reduces IT helpdesk costs because your users are less likely to forget how to sign in. When users sign in using Azure AD, this feature validates users' passwords directly against your on-premises Active Directory.
+![](/Screenshots/Pasted%20image%2020230608130242.png)
+## PHS
+Password hash synchronization is one of the sign-in methods used to accomplish hybrid identity. Azure AD Connect synchronizes a hash of a user's password from an on-premises Active Directory instance to a cloud-based Azure AD instance.
+![](/Screenshots/Pasted%20image%2020230608141442.png)
+
 ## Fundamentals
 [Pentester Academy - Attacking and Defending Azure AD Cloud: Beginner's Edition](https://bootcamps.pentesteracademy.com/course/ad-azure-jul-22)
 ## Cheatsheets

@@ -1,4 +1,4 @@
-# Methodology
+# Java
 ## Decompilers
 ### [jd-cli ](https://github.com/intoolswetrust/jd-cli)
 ```bash

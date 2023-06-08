@@ -14,6 +14,9 @@ Based on:
 - [Threat modeling for builders - Stride Per Element (workshops.aws)](https://catalog.workshops.aws/threatmodel/en-US/what-can-go-wrong/stride-per-element)
 - [Threat modeling for builders - Zones of Trust (workshops.aws)](https://catalog.workshops.aws/threatmodel/en-US/what-are-we-working-on/trust-boundaries#zones-of-trust)
 - [How to approach threat modeling | AWS Security Blog (amazon.com)](https://aws.amazon.com/blogs/security/how-to-approach-threat-modeling/)
+- [Improve Cloud Threat Detection and Response using the MITRE ATT&CK Framework - YouTube](https://www.youtube.com/watch?v=8Iducc0l5vI)
+- [MR201610_STRIDE_Variants_and_Security_Requirements-based_Threat_Analysis_ENG.pdf (ffri.jp)](https://www.ffri.jp/assets/files/monthly_research/MR201610_STRIDE_Variants_and_Security_Requirements-based_Threat_Analysis_ENG.pdf)
+- [(45) AWS Summit ANZ 2021 - How to approach threat modelling - YouTube](https://www.youtube.com/watch?v=GuhIefIGeuA)
 
 ## When to use threat modeling
 
