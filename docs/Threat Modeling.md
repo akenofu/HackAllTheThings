@@ -404,46 +404,6 @@ Examples include:
 -   Permissions
 -   Input validation
 
-### Denial of Service - overwhelming the system
-**Denial of service** occurs when an attacker causes the system to be unavailable.
-
-#### How to prevent denial of service
-**Availability** ensures your system is up and running for users. Examples include:
-
--   Using network access-control lists to control incoming and outgoing traffic
--   Using elastic resources to manage growing or shrinking usage
--   Monitoring the system to detect anomalies
--   Enabling operating-system flags to handle memory and CPU processes
-
-### Common security controls to reduce or eliminate risk
-
--   Access control lists (ACL)
--   Filtering
--   Quotas
--   Authorization
--   High availability
-
-### Elevation of privilege - having permissions I should not have
-**Elevation of privilege** occurs when individuals access resources without permission. Examples include:
-
--   Extracting data by exploiting weaknesses in input-handling logic or memory
--   Finding and using privileged accounts to corrupt the service (used in combination with spoofing and tampering threats)
-
-## How to prevent elevation of privilege
-
-**Authorization** ensures users have proper permissions. Examples include:
-
--   Implementing authorization mechanisms to verify permissions to data and resources
--   Applying security controls to run the service using the least possible amount of access
--   Monitoring access to detect anomalies and unauthorized access attempts
-
-### Common security controls to reduce or eliminate risk
-
--   Access-control lists (ACL)
--   Role-based access controls (RBAC)
--   Group-based access
--   Permissions
--   Input validation
 
 ## Prioritize your issues and apply security controls
 Threat modeling provides you with a list of threats and ways to reduce or eliminate risk, but it doesn't prioritize them for you. Also, there are no layered security control recommendations based on their type and function.

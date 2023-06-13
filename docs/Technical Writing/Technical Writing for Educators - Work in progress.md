@@ -1,4 +1,4 @@
-# Technical Writing for Educators - Work in progess
+# Technical Writing for Educators - Work in progress
 prevent ppl from getting overwhlemed:
 ur not gonna get everything out of this
 always can refer original material

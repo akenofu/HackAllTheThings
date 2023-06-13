@@ -193,17 +193,3 @@ url: "URL",
 data: "old=mycoolemail@victim.site&new=evil@hacker.site",
 });
 ```
-***
-
-## Mitigations
-### Same Site Cookie
-- The **`SameSite`** attribute of the [`Set-Cookie`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie) HTTP response header allows you to declare if your cookie should be restricted to a [first-party](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#third-party_cookies) or same-site context.
-- A cookie is associated with a domain. If this domain is the same as the domain of the page you are on, the cookie is called a _first-party cookie_. If the domain is different, it is a _third-party cookie_.
--  the server hosting a web page sets first-party cookies, the page may contain images or other components stored on servers in other domains (for example, ad banners), which may set third-party cookies
--  These are mainly used for advertising and tracking across the web.
-
-### Types
-- Lax: When you set a cookie' SameSite attribute to Lax, the cookie will be sent along with the GET request initiated by third party website.
-	- Resources can be loaded by iframe, img tags, and script tags. These requests can also operate as GET requests, but none of them cause TOP LEVEL navigation. Basically, they don't change the URL in your address bar. Because these GET requests do not cause a TOP LEVEL navigation, thus cookies set to Lax won't be sent with them.
-- Strict: Cookies will only be sent in a first-party context and not be sent along with requests initiated by third party websites.
-- None: Cookies will be sent in all contexts

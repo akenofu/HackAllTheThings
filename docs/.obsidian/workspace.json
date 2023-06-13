@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "19c2cd049ffdf36f",
+        "id": "18fa8c85fc4f97a2",
         "type": "tabs",
         "children": [
           {
-            "id": "c0ca405082098caa",
+            "id": "340d4c532f63bedb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cloud/Azure AD Assessment.md",
+                "file": "DevSecOps.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cloud/Azure AD Assessment.md",
+                "file": "DevSecOps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cloud/Azure AD Assessment.md"
+                "file": "DevSecOps.md"
               }
             }
           },
@@ -155,16 +155,29 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "c0ca405082098caa",
+  "active": "340d4c532f63bedb",
   "lastOpenFiles": [
+    "Secure Architecture & Design.md",
+    "DevSecOps.md",
+    "Threat Modeling.md",
+    "Web Applications testing/Mitigations & Compensating Controls/CSP and XSS Protection.md",
+    "Web Applications testing/Mitigations & Compensating Controls/Same Site Cookies.md",
+    "Web Applications testing/Mitigations & Compensating Controls/CORS.md",
+    "Web Applications testing/Mitigations & Compensating Controls/MIME Sniffing.md",
+    "Web Applications testing/WAF & Directory Brute Forcing.md",
+    "Web Applications testing/Tips and Tricks.md",
+    "Web Applications testing/Salesforce Testing.md",
+    "Web Applications testing/Resources.md",
+    "Web Applications testing/Attacks/Padding Oracle Attack.md",
+    "Web Applications testing/Attacks/CSRF.md",
+    "Web Applications testing/Burp Extensions.md",
+    "Cloud/Azure AD Assessment.md",
     "Screenshots/Pasted image 20230608141442.png",
     "Screenshots/Pasted image 20230608130242.png",
     "Active Directory Assessment/Delegation.md",
     "Screenshots/Pasted image 20230608123618.png",
     "Screenshots/Pasted image 20230608122953.png",
-    "Threat Modeling.md",
     "Vulnerability Scanning.md",
-    "DevSecOps.md",
     "DevOps.md",
     "Technical Writing/Writing Checklist.md",
     "Web Applications testing/Attacks/Time-of-check-to-time-of-use.md",
@@ -174,26 +187,13 @@
     "Source Code Review/PHP.md",
     "Source Code Review/Misc.md",
     "Source Code Review/Methodology.md",
-    "OSINT.md",
-    "Segmentation Testing.md",
     "Untitled.canvas",
-    "Source Code Review/Java.md",
-    "Source Code Review/DotNet.md",
-    "Security Architecture.md",
     "Screenshots/Pasted image 20230601165047.png",
     "Screenshots/Pasted image 20230601164558.png",
-    "Linux/Miscellaneous.md",
-    "Android Application Testing/archived/Misc.md",
-    "Android Application Testing/Apache Cordova.md",
-    "Android Application Testing/My Testing Enviroment.md",
-    "Android Application Testing/Security Controls.md",
-    "Android Application Testing/Decompiling and Compiling Smali.md",
-    "Data Protection.md",
     "Screenshots/Pasted image 20230524114625.png",
     "Risk Rating",
     "Screenshots/Pasted image 20230305152606.png",
     "Screenshots/Pasted image 20230305140357.png",
-    "Screenshots/Pasted image 20230305140050.png",
-    "Screenshots/Pasted image 20230305133849.png"
+    "Screenshots/Pasted image 20230305140050.png"
   ]
 }

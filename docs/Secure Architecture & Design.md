@@ -1,4 +1,4 @@
-# Security Architecture
+# Secure Architecture & Design
 ## Purpose
 
 -   Meet [Security and Compliance requirements](https://about.gitlab.com/handbook/security/architecture/#security-architecture-requirements)
@@ -89,7 +89,6 @@ A security principle that aims at maximizing the usage and adoption of the secur
 Security mechanisms should not make the resource more difficult to access than if the security mechanism were not present.
 
 Problem: Users looks for ways to defeat the mechanisms and “prop the doors open”.
-
 
 **Implement Defense in depth**
 
