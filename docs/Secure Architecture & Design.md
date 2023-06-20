@@ -104,7 +104,6 @@ This is a security principle that focuses on ensuring that the attack surface is
 -   In doubt, always involve the right SMEs
 
 **Find the weakest link**
-
 -   [Threat model](https://about.gitlab.com/handbook/security/threat_modeling/) the system, repeat, iterate.
 -   Identify central components that
 
