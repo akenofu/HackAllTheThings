@@ -44,3 +44,11 @@ Salesforce lightning with guest privilege. (github.com)](https://github.com/moni
 
 ## Interesting reads
 [VF Remoting Exploit - Salesforce Developer Community](https://developer.salesforce.com/forums/?id=9062I000000XvqIQAS)
+```
+
+## Burp Extensions
+- [GitHub - akenofu/lightning-burp](https://github.com/akenofu/lightning-burp)
+
+
+## Tips and tricks
+- Look at the security settings page

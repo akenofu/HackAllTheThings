@@ -9,3 +9,4 @@
 - [Sharpener - PortSwigger](https://portswigger.net/bappstore/3c5025b0e19d419a8f339ee0c30391dd)
 - [JS Miner - PortSwigger](https://portswigger.net/bappstore/0ab7a94d8e11449daaf0fb387431225b)
 - [Active Scan++ - PortSwigger](https://portswigger.net/bappstore/3123d5b5f25c4128894d97ea1acc4976)
+- [GitHub - akenofu/lightning-burp](https://github.com/akenofu/lightning-burp)
