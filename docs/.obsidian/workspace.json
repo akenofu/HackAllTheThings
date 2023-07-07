@@ -8,25 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b4b7154dfe3ddd58",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Secure Architecture & Design.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "8ff30d4b199271d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Threat Modeling.md",
-                "mode": "source",
+                "file": "Linux/Kerberos.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -60,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mount",
+                "query": "ntp",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -105,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Secure Architecture & Design.md",
+                "file": "Linux/Kerberos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Secure Architecture & Design.md"
+                "file": "Linux/Kerberos.md"
               }
             }
           },
@@ -167,11 +156,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "b4b7154dfe3ddd58",
+  "active": "8ff30d4b199271d4",
   "lastOpenFiles": [
+    "Miscellaneous/My Host Setup.md",
+    "DevSecOps.md",
+    "DevOps.md",
+    "Miscellaneous/Simple Servers.md",
+    "Miscellaneous/Sharing Wifi from a Windows Device.md",
+    "Miscellaneous/Pivot & Tunnel.md",
+    "Web Applications testing/Time-of-check-to-time-of-use.md",
     "Threat Modeling.md",
     "Secure Architecture & Design.md",
-    "Web Applications testing/Time-of-check-to-time-of-use.md",
     "Web Applications testing/Testing Payment Integration Platforms.md",
     "Web Applications testing/Technology Fingerprinting.md",
     "Web Applications testing/Mitigations & Compensating Controls/CORS.md",
@@ -179,7 +174,6 @@
     "Web Applications testing/Mitigations & Compensating Controls/Same Site Cookies.md",
     "Web Applications testing/Tips and Tricks.md",
     "Web Applications testing/Salesforce Testing.md",
-    "DevSecOps.md",
     "Web Applications testing/Mitigations & Compensating Controls/CSP and XSS Protection.md",
     "Web Applications testing/Mitigations & Compensating Controls/MIME Sniffing.md",
     "Web Applications testing/WAF & Directory Brute Forcing.md",
@@ -193,12 +187,7 @@
     "Screenshots/Pasted image 20230608123618.png",
     "Screenshots/Pasted image 20230608122953.png",
     "Vulnerability Scanning.md",
-    "DevOps.md",
     "Technical Writing/Writing Checklist.md",
-    "Source Code Review/Resources.md",
-    "Source Code Review/Logging.md",
-    "Source Code Review/Node.md",
-    "Source Code Review/PHP.md",
     "Untitled.canvas",
     "Screenshots/Pasted image 20230601165047.png",
     "Screenshots/Pasted image 20230601164558.png",

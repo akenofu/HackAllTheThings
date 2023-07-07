@@ -106,7 +106,6 @@ This is a security principle that focuses on ensuring that the attack surface is
 **Find the weakest link**
 -   [Threat model](https://about.gitlab.com/handbook/security/threat_modeling/) the system, repeat, iterate.
 -   Identify central components that
-
     -   share more privileges than the others
     -   have more connections to other components
     -   are entrypoints (login modules, APIs, …)

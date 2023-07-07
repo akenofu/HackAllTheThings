@@ -28,3 +28,9 @@ ulm.disableMitigations = "TRUE"
 
 ## Enable Multiple RDP Sessions
 [How to Allow Multiple RDP Sessions in Windows 10 and 11? | Windows OS Hub (woshub.com)](https://woshub.com/how-to-allow-multiple-rdp-sessions-in-windows-10/)
+
+## Disable Auto Suspend
+Inside your VM's `.vmx` file, append the following line:
+```
+suspend.disabled = "TRUE"
+```

@@ -4,7 +4,7 @@
 vim /etc/krb5.conf
 
 # 2. Sync time with server using NTP
-date; sudo nptdate 10.91.10.10; date
+date; sudo ntpdate 10.91.10.10; date
 
 # 3. Create ticket from user and password
 kinit k.john
