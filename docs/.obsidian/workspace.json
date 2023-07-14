@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Kerberos.md",
+                "file": "Threat Modeling.md",
                 "mode": "preview",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ntp",
+                "query": "smb",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Kerberos.md",
+                "file": "Threat Modeling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Kerberos.md"
+                "file": "Threat Modeling.md"
               }
             }
           },
@@ -158,6 +157,9 @@
   },
   "active": "8ff30d4b199271d4",
   "lastOpenFiles": [
+    "Miscellaneous/Binaries.md",
+    "Network Pen test/SMB-Samba (445).md",
+    "Linux/Kerberos.md",
     "Miscellaneous/My Host Setup.md",
     "DevSecOps.md",
     "DevOps.md",
@@ -183,11 +185,8 @@
     "Cloud/Azure AD Assessment.md",
     "Screenshots/Pasted image 20230608141442.png",
     "Screenshots/Pasted image 20230608130242.png",
-    "Active Directory Assessment/Delegation.md",
     "Screenshots/Pasted image 20230608123618.png",
     "Screenshots/Pasted image 20230608122953.png",
-    "Vulnerability Scanning.md",
-    "Technical Writing/Writing Checklist.md",
     "Untitled.canvas",
     "Screenshots/Pasted image 20230601165047.png",
     "Screenshots/Pasted image 20230601164558.png",
