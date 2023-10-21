@@ -1,0 +1,2 @@
+# Mobile Device Management (MDM)
+- [iOS/iPadOS app protection policy settings - Microsoft Intune | Microsoft Learn](https://learn.microsoft.com/en-us/mem/intune/apps/app-protection-policy-settings-ios)

@@ -1,0 +1,121 @@
+{
+  "main": {
+    "id": "c95c6156d5c6597a",
+    "type": "split",
+    "children": [
+      {
+        "id": "3bba32072b00c805",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Desktop Application Security/C++ Win32.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "382b38cd8e01a689",
+    "type": "split",
+    "children": [
+      {
+        "id": "f4f7bfa62f18ac35",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1fe99213467ed1d6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "fd198309ce134c4d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "shells",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "81aba2caf07951d7",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 326.0083885192871
+  },
+  "right": {
+    "id": "b0489bd87555000a",
+    "type": "split",
+    "children": [
+      {
+        "id": "1fa4c896ad054ebe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "344ad6c122ec4d2a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Desktop Application Security/C++ Win32.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f71901fd78dfce6c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Desktop Application Security/C++ Win32.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "3bba32072b00c805",
+  "lastOpenFiles": [
+    "Web Applications/My Tooling.md",
+    "Desktop Application Security/C++ Win32.md",
+    "Miscellaneous/Convert Debain to Kali.md",
+    "C2 Frameworks.md",
+    "Web Applications/Untitled.md",
+    "Web Applications/Resources.md",
+    "Miscellaneous/My Host Setup.md",
+    "Miscellaneous/Convert VMWare VMs to Hyper V.md",
+    "Desktop Application Security/Tips and tricks.md",
+    "Desktop Application Security/Untitled.md"
+  ]
+}

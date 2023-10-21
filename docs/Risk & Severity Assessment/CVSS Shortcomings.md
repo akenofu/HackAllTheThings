@@ -1,0 +1,4 @@
+- Base scores rate vulnerabilities in terms of technical impact; Do not factor in business impact
+- Organizations have compensating controls in place that would mitigate the ability of threat actors to exploit a vulnerability; nonetheless, they should be factored in. However, it is difficult to factor in compensation controls when assessing risk without downplaying the severity of issues. Motivated threat actors will come up with bypasses (Fixed in CVSS 3.1)
+- Does not factor in  Accountability: Are the threat actors’ actions traceable to an individual?
+- CVSS Measures Severity, not Risk: CVSS Base Score represents only the intrinsic characteristics of a vulnerability which are constant over time and across user environments. The CVSS Base Score should be supplemented with a contextual analysis of the environment, and with attributes that may change over time by leveraging CVSS Temporal and Environmental Metrics.

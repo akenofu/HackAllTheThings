@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "c95c6156d5c6597a",
+    "type": "split",
+    "children": [
+      {
+        "id": "19c2cd049ffdf36f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c0ca405082098caa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Threat Modeling.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "382b38cd8e01a689",
+    "type": "split",
+    "children": [
+      {
+        "id": "f4f7bfa62f18ac35",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1fe99213467ed1d6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fd198309ce134c4d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Misc",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "81aba2caf07951d7",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "bf716efbf61432b2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 326.0083885192871
+  },
+  "right": {
+    "id": "b0489bd87555000a",
+    "type": "split",
+    "children": [
+      {
+        "id": "1fa4c896ad054ebe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "344ad6c122ec4d2a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Threat Modeling.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f71901fd78dfce6c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Threat Modeling.md"
+              }
+            }
+          },
+          {
+            "id": "c5a6d7082afbc3a4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Web Applications/Attacks/SSL Certificate.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e55b3eac32bc62eb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "publish:Publish changes...": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "c0ca405082098caa",
+  "lastOpenFiles": [
+    "DevSecOps.md",
+    "Threat Modeling.md",
+    "Linux/Miscellaneous.md",
+    "Android Application Testing/archived/Misc.md",
+    "Android Application Testing/Apache Cordova.md",
+    "Android Application Testing/My Testing Enviroment.md",
+    "Android Application Testing/Security Controls.md",
+    "Android Application Testing/Decompiling and Compiling Smali.md",
+    "Security Architecture.md",
+    "Data Protection.md",
+    "Screenshots/Pasted image 20230524114625.png",
+    "Vulnerability Scanning.md",
+    "Web Applications testing/CMS.md",
+    "Network Pen test/Automation.md",
+    "DevOps.md",
+    "Cloud/AWS  Assessment.md",
+    "About me.md",
+    "Development Resources.md",
+    "AI.md",
+    "Risk Rating/DREAD.md",
+    "Risk Rating/OWASP Shortcomings.md",
+    "Risk Rating/OWASP Risk Rating.md",
+    "Risk Rating/CVSS Shortcomings.md",
+    "Risk Rating/CVSS 3.1.md",
+    "Risk Rating",
+    "Miscellaneous/Wordlists.md",
+    "Security Consultancy/Prerequisites checklists/Cloud Config Reviews.md",
+    "Cloud/Azure AD Assessment.md",
+    "Screenshots/Pasted image 20230305152606.png",
+    "Screenshots/Pasted image 20230305140357.png",
+    "Screenshots/Pasted image 20230305140050.png",
+    "Screenshots/Pasted image 20230305133849.png",
+    "Screenshots/Pasted image 20230305133319.png",
+    "Screenshots/Pasted image 20230305133318.png",
+    "Screenshots/Pasted image 20230305133317.png",
+    "Screenshots/Pasted image 20230305133044.png",
+    "Screenshots/Pasted image 20230305132836.png"
+  ]
+}

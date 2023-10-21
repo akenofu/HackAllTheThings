@@ -1,0 +1,189 @@
+{
+  "main": {
+    "id": "c95c6156d5c6597a",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d622083246732be",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3bba32072b00c805",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Server Administration/VPNS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5e803a7655fda2da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mail Security.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "382b38cd8e01a689",
+    "type": "split",
+    "children": [
+      {
+        "id": "f4f7bfa62f18ac35",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1fe99213467ed1d6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse"
+              }
+            }
+          },
+          {
+            "id": "fd198309ce134c4d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "winshark",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "81aba2caf07951d7",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "32da94ec4e09ac2f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 326.0083885192871
+  },
+  "right": {
+    "id": "b0489bd87555000a",
+    "type": "split",
+    "children": [
+      {
+        "id": "1fa4c896ad054ebe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "344ad6c122ec4d2a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Mail Security.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f71901fd78dfce6c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Mail Security.md"
+              }
+            }
+          },
+          {
+            "id": "1076fd424885503e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "publish:Publish changes...": false
+    }
+  },
+  "active": "5e803a7655fda2da",
+  "lastOpenFiles": [
+    "Threat Modeling.md",
+    "Mail Security.md",
+    "Server Administration/VPNS.md",
+    "Web Applications testing/Attacks/Modern Web Bugs.md",
+    "Web Applications testing/Attacks/Web Servers/Head Smuggling.md",
+    "Web Applications testing/Attacks/Web Servers/Nginx.md",
+    "Research/HTTP Desync & Request Smuggling.md",
+    "Android Application Testing/Apache Cordova.md",
+    "Research/Untitled",
+    "Research",
+    "Active Directory Assessment/Exchange.md",
+    "Databases/PSQL.md",
+    "Vulnerability Scanning.md",
+    "Web Applications testing/Burp Suite.md",
+    "Web Applications testing/Resources.md",
+    "Web Applications testing/Tips and Tricks.md",
+    "Web Applications testing/Attacks/XSS.md",
+    "Web Applications testing/Attacks/Write Ups.md",
+    "Web Applications/My Tooling.md",
+    "Miscellaneous/My Host Setup.md",
+    "Miscellaneous/Convert Debain to Kali.md",
+    "Desktop Application Security/C++ Win32.md",
+    "C2 Frameworks.md",
+    "Web Applications/Untitled.md",
+    "Web Applications/Resources.md",
+    "Miscellaneous/Convert VMWare VMs to Hyper V.md",
+    "Desktop Application Security/Tips and tricks.md",
+    "Desktop Application Security/Untitled.md"
+  ]
+}
