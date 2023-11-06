@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Web Applications testing/Attacks/Modern Web Bugs.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vpn",
+                "query": "parser",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Web Applications testing/Attacks/Modern Web Bugs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Web Applications testing/Attacks/Modern Web Bugs.md"
               }
             }
           },
@@ -144,9 +145,13 @@
   },
   "active": "ff31c7b5046b59aa",
   "lastOpenFiles": [
-    "About me.md",
-    "README.md",
+    "Miscellaneous/Sharing Wifi from a Windows Device.md",
+    "Cheatsheets/Bettercap.md",
     "Server Administration/VPNS.md",
+    "Linux/Miscellaneous.md",
+    "Web Applications testing/Attacks/WAF bypass.md",
+    "README.md",
+    "About me.md",
     "Miscellaneous/Binaries.md",
     "DevSecOps.md",
     "Secure Architecture & Design/Principles & High-Level Concepts.md",
@@ -168,10 +173,6 @@
     "Web Applications testing/Burp Suite.md",
     "Web Applications testing/Resources.md",
     "Web Applications testing/Tips and Tricks.md",
-    "Web Applications testing/Attacks/XSS.md",
-    "Web Applications testing/Attacks/Write Ups.md",
-    "Web Applications/My Tooling.md",
-    "Miscellaneous/My Host Setup.md",
-    "Miscellaneous/Convert Debain to Kali.md"
+    "Web Applications testing/Attacks/XSS.md"
   ]
 }
