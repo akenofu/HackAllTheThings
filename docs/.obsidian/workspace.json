@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "deb37fdaeb74e8bf",
+        "id": "7cd72005c9c5c961",
         "type": "tabs",
         "children": [
           {
-            "id": "ff31c7b5046b59aa",
+            "id": "fd8ca5412c430fa4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web Applications testing/Attacks/Modern Web Bugs.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "parser",
+                "query": "binary exploitation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +69,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Applications testing/Attacks/Modern Web Bugs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,9 +104,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Web Applications testing/Attacks/Modern Web Bugs.md"
-              }
+              "state": {}
             }
           },
           {
@@ -143,8 +135,11 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "ff31c7b5046b59aa",
+  "active": "fd8ca5412c430fa4",
   "lastOpenFiles": [
+    "Binary Exploitation.md",
+    "Cloud/Azure AD Assessment.md",
+    "Web Applications testing/Attacks/Modern Web Bugs.md",
     "Miscellaneous/Sharing Wifi from a Windows Device.md",
     "Cheatsheets/Bettercap.md",
     "Server Administration/VPNS.md",
@@ -161,7 +156,6 @@
     "Active Directory Assessment/Exchange.md",
     "Mail Security.md",
     "Threat Modeling.md",
-    "Web Applications testing/Attacks/Modern Web Bugs.md",
     "Web Applications testing/Attacks/Web Servers/Head Smuggling.md",
     "Web Applications testing/Attacks/Web Servers/Nginx.md",
     "Research/HTTP Desync & Request Smuggling.md",
@@ -171,8 +165,6 @@
     "Databases/PSQL.md",
     "Vulnerability Scanning.md",
     "Web Applications testing/Burp Suite.md",
-    "Web Applications testing/Resources.md",
-    "Web Applications testing/Tips and Tricks.md",
-    "Web Applications testing/Attacks/XSS.md"
+    "Web Applications testing/Resources.md"
   ]
 }
