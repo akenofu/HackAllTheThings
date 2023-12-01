@@ -1,5 +1,9 @@
-# CSP and XSS Protection
-## X-XSS-Protection
+
+# XSS Protection
+## Architectural Strategies
+- [Securely Hosting User Data in Modern Web Applications - Google Bug Hunters](https://bughunters.google.com/blog/6554750087200768/securely-hosting-user-data-in-modern-web-applications)
+## Application Specific Controls
+### X-XSS-Protection
 The HTTP **`X-XSS-Protection`** response header is a feature of Internet Explorer, Chrome and Safari that stops pages from loading when they detect reflected cross-site scripting ([XSS](https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting)) attacks. Although these protections are largely unnecessary in modern browsers when sites implement a strong [`Content-Security-Policy`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy) that disables the use of inline JavaScript (`'unsafe-inline'`), they can still provide protections for users of older web browsers that don't yet support [CSP](https://developer.mozilla.org/en-US/docs/Glossary/CSP).
 
 -   Chrome has [removed their XSS Auditor](https://www.chromestatus.com/feature/5021976655560704)
@@ -14,8 +18,7 @@ The HTTP **`X-XSS-Protection`** response header is a feature of Internet Explore
 Reference: [X-XSS-Protection - HTTP | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-XSS-Protection)
 
 ***
-
-## Content Security Policy
+### Content Security Policy
 The CSP uses a collection of directives in order to define a specific set of whitelisted sources of trusted content. 
 It instructs the browser to only execute or render resources from the allowed sources.
 
@@ -58,3 +61,4 @@ Report violations to specific location
 ```
 
 > Once a violation is detected, the browser will perform a POST request to the path specified, sending a JSON object, similar to the one on the next slide.
+

@@ -11,8 +11,12 @@
             "id": "fd8ca5412c430fa4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Web Applications testing/Attacks/Logic Attacks.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "binary exploitation",
+                "query": "push",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -89,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Web Applications testing/Attacks/Logic Attacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +110,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Web Applications testing/Attacks/Logic Attacks.md"
+              }
             }
           },
           {
@@ -135,15 +143,24 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "fd8ca5412c430fa4",
+  "active": "fd198309ce134c4d",
   "lastOpenFiles": [
+    "Web Applications testing/Attacks/SQL Injection.md",
+    "Web Applications testing/Mitigations & Compensating Controls/XSS Protection.md",
+    "OSINT.md",
+    "Web Applications testing/API/API Tooling.md",
+    "Miscellaneous/Simple Servers.md",
+    "iOS Application Testing/Xamarin.md",
+    "Linux/Miscellaneous.md",
+    "Evasion/World Writable Directories.md",
+    "Screenshots/Pasted image 20231121050659.png",
+    "Evasion/Resources.md",
+    "Web Applications testing/Attacks/Modern Web Bugs.md",
     "Binary Exploitation.md",
     "Cloud/Azure AD Assessment.md",
-    "Web Applications testing/Attacks/Modern Web Bugs.md",
     "Miscellaneous/Sharing Wifi from a Windows Device.md",
     "Cheatsheets/Bettercap.md",
     "Server Administration/VPNS.md",
-    "Linux/Miscellaneous.md",
     "Web Applications testing/Attacks/WAF bypass.md",
     "README.md",
     "About me.md",
@@ -156,15 +173,7 @@
     "Active Directory Assessment/Exchange.md",
     "Mail Security.md",
     "Threat Modeling.md",
-    "Web Applications testing/Attacks/Web Servers/Head Smuggling.md",
-    "Web Applications testing/Attacks/Web Servers/Nginx.md",
-    "Research/HTTP Desync & Request Smuggling.md",
-    "Android Application Testing/Apache Cordova.md",
     "Research/Untitled",
-    "Research",
-    "Databases/PSQL.md",
-    "Vulnerability Scanning.md",
-    "Web Applications testing/Burp Suite.md",
-    "Web Applications testing/Resources.md"
+    "Research"
   ]
 }
