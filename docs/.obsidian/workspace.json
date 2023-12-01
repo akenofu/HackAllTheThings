@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Applications testing/Attacks/Logic Attacks.md",
+                "file": "IAM, AuthN & AuthZ.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Applications testing/Attacks/Logic Attacks.md",
+                "file": "IAM, AuthN & AuthZ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Applications testing/Attacks/Logic Attacks.md"
+                "file": "IAM, AuthN & AuthZ.md"
               }
             }
           },
@@ -143,8 +142,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "fd198309ce134c4d",
+  "active": "fd8ca5412c430fa4",
   "lastOpenFiles": [
+    "Security Metrics.md",
+    "Web Applications testing/Attacks/Logic Attacks.md",
     "Web Applications testing/Attacks/SQL Injection.md",
     "Web Applications testing/Mitigations & Compensating Controls/XSS Protection.md",
     "OSINT.md",
@@ -167,12 +168,10 @@
     "Miscellaneous/Binaries.md",
     "DevSecOps.md",
     "Secure Architecture & Design/Principles & High-Level Concepts.md",
-    "Security Metrics.md",
     "Secure Architecture & Design/Secure Network Design.md",
     "Secure Architecture & Design",
     "Active Directory Assessment/Exchange.md",
     "Mail Security.md",
-    "Threat Modeling.md",
     "Research/Untitled",
     "Research"
   ]
