@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IAM, AuthN & AuthZ.md",
+                "file": "Web Applications testing/Attacks/Payment.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "push",
+                "query": "webhooks",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IAM, AuthN & AuthZ.md",
+                "file": "Web Applications testing/Attacks/Payment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IAM, AuthN & AuthZ.md"
+                "file": "Web Applications testing/Attacks/Payment.md"
               }
             }
           },
@@ -144,6 +144,12 @@
   },
   "active": "fd8ca5412c430fa4",
   "lastOpenFiles": [
+    "Web Applications testing/Testing Payment Integration Platforms.md",
+    "Web Applications testing/Attacks/Payment.md",
+    "Web Applications testing/Attacks/Websockets & WebWorkers.md",
+    "Web Applications testing/Attacks/Account Takeover.md",
+    "IAM, AuthN & AuthZ.md",
+    "Web Applications testing/Attacks/Untitled",
     "Security Metrics.md",
     "Web Applications testing/Attacks/Logic Attacks.md",
     "Web Applications testing/Attacks/SQL Injection.md",
@@ -166,12 +172,7 @@
     "README.md",
     "About me.md",
     "Miscellaneous/Binaries.md",
-    "DevSecOps.md",
-    "Secure Architecture & Design/Principles & High-Level Concepts.md",
-    "Secure Architecture & Design/Secure Network Design.md",
     "Secure Architecture & Design",
-    "Active Directory Assessment/Exchange.md",
-    "Mail Security.md",
     "Research/Untitled",
     "Research"
   ]
