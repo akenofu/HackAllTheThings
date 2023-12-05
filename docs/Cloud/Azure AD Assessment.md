@@ -10,6 +10,16 @@ python3 scount.py --cli
 prowler azure --browser-auth
 ```
 ## Manual Recon
+- Check domains for subdomain takeovers
+- Check Microsoft SharePoint sites, teams and OneDrive settings for guest users
+	[Governance of Teams guest users - Azure Architecture Center | Microsoft Learn](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/governance/governance-teams-guest-users)
+- Review conditional Access Policy
+- Review who has access to BitLocker keys (Help Desk Support, Security Readers, etc...)
+#### Useful URLs
+- https://portal.azure.com (Azure)
+- https://aad.portal.azure.com/ (Entra ID formerly Azure AD)
+- https://portal.office.com/Adminportal/Home (Sites)
+
 ### Enumerate the tenant id
 ```http
 https://login.microsoftonline.com/example.onmicrosoft.com/.well-known/open

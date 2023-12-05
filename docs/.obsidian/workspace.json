@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Applications testing/Attacks/Payment.md",
+                "file": "Social Engineering.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "webhooks",
+                "query": "social",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Applications testing/Attacks/Payment.md",
+                "file": "Social Engineering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Applications testing/Attacks/Payment.md"
+                "file": "Social Engineering.md"
               }
             }
           },
@@ -142,10 +142,14 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "fd8ca5412c430fa4",
+  "active": "1fe99213467ed1d6",
   "lastOpenFiles": [
-    "Web Applications testing/Testing Payment Integration Platforms.md",
+    "Web Applications testing/Attacks/Modern Web Bugs.md",
+    "Cloud/Azure AD Assessment.md",
+    "Cloud/Azure Fundamentals.md",
+    "Miscellaneous/Physical Attacks.md",
     "Web Applications testing/Attacks/Payment.md",
+    "Web Applications testing/Testing Payment Integration Platforms.md",
     "Web Applications testing/Attacks/Websockets & WebWorkers.md",
     "Web Applications testing/Attacks/Account Takeover.md",
     "IAM, AuthN & AuthZ.md",
@@ -162,16 +166,12 @@
     "Evasion/World Writable Directories.md",
     "Screenshots/Pasted image 20231121050659.png",
     "Evasion/Resources.md",
-    "Web Applications testing/Attacks/Modern Web Bugs.md",
     "Binary Exploitation.md",
-    "Cloud/Azure AD Assessment.md",
     "Miscellaneous/Sharing Wifi from a Windows Device.md",
     "Cheatsheets/Bettercap.md",
     "Server Administration/VPNS.md",
     "Web Applications testing/Attacks/WAF bypass.md",
     "README.md",
-    "About me.md",
-    "Miscellaneous/Binaries.md",
     "Secure Architecture & Design",
     "Research/Untitled",
     "Research"
