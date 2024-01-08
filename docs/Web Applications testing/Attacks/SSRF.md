@@ -3,13 +3,6 @@
 ## Write-ups
 - [Vimeo upload function SSRF. TL;DR | by Sayed Abdelhafiz | Medium](https://dphoeniixx.medium.com/vimeo-upload-function-ssrf-7466d8630437)
 
-## Impact
-- Sensitive information disclosure
-- Stealing authentication information (e.g., Windows NTLM hashes)
-- File read/inclusion
-- Remote Code Execution
-- Portscan internal ports/local network machines
-
 ## Filter Bypasses
 - Try using Ipv6 Address for localhost
 - Try Hex/Octal Address Encoding 
