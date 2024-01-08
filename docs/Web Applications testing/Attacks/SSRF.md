@@ -1,4 +1,8 @@
 # SSRF
+
+## Write-ups
+- [Vimeo upload function SSRF. TL;DR | by Sayed Abdelhafiz | Medium](https://dphoeniixx.medium.com/vimeo-upload-function-ssrf-7466d8630437)
+
 ## Impact
 - Sensitive information disclosure
 - Stealing authentication information (e.g., Windows NTLM hashes)
@@ -67,3 +71,4 @@ The most reliable way to detect blind SSRF vulnerabilities is using out-of-band 
 Some applications employ server-side analytics software that tracks visitors. This software often logs the Referer header in requests, since this is of particular interest for tracking incoming links. Often the analytics software will actually visit any third-party URL that appears in the Referer header. This is typically done to analyze the contents of referring sites, including the anchor text that is used in the incoming links. **As a result, the Referer header often represents fruitful attack surface for SSRF vulnerabilities. **
 
 > In Burp Suite Professional, install the "Collaborator Everywhere" extension from the BApp Store. Add the domain of the lab to Burp Suite's target scope, so that Collaborator Everywhere will target it.
+

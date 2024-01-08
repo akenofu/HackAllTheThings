@@ -28,3 +28,4 @@
 ![](/Screenshots/Pasted%20image%2020230910183410.png)
 ### Resources
 - [Things to Know about Authentication/Authorization protocols! | by umang goel | Medium](https://medium.com/@surfd1001/things-to-know-about-authentication-authorization-protocols-addff3654d97)
+

@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "c95c6156d5c6597a",
+    "id": "a1918b65783bbf06",
     "type": "split",
     "children": [
       {
-        "id": "7cd72005c9c5c961",
+        "id": "a2afcbda140d80e8",
         "type": "tabs",
         "children": [
           {
-            "id": "fd8ca5412c430fa4",
+            "id": "0eaf5f3344aedc5e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Social Engineering.md",
+                "file": "Web Applications testing/Attacks/SSRF.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,30 +25,30 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "382b38cd8e01a689",
+    "id": "6a228bafbad1f240",
     "type": "split",
     "children": [
       {
-        "id": "f4f7bfa62f18ac35",
+        "id": "6c64801d325a63c2",
         "type": "tabs",
         "children": [
           {
-            "id": "1fe99213467ed1d6",
+            "id": "884f846428fa28eb",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse"
+                "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "fd198309ce134c4d",
+            "id": "0a25f808a8b95e26",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "social",
+                "query": "ssrf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,42 +58,35 @@
             }
           },
           {
-            "id": "81aba2caf07951d7",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
-            "id": "32da94ec4e09ac2f",
+            "id": "453a1e54fd838446",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 326.0083885192871
+    "width": 300
   },
   "right": {
-    "id": "b0489bd87555000a",
+    "id": "95c722f5ea63c7b2",
     "type": "split",
     "children": [
       {
-        "id": "1fa4c896ad054ebe",
+        "id": "1361fc0a90287c43",
         "type": "tabs",
         "children": [
           {
-            "id": "344ad6c122ec4d2a",
+            "id": "ceca81c0530c0387",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Social Engineering.md",
+                "file": "Web Applications testing/Attacks/SSRF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,22 +98,35 @@
             }
           },
           {
-            "id": "f71901fd78dfce6c",
+            "id": "0d8e1b2bfcebfc2c",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "outgoing-link",
               "state": {
-                "file": "Social Engineering.md"
+                "file": "Web Applications testing/Attacks/SSRF.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "1076fd424885503e",
+            "id": "caf959ec96bd7547",
             "type": "leaf",
             "state": {
-              "type": "all-properties",
+              "type": "tag",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "cf72c1bd84ae69f8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Web Applications testing/Attacks/SSRF.md"
               }
             }
           }
@@ -136,44 +142,29 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "publish:Publish changes...": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "1fe99213467ed1d6",
+  "active": "0eaf5f3344aedc5e",
   "lastOpenFiles": [
+    "Web Applications testing/Attacks/File Upload.md",
+    "Web Applications testing/Attacks/SSRF.md",
+    "Web Applications testing/CSP Bypass.md",
     "Web Applications testing/Attacks/Modern Web Bugs.md",
-    "Cloud/Azure AD Assessment.md",
-    "Cloud/Azure Fundamentals.md",
-    "Miscellaneous/Physical Attacks.md",
-    "Web Applications testing/Attacks/Payment.md",
-    "Web Applications testing/Testing Payment Integration Platforms.md",
-    "Web Applications testing/Attacks/Websockets & WebWorkers.md",
-    "Web Applications testing/Attacks/Account Takeover.md",
-    "IAM, AuthN & AuthZ.md",
-    "Web Applications testing/Attacks/Untitled",
-    "Security Metrics.md",
-    "Web Applications testing/Attacks/Logic Attacks.md",
-    "Web Applications testing/Attacks/SQL Injection.md",
+    "Web Applications testing/Attacks/XSS.md",
     "Web Applications testing/Mitigations & Compensating Controls/XSS Protection.md",
-    "OSINT.md",
-    "Web Applications testing/API/API Tooling.md",
-    "Miscellaneous/Simple Servers.md",
-    "iOS Application Testing/Xamarin.md",
-    "Linux/Miscellaneous.md",
-    "Evasion/World Writable Directories.md",
-    "Screenshots/Pasted image 20231121050659.png",
+    "DevSecOps.md",
+    "Time-of-check-to-time-of-use.md",
+    "DevOps.md",
+    "Development Resources.md",
+    "Adversary Simulation.md",
+    "AI & LLMS.md",
+    "Threat Modeling.md",
     "Evasion/Resources.md",
-    "Binary Exploitation.md",
-    "Miscellaneous/Sharing Wifi from a Windows Device.md",
-    "Cheatsheets/Bettercap.md",
-    "Server Administration/VPNS.md",
-    "Web Applications testing/Attacks/WAF bypass.md",
-    "README.md",
-    "Secure Architecture & Design",
-    "Research/Untitled",
-    "Research"
+    "Evasion/AMSI.md",
+    "Evasion/DNS Staging.md",
+    "Evasion/World Writable Directories.md"
   ]
 }

@@ -14,7 +14,10 @@ prowler azure --browser-auth
 - Check Microsoft SharePoint sites, teams and OneDrive settings for guest users
 	[Governance of Teams guest users - Azure Architecture Center | Microsoft Learn](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/governance/governance-teams-guest-users)
 - Review conditional Access Policy
+- Review public blob storage in a public storage account that has everything else as private
 - Review who has access to BitLocker keys (Help Desk Support, Security Readers, etc...)
+- Check Function/Logic apps for second order SQLi and not so subtle bugs
+- Check Azure DevOps for CI/CD attacks
 #### Useful URLs
 - https://portal.azure.com (Azure)
 - https://aad.portal.azure.com/ (Entra ID formerly Azure AD)

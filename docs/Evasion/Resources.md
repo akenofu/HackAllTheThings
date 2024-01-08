@@ -8,3 +8,5 @@
 ### Tools
 - [xforcered/Dendrobate: Managed code hooking template. (github.com)](https://github.com/xforcered/Dendrobate)
 
+### Blogs
+- [How GitLab's Red Team automates C2 testing](https://about.gitlab.com/blog/2023/11/28/how-gitlabs-red-team-automates-c2-testing/)

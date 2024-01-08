@@ -1,4 +1,5 @@
-# OAuth Workflow
+# OAuth
+## OAuth Workflow
 ## Primary Learning Resources
 * Introduction to OAuth 2.0 Workflow
 	[Workflow of OAuth 2.0 - GeeksforGeeks](https://www.geeksforgeeks.org/workflow-of-oauth-2-0/)
@@ -7,7 +8,7 @@
 
 > There are four flows (called grant types) to obtain the resource owner’s permission (technically called _access token_): _authorization code_, _implicit_, _resource owner password credentials_ and _client credentials_.
 
-# OAuth Testing
-Go back to the trusty HackTricks
-[OAuth to Account takeover - HackTricks](https://book.hacktricks.xyz/pentesting-web/oauth-to-account-takeover)
+## OAuth Testing
+- [Securing our home labs: Home Assistant code review - The GitHub Blog](https://github.blog/2023-11-30-securing-our-home-labs-home-assistant-code-review/)
+- [OAuth to Account takeover - HackTricks](https://book.hacktricks.xyz/pentesting-web/oauth-to-account-takeover)
 

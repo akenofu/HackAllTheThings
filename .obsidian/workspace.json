@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "a5ff8eb0553e5294",
+    "id": "72798818096929e3",
     "type": "split",
     "children": [
       {
-        "id": "598320528f6ce2f8",
+        "id": "035ed1231d968418",
         "type": "tabs",
         "children": [
           {
-            "id": "e9a38b1f68455866",
+            "id": "ca8eeaedcb197273",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -21,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ff252c2b9254104c",
+    "id": "51281137b6590fd2",
     "type": "split",
     "children": [
       {
-        "id": "caa8b535b33a50c8",
+        "id": "81a58eabb6cef1cf",
         "type": "tabs",
         "children": [
           {
-            "id": "2e6f2adeec38be7a",
+            "id": "8756c34569a2e865",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +39,7 @@
             }
           },
           {
-            "id": "57a495b60c883aaa",
+            "id": "8ddfb27e1f977660",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,10 +54,10 @@
             }
           },
           {
-            "id": "ee0279c942830106",
+            "id": "cadfc81666e2ab61",
             "type": "leaf",
             "state": {
-              "type": "starred",
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -68,15 +68,15 @@
     "width": 300
   },
   "right": {
-    "id": "db575aab09ebb946",
+    "id": "56e8672b14d59957",
     "type": "split",
     "children": [
       {
-        "id": "6383e58197fec551",
+        "id": "6d521b2892ab4aa4",
         "type": "tabs",
         "children": [
           {
-            "id": "b08f6d1f00fd89bd",
+            "id": "bfd6764ebea5f0c7",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -92,7 +92,7 @@
             }
           },
           {
-            "id": "8bf5dbf2d8d1c8e1",
+            "id": "0442f2e4d4b59299",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -103,7 +103,7 @@
             }
           },
           {
-            "id": "e4060987b0fa7d80",
+            "id": "b00e53792debe49b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -114,7 +114,7 @@
             }
           },
           {
-            "id": "536ed0cf50e04941",
+            "id": "1cf5fc7f0f8640a4",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -128,6 +128,16 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e9a38b1f68455866",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "ca8eeaedcb197273",
   "lastOpenFiles": []
 }
