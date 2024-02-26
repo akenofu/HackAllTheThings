@@ -43,3 +43,4 @@ References:
 - [trickest/wordlists: Real-world infosec wordlists, updated regularly (github.com)](https://github.com/trickest/wordlists)
 - [trickest/mkpath: Make URL path combinations using a wordlist (github.com)](https://github.com/trickest/mkpath)
 - [trickest/mksub: Generate tens of thousands of subdomain combinations in a matter of seconds (github.com)](https://github.com/trickest/mksub)
+

@@ -12,6 +12,4 @@ var m = document.createElement("meta");m.content="script-src-elem unsafe-eval un
 
 - TBD By iframe tag
 ```
-
-
 ## CSP Bypass by JSONP

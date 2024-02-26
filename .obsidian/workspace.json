@@ -11,11 +11,40 @@
             "id": "ca8eeaedcb197273",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "docs/Web Applications testing/Attacks/Web cache poisoning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ade1f0b4e6767adf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Incident Response.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "be9165f182577282",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Third-Party Security.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -44,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "deserialization",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/Third-Party Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docs/Third-Party Security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "docs/Third-Party Security.md"
+              }
             }
           }
         ]
@@ -138,6 +171,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ca8eeaedcb197273",
-  "lastOpenFiles": []
+  "active": "be9165f182577282",
+  "lastOpenFiles": [
+    "docs/Incident Response.md",
+    "docs/Web Applications testing/Attacks/Web cache poisoning.md",
+    "docs/Third-Party Security.md",
+    "docs/Web Applications testing/Attacks/XSLT Engines.md",
+    "docs/Web Applications testing/Attacks/OAuth.md",
+    "docs/Web Applications testing/Attacks/Deserialization.md"
+  ]
 }

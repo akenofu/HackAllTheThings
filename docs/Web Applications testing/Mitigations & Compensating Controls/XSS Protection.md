@@ -1,4 +1,3 @@
-
 # XSS Protection
 ## Architectural Strategies
 - [Securely Hosting User Data in Modern Web Applications - Google Bug Hunters](https://bughunters.google.com/blog/6554750087200768/securely-hosting-user-data-in-modern-web-applications)

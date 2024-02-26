@@ -1,4 +1,6 @@
 # Apache Cordova
+## Basics
+- [Effortless Pentesting of Apache Cordova Applications - Payatu](https://payatu.com/blog/effortless-pentesting-of-apache-cordova-applications/)
 ## Config
 After unpacking the apk, the apache Cordova config file is located in `./res/xml/config.xml` .
 ## Local Storage
@@ -42,8 +44,8 @@ From: [Debugging Cordova Applications (appknox.com)](https://www.appknox.com/sec
 - [ ] Check Installed Plugins
 
 ## Resources
-[Security problems of Apache Cordova - steal the entire contents of the phone's memory card with one XSS - research.securitum.com](https://research.securitum.com/security-problems-of-apache-cordova-steal-the-entire-contents-of-the-phone_s-memory-card-with-one-xss/)
-[cordova-docs/cordova-security-data.md at master · MicrosoftDocs/cordova-docs · GitHub](https://github.com/MicrosoftDocs/cordova-docs/blob/master/articles/cordova-security/cordova-security-data.md)
+- [Security problems of Apache Cordova - steal the entire contents of the phone's memory card with one XSS - research.securitum.com](https://research.securitum.com/security-problems-of-apache-cordova-steal-the-entire-contents-of-the-phone_s-memory-card-with-one-xss/)
+- [cordova-docs/cordova-security-data.md at master · MicrosoftDocs/cordova-docs · GitHub](https://github.com/MicrosoftDocs/cordova-docs/blob/master/articles/cordova-security/cordova-security-data.md)
 
 [^1]:  [Security problems of Apache Cordova - steal the entire contents of the phone's memory card with one XSS - research.securitum.com](https://research.securitum.com/security-problems-of-apache-cordova-steal-the-entire-contents-of-the-phone_s-memory-card-with-one-xss/)
 [^2]: [cordova-docs/cordova-security-data.md at master · MicrosoftDocs/cordova-docs · GitHub](https://github.com/MicrosoftDocs/cordova-docs/blob/master/articles/cordova-security/cordova-security-data.md)

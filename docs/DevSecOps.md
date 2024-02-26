@@ -1,4 +1,7 @@
 # DevSecOps
+
+## Self-learned Hacking Techniques
+- Abuse protected variables by check a commit in a different branch, or issuing a merge request. i.e, [How to use protected variables in gitlab ci - Stack Overflow](https://stackoverflow.com/questions/58045119/how-to-use-protected-variables-in-gitlab-ci)
 ## Concepts
 ### Learning Resources
 - [Interactive Application Security Testing (IAST) | Snyk](https://snyk.io/learn/application-security/iast-interactive-application-security-testing/)
@@ -58,9 +61,6 @@ The main attack vectors:
 - Prefer configuring a pre-vetted version or version ranges
 **TBC*
 
-
-
-
 ## Tools
 ### SAST
 - [microsoft/DevSkim: DevSkim is a set of IDE plugins and rules that provide security "linting" capabilities. (github.com)](https://github.com/microsoft/DevSkim)
@@ -71,7 +71,8 @@ The main attack vectors:
 #### Tutorials
 - [User defined patterns for secret scanning - GitHub Checkout - YouTube](https://www.youtube.com/watch?v=-ToS56Qbfdo)
 - [Credential Scanning Tool: detect-secrets - Code With Engineering Playbook (microsoft.github.io)](https://microsoft.github.io/code-with-engineering-playbook/continuous-integration/dev-sec-ops/secret-management/recipes/detect-secrets/)
-#### tools
+- [GitLab: Build a DevSecOps Pipeline - YouTube](https://www.youtube.com/playlist?list=PLrsbMazVPK_qhf3ahA_zRPlwBaGGhSu2P)
+#### Tools 
 - [trufflesecurity/trufflehog: Find credentials all over the place (github.com)](https://github.com/trufflesecurity/trufflehog)
 - [thoughtworks/talisman: Using a pre-commit hook, Talisman validates the outgoing changeset for things that look suspicious — such as tokens, passwords, and private keys. (github.com)](https://github.com/thoughtworks/talisman)
 

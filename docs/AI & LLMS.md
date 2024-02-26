@@ -16,6 +16,7 @@
 
 ## Blogs
 - [Foundation Model 101 — Is Large Context Window A Trend? | by Chelsy Ma | Medium](https://medium.com/@machangsha/foundation-model-101-is-large-context-window-a-trend-22e352201099#:~:text=The%20context%20window%20of%20large,when%20generating%20responses%20to%20prompts.)
+- [ChatGPT Account Takeover - Wildcard Web Cache Deception | Harel Security Research (nokline.github.io)](https://nokline.github.io/bugbounty/2024/02/04/ChatGPT-ATO.html)
 
 ## Attacking LLMS
 - [OWASP-Top-10-for-LLMs-2023-v09.pdf](https://owasp.org/www-project-top-10-for-large-language-model-applications/assets/PDF/OWASP-Top-10-for-LLMs-2023-v09.pdf)

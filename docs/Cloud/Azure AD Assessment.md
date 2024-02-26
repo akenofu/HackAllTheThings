@@ -236,13 +236,14 @@ Password hash synchronization is one of the sign-in methods used to accomplish h
 [PayloadsAllTheThings/Cloud - Azure Pentest.md at master · swisskyrepo/PayloadsAllTheThings · GitHub](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Cloud%20-%20Azure%20Pentest.md)
 
 ## Blog Posts
-[Managed Identity Attack Paths, Part 1: Automation Accounts | by Andy Robbins | Posts By SpecterOps Team Members](https://posts.specterops.io/managed-identity-attack-paths-part-1-automation-accounts-82667d17187a)
-[Managed Identity Attack Paths, Part 2: Logic Apps | by Andy Robbins | Posts By SpecterOps Team Members](https://posts.specterops.io/managed-identity-attack-paths-part-2-logic-apps-52b29354fc54)
-[Managed Identity Attack Paths, Part 3: Function Apps | by Andy Robbins | Posts By SpecterOps Team Members](https://posts.specterops.io/managed-identity-attack-paths-part-3-function-apps-300065251cbe)
-[Introducing a new phishing technique for compromising Office 365 accounts | Device Code Phising - AADInternals](https://aadinternals.com/post/phishing/#:~:text=The%20basic%20idea%20to%20utilise%20device%20code%20authentication%20for%20phishing%20is%20following.&text=After%20receiving%20verification_uri%20and%20user_code,and%20completes%20the%20sign%20in.)
-[Cloud Misconfiguration & Risks - Azure](https://misconfig.io/cloud-misconfiguration-risks-azure/)
-[Introduction To 365-Stealer - Understanding and Executing the Illicit Consent Grant Attack (alteredsecurity.com)](https://www.alteredsecurity.com/post/Introduction-To-365-Stealer)
-[Exploiting Azure AD PTA vulnerabilities: Creating backdoor and harvesting credentials (aadinternals.com)](https://aadinternals.com/post/pta/)
+- [Managed Identity Attack Paths, Part 1: Automation Accounts | by Andy Robbins | Posts By SpecterOps Team Members](https://posts.specterops.io/managed-identity-attack-paths-part-1-automation-accounts-82667d17187a)
+- [Managed Identity Attack Paths, Part 2: Logic Apps | by Andy Robbins | Posts By SpecterOps Team Members](https://posts.specterops.io/managed-identity-attack-paths-part-2-logic-apps-52b29354fc54)
+- [Managed Identity Attack Paths, Part 3: Function Apps | by Andy Robbins | Posts By SpecterOps Team Members](https://posts.specterops.io/managed-identity-attack-paths-part-3-function-apps-300065251cbe)
+- [Introducing a new phishing technique for compromising Office 365 accounts | Device Code Phising - AADInternals](https://aadinternals.com/post/phishing/#:~:text=The%20basic%20idea%20to%20utilise%20device%20code%20authentication%20for%20phishing%20is%20following.&text=After%20receiving%20verification_uri%20and%20user_code,and%20completes%20the%20sign%20in.)
+- [Cloud Misconfiguration & Risks - Azure](https://misconfig.io/cloud-misconfiguration-risks-azure/)
+- [Introduction To 365-Stealer - Understanding and Executing the Illicit Consent Grant Attack (alteredsecurity.com)](https://www.alteredsecurity.com/post/Introduction-To-365-Stealer)
+- [Exploiting Azure AD PTA vulnerabilities: Creating backdoor and harvesting credentials (aadinternals.com)](https://aadinternals.com/post/pta/)
+- [Azure Attack Paths - Cloudbrothers](https://cloudbrothers.info/en/azure-attack-paths/)
 
 ## Labs
 [CloudBreach.io - Breaching Azure](https://cloudbreach.io/labs/)

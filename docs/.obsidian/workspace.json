@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Applications testing/Attacks/SSRF.md",
+                "file": "Web Applications testing/Attacks/XSS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c00e7a129206c947",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cloud/AWS  Assessment.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ssrf",
+                "query": "LLM",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Applications testing/Attacks/SSRF.md",
+                "file": "Cloud/AWS  Assessment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Applications testing/Attacks/SSRF.md",
+                "file": "Cloud/AWS  Assessment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Applications testing/Attacks/SSRF.md"
+                "file": "Cloud/AWS  Assessment.md"
               }
             }
           }
@@ -147,24 +159,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0eaf5f3344aedc5e",
+  "active": "c00e7a129206c947",
   "lastOpenFiles": [
-    "Web Applications testing/Attacks/File Upload.md",
-    "Web Applications testing/Attacks/SSRF.md",
-    "Web Applications testing/CSP Bypass.md",
-    "Web Applications testing/Attacks/Modern Web Bugs.md",
-    "Web Applications testing/Attacks/XSS.md",
-    "Web Applications testing/Mitigations & Compensating Controls/XSS Protection.md",
+    "Cloud/Azure AD Assessment.md",
     "DevSecOps.md",
-    "Time-of-check-to-time-of-use.md",
-    "DevOps.md",
-    "Development Resources.md",
-    "Adversary Simulation.md",
     "AI & LLMS.md",
-    "Threat Modeling.md",
-    "Evasion/Resources.md",
-    "Evasion/AMSI.md",
-    "Evasion/DNS Staging.md",
-    "Evasion/World Writable Directories.md"
+    "Security Consultation/Obtaining Authorization.md",
+    "Web Applications testing/CSP Bypass.md",
+    "Web Applications testing/Attacks/CORS.md",
+    "Web Applications testing/Attacks/XSS.md",
+    "Web Applications testing/Mitigations & Compensating Controls/CORS.md",
+    "Web Applications testing/Burp Suite.md",
+    "Web Applications testing/Mitigations & Compensating Controls/MIME Sniffing.md",
+    "Web Applications testing/Mitigations & Compensating Controls/SSL Strip attack.md",
+    "Web Applications testing/Mitigations & Compensating Controls/X-Frame-Options.md",
+    "Web Applications testing/Mitigations & Compensating Controls/XSS Protection.md",
+    "Web Applications testing/Attacks/Websockets & WebWorkers.md",
+    "Web Applications testing/Attacks/CSRF.md",
+    "Web Applications testing/Mitigations & Compensating Controls/Same Site Cookies.md",
+    "Android Application Testing/Tools.md",
+    "Android Application Testing/Learning Resources.md",
+    "Android Application Testing/Apache Cordova.md",
+    "Web Applications testing/Attacks/Server Side Include.md",
+    "Web Applications testing/Attacks/Methodoloy.md",
+    "Web Applications testing/Attacks/Dangling markup injection.md",
+    "Adversary Simulation.md",
+    "Web Applications testing/WAF & Directory Brute Forcing.md",
+    "Web Applications testing/Attacks/WAF bypass.md",
+    "Web Applications testing/Attacks/SSRF.md"
   ]
 }

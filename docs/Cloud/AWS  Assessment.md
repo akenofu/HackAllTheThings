@@ -13,5 +13,8 @@ aws configure
 [AWS penetration testing: A step-by-step guide (hackthebox.com)](https://www.hackthebox.com/blog/aws-pentesting-guide#suggested_tools_for_performing_aws_penetration_testing)
 
 ## Write ups
-[Hacking AWS - Flaws.Cloud Walkthrough - Offensive Research (philkeeble.com)](https://philkeeble.com/cloud/Flaws.Cloud-Walkthrough/)
-
+- [Hacking AWS - Flaws.Cloud Walkthrough - Offensive Research (philkeeble.com)](https://philkeeble.com/cloud/Flaws.Cloud-Walkthrough/)
+- IP Dangling
+- Subdomain takeover
+- Route 53
+- [The deputy is confused about AWS Security Hub - Plerion](https://blog.plerion.com/the-deputy-is-confused-about-aws-security-hub/)
