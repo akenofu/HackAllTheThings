@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Incident Response.md",
-                "mode": "preview",
+                "file": "docs/Evasion/World Writable Directories.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "deserialization",
+                "query": "word writabl",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Third-Party Security.md",
+                "file": "docs/Evasion/World Writable Directories.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Third-Party Security.md",
+                "file": "docs/Evasion/World Writable Directories.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Third-Party Security.md"
+                "file": "docs/Evasion/World Writable Directories.md"
               }
             }
           }
@@ -171,11 +171,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "be9165f182577282",
+  "active": "ade1f0b4e6767adf",
   "lastOpenFiles": [
-    "docs/Incident Response.md",
-    "docs/Web Applications testing/Attacks/Web cache poisoning.md",
+    "Pasted image 20240226121403.png",
+    "Pasted image 20240226121359.png",
+    "Pasted image 20240226121348.png",
+    "Pasted image 20240226121335.png",
+    "Pasted image 20240226121320.png",
+    "Pasted image 20240226121305.png",
+    "Pasted image 20240226121244.png",
+    "Pasted image 20240226121218.png",
+    "docs/Case Studies.md",
     "docs/Third-Party Security.md",
+    "docs/Web Applications testing/Attacks/Web cache poisoning.md",
     "docs/Web Applications testing/Attacks/XSLT Engines.md",
     "docs/Web Applications testing/Attacks/OAuth.md",
     "docs/Web Applications testing/Attacks/Deserialization.md"
