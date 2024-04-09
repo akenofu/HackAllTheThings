@@ -1,21 +1,5 @@
 # DevSecOps
-## Concepts
-### Learning Resources
-- [Interactive Application Security Testing (IAST) | Snyk](https://snyk.io/learn/application-security/iast-interactive-application-security-testing/)
-- [Guide to Software Composition Analysis (SCA) | Snyk](https://snyk.io/series/open-source-security/software-composition-analysis-sca/)
-- [Shift left vs shift right: A DevOps mystery solved (dynatrace.com)](https://www.dynatrace.com/news/blog/what-is-shift-left-and-what-is-shift-right/)
-- [Shift left vs Shift right: When to use Which? | BrowserStack](https://www.browserstack.com/guide/shift-left-vs-shift-right)
-- [What is Shift Left Testing & Security? (aquasec.com)](https://www.aquasec.com/cloud-native-academy/devsecops/shift-left-devops/)
-- [DevSecOps - Code With Engineering Playbook (microsoft.github.io)](https://microsoft.github.io/code-with-engineering-playbook/continuous-integration/dev-sec-ops/)
-- [OWASP Top 10 CI/CD Security Risks | OWASP Foundation](https://owasp.org/www-project-top-10-ci-cd-security-risks/)
-- [DevSecOps: Making Security Central To Your DevOps Pipeline (spacelift.io)](https://spacelift.io/blog/what-is-devsecops)
-- [Unify the DevSecOps lifecycle with GitLab | GitLab](https://about.gitlab.com/stages-devops-lifecycle/#plan)
-- [DevSecOps Introduction for beginners: Security in the SDLC - GitGuardian Blog](https://blog.gitguardian.com/devsecops-introduction-accelerating-software-development/)
-
-![](/Screenshots/Pasted%20image%2020230524114625.png)
-
-![](Pasted%20image%2020240302215658.png)
-## Tools
+## Tooling
 ### SAST
 -  [returntocorp/semgrep: Lightweight static analysis for many languages. Find bug variants with patterns that look like source code. (github.com)](https://github.com/returntocorp/semgrep)
 - [GitHub - bridgecrewio/checkov: Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages with Checkov by Bridgecrew.](https://github.com/bridgecrewio/checkov)
