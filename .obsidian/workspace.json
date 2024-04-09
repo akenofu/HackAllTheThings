@@ -1,0 +1,173 @@
+{
+  "main": {
+    "id": "72798818096929e3",
+    "type": "split",
+    "children": [
+      {
+        "id": "035ed1231d968418",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be9165f182577282",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Infrastructure Pen test/Automation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "51281137b6590fd2",
+    "type": "split",
+    "children": [
+      {
+        "id": "81a58eabb6cef1cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8756c34569a2e865",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8ddfb27e1f977660",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "brutefor",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cadfc81666e2ab61",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "56e8672b14d59957",
+    "type": "split",
+    "children": [
+      {
+        "id": "6d521b2892ab4aa4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bfd6764ebea5f0c7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/Infrastructure Pen test/Automation.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0442f2e4d4b59299",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/Infrastructure Pen test/Automation.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b00e53792debe49b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1cf5fc7f0f8640a4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/Infrastructure Pen test/Automation.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "be9165f182577282",
+  "lastOpenFiles": [
+    "docs/Server Administration/VPNs.md",
+    "docs/AppSec/DevSecOps.md",
+    "docs/AppSec/Threat Modeling.md",
+    "docs/AppSec/Secrets Management.md",
+    "docs/AppSec",
+    "docs/Web Applications testing/X-Frame-Options.md",
+    "docs/Third-Party Security.md",
+    "Pasted image 20240226121218.png",
+    "Pasted image 20240226121305.png",
+    "docs/Web Applications testing/Attacks/Web cache poisoning.md",
+    "docs/Evasion/World Writable Directories.md",
+    "Pasted image 20240226121403.png",
+    "Pasted image 20240226121359.png",
+    "Pasted image 20240226121348.png",
+    "Pasted image 20240226121335.png",
+    "Pasted image 20240226121320.png",
+    "Pasted image 20240226121244.png",
+    "docs/Case Studies.md",
+    "docs/Web Applications testing/Attacks/XSLT Engines.md",
+    "docs/Web Applications testing/Attacks/OAuth.md",
+    "docs/Web Applications testing/Attacks/Deserialization.md"
+  ]
+}
