@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "035ed1231d968418",
+        "id": "e5f5edab5fb401ee",
         "type": "tabs",
         "children": [
           {
-            "id": "be9165f182577282",
+            "id": "efca4fcf7ed90b53",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Infrastructure Pen test/Automation.md",
-                "mode": "source",
+                "file": "docs/AppSec/Threat Modeling.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Infrastructure Pen test/Automation.md",
+                "file": "docs/AppSec/Threat Modeling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Infrastructure Pen test/Automation.md",
+                "file": "docs/AppSec/Threat Modeling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Infrastructure Pen test/Automation.md"
+                "file": "docs/AppSec/Threat Modeling.md"
               }
             }
           }
@@ -146,12 +146,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "be9165f182577282",
+  "active": "efca4fcf7ed90b53",
   "lastOpenFiles": [
-    "docs/Server Administration/VPNs.md",
-    "docs/AppSec/DevSecOps.md",
-    "docs/AppSec/Threat Modeling.md",
+    "docs/AppSec/Supply Chain.md",
     "docs/AppSec/Secrets Management.md",
+    "docs/AppSec/Docker.md",
+    "docs/AppSec/DevSecOps Tools.md",
+    "docs/AppSec/CI-CD Security.md",
+    "docs/Cloud/Azure Assessment Checklist.md",
+    "docs/Server Administration/VPNs.md",
+    "docs/AppSec/Threat Modeling.md",
     "docs/AppSec",
     "docs/Web Applications testing/X-Frame-Options.md",
     "docs/Third-Party Security.md",

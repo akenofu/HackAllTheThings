@@ -11,7 +11,6 @@
 ![](Pasted%20image%2020240403025127.png)
 
 ### User Stories
-
 ![](Pasted%20image%2020240403025349.png)
 ### Abuse Stories
 ![](Pasted%20image%2020240403025518.png)
@@ -20,7 +19,6 @@
 ![](Pasted%20image%2020240403031400.png)
 
 ## Threat Modelling Challenges CI/CD
-
 ![](Pasted%20image%2020240403010106.png)
 
 ## Agile Threat Modelling
@@ -49,3 +47,4 @@ References:
 - [Improve Cloud Threat Detection and Response using the MITRE ATT&CK Framework - YouTube](https://www.youtube.com/watch?v=8Iducc0l5vI)
 - [MR201610_STRIDE_Variants_and_Security_Requirements-based_Threat_Analysis_ENG.pdf (ffri.jp)](https://www.ffri.jp/assets/files/monthly_research/MR201610_STRIDE_Variants_and_Security_Requirements-based_Threat_Analysis_ENG.pdf)
 - [(45) AWS Summit ANZ 2021 - How to approach threat modelling - YouTube](https://www.youtube.com/watch?v=GuhIefIGeuA)
+- [Certified DevSecOps Expert (CDE) - DevSecOps Advanced Training (practical-devsecops.com)](https://www.practical-devsecops.com/certified-devsecops-expert/)
