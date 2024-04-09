@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "docs/AppSec/Threat Modeling.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -148,14 +148,15 @@
   },
   "active": "efca4fcf7ed90b53",
   "lastOpenFiles": [
+    "docs/AppSec/DevSecOps Tooling.md",
+    "docs/AppSec/CI-CD Security.md",
+    "docs/Case Studies.md",
+    "docs/AppSec/Threat Modeling.md",
     "docs/AppSec/Supply Chain.md",
     "docs/AppSec/Secrets Management.md",
     "docs/AppSec/Docker.md",
-    "docs/AppSec/DevSecOps Tools.md",
-    "docs/AppSec/CI-CD Security.md",
     "docs/Cloud/Azure Assessment Checklist.md",
     "docs/Server Administration/VPNs.md",
-    "docs/AppSec/Threat Modeling.md",
     "docs/AppSec",
     "docs/Web Applications testing/X-Frame-Options.md",
     "docs/Third-Party Security.md",
@@ -169,7 +170,6 @@
     "Pasted image 20240226121335.png",
     "Pasted image 20240226121320.png",
     "Pasted image 20240226121244.png",
-    "docs/Case Studies.md",
     "docs/Web Applications testing/Attacks/XSLT Engines.md",
     "docs/Web Applications testing/Attacks/OAuth.md",
     "docs/Web Applications testing/Attacks/Deserialization.md"

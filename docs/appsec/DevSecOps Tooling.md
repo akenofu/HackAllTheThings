@@ -1,4 +1,4 @@
-# DevSecOps Tools
+# DevSecOps Tooling
 ### SAST
 -  [returntocorp/semgrep: Lightweight static analysis for many languages. Find bug variants with patterns that look like source code. (github.com)](https://github.com/returntocorp/semgrep)
 - [GitHub - bridgecrewio/checkov: Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages with Checkov by Bridgecrew.](https://github.com/bridgecrewio/checkov)
