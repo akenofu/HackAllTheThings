@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/AppSec/DevSecOps Tooling.md",
+                "file": "docs/AppSec/Secrets Management.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/AppSec/DevSecOps Tooling.md",
+                "file": "docs/AppSec/Secrets Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/AppSec/DevSecOps Tooling.md",
+                "file": "docs/AppSec/Secrets Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/AppSec/DevSecOps Tooling.md"
+                "file": "docs/AppSec/Secrets Management.md"
               }
             }
           }
@@ -148,14 +148,22 @@
   },
   "active": "efca4fcf7ed90b53",
   "lastOpenFiles": [
-    "docs/AppSec/Threat Modeling.md",
+    "docs/Pentest/Web Application testing/OSINT.md",
+    "docs/Pentest/Web Application testing/Salesforce Testing.md",
+    "docs/AppSec/Secrets Management.md",
+    "docs/AppSec/Supply Chain.md",
+    "docs/Cloud/Azure Assessment Checklist.md",
+    "docs/Pentest/Mobile Application Testing/Xamarin - iOS.md",
+    "docs/Pentest/Mobile Application Testing/Xamarin - Android.md",
+    "docs/Pentest/Mobile Application Testing/Extract IPA From AppStore Application.md",
+    "docs/Pentest/Mobile Application Testing/Apache Cordova.md",
+    "docs/Pentest/Desktop Application Testing/Frida - Windows.md",
+    "docs/Pentest/Desktop Application Testing/C++ Win32 Applications.md",
     "docs/AppSec/DevSecOps Tooling.md",
     "docs/AppSec/CI-CD Security.md",
+    "docs/AppSec/Threat Modeling.md",
     "docs/Case Studies.md",
-    "docs/AppSec/Supply Chain.md",
-    "docs/AppSec/Secrets Management.md",
     "docs/AppSec/Docker.md",
-    "docs/Cloud/Azure Assessment Checklist.md",
     "docs/Server Administration/VPNs.md",
     "docs/AppSec",
     "docs/Web Applications testing/X-Frame-Options.md",

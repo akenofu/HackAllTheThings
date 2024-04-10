@@ -1,4 +1,4 @@
-site_name: HackAllTheThings
+site_name: akenofu
 dev_addr: "127.0.0.1:3000"
 site_url: 'https://notes.akenofu.me'
 repo_url: 'https://github.com/akenofu/HackAllTheThings'
