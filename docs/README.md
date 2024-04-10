@@ -1,7 +1,5 @@
 # Hack All The Things
 
-Technology and security-related notes.
-## Online book  
-The markdown book of this repo has search functionality, collapsing nav bars, and some other good stuff.
+Meticulously curated security notes with Emphasis on Application Security, DevSecOps, Cloud Computing, and Penetration Testing.
 
 **Markdown book is hosted at [https://notes.akenofu.me](https://notes.akenofu.me)**
