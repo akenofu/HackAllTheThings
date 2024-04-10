@@ -24,6 +24,7 @@
 - Check for overly-permissive guest settings in https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserSettings.ReactView.
 
 ## Automated Checks:
+
 - CIS Benchmarks for configuring resources securely, i.e,
 	- Public Storage Containers
 	- Overly permissive Network Security Group rules
@@ -32,10 +33,12 @@
 	- Check nested business groups
 
 ** Tools **
+
 - [BloodHoundAD/AzureHound: Azure Data Exporter for BloodHound (github.com)](https://github.com/BloodHoundAD/AzureHound)
 - [nccgroup/ScoutSuite: Multi-Cloud Security Auditing Tool (github.com)](https://github.com/nccgroup/ScoutSuite)
 - [prowler-cloud/prowler: Prowler is an Open Source Security tool for AWS, Azure, GCP)](https://github.com/prowler-cloud/prowler)
 #### Useful URLs
+
 - https://portal.azure.com (Azure)
 - https://aad.portal.azure.com/ (Entra ID formerly Azure AD)
 - https://portal.office.com/Adminportal/Home (SharePoint Sites)
