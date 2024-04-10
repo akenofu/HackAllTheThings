@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AppSec/Secrets Management.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AppSec/Secrets Management.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AppSec/Secrets Management.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AppSec/Secrets Management.md"
+                "file": "README.md"
               }
             }
           }
@@ -148,9 +148,12 @@
   },
   "active": "ebdfb7ec4f4e02c8",
   "lastOpenFiles": [
+    "Segmentation Testing.md",
+    "IAM, AuthN & AuthZ.md",
+    "Pentest/Mobile Application Testing/Xamarin - iOS.md",
+    "AppSec/Secrets Management.md",
     "Cloud/Azure Assessment Checklist.md",
     "Pentest/Mobile Application Testing/React Native.md",
-    "Pentest/Mobile Application Testing/Xamarin - Android.md",
-    "Pentest/Mobile Application Testing/Xamarin - iOS.md"
+    "Pentest/Mobile Application Testing/Xamarin - Android.md"
   ]
 }
