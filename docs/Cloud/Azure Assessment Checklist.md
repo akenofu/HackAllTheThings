@@ -12,6 +12,7 @@
 - Check teams and internal wiki for secrets 
 - Check SharePoint sites and their security settings
 - Check Azure DevOps for CI/CD attacks
+- Map resources that are use by both production and test environments; These could be a security issue as the environments are not isolated enough - lateral movement may be possible.
 - Check Microsoft SharePoint sites, teams and OneDrive settings for guest users
 	[Governance of Teams guest users - Azure Architecture Center | Microsoft Learn](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/governance/governance-teams-guest-users)
 - Review conditional Access Policy from Entra Id
@@ -22,6 +23,18 @@
 - Check for overly-permissive consent settings in https://entra.microsoft.com/#view/Microsoft_AAD_IAM/ConsentPoliciesMenuBlade/~/UserSettings.
 - Check for overly-permissive guest settings in https://entra.microsoft.com/#view/Microsoft_AAD_UsersAndTenants/UserSettings.ReactView.
 
+## Automated Checks:
+- CIS Benchmarks for configuring resources securely, i.e,
+	- Public Storage Containers
+	- Overly permissive Network Security Group rules
+	- Lack of secret vault use and hardcoded secrets
+- IAM Misconfigurations
+	- Check nested business groups
+
+** Tools **
+- [BloodHoundAD/AzureHound: Azure Data Exporter for BloodHound (github.com)](https://github.com/BloodHoundAD/AzureHound)
+- [nccgroup/ScoutSuite: Multi-Cloud Security Auditing Tool (github.com)](https://github.com/nccgroup/ScoutSuite)
+- [prowler-cloud/prowler: Prowler is an Open Source Security tool for AWS, Azure, GCP)](https://github.com/prowler-cloud/prowler)
 #### Useful URLs
 - https://portal.azure.com (Azure)
 - https://aad.portal.azure.com/ (Entra ID formerly Azure AD)
@@ -29,7 +42,7 @@
 - https://www.office.com/signin (Office365)
 - https://teams.microsoft.com/_?culture=en-us&country=ww (Microsoft Teams)
 
-## Enumerate your permissions
+## Enumerate your permissions (The Lazy way)
 1. Checking logged in User's self permissions
 
 	You can ask the relevant user to Log into the Azure portal -> Click on the User logo on the top right corner of the screen -> select the elipsis (...) -> select "My permissions". [![enter image description here](https://i.stack.imgur.com/2dnLb.png)](https://i.stack.imgur.com/2dnLb.png)
